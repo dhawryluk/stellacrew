@@ -1,0 +1,30 @@
+// src/data/resourceData.js
+export const resourceCategories = [
+  {
+    id: "tools",
+    label: "Tactical Utilities",
+    resources: [
+      {
+        name: "Modded Car Builder",
+        desc: "Visual architect for unselected paints & wheels",
+        link: "/car-builder",
+        type: "TOOL",
+        comingSoon: false,
+        hot: true,
+      },
+    ],
+  },
+  {
+    id: "masterlists",
+    label: "Intelligence Database", // This second object creates the second column
+    resources: [
+      {
+        name: "BEFF ID Masterlist",
+        desc: "Complete database of component IDs for Outfits",
+        link: "#",
+        type: "DATABASE",
+        comingSoon: true,
+      },
+    ],
+  },
+];
