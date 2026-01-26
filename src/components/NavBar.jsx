@@ -8,15 +8,15 @@ export default function NavBar() {
 
   // Style logic for Active Links
   const navLinkStyles = ({ isActive }) =>
-    `text-[10px] uppercase tracking-[0.3em] transition-all duration-300 ${
+    `text-[10px] uppercase tracking-[0.3em] transition-all duration-300 no-underline ${
       isActive
-        ? "text-accent drop-shadow-[0_0_8px_var(--color-accent)] font-black"
+        ? "text-accent! drop-shadow-[0_0_8px_var(--color-accent)] font-black"
         : "text-gray-400 hover:text-accent"
     }`;
 
   return (
     <nav
-      className="fixed top-0 z-[100] w-full bg-[#050505]/80 backdrop-blur-xl border-b border-accent/10"
+      className="fixed top-0 z-100 w-full bg-[#050505]/80 backdrop-blur-xl border-b border-accent/10"
       style={{
         "--color-accent": "#d4af37", // Force Gold
         "--accent": "#d4af37",
@@ -24,13 +24,12 @@ export default function NavBar() {
     >
       {" "}
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-5">
-        {/* Logo */}
         <NavLink
           to="/"
-          className="text-xl font-black text-white tracking-[0.2em] uppercase group"
+          className="text-white! text-xl font-black tracking-[0.2em] uppercase group no-underline"
         >
           STELLA
-          <span className="text-accent group-hover:text-white transition-colors">
+          <span className="text-accent! group-hover:text-white transition-colors">
             CREW
           </span>
         </NavLink>

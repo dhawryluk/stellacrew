@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
+import FeaturedVideos from "./components/FeaturedVideos";
 import Footer from "./components/Footer";
 
 function LayoutWrapper({ children }) {
@@ -24,8 +25,8 @@ function LayoutWrapper({ children }) {
 const HomePage = () => (
   <>
     <Header />
-    {/* <FeaturedVideos />
-    <PhilosophyStatment />
+    <FeaturedVideos />
+    {/* <PhilosophyStatment />
     <BrandStats />
     <DiscordInvite /> */}
   </>
