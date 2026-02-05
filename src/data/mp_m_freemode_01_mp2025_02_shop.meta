@@ -1,0 +1,3224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShopPedApparel>
+	<pedName>mp_m_freemode_01</pedName>
+	<dlcName>mp_m_2025_02</dlcName>
+	<fullDlcName>mp_m_freemode_01_mp_m_2025_02</fullDlcName>
+	<eCharacter>SCR_CHAR_MULTIPLAYER</eCharacter>
+	<creatureMetaData>MP_CreatureMetadata_mp2025_02</creatureMetaData>
+	<pedOutfits>
+		<!-- OUTFIT: New Year Suit -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="99" />
+			<textLabel>CLO_X9M_O_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_OUTFIT_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="293" />
+			<includedPedComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_BERD_0_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_BERD</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="3" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_LEGS_0_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_FEET_0_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_SPECIAL_0_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_4_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+			</includedPedComponents>
+			<includedPedProps />
+		</Item>
+		<!-- OUTFIT: St Patricks Day -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="99" />
+			<textLabel>CLO_X9M_O_1</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_OUTFIT_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="293" />
+			<includedPedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_LEGS_2_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_SUM2_M_FEET_2_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_TEETH_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_TEEF</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_SPECIAL_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_7_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+			</includedPedComponents>
+			<includedPedProps />
+		</Item>
+		<!-- OUTFIT: St Patricks Day -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="99" />
+			<textLabel>CLO_X9M_O_2</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_OUTFIT_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="293" />
+			<includedPedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_LEGS_2_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_SUM2_M_FEET_2_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_TEETH_1_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_TEEF</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_SPECIAL_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_7_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+			</includedPedComponents>
+			<includedPedProps />
+		</Item>
+		<!-- OUTFIT: 420 -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="99" />
+			<textLabel>CLO_X9M_O_3</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_OUTFIT_3</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="293" />
+			<includedPedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_LEGS_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X22_M_FEET_5_3</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_2_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_5_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+			</includedPedComponents>
+			<includedPedProps />
+		</Item>
+		<!-- OUTFIT: Valentines Onesie -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="99" />
+			<textLabel>CLO_X9M_O_4</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_OUTFIT_4</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="293" />
+			<includedPedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="1" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_LEGS_3_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_SPECIAL_3_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_10_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+			</includedPedComponents>
+			<includedPedProps />
+		</Item>
+		<!-- OUTFIT: Avi -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="99" />
+			<textLabel>CLO_X9M_O_5</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_OUTFIT_5</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="282" />
+			<includedPedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="11" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_LEGS_6_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_SPECIAL_5_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_2_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+			</includedPedComponents>
+			<includedPedProps />
+		</Item>
+		<!-- OUTFIT: Forklift -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="99" />
+			<textLabel>CLO_X9M_O_6</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_OUTFIT_6</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="234" />
+			<includedPedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_TUNER_M_LEGS_1_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_HEIST_M_FEET_2_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_SPECIAL_4_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_TUNER_M_JBIB_1_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+			</includedPedComponents>
+			<includedPedProps />
+		</Item>
+		<!-- OUTFIT: Burger Shot -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="99" />
+			<textLabel>CLO_X9M_O_7</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_OUTFIT_7</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="312" />
+			<includedPedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_LEGS_7_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_IE_M_FEET_0_9</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_22_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_15_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</includedPedComponents>
+			<includedPedProps />
+		</Item>
+	</pedOutfits>
+	<pedComponents>
+		<!-- BERD: Outfit New Year Suit -->
+		<Item>
+			<lockHash>CU_X25_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_BERD_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_11</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- BERD: Outfit KnowWay -->
+		<Item>
+			<lockHash>CU_X25_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_BERD_1_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- LEGS: Outfit New Year Suit -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_LEGS_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_7</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- LEGS: Outfit 420 -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_LEGS_1_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_7</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- LEGS: Outfit St Patricks Day -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_LEGS_2_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_7</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_LEGS_2_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_7</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- LEGS: Outfit Valentine Onesie -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_LEGS_3_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_7</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="3" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- LEGS: Outfit Eberhard Security -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_LEGS_4_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_7</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="4" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- LEGS: Wide -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_L_5_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_LEGS_5_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="280" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>DRAW_7</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="5" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_L_5_1</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_LEGS_5_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="280" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>DRAW_7</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="5" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- LEGS: Outfits Avi -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_LEGS_6_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_7</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="6" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- LEGS: Outfits Burger Shot -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_LEGS_7_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_7</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="7" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- FEET: Outfit New Year Suit -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_FEET_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_1</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_FEET</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- FEET: Outfit Avi -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_FEET_1_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_1</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_FEET</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- TEETH: Outfit St Patricks Day -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_TEETH_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>REMOVE_WITH_JBIB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>REMOVE_WITH_SPECIAL</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_TEETH_0_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>REMOVE_WITH_JBIB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>REMOVE_WITH_SPECIAL</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- TEETH: Outfit St Patricks Day -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_TEETH_1_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>REMOVE_WITH_JBIB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>REMOVE_WITH_SPECIAL</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_TEETH_1_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>REMOVE_WITH_JBIB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>REMOVE_WITH_SPECIAL</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_TEEF</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- SPECIAL: New Year Suit -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_SPECIAL_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>STUNT_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>STUNT_DRAW_0</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_ACCS</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- SPECIAL: Outfit St Patricks Day -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_SPECIAL_1_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>STUNT_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>STUNT_DRAW_0</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_ACCS</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- SPECIAL: Outfit Valentines Onesie -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_SPECIAL_2_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>STUNT_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>STUNT_DRAW_0</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_ACCS</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- SPECIAL: Outfit Valentines Onesie -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_SPECIAL_3_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>STUNT_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>STUNT_DRAW_0</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="3" />
+			<eCompType>PV_COMP_ACCS</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- SPECIAL: Outfit Forklift Operator -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_SPECIAL_4_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>STUNT_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>STUNT_DRAW_0</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="4" />
+			<eCompType>PV_COMP_ACCS</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- SPECIAL: Outfit Avi -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_SPECIAL_5_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>STUNT_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>STUNT_DRAW_0</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="5" />
+			<eCompType>PV_COMP_ACCS</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- SPECIAL2: Outfit Deadline -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_SPECIAL2_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>REMOVE_WITH_JBIB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>REMOVE_WITH_SPECIAL</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_TASK</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- SPECIAL2: Outfit Deadline -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_SPECIAL2_1_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>REMOVE_WITH_JBIB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>REMOVE_WITH_SPECIAL</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_TASK</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- SPECIAL2: Outfit Eberhard Security -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_SPECIAL2_2_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>REMOVE_WITH_JBIB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>REMOVE_WITH_SPECIAL</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_TASK</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Jacket Decal -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Jacket Decal -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_1_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Outfit 420 -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_2_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Outfit Eberhard Security -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_3_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="3" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Outfit Eberhard Security -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_4_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="4" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: T-Shirt Graphics -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_D_5_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_DECL_5_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="122" />
+			<scriptSaveData value="0" />
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_VWD_M_JBIB_23_18</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="5" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: T-Shirt Graphics -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_D_6_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_DECL_6_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="285" />
+			<scriptSaveData value="0" />
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_20_2</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="6" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Sweatshirt Decal -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_7_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="7" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Jacket Decal -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_8_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="8" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_8_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="8" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Jacket Decal -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_9_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="9" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_9_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="9" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Hoodie Decal -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_10_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="10" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Tshirt Decal -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_11_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="11" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Jacket Decal -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_12_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="12" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Jacket Decal -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_13_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="13" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Tshirt Decal -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_14_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="14" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- DECL: Burger Shot -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_DECL_15_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="15" />
+			<eCompType>PV_COMP_DECL</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Bomber Jacket (closed) -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_0_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="285" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>JAN_DRAW_1</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JAN_BOMB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JACKET_ONLY</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CLOSED_JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CREW_LOGO_FIXER_4</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>PARA_ALT11</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_0_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_BUSI2_M_TASK0_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Bomber Jacket (open) -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_0_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_1_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="285" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>DRAW_4</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JAN_DRAW_2</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JAN_BOMB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OPEN_JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CREW_LOGO_FIXER_5</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>PARA_ALT03</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_0_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="11" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Outfit Avi -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_2_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_15</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT_NO_HEAD</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Outfit Deadline -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_3_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>TR_DRAW_0</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_15</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LIGHT_UP</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="3" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Outfit New Year Suit -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_4_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_15</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LIGHT_UP</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="4" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Baseball Shirt -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_5_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>BIKER_DRAW_7</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LOW_DRAW_3</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_2_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="26" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="5" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Outfit KnowWay -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_6_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>GUN_DRAW_16</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_SCARFS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>TUCKED</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="11" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="6" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Outfit St Patricks Day -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_7_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_15</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT_NO_HEAD</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="7" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_7_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_15</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT_NO_HEAD</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="7" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Outfit St Patricks Day -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_8_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_15</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT_NO_HEAD</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="8" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_8_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_15</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT_NO_HEAD</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="8" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Sweater -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_9_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_9_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>LUXE2_DRAW_2</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LUXE_SWEAT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CREW_LOGO_TUNER_5</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="26" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="9" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_9_1</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_9_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="122" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>LUXE2_DRAW_2</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LUXE_SWEAT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CREW_LOGO_TUNER_5</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_7_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="26" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="9" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_9_2</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_9_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="122" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>LUXE2_DRAW_2</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LUXE_SWEAT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CREW_LOGO_TUNER_5</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_7_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="26" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="9" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_9_3</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_9_3</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="122" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>LUXE2_DRAW_2</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LUXE_SWEAT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CREW_LOGO_TUNER_5</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_7_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="26" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="9" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="3" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Outfit Onesie -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_10_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_15</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT_NO_HEAD</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="10" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Eberhard Security -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_11_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>GUN_DRAW_16</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_SCARFS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>TUCKED</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="11" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="11" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Eberhard Security -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_12_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>DRAW_13</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>USE_JACKET_SCARF</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OPEN_COLLAR</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="1" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="1" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_H3_M_JBIB_3_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="12" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Chore Jacket (closed) -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_13_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_13_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="122" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>JAN_DRAW_1</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JAN_BOMB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JACKET_ONLY</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CLOSED_JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CREW_LOGO_FIXER_4</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>PARA_ALT11</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_12_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_14_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_BUSI2_M_TASK0_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="13" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Chore Jacket (open) -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_13_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_14_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="122" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>DRAW_4</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JAN_DRAW_2</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JAN_BOMB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OPEN_JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CREW_LOGO_FIXER_5</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>PARA_ALT03</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_13_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_13_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="11" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="14" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Sports Top -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_15_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_15_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="17" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>GUN_DRAW_2</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>DRAW_0</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_14_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="1" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="15" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Bomber Jacket (closed) -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_16_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_16_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="167" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>LOW_DRAW_7</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LOW_BOMB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JACKET_ONLY</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CLOSED_JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CREW_LOGO_SUM23_20</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_8_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_17_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="16" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_16_1</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_16_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="167" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>LOW_DRAW_7</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LOW_BOMB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JACKET_ONLY</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CLOSED_JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CREW_LOGO_SUM23_20</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_8_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_17_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+			</variantComponents>
+			<forcedComponents />
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="16" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Bomber Jacket (open) -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_16_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_17_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="167" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>DRAW_4</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LOW_DRAW_8</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LOW_BOMB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OPEN_JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CREW_LOGO_SUM23_21</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_9_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_16_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="11" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="17" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_16_1</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_17_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="167" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>DRAW_4</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LOW_DRAW_8</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LOW_BOMB</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OPEN_JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>CREW_LOGO_SUM23_21</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_9_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_16_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="11" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="17" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Hoodie (down) -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_18_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_18_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="285" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>FX_DRAW_2</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>APART_DRAW_5</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_SCARFS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>FITTED_HOOD</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>HOOD_DOWN</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>HOODED_JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>NO_CREW_EMBLEM</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>PARA_ALT10</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_10_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_19_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="26" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="18" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Hoodie (up) -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_18_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_19_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="285" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>FX_DRAW_3</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>APART_DRAW_5</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_SCARFS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>FITTED_HOOD</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>HOOD_UP</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>HOODED_JACKET</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>NO_CREW_EMBLEM</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>PARA_ALT10</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="4" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_10_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_JBIB_18_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_JBIB</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="26" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="19" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: T-Shirts -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_20_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_20_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="171" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>GUN_DRAW_2</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>DRAW_0</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="1" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="20" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_20_1</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_20_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="171" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>GUN_DRAW_2</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>DRAW_0</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="1" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="20" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_20_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>GUN_DRAW_2</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>DRAW_0</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="1" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="20" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Baseball Shirt -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES_G9EC</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X9M_U_21_0</textLabel>
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_21_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="17" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>BIKER_DRAW_7</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LOW_DRAW_3</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_11_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="26" />
+					<eCompType>PV_COMP_TASK</eCompType>
+				</Item>
+			</variantComponents>
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="21" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<!-- JBIB: Outfit Burger Shot -->
+		<Item>
+			<lockHash>CU_X25_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_X25_M_JBIB_22_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>IE_CLOTH</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>IE_DRAW_15</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>OUTFIT_CHECKS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>MORPH_SUIT_NO_HEAD</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>BLOCK_CHAINS</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_X25_M_DECL_15_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_DECL</eCompType>
+				</Item>
+			</forcedComponents>
+			<forcedProps />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="22" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+	</pedComponents>
+	<pedProps>
+	</pedProps>
+</ShopPedApparel>

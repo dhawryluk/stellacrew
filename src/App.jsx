@@ -7,6 +7,9 @@ import {
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import FeaturedVideos from "./components/FeaturedVideos";
+import PhilosophyStatement from "./components/PhilosophyStatement";
+import BrandStats from "./components/BrandStats";
+import DiscordInvite from "./components/DiscordInvite";
 import Footer from "./components/Footer";
 
 function LayoutWrapper({ children }) {
@@ -26,9 +29,9 @@ const HomePage = () => (
   <>
     <Header />
     <FeaturedVideos />
-    {/* <PhilosophyStatment />
+    <PhilosophyStatement />
     <BrandStats />
-    <DiscordInvite /> */}
+    <DiscordInvite />
   </>
 );
 export default function App() {

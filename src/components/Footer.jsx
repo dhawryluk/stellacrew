@@ -1,5 +1,5 @@
 import { Youtube, Instagram, Twitch } from "lucide-react";
-import Star from "../assets/StellaStar.png";
+import Star from "../assets/branding/StellaStar.png";
 
 export default function Footer() {
   return (

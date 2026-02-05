@@ -1,16 +1,16 @@
-import Star from "../assets/StellaStar.png";
+import Star from "../assets/branding/StellaStar.png";
 import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
     <header className="flex flex-col items-center justify-center min-h-[60vh] pt-40 pb-12 px-6 text-center border-b border-accent/5 relative overflow-hidden">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-accent/5 rounded-full blur-[100px] pointer-events-none"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-100 h-100 bg-accent/5 rounded-full blur-[100px] pointer-events-none"></div>
 
       <div className="relative z-10 mb-6 lg:mt-8 transition-transform duration-700 hover:scale-105">
         <img
           src={Star}
           alt="StellaCrew Logo"
-          className="w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 object-contain brightness-110 drop-shadow-[0_0_30px_rgba(212,175,55,0.25)]"
+          className="w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 object-contain brightness-110 drop-shadow-[0_0_15px_rgba(212,175,55,0.15)]"
         />
       </div>
 
@@ -26,7 +26,7 @@ export default function Header() {
 
       <NavLink
         to="/vault"
-        className="relative z-10 border border-accent text-accent px-10 py-3 text-[10px] md:text-xs tracking-[0.4em] uppercase hover:bg-accent hover:text-black transition-all duration-500 shadow-[0_0_15px_rgba(212,175,55,0.1)] hover:shadow-[0_0_30px_rgba(212,175,55,0.3)]"
+        className="relative z-10 border border-accent text-accent px-10 py-3 text-[10px] md:text-xs tracking-[0.4em] uppercase hover:bg-accent hover:text-black transition-all duration-500 shadow-[0_0_15px_rgba(212,175,55,0.1)] hover:shadow-[0_0_15px_rgba(212,175,55,0.15)]"
       >
         Enter the Vault
       </NavLink>
