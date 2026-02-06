@@ -2,11 +2,9 @@ export default function SuccessPage() {
   return (
     <div className="min-h-screen bg-bg flex items-center justify-center px-6 font-sans selection:bg-accent selection:text-bg">
       <div className="max-w-xl w-full border border-accent/20 bg-[#0a0a0a] p-12 text-center relative overflow-hidden shadow-2xl">
-        {/* Stella Backdrop Glow */}
         <div className="absolute -top-24 -left-24 w-64 h-64 bg-accent/5 blur-[100px] rounded-full pointer-events-none"></div>
         <div className="absolute -bottom-24 -right-24 w-64 h-64 bg-accent/5 blur-[100px] rounded-full pointer-events-none"></div>
 
-        {/* Success Icon - Cyber-Industrial Style */}
         <div className="relative w-24 h-24 mx-auto mb-10">
           <div className="absolute inset-0 border border-accent/20 rounded-full animate-[spin_10s_linear_infinite]"></div>
           <div className="absolute inset-2 border border-accent/40 rounded-full"></div>
@@ -21,7 +19,7 @@ export default function SuccessPage() {
           Access <span className="text-accent">Granted</span>
         </h1>
 
-        <div className="h-px w-20 bg-gradient-to-r from-transparent via-accent/50 to-transparent mx-auto mb-8"></div>
+        <div className="h-px w-20 bg-linear-to-r from-transparent via-accent/50 to-transparent mx-auto mb-8"></div>
 
         <p className="text-text-main/50 text-[10px] md:text-xs tracking-[0.2em] leading-relaxed mb-12 uppercase font-medium">
           Transaction verified. Asset allocation ready. <br />
@@ -52,7 +50,6 @@ export default function SuccessPage() {
           </a>
         </div>
 
-        {/* Tactical Metadata Footer */}
         <div className="mt-16 pt-6 border-t border-white/5 flex justify-between items-center opacity-30">
           <span className="text-accent font-mono text-[8px] uppercase tracking-widest">
             Protocol: Stella_Asset_V4
