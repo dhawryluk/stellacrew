@@ -11,6 +11,9 @@ import PhilosophyStatement from "./components/PhilosophyStatement";
 import BrandStats from "./components/BrandStats";
 import DiscordInvite from "./components/DiscordInvite";
 import ResourcesPage from "./pages/resourcesPage";
+import SuccessPage from "./pages/successPage";
+import TermsPage from "./pages/termsPage";
+// import VaultPage from "./pages/vaultPage";
 
 import Footer from "./components/Footer";
 
@@ -47,9 +50,9 @@ export default function App() {
             {/* <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/stream-overlay" element={<StreamStartingSoon />} /> */}
             <Route path="/resources" element={<ResourcesPage />} />{" "}
-            {/* <Route path="/car-builder" element={<CarColorEditor />} />
+            {/* <Route path="/car-builder" element={<CarColorEditor />} /> */}
             <Route path="/success" element={<SuccessPage />} />
-            <Route path="/terms" element={<TermsPage />} /> */}
+            <Route path="/terms" element={<TermsPage />} />
           </Routes>
         </LayoutWrapper>
       </main>
