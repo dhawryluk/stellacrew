@@ -13,7 +13,7 @@ import DiscordInvite from "./components/DiscordInvite";
 import ResourcesPage from "./pages/resourcesPage";
 import SuccessPage from "./pages/successPage";
 import TermsPage from "./pages/termsPage";
-// import VaultPage from "./pages/vaultPage";
+import VaultPage from "./pages/vaultPage";
 
 import Footer from "./components/Footer";
 
@@ -46,7 +46,7 @@ export default function App() {
         <LayoutWrapper>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            {/* <Route path="/vault" element={<VaultPage />} /> */}
+            <Route path="/vault" element={<VaultPage />} />
             {/* <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/stream-overlay" element={<StreamStartingSoon />} /> */}
             <Route path="/resources" element={<ResourcesPage />} />{" "}

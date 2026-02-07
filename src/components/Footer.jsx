@@ -4,7 +4,7 @@ import Star from "../assets/branding/StellaStar.png";
 const SocialIcon = ({ path, href }) => (
   <a href={href} target="_blank" rel="noreferrer" className="group p-2 block">
     <div 
-      className="w-[18px] h-[18px] bg-text-main/40 group-hover:bg-accent transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]"
+      className="w-4.5 h-4.5 bg-text-main/40 group-hover:bg-accent transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]"
       style={{
         WebkitMaskImage: `url(${path})`,
         maskImage: `url(${path})`,

@@ -1,12 +1,3 @@
-// import TrioImg from "../assets/outfits/trio.jpg";
-// import SpecialistImg from "../assets/outfits/specialist.jpg";
-// import StellaFiveImg from "../assets/outfits/stella-five.jpg";
-import FleetImg from "../assets/fleet-starter.webp";
-import CollectorImg from "../assets/collector.webp";
-import GarageImg from "../assets/full-garage.webp";
-import FacilityImg from "../assets/facility.webp";
-import NightclubImg from "../assets/nightclub.webp";
-
 export const categories = ["All", "Outfits", "Vehicles", "Other"];
 
 export const services = [
@@ -15,84 +6,143 @@ export const services = [
     id: 1,
     name: "The Trio Tier",
     category: "Outfits",
-    detail:
-      "3 Custom BEFF Outfits. Full customization including colored joggers, glitched belts, and logos.",
+    detail: "3 Custom BEFF Outfits. Full customization including colored joggers, glitched belts, and logos.",
+    requirements: [
+      "Platform: PlayStation 4 or PlayStation 5 Edition",
+      "Pre-requisites: Colored Armor/Helmets/Joggers saved (if required)",
+      "Pre-requisites: CEO Vest/IAA Badge saved (if required)",
+      "Character: Single Character Slot",
+      "Communication: Active Discord for handoff",
+    ],
     price: "$45.00",
-    img: "/images/outfits/trio.jpg", // Replace with your uploaded image path
+    img: "/images/outfits/trio.jpg",
     stripeLink: "https://buy.stripe.com/28o7v7flT9Mt0YEbIY",
   },
   {
     id: 2,
     name: "The Specialist",
     category: "Outfits",
-    detail:
-      "4 Custom BEFF Outfits. Specialized selection with premium component mixing.",
+    detail: "4 Custom BEFF Outfits. Specialized selection with premium component mixing.",
+    requirements: [
+      "Platform: PlayStation 4 or PlayStation 5 Edition",
+      "Pre-requisites: Colored Armor/Helmets/Joggers saved (if required)",
+      "Pre-requisites: CEO Vest/IAA Badge saved (if required)",
+      "Character: Single Character Slot",
+      "Communication: Active Discord for handoff",
+    ],
     price: "$60.00",
     img: "/images/outfits/specialist.jpg",
     stripeLink: "https://buy.stripe.com/4gweXz4Hf6Ah6iY4gx",
   },
-  {
+    {
+
     id: 3,
     name: "The Stella Five",
     category: "Outfits",
-    detail:
-      "5 Custom BEFF Outfits. The ultimate wardrobe overhaul. Elite components only.",
+    detail: "5 Custom BEFF Outfits. The ultimate wardrobe overhaul. Elite components only.",
+    requirements: [
+      "Platform: PlayStation 4 or PlayStation 5 Edition",
+      "Pre-requisites: Colored Armor/Helmets/Joggers saved (if required)",
+      "Pre-requisites: CEO Vest/IAA Badge saved (if required)",
+      "Character: Single Character Slot",
+      "Communication: Active Discord for handoff",
+    ],
     price: "$75.00",
     img: "/images/outfits/stella-five.jpg",
     stripeLink: "https://buy.stripe.com/4gw9Dfb5DbUB5eU8wO",
   },
+  {
+    id: 4,
+    name: "Elite Headgear Set",
+    category: "Outfits",
+    detail: "4 Specialized Headgear items. Choice of Colored Bulletproof Helmets or Snapbacks. Perfect for completing high-tier BEFF sets.",
+    requirements: [
+      "Platform: PlayStation 4 or PlayStation 5 Edition",
+      "Pre-requisites: Colored Helmets/Hat saved",
+      "Character: Single Character Slot",
+      "Communication: Active Discord for handoff",
+    ],
+    price: "$20.00",
+    img: "/images/vault/pink-snapback.jpeg", 
+    stripeLink: "https://buy.stripe.com/8wMg1D1v3e2JgXCcN6",
+  },
 
   // --- DMO VEHICLES ---
   {
-    id: 4,
+    id: 5,
     name: "The Fleet Starter",
     category: "Vehicles",
-    detail:
-      "5 Custom DMO Vehicles. Includes clean plates, unselected paints, and Bennys/F1s.",
+    detail: "5 Custom DMO Vehicles. Includes clean plates, unselected paints, and Bennys/F1s.",
+    requirements: [
+      "Platform: PlayStation 4 or PlayStation 5 Edition",
+      "Pre-requisites: ",
+      "Character: Single Character Slot",
+      "Communication: Active Discord for handoff",
+    ],
     price: "$15.00",
-    img: FleetImg,
+    img: "/images/vault/fleet-starter.webp",
     stripeLink: "https://buy.stripe.com/your_link_4",
   },
   {
-    id: 5,
+    id: 6,
     name: "The Collector",
     category: "Vehicles",
-    detail:
-      "10 Custom DMO Vehicles. Curated collection of rare builds and modded textures.",
+    detail: "10 Custom DMO Vehicles. Curated collection of rare builds and modded textures.",
+    requirements: [
+      "Platform: PlayStation 4 or PlayStation 5 Edition",
+      "Pre-requisites: ",
+      "Character: Single Character Slot",
+      "Communication: Active Discord for handoff",
+    ],
     price: "$30.00",
-    img: CollectorImg,
+    img: "/images/vault/collector.webp", 
     stripeLink: "https://buy.stripe.com/your_link_5",
   },
   {
-    id: 6,
+    id: 7,
     name: "The Full Garage",
     category: "Vehicles",
-    detail:
-      "21 Vehicle Save (Cars Only). Maximum capacity acquisition. The definitive collection.",
+    detail: "21 Vehicle Save (Cars Only). Maximum capacity acquisition. The definitive collection.",
+    requirements: [
+      "Platform: PlayStation 4 or PlayStation 5 Edition",
+      "Pre-requisites: ",
+      "Character: Single Character Slot",
+      "Communication: Active Discord for handoff",
+    ],
     price: "$60.00",
-    img: GarageImg,
+    img: "/images/vault/full-garage.webp",
     stripeLink: "https://buy.stripe.com/your_link_6",
   },
 
   // --- OTHER (PROPERTIES) ---
   {
-    id: 7,
+    id: 8,
     name: "Facility Elite Set",
     category: "Other",
-    detail:
-      "Full Facility Customization. All slots filled with specialized assets.",
+    detail: "Full Facility Customization. All slots filled with specialized assets.",
+    requirements: [
+      "Platform: PlayStation 4 or PlayStation 5 Edition",
+      "Pre-requisites: ",
+      "Character: Single Character Slot",
+      "Communication: Active Discord for handoff",
+    ],
     price: "$XX.XX",
-    img: FacilityImg,
-    stripeLink: "#", // Use # for "Inquiry Only"
+    img: "/images/vault/facility.webp",
+    stripeLink: "#",
   },
   {
-    id: 8,
+    id: 9,
     name: "Nightclub VIP Set",
     category: "Other",
-    detail:
-      "Full Nightclub Overhaul. Optimized storage and aesthetic matching.",
+    detail: "Full Nightclub Overhaul. Optimized storage and aesthetic matching.",
+    requirements: [
+      "Platform: PlayStation 4 or PlayStation 5 Edition",
+      "Pre-requisites: ",
+      "Character: Single Character Slot",
+      "Communication: Active Discord for handoff",
+    ],
     price: "$XX.XX",
-    img: NightclubImg,
+    img: "/images/vault/nightclub.webp",
     stripeLink: "#",
   },
 ];
