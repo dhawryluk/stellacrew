@@ -8,11 +8,16 @@
 ---
 
 ### 🛠️ STRATEGIC TOOLING
-* **Gemini AI (Collaborative Intelligence):** Core development partner for:
-    * **Logic Engineering:** Designing conditional button states and locked checkout protocols.
-    * **Data Structuring:** Optimizing JSON manifests for vehicle sets and **BEFF outfit** configurations.
-    * **Technical Copywriting:** Scripting operational terminology and security warnings.
+
+* **React & Tailwind Docs:** Primary technical references for building the reactive UI framework and implementing the high-end "Stella Protocol" custom CSS architecture.
+* **Gemini AI (Collaborative Intelligence):** AI partner used for site logic, asset data structuring, and tactical copywriting.
+* **GTA Fandom (Asset Database):** Technical resource for cataloging **Benny's Originals** and **Benny's Bespoke** wheel IDs, ensuring 100% accuracy for modded configurations and texture data.
+* **Canva:** Utilized for high-level graphic layout, brand identity elements, and compositing StellaCrew promotional banners.
+* **Photopea:** Advanced raster image editing for precise texture adjustments on **mp100 color #160** assets and manual layer manipulation for BEFF previews.
+* **Pickflow:** Specialized engine for WebP conversion, optimizing high-fidelity images for fast-loading secure web deployment without quality loss.
+* **GTA In-Game Engine:** Source for raw high-resolution captures of vehicle builds, specifically highlighting custom crew color overlays and modded textures.
+A In-Game Engine:** Source for raw high-resolution captures of vehicle builds, specifically highlighting **Benny's Bespoke** wheels and custom crew color overlays.
 
 ---
 
-**// SIGNAL SECURE** *Engineered by StellaCrew Experts // Powered by Gemini*
+**// SIGNAL SECURE** *Engineered by Derek Hawryluk for StellaCrew Gaming*
