@@ -4,7 +4,6 @@ import { X, ShoppingCart, AlertCircle, Cpu, PackageCheck, CheckCircle2 } from "l
 export default function ServiceModal({ item, isOpen, onClose }) {
   const [hasAcknowledged, setHasAcknowledged] = useState(false);
 
-  // Reset acknowledgment state whenever a new item is opened
   useEffect(() => {
     setHasAcknowledged(false);
   }, [isOpen, item]);
@@ -12,10 +11,9 @@ export default function ServiceModal({ item, isOpen, onClose }) {
   if (!isOpen || !item) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/95 backdrop-blur-md">
+    <div className="fixed inset-0 z-100 flex items-center justify-center p-4 bg-black/95 backdrop-blur-md">
       <div className="relative w-full max-w-4xl bg-[#0a0a0a] border border-[#d4af37]/20 shadow-[0_0_50px_rgba(0,0,0,1)] overflow-hidden">
         
-        {/* Top Decorative Scanning Bar */}
         <div className="h-1 w-full bg-linear-to-r from-transparent via-[#d4af37] to-transparent opacity-50"></div>
 
         <button
@@ -26,7 +24,6 @@ export default function ServiceModal({ item, isOpen, onClose }) {
         </button>
 
         <div className="flex flex-col lg:flex-row">
-          {/* LEFT SIDE: ASSET VISUALS */}
           <div className="w-full lg:w-2/5 h-64 lg:h-auto bg-[#080808] relative border-r border-white/5">
             <img
               src={item.img}
@@ -55,10 +52,8 @@ export default function ServiceModal({ item, isOpen, onClose }) {
             </div>
           </div>
 
-          {/* RIGHT SIDE: DATA FEED */}
           <div className="p-10 lg:w-3/5 space-y-8 max-h-[85vh] overflow-y-auto custom-scrollbar">
             
-            {/* 1. Asset Description */}
             <div className="space-y-3">
               <span className="text-accent/50 text-[9px] font-black uppercase tracking-[0.4em]">
                 // Asset_Description
@@ -68,9 +63,8 @@ export default function ServiceModal({ item, isOpen, onClose }) {
               </p>
             </div>
 
-            {/* 2. INCLUDED ASSETS (Deployment Manifest) */}
             {item.included && item.included.length > 0 && (
-              <div className="space-y-4 bg-white/[0.02] border border-white/5 p-6">
+              <div className="space-y-4 bg-white/2 border border-white/5 p-6">
                 <div className="flex items-center gap-2 text-accent">
                   <PackageCheck size={14} />
                   <span className="text-[10px] font-black uppercase tracking-[0.2em]">
@@ -88,7 +82,6 @@ export default function ServiceModal({ item, isOpen, onClose }) {
               </div>
             )}
 
-            {/* 3. Operational Requirements */}
             <div className="space-y-4 border-l-2 border-white/5 pl-6">
               <div className="flex items-center gap-2 text-gray-500">
                 <AlertCircle size={14} />
@@ -108,7 +101,6 @@ export default function ServiceModal({ item, isOpen, onClose }) {
               </ul>
             </div>
 
-            {/* 4. CRITICAL PROTOCOL ACKNOWLEDGMENT */}
             {item.warning && (
               <div className={`transition-all duration-500 border p-4 flex gap-4 items-start ${hasAcknowledged ? 'bg-accent/5 border-accent/20' : 'bg-red-500/5 border-red-500/20'}`}>
                 <label className="flex items-start gap-4 cursor-pointer w-full">
@@ -133,7 +125,6 @@ export default function ServiceModal({ item, isOpen, onClose }) {
               </div>
             )}
 
-            {/* 5. Action Bar */}
             <div className="pt-6 flex items-center justify-between border-t border-white/5">
               <div>
                 <span className="text-accent/40 text-[8px] uppercase font-black block tracking-widest mb-1">
