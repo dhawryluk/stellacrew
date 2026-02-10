@@ -16,6 +16,7 @@
   --color-scroll-thumb: var(--color-accent);
   --color-scroll-thumb-hover: var(--color-accent-hover);
 
+  /* Animation: Shimmer (Used for Skeletons/Loading) */
   @keyframes shimmer {
     from {
       transform: translateX(-100%);
@@ -25,6 +26,25 @@
     }
   }
   --animate-shimmer: shimmer 3s infinite;
+
+  /* Animation: Tactical Scan (Vertical Laser for Gallery) */
+  @keyframes scan {
+    0% {
+      top: 0%;
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    95% {
+      opacity: 1;
+    }
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  --animate-scan: scan 3s linear infinite;
 }
 
 @layer base {
@@ -58,7 +78,6 @@
 
 /* Specific Utility for the Car Color Editor */
 @utility carcoloreditor {
-  /* Override Webkit for this specific container */
   &::-webkit-scrollbar-track {
     background: var(--color-panel);
   }
@@ -70,6 +89,5 @@
     background: color-mix(in srgb, var(--color-accent2), white 15%);
   }
 
-  /* Override Firefox for this specific container */
   scrollbar-color: var(--color-accent2) var(--color-panel);
 }

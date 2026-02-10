@@ -15,7 +15,7 @@ export const services = [
       "Communication: Active Discord for handoff",
     ],
     price: "$45.00",
-    img: "/images/outfits/trio.jpg",
+    img: "/images/vault/IMG_0084.webp",
     stripeLink: "https://buy.stripe.com/28o7v7flT9Mt0YEbIY",
   },
   {
@@ -31,7 +31,7 @@ export const services = [
       "Communication: Active Discord for handoff",
     ],
     price: "$60.00",
-    img: "/images/outfits/specialist.jpg",
+    img: "/images/vault/m-beff-054.webp",
     stripeLink: "https://buy.stripe.com/4gweXz4Hf6Ah6iY4gx",
   },
     {
@@ -48,7 +48,7 @@ export const services = [
       "Communication: Active Discord for handoff",
     ],
     price: "$75.00",
-    img: "/images/outfits/stella-five.jpg",
+    img: "/images/vault/IMG_0085.webp",
     stripeLink: "https://buy.stripe.com/4gw9Dfb5DbUB5eU8wO",
   },
   {
@@ -80,7 +80,7 @@ export const services = [
       "Communication: Active Discord for handoff",
     ],
     price: "$15.00",
-    img: "/images/vault/fleet-starter.webp",
+    img: "/images/vault/vehicle-042.webp",
     stripeLink: "https://buy.stripe.com/your_link_4",
   },
   {

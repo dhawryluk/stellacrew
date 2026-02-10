@@ -56,6 +56,7 @@ export const assetGroups = [
       { name: "Next Gen Clothing (Muky Modz)", url: "https://docs.google.com/document/d/1O8pp41q7iR6N84BNxMzXTXMKXAwUmypvtpKX8eyqaLE/edit?usp=sharing" },
       { name: "Body Styles (Se7enSins)", url: "https://www.se7ensins.com/forums/threads/different-body-styles-in-gta-5-save-editor-with-pictures.1114045/" },
       { name: "Gender Swap (Spreadsheet)", url: "https://docs.google.com/spreadsheets/d/1I1a6sf7hPAdPkSCwYnAV0BcPWQA0ssqAwAbAaQWNMw0/htmlview#gid=0" },
+      { name: "BBFAS Clothes Code", url: "https://www.bbfas.com/cc/" },
     ],
   },
   {

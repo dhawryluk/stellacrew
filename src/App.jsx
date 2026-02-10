@@ -14,6 +14,7 @@ import ResourcesPage from "./pages/resourcesPage";
 import SuccessPage from "./pages/successPage";
 import TermsPage from "./pages/termsPage";
 import VaultPage from "./pages/vaultPage";
+import GalleryPage from "./pages/galleryPage";
 
 import Footer from "./components/Footer";
 
@@ -47,8 +48,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/vault" element={<VaultPage />} />
-            {/* <Route path="/gallery" element={<GalleryPage />} />
-            <Route path="/stream-overlay" element={<StreamStartingSoon />} /> */}
+            <Route path="/gallery" element={<GalleryPage />} />
+            {/* <Route path="/stream-overlay" element={<StreamStartingSoon />} /> */}
             <Route path="/resources" element={<ResourcesPage />} />{" "}
             {/* <Route path="/car-builder" element={<CarColorEditor />} /> */}
             <Route path="/success" element={<SuccessPage />} />
