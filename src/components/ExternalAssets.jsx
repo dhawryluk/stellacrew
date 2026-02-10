@@ -35,7 +35,7 @@ export default function ExternalAssets() {
             Asset <span className="text-accent/50">Repository</span>
           </h2>
         </div>
-        <div className="h-px grow bg-gradient-to-r from-accent/40 via-white/5 to-transparent"></div>
+        <div className="h-px grow bg-linear-to-r from-accent/40 via-white/5 to-transparent"></div>
       </div>
 
       <div className="border border-white/5 bg-[#0a0a0a]/90 backdrop-blur-md shadow-2xl overflow-hidden">
@@ -69,7 +69,6 @@ export default function ExternalAssets() {
           </div>
         </button>
 
-        {/* CONTENT GRID */}
         {isOpen && (
           <div className="p-10 pt-0 animate-in fade-in slide-in-from-top-4 duration-500">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-12 border-t border-white/5 pt-10">

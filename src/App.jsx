@@ -10,11 +10,12 @@ import FeaturedVideos from "./components/FeaturedVideos";
 import PhilosophyStatement from "./components/PhilosophyStatement";
 import BrandStats from "./components/BrandStats";
 import DiscordInvite from "./components/DiscordInvite";
-import ResourcesPage from "./pages/resourcesPage";
-import SuccessPage from "./pages/successPage";
-import TermsPage from "./pages/termsPage";
-import VaultPage from "./pages/vaultPage";
-import GalleryPage from "./pages/galleryPage";
+import ResourcesPage from "./pages/ResourcesPage";
+import SuccessPage from "./pages/SuccessPage";
+import TermsPage from "./pages/TermsPage";
+import VaultPage from "./pages/VaultPage";
+import GalleryPage from "./pages/GalleryPage";
+import StreamStartingSoon from "./components/StreamStartingSoon";
 
 import Footer from "./components/Footer";
 
@@ -49,7 +50,7 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/vault" element={<VaultPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
-            {/* <Route path="/stream-overlay" element={<StreamStartingSoon />} /> */}
+            <Route path="/stream-overlay" element={<StreamStartingSoon />} />
             <Route path="/resources" element={<ResourcesPage />} />{" "}
             {/* <Route path="/car-builder" element={<CarColorEditor />} /> */}
             <Route path="/success" element={<SuccessPage />} />

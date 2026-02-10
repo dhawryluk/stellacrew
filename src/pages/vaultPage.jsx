@@ -10,7 +10,6 @@ export default function VaultPage() {
   const [selectedItem, setSelectedItem] = useState(null); 
   const [isLoading, setIsLoading] = useState(true);
 
-  // Simulate System Decryption/Loading
   useEffect(() => {
     const timer = setTimeout(() => setIsLoading(false), 1200);
     return () => clearTimeout(timer);
@@ -42,12 +41,11 @@ export default function VaultPage() {
             <h1 className="text-6xl font-black text-text-main italic tracking-tighter uppercase leading-none mb-6">
               The <span className="text-accent/50 text-7xl">Vault</span>
             </h1>
-            <div className="h-px w-48 bg-gradient-to-r from-transparent via-accent/30 to-transparent"></div>
+            <div className="h-px w-48 bg-linear-to-r from-transparent via-accent/30 to-transparent"></div>
           </div>
 
           <FeaturedAsset />
 
-          {/* 2. Process Steps */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 max-w-5xl mx-auto border-y border-white/5 py-12">
             {[
               { id: "01", title: "Select Tier", desc: "Choose your asset package" },
@@ -68,7 +66,6 @@ export default function VaultPage() {
             ))}
           </div>
 
-          {/* 3. Filter Tabs */}
           <div className="flex flex-wrap justify-center gap-4 mb-20">
             {categories.map((cat) => (
               <button
@@ -85,10 +82,8 @@ export default function VaultPage() {
             ))}
           </div>
 
-          {/* 4. Assets Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-stretch">
             {isLoading ? (
-              // --- SKELETON LOADING STATE ---
               Array(6).fill(0).map((_, i) => (
                 <div key={i} className="bg-[#0a0a0a] border border-white/5 flex flex-col h-full">
                   <Skeleton height="210px" borderRadius="0" />
@@ -104,7 +99,6 @@ export default function VaultPage() {
                 </div>
               ))
             ) : (
-              // --- ACTUAL ASSET CARDS ---
               filteredServices.map((item) => (
                 <div
                   key={item.id}

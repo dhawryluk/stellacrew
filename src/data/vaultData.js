@@ -5,6 +5,7 @@ export const services = [
   {
     id: 1,
     name: "The Trio Tier",
+    warning: "MANDATORY PRE-FLIGHT: All base components must be owned. You must provide 2-Step codes & have [Current Outfits + 2] empty slots available. StellaCrew is not responsible for delays caused by insufficient slot capacity.",
     category: "Outfits",
     detail: "3 Custom BEFF Outfits. Full customization including colored joggers, glitched belts, and logos.",
     requirements: [
@@ -21,6 +22,7 @@ export const services = [
   {
     id: 2,
     name: "The Specialist",
+    warning: "MANDATORY PRE-FLIGHT: All base components must be owned. You must provide 2-Step codes & have [Current Outfits + 2] empty slots available. StellaCrew is not responsible for delays caused by insufficient slot capacity.",
     category: "Outfits",
     detail: "4 Custom BEFF Outfits. Specialized selection with premium component mixing.",
     requirements: [
@@ -38,6 +40,7 @@ export const services = [
 
     id: 3,
     name: "The Stella Five",
+    warning: "MANDATORY PRE-FLIGHT: All base components must be owned. You must provide 2-Step codes & have [Current Outfits + 2] empty slots available. StellaCrew is not responsible for delays caused by insufficient slot capacity.",
     category: "Outfits",
     detail: "5 Custom BEFF Outfits. The ultimate wardrobe overhaul. Elite components only.",
     requirements: [
@@ -54,6 +57,7 @@ export const services = [
   {
     id: 4,
     name: "Elite Headgear Set",
+    warning: "MANDATORY PRE-FLIGHT: One Colored Hat/Helmet must be owned. You must provide 2-Step codes & have [Current Outfits + 2] empty slots available. StellaCrew is not responsible for delays caused by insufficient slot capacity.",
     category: "Outfits",
     detail: "4 Specialized Headgear items. Choice of Colored Bulletproof Helmets or Snapbacks. Perfect for completing high-tier BEFF sets.",
     requirements: [
@@ -71,78 +75,97 @@ export const services = [
   {
     id: 5,
     name: "The Fleet Starter",
+    warning: "// SERVICE_LIMITATION: > All DMO transactions are classified as DROP SERVICE ONLY. StellaCrew Experts provide delivery of assets to the session; we do not provide technical support or guidance for saving vehicles to your local database. Proficiency in saving methods is a mandatory pre-requisite.",
     category: "Vehicles",
     detail: "5 Custom DMO Vehicles. Includes clean plates, unselected paints, and Bennys/F1s.",
     requirements: [
       "Platform: PlayStation 4 or PlayStation 5 Edition",
-      "Pre-requisites: ",
+      "Pre-requisites: Must know the current GC2F method for acquiring DMO vehicles",
       "Character: Single Character Slot",
       "Communication: Active Discord for handoff",
     ],
     price: "$15.00",
     img: "/images/vault/vehicle-042.webp",
-    stripeLink: "https://buy.stripe.com/your_link_4",
+    stripeLink: "https://buy.stripe.com/dRm5kE0GDeUg0Ud91Wd7q0y",
   },
   {
     id: 6,
     name: "The Collector",
+    warning: "Drop Service Only: StellaCrew facilitates asset delivery only. Client is responsible for executing the save process.",
     category: "Vehicles",
-    detail: "10 Custom DMO Vehicles. Curated collection of rare builds and modded textures.",
+    detail: "10 Custom DMO Vehicles Dropped. Curated collection of rare builds and modded textures.",
     requirements: [
       "Platform: PlayStation 4 or PlayStation 5 Edition",
-      "Pre-requisites: ",
+      "Pre-requisites: Must know the current GC2F method for acquiring DMO vehicles",
       "Character: Single Character Slot",
       "Communication: Active Discord for handoff",
     ],
-    price: "$30.00",
+    price: "$25.00",
     img: "/images/vault/collector.webp", 
-    stripeLink: "https://buy.stripe.com/your_link_5",
+    stripeLink: "https://buy.stripe.com/9B6aEY1KHeUgbyR6TOd7q0z",
   },
   {
     id: 7,
     name: "The Full Garage",
+    warning: "Drop Service Only: StellaCrew facilitates asset delivery only. Client is responsible for executing the save process.",
     category: "Vehicles",
     detail: "21 Vehicle Save (Cars Only). Maximum capacity acquisition. The definitive collection.",
     requirements: [
       "Platform: PlayStation 4 or PlayStation 5 Edition",
-      "Pre-requisites: ",
+      "Pre-requisites: Must know the current GC2F method for acquiring DMO vehicles",
       "Character: Single Character Slot",
       "Communication: Active Discord for handoff",
     ],
-    price: "$60.00",
+    price: "$50.00",
     img: "/images/vault/full-garage.webp",
-    stripeLink: "https://buy.stripe.com/your_link_6",
+    stripeLink: "https://buy.stripe.com/eVqbJ260X5jGgTbguod7q0A",
   },
 
   // --- OTHER (PROPERTIES) ---
   {
-    id: 8,
-    name: "Facility Elite Set",
+    id: 10,
+    name: "Facility Command Set",
+    warning: "Drop Service Only: StellaCrew facilitates asset delivery only. Client is responsible for executing the save process.",
     category: "Other",
-    detail: "Full Facility Customization. All slots filled with specialized assets.",
+    detail: "Advanced Tactical Overhaul: Facility Sector. Maximum deployment capacity for strategic assets.",
+    included: [
+      "The Avenger (Exclusive Modded Texture)",
+      "TM-02 Khanjali (Stealth/Armor Config)",
+      "Thruster (Custom Propulsion Paint)",
+      "RCV (Riot Control Performance Build)",
+      "Chernobog (Long-Range Ballistic Mod)"
+    ],
     requirements: [
       "Platform: PlayStation 4 or PlayStation 5 Edition",
-      "Pre-requisites: ",
-      "Character: Single Character Slot",
-      "Communication: Active Discord for handoff",
+      "Pre-requisites: Must own a Facility property",
+      "GC2F: Knowledge of working method required",
+      "Signal: Active Discord for handoff"
     ],
-    price: "$XX.XX",
+    price: "$30.00",
     img: "/images/vault/facility.webp",
-    stripeLink: "#",
-  },
+    stripeLink: "https://buy.stripe.com/9B6cN6ahd9zW5at6TOd7q0B",
+},
   {
     id: 9,
     name: "Nightclub VIP Set",
+    warning: "Drop Service Only: StellaCrew facilitates asset delivery only. Client is responsible for executing the save process.",
     category: "Other",
-    detail: "Full Nightclub Overhaul. Optimized storage and aesthetic matching.",
+    detail: "Full Logistics Overhaul: Nightclub Sector. Maximum storage capacity expansion and seamless visual matching.",
+    included: [
+      "Oppressor MKII",
+      "Speedo Custom",
+      "Mule Custom",
+      "Pounder Custom",
+      "Terrorbyte"
+    ],
     requirements: [
       "Platform: PlayStation 4 or PlayStation 5 Edition",
-      "Pre-requisites: ",
+      "Pre-requisites: Must know the current GA2F (MOC 2 MOC) method",
       "Character: Single Character Slot",
       "Communication: Active Discord for handoff",
     ],
-    price: "$XX.XX",
+    price: "$25.00",
     img: "/images/vault/nightclub.webp",
-    stripeLink: "#",
+    stripeLink: "https://buy.stripe.com/aFa00k8953bygTb1zud7q0C",
   },
 ];
