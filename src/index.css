@@ -16,38 +16,40 @@
   --color-scroll-thumb: var(--color-accent);
   --color-scroll-thumb-hover: var(--color-accent-hover);
 
-  /* Animation: Shimmer (Used for Skeletons/Loading) */
+  /* Animation: Shimmer */
   @keyframes shimmer {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(100%);
-    }
+    from { transform: translateX(-100%); }
+    to { transform: translateX(100%); }
   }
   --animate-shimmer: shimmer 3s infinite;
 
-  /* Animation: Tactical Scan (Vertical Laser for Gallery) */
+  /* Animation: Tactical Scan */
   @keyframes scan {
-    0% {
-      top: 0%;
-      opacity: 0;
-    }
-    5% {
-      opacity: 1;
-    }
-    95% {
-      opacity: 1;
-    }
-    100% {
-      top: 100%;
-      opacity: 0;
-    }
+    0% { top: 0%; opacity: 0; }
+    5% { opacity: 1; }
+    95% { opacity: 1; }
+    100% { top: 100%; opacity: 0; }
   }
   --animate-scan: scan 3s linear infinite;
+
+  @keyframes noise {
+    0%, 100% { clip-path: inset(40% 0 61% 0); }
+    20% { clip-path: inset(92% 0 1% 0); }
+    40% { clip-path: inset(43% 0 1% 0); }
+    60% { clip-path: inset(25% 0 58% 0); }
+    80% { clip-path: inset(54% 0 7% 0); }
+  }
+  --animate-noise: noise 2s linear infinite alternate-reverse;
 }
 
 @layer base {
+  /* OBS TRANSPARENCY FIX: Ensures the browser base is clear */
+  html, body {
+    background-color: transparent !important;
+    margin: 0;
+    padding: 0;
+  }
+
   body {
     @apply bg-bg text-text-main;
   }
@@ -88,6 +90,5 @@
   &::-webkit-scrollbar-thumb:hover {
     background: color-mix(in srgb, var(--color-accent2), white 15%);
   }
-
   scrollbar-color: var(--color-accent2) var(--color-panel);
 }
