@@ -4,7 +4,7 @@ export default function StreamStartingSoon() {
       <div className="absolute inset-0 z-0 bg-black/80 backdrop-blur-sm pointer-events-none"></div>
 
       <div className="absolute inset-0 z-10 pointer-events-none">
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.1)_50%),linear-gradient(90deg,rgba(255,0,0,0.03),rgba(0,255,0,0.01),rgba(0,0,118,0.03))] bg-[length:100%_4px,4px_100%] opacity-30"></div>
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.1)_50%),linear-gradient(90deg,rgba(255,0,0,0.03),rgba(0,255,0,0.01),rgba(0,0,118,0.03))] bg-size-[100%_4px,4px_100%] opacity-30"></div>
 
         <div className="absolute left-0 w-full h-0.5 bg-accent/40 shadow-[0_0_15px_#d4af37] animate-scan opacity-50"></div>
       </div>
