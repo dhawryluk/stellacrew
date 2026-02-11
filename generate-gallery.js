@@ -4,7 +4,6 @@ import path from 'path';
 const GALLERY_DIR = './public/images/gallery';
 const OUTPUT_FILE = './src/data/galleryData.js';
 
-// Updated Category Map
 const categoryMap = {
   'male-beff': 'Male BEFF',
   'female-beff': 'Female BEFF',
@@ -27,7 +26,6 @@ const generateData = () => {
 
       files.forEach(file => {
         if (/\.(jpg|jpeg|png|webp|avif)$/i.test(file)) {
-          // Creates a clean title like "Vehicle 001" or "M-Beff 042"
           const cleanTitle = file.replace('.webp', '').replace(/-/g, ' ').toUpperCase();
           
           images.push({

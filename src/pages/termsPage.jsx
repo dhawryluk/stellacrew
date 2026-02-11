@@ -94,7 +94,6 @@ export default function TermsPage() {
             </div>
           </section>
 
-          {/* FOOTER */}
           <div className="pt-12 border-t border-white/5 mt-20">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
               <div className="flex flex-col gap-1">
@@ -106,7 +105,6 @@ export default function TermsPage() {
                 </span>
               </div>
               
-              {/* BRANDING - REPLACED SC WITH STAR */}
               <div className="flex flex-col items-end gap-2">
                 <img 
                   src={Star} 

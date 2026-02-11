@@ -33,7 +33,6 @@ export default function VaultPage() {
       <SkeletonTheme baseColor="#0a0a0a" highlightColor="#d4af3710">
         <div className="max-w-7xl mx-auto">
           
-          {/* 1. Header Section */}
           <div className="flex flex-col items-center text-center mb-16">
             <span className="text-accent text-[10px] font-black tracking-[0.6em] mb-4 uppercase">
               Asset_Acquisition_Terminal

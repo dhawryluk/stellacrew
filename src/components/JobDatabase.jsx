@@ -17,25 +17,24 @@ export default function JobDatabase({
   filteredCategories,
 }) { 
   
-  // 1. DEFINE COLOR MAPPING LOGIC
   const getPlatformTheme = (platformName) => {
     const name = platformName?.toLowerCase() || "";
     if (name.includes("ps") || name.includes("playstation")) {
       return {
-        hex: "#3b82f6", // Bright Blue
+        hex: "#006FCD",
         glow: "rgba(59, 130, 246, 0.3)",
         bg: "bg-blue-500",
       };
     }
     if (name.includes("xbox")) {
       return {
-        hex: "#22c55e", // Xbox Green
+        hex: "#107C11", 
         glow: "rgba(34, 197, 94, 0.3)",
         bg: "bg-green-500",
       };
     }
     return {
-      hex: "#d4af37", // Stella Gold (Default)
+      hex: "#d4af37",
       glow: "rgba(212, 175, 55, 0.3)",
       bg: "bg-[#d4af37]",
     };
@@ -63,7 +62,7 @@ export default function JobDatabase({
           </h2>
           <p className="text-gray-500 text-[10px] uppercase tracking-[0.3em] font-medium flex items-center gap-3">
             <span
-              className="w-6 h-[1px]"
+              className="w-6 h-px"
               style={{ backgroundColor: currentTheme.hex }}
             ></span>
             ENTRY PROTOCOL: {activePlatform}
@@ -130,7 +129,7 @@ export default function JobDatabase({
             >
               <button
                 onClick={() => toggleCategory(cat.name)}
-                className="w-full flex items-center justify-between p-8 hover:bg-white/[0.02] transition-all group"
+                className="w-full flex items-center justify-between p-8 hover:bg-white/2 transition-all group"
               >
                 <div className="flex items-center gap-6">
                   <span
@@ -154,7 +153,7 @@ export default function JobDatabase({
                 <div className="p-8 pt-0 animate-in fade-in slide-in-from-top-4 duration-500">
                   {cat.protocol && (
                     <div
-                      className="mb-8 p-5 bg-white/[0.01] border-l-4"
+                      className="mb-8 p-5 bg-white/1 border-l-4"
                       style={{ borderColor: currentTheme.hex }}
                     >
                       <p className="text-gray-300 text-[11px] uppercase tracking-wider italic leading-relaxed">
@@ -173,7 +172,7 @@ export default function JobDatabase({
                         className="group/link flex justify-between items-center bg-[#0d0d0d] border border-white/5 p-5 hover:bg-[#151515] transition-all relative"
                       >
                         <div
-                          className="absolute left-0 top-0 bottom-0 w-0 group-hover/link:w-[3px] transition-all duration-300"
+                          className="absolute left-0 top-0 bottom-0 w-0 group-hover/link:w-0.75 transition-all duration-300"
                           style={{ backgroundColor: currentTheme.hex }}
                         ></div>
                         <span className="text-gray-400 text-[10px] uppercase font-black tracking-widest group-hover/link:text-white transition-colors">

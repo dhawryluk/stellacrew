@@ -87,7 +87,6 @@ export default function ExternalAssets() {
                   <div className="grid gap-2">
                     {group.items.map((item, j) => (
                       <div key={j} className="group/item relative bg-[#0d0d0d] border border-white/5 p-4 hover:border-accent/40 transition-all duration-300">
-                        {/* THE MODDED "CORNER" ACCENT */}
                         <div className="absolute top-0 right-0 w-0 h-0 border-t-4 border-r-4 border-transparent group-hover/item:border-accent transition-all"></div>
 
                         {item.links ? (

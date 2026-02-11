@@ -1,23 +1,19 @@
 export default function ResourceHero() {
   return (
-  <div className="relative w-full bg-[#0a0a0a] border border-accent/20 mb-20 overflow-hidden">
+    <div className="relative w-full bg-[#0a0a0a] border border-accent/20 mb-20 overflow-hidden">
     
-    {/* RE-ENGINEERED CARBON FIBRE BACKGROUND */}
     <div 
-      className="absolute inset-0 pointer-events-none opacity-20"
+      className="absolute inset-0 pointer-events-none opacity-10"
       style={{
-        backgroundImage: `url('https://www.transparenttextures.com/patterns/carbon-fibre.png')`,
-        backgroundRepeat: 'repeat',
-        backgroundColor: '#050505' // Slightly darker than the main BG to make texture pop
+        backgroundImage: `linear-gradient(rgba(212, 175, 55, 0.1) 50%, transparent 50%)`,
+        backgroundSize: '100% 4px',
       }}
     ></div>
     
-    {/* Subtle Gold Gradient to make the texture visible in the corner */}
-    <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-transparent via-transparent to-accent/5 pointer-events-none"></div>
+    <div className="absolute top-0 right-0 w-full h-full bg-linear-to-br from-transparent via-transparent to-accent/5 pointer-events-none"></div>
 
     <div className="relative z-10 flex flex-col lg:flex-row items-stretch">
       
-      {/* LEFT SIDE: CONTENT */}
       <div className="flex-1 p-8 md:p-12 border-b lg:border-b-0 lg:border-r border-white/5 bg-bg/80 backdrop-blur-sm">
         <div className="flex items-center gap-3 mb-6">
           <div className="w-1.5 h-1.5 bg-accent/40 rounded-full shadow-[0_0_8px_rgba(212,175,55,0.4)]"></div>
@@ -37,13 +33,12 @@ export default function ResourceHero() {
           acquisition protocol begins.
         </p>
 
-        <div className="inline-block border border-white/10 bg-white/[0.02] px-8 py-4 text-[9px] font-black uppercase tracking-[0.3em] text-text-main/20 cursor-not-allowed">
+        <div className="inline-block border border-white/10 bg-white/2 px-8 py-4 text-[9px] font-black uppercase tracking-[0.3em] text-text-main/20 cursor-not-allowed">
           Initialization Locked
         </div>
       </div>
 
-      {/* RIGHT SIDE: PLACEHOLDER */}
-      <div className="w-full lg:w-80 bg-accent/[0.02] flex flex-col items-center justify-center p-12 relative min-h-[250px] backdrop-blur-sm">
+      <div className="w-full lg:w-80 bg-accent/2 flex flex-col items-center justify-center p-12 relative min-h-62.5 backdrop-blur-sm">
         <div className="absolute inset-0 opacity-10 pointer-events-none">
           <div className="absolute inset-y-0 left-1/2 w-px bg-accent/20"></div>
           <div className="absolute inset-x-0 top-1/2 h-px bg-accent/20"></div>

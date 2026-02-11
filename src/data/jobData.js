@@ -1,7 +1,6 @@
 export const jobDatabase = [
   {
     platform: "PlayStation",
-    // Adding instructions here so the UI can display them for this specific platform/category
     instructions:
       "Bookmark the job, open Interaction Menu > Style, scroll to Illuminated Clothing. Scroll right for 30s, then leave via phone. Save at a clothing store.",
     categories: [

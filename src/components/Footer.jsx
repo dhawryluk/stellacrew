@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"; // ✅ Import Link
+import { Link } from "react-router-dom";
 import Star from "../assets/branding/StellaStar.png";
 
 const SocialIcon = ({ path, href }) => (

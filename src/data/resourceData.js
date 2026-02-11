@@ -16,7 +16,7 @@ export const resourceCategories = [
   },
   {
     id: "masterlists",
-    label: "Intelligence Database", // This second object creates the second column
+    label: "Intelligence Database",
     resources: [
       {
         name: "BEFF ID Masterlist",

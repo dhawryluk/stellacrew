@@ -28,7 +28,7 @@ export default function FeaturedAsset() {
 
         <div className="w-full lg:w-2/5 p-12 lg:-ml-20 z-20">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-8 h-[1px] bg-accent/50"></div>
+            <div className="w-8 h-px bg-accent/50"></div>
             <h4 className="text-accent font-black text-[10px] tracking-[0.5em] uppercase">
               LTD_EDITION_PROTOCOL
             </h4>
