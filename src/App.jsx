@@ -16,19 +16,19 @@ import TermsPage from "./pages/TermsPage";
 import VaultPage from "./pages/VaultPage";
 import GalleryPage from "./pages/GalleryPage";
 import StreamStartingSoon from "./components/StreamStartingSoon";
+import CarColorEditor from "./pages/CarColorEditor";
 import Footer from "./components/Footer";
-
 
 function LayoutWrapper({ children }) {
   const location = useLocation();
   const isStreamOverlay = location.pathname === "/stream-overlay";
 
   return (
-    <div className={`min-h-screen ${isStreamOverlay ? 'bg-transparent' : 'bg-bg'}`}>
+    <div
+      className={`min-h-screen ${isStreamOverlay ? "bg-transparent" : "bg-bg"}`}
+    >
       {!isStreamOverlay && <NavBar />}
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
       {!isStreamOverlay && <Footer />}
     </div>
   );
@@ -54,7 +54,7 @@ export default function App() {
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/stream-overlay" element={<StreamStartingSoon />} />
           <Route path="/resources" element={<ResourcesPage />} />
-          {/* <Route path="/car-builder" element={<CarColorEditor />} /> */}
+          <Route path="/car-builder" element={<CarColorEditor />} />
           <Route path="/success" element={<SuccessPage />} />
           <Route path="/terms" element={<TermsPage />} />
         </Routes>
@@ -62,4 +62,3 @@ export default function App() {
     </Router>
   );
 }
-

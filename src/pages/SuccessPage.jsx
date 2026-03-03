@@ -23,13 +23,15 @@ export default function SuccessPage() {
 
         <p className="text-text-main/50 text-[10px] md:text-xs tracking-[0.2em] leading-relaxed mb-12 uppercase font-medium">
           Transaction verified. Asset allocation ready. <br />
-          To finalize your <span className="text-text-main">transfer protocol</span>, join the <br />
+          To finalize your{" "}
+          <span className="text-text-main">transfer protocol</span>, join the{" "}
+          <br />
           HQ below and open a ticket with your receipt.
         </p>
 
         <div className="flex flex-col gap-5 relative z-10">
           <a
-            href="https://discord.gg/FrzJsJXnCz"
+            href="https://discord.gg/cTCmRcp"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative overflow-hidden bg-accent text-bg px-10 py-5 font-black uppercase text-[11px] tracking-[0.4em] transition-all duration-300"
@@ -39,7 +41,7 @@ export default function SuccessPage() {
               Connect to Discord HQ
             </span>
           </a>
-          
+
           <a
             href="/"
             className="text-text-main/30 hover:text-accent transition-all uppercase text-[9px] font-bold tracking-[0.5em] mt-4 flex items-center justify-center gap-2 group"

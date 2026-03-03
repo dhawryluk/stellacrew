@@ -1,20 +1,20 @@
 import {
-    MessageSquare,
-    ShieldCheck,
-    ChevronRight,
-    Activity,
+  MessageSquare,
+  ShieldCheck,
+  ChevronRight,
+  Activity,
 } from "lucide-react";
 
 export default function DiscordInvite() {
-    const systemLogs = [
+  const systemLogs = [
     { time: "18:32:01", event: "NEW_MEMBER_AUTHORIZED", user: "X_GHOST_X" },
     { time: "18:34:15", event: "LINK_SYNC_COMPLETED", user: "SYSTEM" },
     { time: "18:35:02", event: "JOB_PLAYLIST_UPDATED", user: "MOD_PROTO" },
     { time: "18:38:44", event: "ENCRYPTION_KEY_ROTATED", user: "ADMIN" },
   ];
 
-    return (
-        <div className="max-w-7xl mx-auto px-4 mb-4">
+  return (
+    <div className="max-w-7xl mx-auto px-4 mb-4">
       {" "}
       <div className="relative group overflow-hidden bg-bg border border-white/5 shadow-2xl">
         <div className="absolute inset-0 bg-linear-to-r from-transparent via-accent/5 to-transparent -translate-x-full group-hover:animate-shimmer pointer-events-none"></div>
@@ -80,7 +80,7 @@ export default function DiscordInvite() {
 
           <div className="w-full lg:w-auto">
             <a
-              href="https://discord.gg/YmJfjRjvQw"
+              href="https://discord.gg/cTCmRcp"
               target="_blank"
               rel="noreferrer"
               className="relative flex items-center justify-between gap-10 bg-accent hover:bg-white text-black px-12 py-7 transition-all duration-500 group/btn shadow-[0_0_30px_rgba(212,175,55,0.1)] hover:shadow-[0_0_50px_rgba(212,175,55,0.4)]"
@@ -107,4 +107,4 @@ export default function DiscordInvite() {
       </div>
     </div>
   );
-};
+}
