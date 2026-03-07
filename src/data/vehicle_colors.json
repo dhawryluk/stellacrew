@@ -166,7 +166,7 @@
     "obtainable_rim": "No",
     "obtainable_interior": "No",
     "obtainable_dashboard": "No",
-    "isTexture": false
+    "isTexture": true
   },
   {
     "id": 13,
@@ -205,7 +205,7 @@
     "obtainable_rim": "No",
     "obtainable_interior": "No",
     "obtainable_dashboard": "No",
-    "isTexture": false
+    "isTexture": true
   },
   {
     "id": 16,
@@ -283,7 +283,7 @@
     "obtainable_rim": "No",
     "obtainable_interior": "No",
     "obtainable_dashboard": "No",
-    "isTexture": false
+    "isTexture": true
   },
   {
     "id": 22,
@@ -1531,7 +1531,7 @@
     "obtainable_rim": "No",
     "obtainable_interior": "No",
     "obtainable_dashboard": "No",
-    "isTexture": false
+    "isTexture": true
   },
   {
     "id": 118,
@@ -1544,7 +1544,7 @@
     "obtainable_rim": "No",
     "obtainable_interior": "No",
     "obtainable_dashboard": "No",
-    "isTexture": false
+    "isTexture": true
   },
   {
     "id": 119,
@@ -1557,7 +1557,7 @@
     "obtainable_rim": "No",
     "obtainable_interior": "No",
     "obtainable_dashboard": "No",
-    "isTexture": false
+    "isTexture": true
   },
   {
     "id": 120,
@@ -1570,7 +1570,7 @@
     "obtainable_rim": "No",
     "obtainable_interior": "No",
     "obtainable_dashboard": "No",
-    "isTexture": false
+    "isTexture": true
   },
   {
     "id": 121,
@@ -2051,7 +2051,7 @@
     "obtainable_rim": "No",
     "obtainable_interior": "No",
     "obtainable_dashboard": "No",
-    "isTexture": false
+    "isTexture": true
   },
   {
     "id": 158,
@@ -2064,7 +2064,7 @@
     "obtainable_rim": "No",
     "obtainable_interior": "No",
     "obtainable_dashboard": "No",
-    "isTexture": false
+    "isTexture": true
   },
   {
     "id": 159,
@@ -2077,7 +2077,7 @@
     "obtainable_rim": "No",
     "obtainable_interior": "No",
     "obtainable_dashboard": "No",
-    "isTexture": false
+    "isTexture": true
   },
   {
     "id": 160,
@@ -2090,7 +2090,7 @@
     "obtainable_rim": "No",
     "obtainable_interior": "No",
     "obtainable_dashboard": "No",
-    "isTexture": false
+    "isTexture": true
   },
   {
     "id": 161,
