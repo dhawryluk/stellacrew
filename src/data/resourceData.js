@@ -9,7 +9,7 @@ export const resourceCategories = [
         desc: "Visual architect for unselected paints & wheels",
         link: "/car-builder",
         type: "TOOL",
-        comingSoon: true,
+        comingSoon: false,
         hot: true,
       },
     ],

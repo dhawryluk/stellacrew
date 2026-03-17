@@ -29,7 +29,6 @@
 "2015 Jaguar F-Type R Coupe" (https://skfb.ly/pFuvr) by Galaxy Car Showroom is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 "2013_equipped_jeep_wrangler_unlimited_rubicon" (https://skfb.ly/pGvDv) by huntrixhalo is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 "Ford Mustang GT Drift Spec" (https://skfb.ly/oS7Xy) by blakebella is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-"Mercedes-AMG E 63 S (W213)" (https://skfb.ly/pxxR8) by Mona x Supercars is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 "2020 Varis Supreme A90 / A91 Toyota GR Supra" (https://skfb.ly/pvXUX) by Ddiaz Design is licensed under CC Attribution-NonCommercial-ShareAlike (http://creativecommons.org/licenses/by-nc-sa/4.0/).
 "2020 Audi RS6 Avant" (https://skfb.ly/ps9OE) by Ddiaz Design is licensed under CC Attribution-NonCommercial-ShareAlike (http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
