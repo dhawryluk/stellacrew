@@ -3,7 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import CarPreview from "../components/Editor/CarPreview";
 import { EditorSidebar } from "../components/Editor/EditorSidebar";
-
+import SEO from "../components/SEO";
 // DATABASE is a flat array of color objects
 import DATABASE from "../data/vehicle_colors.json";
 import WHEELS_DATABASE from "../data/wheels_list.json";
@@ -121,6 +121,12 @@ const CarColorEditor = () => {
 
   return (
     <div className="min-h-screen bg-[#050505] text-white font-sans">
+      <SEO
+        title="Car Builder"
+        description="Visualize your GTA Online build in real-time 3D. 222+ paint codes, 63 wheel styles, 7 vehicle classes."
+        image="/og/car-builder.jpg"
+        path="/car-builder"
+      />
       <div className="max-w-7xl mx-auto px-4 md:px-8 pt-24 pb-20">
         <header className="mb-8 border-b border-white/5 pb-6">
           <Link

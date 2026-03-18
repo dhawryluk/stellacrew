@@ -7,6 +7,7 @@ import TacticalUtilities from "../components/TacticalUtilities";
 import JobDatabase from "../components/JobDatabase";
 import GarageManifest from "../components/GarageManifest";
 import ExternalAssets from "../components/ExternalAssets";
+import SEO from "../components/SEO";
 
 export default function ResourcesPage() {
   const [activePlatform, setActivePlatform] = useState("PlayStation");
@@ -17,24 +18,30 @@ export default function ResourcesPage() {
     setOpenCategories((prev) =>
       prev.includes(catName)
         ? prev.filter((c) => c !== catName)
-        : [...prev, catName]
+        : [...prev, catName],
     );
   };
 
   const currentPlatformData = jobDatabase.find(
-    (p) => p.platform === activePlatform
+    (p) => p.platform === activePlatform,
   );
   const filteredCategories = currentPlatformData?.categories
     .map((cat) => ({
       ...cat,
       links: cat.links.filter((link) =>
-        link.title.toLowerCase().includes(searchQuery.toLowerCase())
+        link.title.toLowerCase().includes(searchQuery.toLowerCase()),
       ),
     }))
     .filter((cat) => cat.links.length > 0 || searchQuery === "");
 
   return (
-   <div className="min-h-screen bg-bg pt-32 pb-20 px-6 font-sans selection:bg-accent selection:text-black">
+    <div className="min-h-screen bg-bg pt-32 pb-20 px-6 font-sans selection:bg-accent selection:text-black">
+      <SEO
+        title="Operative Tools"
+        description="Car builder, BEFF reference, DMO vehicle drop lists, modded jobs and helpful GTA Online links. All Stella Crew tools in one place."
+        image="/og/resources.jpg"
+        path="/resources"
+      />
       <div className="max-w-6xl mx-auto">
         <ResourceHero />
         <TacticalUtilities categories={resourceCategories} />
@@ -54,4 +61,4 @@ export default function ResourcesPage() {
       </div>
     </div>
   );
-};
+}

@@ -2,12 +2,13 @@ import { services, categories } from "../data/vaultData";
 import FeaturedAsset from "../components/FeaturedAsset";
 import ServiceModal from "../components/ServiceModal";
 import { useState, useEffect } from "react";
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
-import 'react-loading-skeleton/dist/skeleton.css';
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import SEO from "../components/SEO";
+import "react-loading-skeleton/dist/skeleton.css";
 
 export default function VaultPage() {
   const [activeTab, setActiveTab] = useState("All");
-  const [selectedItem, setSelectedItem] = useState(null); 
+  const [selectedItem, setSelectedItem] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -30,9 +31,14 @@ export default function VaultPage() {
 
   return (
     <div className="min-h-screen bg-bg pt-32 pb-20 px-6 font-sans selection:bg-accent selection:text-bg">
+      <SEO
+        title="Vault"
+        description="Modded BEFF outfits and Directors Mode online vehicles. Exclusive GTA Online services from Stella Crew."
+        image="/og/vault.jpg"
+        path="/vault"
+      />
       <SkeletonTheme baseColor="#0a0a0a" highlightColor="#d4af3710">
         <div className="max-w-7xl mx-auto">
-          
           <div className="flex flex-col items-center text-center mb-16">
             <span className="text-accent text-[10px] font-black tracking-[0.6em] mb-4 uppercase">
               Asset_Acquisition_Terminal
@@ -47,11 +53,26 @@ export default function VaultPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 max-w-5xl mx-auto border-y border-white/5 py-12">
             {[
-              { id: "01", title: "Select Tier", desc: "Choose your asset package" },
-              { id: "02", title: "Secure Access", desc: "Complete encrypted checkout" },
-              { id: "03", title: "Discord Handoff", desc: "Join HQ for asset delivery" },
+              {
+                id: "01",
+                title: "Select Tier",
+                desc: "Choose your asset package",
+              },
+              {
+                id: "02",
+                title: "Secure Access",
+                desc: "Complete encrypted checkout",
+              },
+              {
+                id: "03",
+                title: "Discord Handoff",
+                desc: "Join HQ for asset delivery",
+              },
             ].map((step) => (
-              <div key={step.id} className="text-center group border-x border-white/5">
+              <div
+                key={step.id}
+                className="text-center group border-x border-white/5"
+              >
                 <span className="text-accent font-mono text-[10px] font-black block mb-2 transition-all group-hover:tracking-[0.4em]">
                   // PROTOCOL_{step.id}
                 </span>
@@ -82,71 +103,74 @@ export default function VaultPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-stretch">
-            {isLoading ? (
-              Array(6).fill(0).map((_, i) => (
-                <div key={i} className="bg-[#0a0a0a] border border-white/5 flex flex-col h-full">
-                  <Skeleton height="210px" borderRadius="0" />
-                  <div className="p-8 grow">
-                    <Skeleton width="40%" height="10px" className="mb-4" />
-                    <Skeleton width="80%" height="30px" className="mb-6" />
-                    <Skeleton count={2} height="10px" className="mb-2" />
-                    <div className="mt-10 space-y-4">
-                      <Skeleton height="50px" borderRadius="0" />
-                      <Skeleton height="60px" borderRadius="0" />
+            {isLoading
+              ? Array(6)
+                  .fill(0)
+                  .map((_, i) => (
+                    <div
+                      key={i}
+                      className="bg-[#0a0a0a] border border-white/5 flex flex-col h-full"
+                    >
+                      <Skeleton height="210px" borderRadius="0" />
+                      <div className="p-8 grow">
+                        <Skeleton width="40%" height="10px" className="mb-4" />
+                        <Skeleton width="80%" height="30px" className="mb-6" />
+                        <Skeleton count={2} height="10px" className="mb-2" />
+                        <div className="mt-10 space-y-4">
+                          <Skeleton height="50px" borderRadius="0" />
+                          <Skeleton height="60px" borderRadius="0" />
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              ))
-            ) : (
-              filteredServices.map((item) => (
-                <div
-                  key={item.id}
-                  className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-700 hover:border-accent/30 flex flex-col h-full"
-                >
-                  <div className="relative aspect-video overflow-hidden shrink-0">
-                    <div className="absolute inset-0 bg-accent/10 mix-blend-overlay z-10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <img
-                      src={item.img}
-                      alt={item.name}
-                      className="w-full h-full object-cover grayscale brightness-50 transition-all duration-1000 group-hover:grayscale-0 group-hover:brightness-100 group-hover:scale-105"
-                    />
-                    <div className="absolute top-0 right-0 bg-bg border-b border-l border-white/5 px-4 py-2 text-accent font-mono text-xs font-black z-20">
-                      {item.price}
+                  ))
+              : filteredServices.map((item) => (
+                  <div
+                    key={item.id}
+                    className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-700 hover:border-accent/30 flex flex-col h-full"
+                  >
+                    <div className="relative aspect-video overflow-hidden shrink-0">
+                      <div className="absolute inset-0 bg-accent/10 mix-blend-overlay z-10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                      <img
+                        src={item.img}
+                        alt={item.name}
+                        className="w-full h-full object-cover grayscale brightness-50 transition-all duration-1000 group-hover:grayscale-0 group-hover:brightness-100 group-hover:scale-105"
+                      />
+                      <div className="absolute top-0 right-0 bg-bg border-b border-l border-white/5 px-4 py-2 text-accent font-mono text-xs font-black z-20">
+                        {item.price}
+                      </div>
                     </div>
-                  </div>
 
-                  <div className="p-8 flex flex-col grow">
-                    <div className="flex items-center gap-2 mb-2">
-                      <div className="w-1 h-3 bg-accent/40"></div>
-                      <span className="text-[9px] text-accent font-black uppercase tracking-[0.4em]">
-                        {item.category}
-                      </span>
-                    </div>
-                    <h3 className="text-3xl text-text-main font-black uppercase tracking-tighter italic group-hover:text-accent transition-colors leading-none mb-6">
-                      {item.name}
-                    </h3>
-                    <p className="text-text-main/40 text-[10px] uppercase tracking-widest leading-relaxed font-bold grow border-l border-white/5 pl-4 mb-8">
-                      {item.detail}
-                    </p>
-                    <div className="space-y-4">
-                      <button
-                        onClick={() => setSelectedItem(item)}
-                        className="w-full border border-white/10 text-text-main/30 py-4 text-[9px] font-black uppercase tracking-[0.5em] transition-all hover:bg-white/2 hover:text-text-main"
-                      >
-                        Manifest_Details
-                      </button>
-                      <button
-                        onClick={() => handlePurchase(item.stripeLink)}
-                        className="w-full bg-accent text-bg py-5 text-[11px] font-black uppercase tracking-[0.4em] transition-all hover:bg-text-main shadow-2xl relative overflow-hidden group/btn"
-                      >
-                        <span className="relative z-10">Acquire_Access</span>
-                        <div className="absolute inset-0 bg-white opacity-0 group-hover/btn:opacity-20 transition-opacity"></div>
-                      </button>
+                    <div className="p-8 flex flex-col grow">
+                      <div className="flex items-center gap-2 mb-2">
+                        <div className="w-1 h-3 bg-accent/40"></div>
+                        <span className="text-[9px] text-accent font-black uppercase tracking-[0.4em]">
+                          {item.category}
+                        </span>
+                      </div>
+                      <h3 className="text-3xl text-text-main font-black uppercase tracking-tighter italic group-hover:text-accent transition-colors leading-none mb-6">
+                        {item.name}
+                      </h3>
+                      <p className="text-text-main/40 text-[10px] uppercase tracking-widest leading-relaxed font-bold grow border-l border-white/5 pl-4 mb-8">
+                        {item.detail}
+                      </p>
+                      <div className="space-y-4">
+                        <button
+                          onClick={() => setSelectedItem(item)}
+                          className="w-full border border-white/10 text-text-main/30 py-4 text-[9px] font-black uppercase tracking-[0.5em] transition-all hover:bg-white/2 hover:text-text-main"
+                        >
+                          Manifest_Details
+                        </button>
+                        <button
+                          onClick={() => handlePurchase(item.stripeLink)}
+                          className="w-full bg-accent text-bg py-5 text-[11px] font-black uppercase tracking-[0.4em] transition-all hover:bg-text-main shadow-2xl relative overflow-hidden group/btn"
+                        >
+                          <span className="relative z-10">Acquire_Access</span>
+                          <div className="absolute inset-0 bg-white opacity-0 group-hover/btn:opacity-20 transition-opacity"></div>
+                        </button>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))
-            )}
+                ))}
           </div>
         </div>
       </SkeletonTheme>
