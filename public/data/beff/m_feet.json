@@ -1,0 +1,26 @@
+[
+  {
+    "id": "m_feet_0_0",
+    "gender": "m",
+    "slot": "feet",
+    "drawable": 0,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "New Year Suit",
+    "nameHash": "DLC_MP_X25_M_FEET_0_0",
+    "img": "/beff/m/feet/0_0.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_feet_1_0",
+    "gender": "m",
+    "slot": "feet",
+    "drawable": 1,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "Avi",
+    "nameHash": "DLC_MP_X25_M_FEET_1_0",
+    "img": "/beff/m/feet/1_0.jpg",
+    "usedIn": []
+  }
+]

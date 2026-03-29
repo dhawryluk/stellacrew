@@ -1,0 +1,50 @@
+[
+  {
+    "id": "m_teef_0_0",
+    "gender": "m",
+    "slot": "teef",
+    "drawable": 0,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "St Patricks Day",
+    "nameHash": "DLC_MP_X25_M_TEETH_0_0",
+    "img": "/beff/m/teef/0_0.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_teef_0_1",
+    "gender": "m",
+    "slot": "teef",
+    "drawable": 0,
+    "texture": 1,
+    "dlc": "mp_m_2025_02",
+    "label": "St Patricks Day alt",
+    "nameHash": "DLC_MP_X25_M_TEETH_0_1",
+    "img": "/beff/m/teef/0_1.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_teef_1_0",
+    "gender": "m",
+    "slot": "teef",
+    "drawable": 1,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "St Patricks Day 2",
+    "nameHash": "DLC_MP_X25_M_TEETH_1_0",
+    "img": "/beff/m/teef/1_0.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_teef_1_1",
+    "gender": "m",
+    "slot": "teef",
+    "drawable": 1,
+    "texture": 1,
+    "dlc": "mp_m_2025_02",
+    "label": "St Patricks Day 2 alt",
+    "nameHash": "DLC_MP_X25_M_TEETH_1_1",
+    "img": "/beff/m/teef/1_1.jpg",
+    "usedIn": []
+  }
+]

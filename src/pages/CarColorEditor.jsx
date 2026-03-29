@@ -184,7 +184,7 @@ const CarColorEditor = () => {
               </div>
 
               {/* Color Selection Grid */}
-              <div className="p-6 h-[400px] overflow-y-auto bg-[#111111] custom-scrollbar">
+              <div className="p-6 h-100 overflow-y-auto bg-[#111111] custom-scrollbar">
                 <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-8 xl:grid-cols-10 gap-3">
                   {filteredList.map((color) => {
                     const currentId =

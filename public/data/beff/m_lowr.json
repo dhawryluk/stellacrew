@@ -1,0 +1,122 @@
+[
+  {
+    "id": "m_lowr_0_0",
+    "gender": "m",
+    "slot": "lowr",
+    "drawable": 0,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "New Year Suit",
+    "nameHash": "DLC_MP_X25_M_LEGS_0_0",
+    "img": "/beff/m/lowr/0_0.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_lowr_1_0",
+    "gender": "m",
+    "slot": "lowr",
+    "drawable": 1,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "420",
+    "nameHash": "DLC_MP_X25_M_LEGS_1_0",
+    "img": "/beff/m/lowr/1_0.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_lowr_2_0",
+    "gender": "m",
+    "slot": "lowr",
+    "drawable": 2,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "St Patricks Day",
+    "nameHash": "DLC_MP_X25_M_LEGS_2_0",
+    "img": "/beff/m/lowr/2_0.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_lowr_2_1",
+    "gender": "m",
+    "slot": "lowr",
+    "drawable": 2,
+    "texture": 1,
+    "dlc": "mp_m_2025_02",
+    "label": "St Patricks Day alt",
+    "nameHash": "DLC_MP_X25_M_LEGS_2_1",
+    "img": "/beff/m/lowr/2_1.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_lowr_3_0",
+    "gender": "m",
+    "slot": "lowr",
+    "drawable": 3,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "Valentine Onesie",
+    "nameHash": "DLC_MP_X25_M_LEGS_3_0",
+    "img": "/beff/m/lowr/3_0.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_lowr_4_0",
+    "gender": "m",
+    "slot": "lowr",
+    "drawable": 4,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "Eberhard Security",
+    "nameHash": "DLC_MP_X25_M_LEGS_4_0",
+    "img": "/beff/m/lowr/4_0.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_lowr_5_0",
+    "gender": "m",
+    "slot": "lowr",
+    "drawable": 5,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "Wide",
+    "nameHash": "DLC_MP_X25_M_LEGS_5_0",
+    "img": "/beff/m/lowr/5_0.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_lowr_5_1",
+    "gender": "m",
+    "slot": "lowr",
+    "drawable": 5,
+    "texture": 1,
+    "dlc": "mp_m_2025_02",
+    "label": "Wide alt",
+    "nameHash": "DLC_MP_X25_M_LEGS_5_1",
+    "img": "/beff/m/lowr/5_1.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_lowr_6_0",
+    "gender": "m",
+    "slot": "lowr",
+    "drawable": 6,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "Avi",
+    "nameHash": "DLC_MP_X25_M_LEGS_6_0",
+    "img": "/beff/m/lowr/6_0.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_lowr_7_0",
+    "gender": "m",
+    "slot": "lowr",
+    "drawable": 7,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "Burger Shot",
+    "nameHash": "DLC_MP_X25_M_LEGS_7_0",
+    "img": "/beff/m/lowr/7_0.jpg",
+    "usedIn": []
+  }
+]

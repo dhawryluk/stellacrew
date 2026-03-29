@@ -17,6 +17,9 @@ import VaultPage from "./pages/VaultPage";
 import GalleryPage from "./pages/GalleryPage";
 import StreamStartingSoon from "./components/StreamStartingSoon";
 import CarColorEditor from "./pages/CarColorEditor";
+import BeffBrowser from "./pages/BeffBrowser";
+import BeffGuides from "./pages/BeffGuides";
+import BeffGuideDetail from "./pages/BeffGuideDetail";
 import Footer from "./components/Footer";
 
 function LayoutWrapper({ children }) {
@@ -55,6 +58,9 @@ export default function App() {
           <Route path="/stream-overlay" element={<StreamStartingSoon />} />
           <Route path="/resources" element={<ResourcesPage />} />
           <Route path="/car-builder" element={<CarColorEditor />} />
+          <Route path="/beff/components" element={<BeffBrowser />} />
+          <Route path="/beff/guides" element={<BeffGuides />} />
+          <Route path="/beff/guides/:id" element={<BeffGuideDetail />} />
           <Route path="/success" element={<SuccessPage />} />
           <Route path="/terms" element={<TermsPage />} />
         </Routes>

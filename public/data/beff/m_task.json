@@ -1,0 +1,38 @@
+[
+  {
+    "id": "m_task_0_0",
+    "gender": "m",
+    "slot": "task",
+    "drawable": 0,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "Deadline",
+    "nameHash": "DLC_MP_X25_M_SPECIAL2_0_0",
+    "img": "/beff/m/task/0_0.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_task_1_0",
+    "gender": "m",
+    "slot": "task",
+    "drawable": 1,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "Deadline 2",
+    "nameHash": "DLC_MP_X25_M_SPECIAL2_1_0",
+    "img": "/beff/m/task/1_0.jpg",
+    "usedIn": []
+  },
+  {
+    "id": "m_task_2_0",
+    "gender": "m",
+    "slot": "task",
+    "drawable": 2,
+    "texture": 0,
+    "dlc": "mp_m_2025_02",
+    "label": "Eberhard Security",
+    "nameHash": "DLC_MP_X25_M_SPECIAL2_2_0",
+    "img": "/beff/m/task/2_0.jpg",
+    "usedIn": []
+  }
+]

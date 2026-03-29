@@ -1,0 +1,81 @@
+[
+  {
+    "id": "cop_belt",
+    "name": "Cop Belt",
+    "gender": "m",
+    "difficulty": "easy",
+    "blacklisted": false,
+    "preview": "/beff/guides/cop_belt.jpg",
+    "tags": ["belt", "torso", "og"],
+    "components": [
+      { "slot": "jbib", "drawable": 47, "texture": 0 },
+      { "slot": "uppr", "drawable": 15, "texture": 2 },
+      { "slot": "accs", "drawable": 34, "texture": 0 }
+    ],
+    "steps": [
+      "Go to a clothing store and open the JBIB (Torso 2) menu",
+      "Navigate to drawable 47, texture 0",
+      "Open the UPPR (Torso) menu and set drawable 15, texture 2",
+      "Open the ACCS (Accessories) menu and set drawable 34, texture 0",
+      "Exit the store — the belt should now be visible"
+    ]
+  },
+  {
+    "id": "og_holster",
+    "name": "OG Holster",
+    "gender": "m",
+    "difficulty": "easy",
+    "blacklisted": false,
+    "preview": "/beff/guides/og_holster.jpg",
+    "tags": ["holster", "torso"],
+    "components": [
+      { "slot": "jbib", "drawable": 47, "texture": 1 },
+      { "slot": "accs", "drawable": 12, "texture": 0 }
+    ],
+    "steps": [
+      "Open JBIB menu, navigate to drawable 47 texture 1",
+      "Open ACCS menu, navigate to drawable 12 texture 0"
+    ]
+  },
+  {
+    "id": "juggernaut",
+    "name": "Juggernaut Suit",
+    "gender": "f",
+    "difficulty": "hard",
+    "blacklisted": false,
+    "preview": "/beff/guides/juggernaut.jpg",
+    "tags": ["suit", "rare", "full-body"],
+    "components": [
+      { "slot": "jbib", "drawable": 15, "texture": 0 },
+      { "slot": "uppr", "drawable": 8, "texture": 0 },
+      { "slot": "lowr", "drawable": 22, "texture": 0 },
+      { "slot": "feet", "drawable": 6, "texture": 0 },
+      { "slot": "accs", "drawable": 34, "texture": 0 }
+    ],
+    "steps": [
+      "This outfit requires a specific mission start sequence",
+      "Navigate to JBIB drawable 15 texture 0",
+      "Set UPPR to drawable 8 texture 0",
+      "Set LOWR to drawable 22 texture 0",
+      "Set FEET to drawable 6 texture 0",
+      "Set ACCS to drawable 34 texture 0"
+    ]
+  },
+  {
+    "id": "blacklisted_cop_belt",
+    "name": "OG Cop Belt",
+    "gender": "f",
+    "difficulty": "hard",
+    "blacklisted": true,
+    "preview": "/beff/guides/blacklisted_cop_belt.jpg",
+    "tags": ["belt", "og", "blacklisted"],
+    "components": [
+      { "slot": "jbib", "drawable": 0, "texture": 0 },
+      { "slot": "accs", "drawable": 34, "texture": 0 }
+    ],
+    "steps": [
+      "Warning — this BEFF is blacklisted and may result in a ban",
+      "Not recommended for regular use"
+    ]
+  }
+]
