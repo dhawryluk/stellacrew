@@ -387,5 +387,24 @@
     "nameHash": "DLC_MP_X25_M_JBIB_22_0",
     "img": "/beff/m/jbib/22_0.jpg",
     "usedIn": []
+  },
+{
+  "id": "m_jbib_128_0",
+  "gender": "m",
+  "slot": "jbib",
+  "drawable": 128,
+  "texture": 0,
+  "dlc": "base",
+  "img": "/beff/m/jbib/128_0.webp",
+  "usedIn": [],
+  "flip": {
+    "c1_slot": "jbib",
+    "c1_drawable": 128,
+    "c1_texture": 0,
+    "c2_slot": "jbib",
+    "c2_drawable": 208,
+    "c2_texture": 3,
+    "result_img": "/beff/m/jbib/128_3.webp"
   }
+}
 ]

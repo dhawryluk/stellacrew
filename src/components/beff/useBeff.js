@@ -86,7 +86,7 @@ export function buildComponentCall(slot, drawable, texture) {
 }
 
 export function imgPath(gender, slot, drawable, texture) {
-  return `/beff/${gender}/${slot}/${drawable}_${texture}.jpg`;
+  return `/beff/${gender}/${slot}/${drawable}_${texture}.webp`;
 }
 
 export function placeholderImg(slot, drawable, texture) {

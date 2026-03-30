@@ -25,9 +25,7 @@ export default function BeffFlipPanel({ gender, item, onClose }) {
 
   // Close on Escape
   useEffect(() => {
-    const handler = (e) => {
-      if (e.key === "Escape") onClose();
-    };
+    const handler = (e) => { if (e.key === "Escape") onClose(); };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
   }, [onClose]);
@@ -37,10 +35,13 @@ export default function BeffFlipPanel({ gender, item, onClose }) {
   const { slot, drawable, texture, flip, label, dlc } = item;
   const hasFlip = !!flip;
 
-  const c1Call = hasFlip
-    ? buildComponentCall(flip.c1_slot, flip.c1_drawable, flip.c1_texture)
-    : null;
-  const c2Call = buildComponentCall(slot, drawable, texture);
+  // C2 uses flip.c2_* if defined, otherwise falls back to selected item
+  const c2Slot = hasFlip && flip.c2_slot    ? flip.c2_slot    : slot;
+  const c2Draw = hasFlip && flip.c2_drawable != null ? flip.c2_drawable : drawable;
+  const c2Tex  = hasFlip && flip.c2_texture  != null ? flip.c2_texture  : texture;
+
+  const c1Call = hasFlip ? buildComponentCall(flip.c1_slot, flip.c1_drawable, flip.c1_texture) : null;
+  const c2Call = buildComponentCall(c2Slot, c2Draw, c2Tex);
 
   const copy = (id, value) => {
     navigator.clipboard?.writeText(value);
@@ -64,6 +65,7 @@ export default function BeffFlipPanel({ gender, item, onClose }) {
       {/* Panel — centered */}
       <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
         <div className="bg-[#0a0a0a] border border-white/10 overflow-hidden w-full max-w-3xl max-h-[90vh] overflow-y-auto">
+
           {/* Header */}
           <div className="flex items-center justify-between px-6 py-4 border-b border-white/8 bg-[#0d0d0d]">
             <div className="flex items-center gap-3">
@@ -92,28 +94,18 @@ export default function BeffFlipPanel({ gender, item, onClose }) {
             <>
               {/* How to get it — 3 column layout */}
               <div className="grid grid-cols-3 divide-x divide-white/8">
+
                 {/* C1 — what to set UPPR to */}
                 <div className="flex flex-col items-center p-5 gap-3">
                   <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
                     Step 1 — C1
                   </div>
-                  <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-40">
+                  <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-[160px]">
                     <img
-                      src={imgPath(
-                        gender,
-                        flip.c1_slot,
-                        flip.c1_drawable,
-                        flip.c1_texture,
-                      )}
+                      src={imgPath(gender, flip.c1_slot, flip.c1_drawable, flip.c1_texture)}
                       alt="C1"
                       className="w-full h-full object-cover"
-                      onError={(e) => {
-                        e.target.src = placeholderImg(
-                          flip.c1_slot,
-                          flip.c1_drawable,
-                          flip.c1_texture,
-                        );
-                      }}
+                      onError={(e) => { e.target.src = placeholderImg(flip.c1_slot, flip.c1_drawable, flip.c1_texture); }}
                     />
                     <div className="absolute top-1 left-1 text-[7px] font-black bg-black/80 text-yellow-500/70 px-1.5 py-0.5 uppercase tracking-wider">
                       {flip.c1_slot.toUpperCase()}
@@ -121,12 +113,9 @@ export default function BeffFlipPanel({ gender, item, onClose }) {
                   </div>
                   <div className="text-center">
                     <div className="text-[11px] font-black font-mono text-yellow-500">
-                      {flip.c1_slot.toUpperCase()} {flip.c1_drawable} /{" "}
-                      {flip.c1_texture}
+                      {flip.c1_slot.toUpperCase()} {flip.c1_drawable} / {flip.c1_texture}
                     </div>
-                    <div className="text-[9px] text-white/30 mt-1">
-                      Set torso to this
-                    </div>
+                    <div className="text-[9px] text-white/30 mt-1">Set torso to this</div>
                   </div>
                   <button
                     onClick={() => copy("c1", c1Call)}
@@ -141,26 +130,22 @@ export default function BeffFlipPanel({ gender, item, onClose }) {
                   <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
                     Step 2 — C2
                   </div>
-                  <div className="w-full aspect-square bg-[#111] border border-yellow-500/30 overflow-hidden relative max-w-40">
+                  <div className="w-full aspect-square bg-[#111] border border-yellow-500/30 overflow-hidden relative max-w-[160px]">
                     <img
-                      src={imgPath(gender, slot, drawable, texture)}
+                      src={imgPath(gender, c2Slot, c2Draw, c2Tex)}
                       alt="C2"
                       className="w-full h-full object-cover"
-                      onError={(e) => {
-                        e.target.src = placeholderImg(slot, drawable, texture);
-                      }}
+                      onError={(e) => { e.target.src = placeholderImg(c2Slot, c2Draw, c2Tex); }}
                     />
                     <div className="absolute top-1 left-1 text-[7px] font-black bg-black/80 text-yellow-500 px-1.5 py-0.5 uppercase tracking-wider">
-                      {slot.toUpperCase()}
+                      {c2Slot.toUpperCase()}
                     </div>
                   </div>
                   <div className="text-center">
                     <div className="text-[11px] font-black font-mono text-yellow-500">
-                      {slot.toUpperCase()} {drawable} / {texture}
+                      {c2Slot.toUpperCase()} {c2Draw} / {c2Tex}
                     </div>
-                    <div className="text-[9px] text-white/30 mt-1">
-                      Set torso 2 to this
-                    </div>
+                    <div className="text-[9px] text-white/30 mt-1">Set this as C2</div>
                   </div>
                   <button
                     onClick={() => copy("c2", c2Call)}
@@ -175,29 +160,22 @@ export default function BeffFlipPanel({ gender, item, onClose }) {
                   <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
                     Result
                   </div>
-                  <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-40">
+                  <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-[160px]">
                     {flip.result_img ? (
                       <img
                         src={flip.result_img}
                         alt="Result"
                         className="w-full h-full object-cover"
-                        onError={(e) => {
-                          e.target.style.display = "none";
-                          e.target.nextSibling.style.display = "flex";
-                        }}
+                        onError={(e) => { e.target.style.display = "none"; e.target.nextSibling.style.display = "flex"; }}
                       />
                     ) : null}
                     <div
                       className="absolute inset-0 items-center justify-center flex-col gap-1 bg-[#0d0d0d]"
                       style={{ display: flip.result_img ? "none" : "flex" }}
                     >
-                      <span className="text-yellow-500/10 text-3xl font-black italic">
-                        SC
-                      </span>
+                      <span className="text-yellow-500/10 text-3xl font-black italic">SC</span>
                       <span className="text-white/15 text-[8px] uppercase tracking-widest text-center px-3">
-                        Result image
-                        <br />
-                        coming soon
+                        Result image<br />coming soon
                       </span>
                     </div>
                   </div>
@@ -205,9 +183,7 @@ export default function BeffFlipPanel({ gender, item, onClose }) {
                     <div className="text-[11px] font-black text-white/50">
                       Final look
                     </div>
-                    <div className="text-[9px] text-white/20 mt-1">
-                      After both are applied
-                    </div>
+                    <div className="text-[9px] text-white/20 mt-1">After both are applied</div>
                   </div>
                   <button
                     onClick={copyBoth}
@@ -220,9 +196,7 @@ export default function BeffFlipPanel({ gender, item, onClose }) {
 
               {/* Component calls strip */}
               <div className="border-t border-white/8 bg-black/30 px-6 py-3 flex flex-col gap-1.5">
-                <div className="text-[8px] uppercase tracking-[.15em] text-white/20 font-bold mb-1">
-                  Full sequence
-                </div>
+                <div className="text-[8px] uppercase tracking-[.15em] text-white/20 font-bold mb-1">Full sequence</div>
                 <div className="font-mono text-[10px] text-white/40 bg-black/40 border border-white/5 px-4 py-2">
                   {c1Call}
                 </div>
