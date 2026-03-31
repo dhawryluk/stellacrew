@@ -181,7 +181,7 @@
     "dlc": "mp_m_2025_02",
     "label": "Sweater tex 3",
     "nameHash": "DLC_MP_X25_M_JBIB_9_3",
-    "img": "/beff/m/jbib/9_3.jpg",
+    "img": "/beff/m/jbib/11_9_3.jpg",
     "usedIn": []
   },
   {
@@ -193,7 +193,7 @@
     "dlc": "mp_m_2025_02",
     "label": "Onesie",
     "nameHash": "DLC_MP_X25_M_JBIB_10_0",
-    "img": "/beff/m/jbib/10_0.jpg",
+    "img": "/beff/m/jbib/11_10_0.jpg",
     "usedIn": []
   },
   {
@@ -205,7 +205,7 @@
     "dlc": "mp_m_2025_02",
     "label": "Eberhard Security",
     "nameHash": "DLC_MP_X25_M_JBIB_11_0",
-    "img": "/beff/m/jbib/11_0.jpg",
+    "img": "/beff/m/jbib/11_11_0.jpg",
     "usedIn": []
   },
   {
@@ -388,23 +388,194 @@
     "img": "/beff/m/jbib/22_0.jpg",
     "usedIn": []
   },
-{
-  "id": "m_jbib_128_0",
-  "gender": "m",
-  "slot": "jbib",
-  "drawable": 128,
-  "texture": 0,
-  "dlc": "base",
-  "img": "/beff/m/jbib/128_0.webp",
-  "usedIn": [],
-  "flip": {
-    "c1_slot": "jbib",
-    "c1_drawable": 128,
-    "c1_texture": 0,
-    "c2_slot": "jbib",
-    "c2_drawable": 208,
-    "c2_texture": 3,
-    "result_img": "/beff/m/jbib/128_3.webp"
+  {
+    "id": "m_jbib_128_0",
+    "gender": "m",
+    "slot": "jbib",
+    "drawable": 128,
+    "texture": 0,
+    "dlc": "base",
+    "img": "/beff/m/jbib/11_128_0.jpg",
+    "usedIn": [],
+    "flip": {
+      "c1_slot": "jbib",
+      "c1_drawable": 128,
+      "c1_texture": 0,
+      "c2_slot": "jbib",
+      "c2_drawable": 208,
+      "c2_texture": 0,
+      "result_img": "/beff/m/jbib/11_128_0.jpg"
+    }
+  },
+  {
+    "id": "m_jbib_128_1",
+    "gender": "m",
+    "slot": "jbib",
+    "drawable": 128,
+    "texture": 1,
+    "dlc": "base",
+    "img": "/beff/m/jbib/11_128_1.jpg",
+    "usedIn": [],
+    "flip": {
+      "c1_slot": "jbib",
+      "c1_drawable": 128,
+      "c1_texture": 0,
+      "c2_slot": "jbib",
+      "c2_drawable": 208,
+      "c2_texture": 1,
+      "result_img": "/beff/m/jbib/11_128_1.jpg"
+    }
+  },
+  {
+    "id": "m_jbib_128_2",
+    "gender": "m",
+    "slot": "jbib",
+    "drawable": 128,
+    "texture": 2,
+    "dlc": "base",
+    "img": "/beff/m/jbib/11_128_2.jpg",
+    "usedIn": [],
+    "flip": {
+      "c1_slot": "jbib",
+      "c1_drawable": 128,
+      "c1_texture": 0,
+      "c2_slot": "jbib",
+      "c2_drawable": 208,
+      "c2_texture": 2,
+      "result_img": "/beff/m/jbib/11_128_2.jpg"
+    }
+  },
+  {
+    "id": "m_jbib_128_3",
+    "gender": "m",
+    "slot": "jbib",
+    "drawable": 128,
+    "texture": 3,
+    "dlc": "base",
+    "img": "/beff/m/jbib/11_128_3.jpg",
+    "usedIn": [],
+    "flip": {
+      "c1_slot": "jbib",
+      "c1_drawable": 128,
+      "c1_texture": 0,
+      "c2_slot": "jbib",
+      "c2_drawable": 208,
+      "c2_texture": 3,
+      "result_img": "/beff/m/jbib/11_128_3.jpg"
+    }
+  },
+  {
+    "id": "m_jbib_128_4",
+    "gender": "m",
+    "slot": "jbib",
+    "drawable": 128,
+    "texture": 4,
+    "dlc": "base",
+    "img": "/beff/m/jbib/11_128_4.jpg",
+    "usedIn": [],
+    "flip": {
+      "c1_slot": "jbib",
+      "c1_drawable": 128,
+      "c1_texture": 0,
+      "c2_slot": "jbib",
+      "c2_drawable": 208,
+      "c2_texture": 4,
+      "result_img": "/beff/m/jbib/11_128_4.jpg"
+    }
+  },
+  {
+    "id": "m_jbib_128_5",
+    "gender": "m",
+    "slot": "jbib",
+    "drawable": 128,
+    "texture": 5,
+    "dlc": "base",
+    "img": "/beff/m/jbib/11_128_5.jpg",
+    "usedIn": [],
+    "flip": {
+      "c1_slot": "jbib",
+      "c1_drawable": 128,
+      "c1_texture": 0,
+      "c2_slot": "jbib",
+      "c2_drawable": 208,
+      "c2_texture": 5,
+      "result_img": "/beff/m/jbib/11_128_5.jpg"
+    }
+  },
+  {
+    "id": "m_jbib_128_6",
+    "gender": "m",
+    "slot": "jbib",
+    "drawable": 128,
+    "texture": 6,
+    "dlc": "base",
+    "img": "/beff/m/jbib/11_128_6.jpg",
+    "usedIn": [],
+    "flip": {
+      "c1_slot": "jbib",
+      "c1_drawable": 128,
+      "c1_texture": 0,
+      "c2_slot": "jbib",
+      "c2_drawable": 208,
+      "c2_texture": 6,
+      "result_img": "/beff/m/jbib/11_128_6.jpg"
+    }
+  },
+  {
+    "id": "m_jbib_128_7",
+    "gender": "m",
+    "slot": "jbib",
+    "drawable": 128,
+    "texture": 7,
+    "dlc": "base",
+    "img": "/beff/m/jbib/11_128_7.jpg",
+    "usedIn": [],
+    "flip": {
+      "c1_slot": "jbib",
+      "c1_drawable": 128,
+      "c1_texture": 0,
+      "c2_slot": "jbib",
+      "c2_drawable": 208,
+      "c2_texture": 7,
+      "result_img": "/beff/m/jbib/11_128_7.jpg"
+    }
+  },
+  {
+    "id": "m_jbib_128_8",
+    "gender": "m",
+    "slot": "jbib",
+    "drawable": 128,
+    "texture": 8,
+    "dlc": "base",
+    "img": "/beff/m/jbib/11_128_8.jpg",
+    "usedIn": [],
+    "flip": {
+      "c1_slot": "jbib",
+      "c1_drawable": 128,
+      "c1_texture": 0,
+      "c2_slot": "jbib",
+      "c2_drawable": 208,
+      "c2_texture": 8,
+      "result_img": "/beff/m/jbib/11_128_8.jpg"
+    }
+  },
+  {
+    "id": "m_jbib_128_9",
+    "gender": "m",
+    "slot": "jbib",
+    "drawable": 128,
+    "texture": 9,
+    "dlc": "base",
+    "img": "/beff/m/jbib/11_128_9.jpg",
+    "usedIn": [],
+    "flip": {
+      "c1_slot": "jbib",
+      "c1_drawable": 128,
+      "c1_texture": 0,
+      "c2_slot": "jbib",
+      "c2_drawable": 208,
+      "c2_texture": 9,
+      "result_img": "/beff/m/jbib/11_128_9.jpg"
+    }
   }
-}
 ]

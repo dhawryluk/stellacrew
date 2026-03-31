@@ -65,7 +65,10 @@ export default function BeffDetailPanel({
           {textures.map((_, t) => (
             <button
               key={t}
-              onClick={() => setActiveTex(t)}
+              onClick={() => {
+                setActiveTex(t);
+                if (textures[t]?.flip && onFlip) onFlip(textures[t]);
+              }}
               className={`relative flex-shrink-0 w-full aspect-square border-b border-white/5 overflow-hidden transition-all ${
                 activeTex === t
                   ? "ring-1 ring-inset ring-yellow-500/70"
