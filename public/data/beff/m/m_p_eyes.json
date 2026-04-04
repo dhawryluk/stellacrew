@@ -1,0 +1,5802 @@
+[
+  {
+    "drawable": 0,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 8,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 9,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 10,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 1,
+    "label": "Black Wraparounds",
+    "gxt": "G_FMM_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 0,
+    "label": "Black Winter Shades",
+    "gxt": "G_FMM_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 1,
+    "label": "White Silver Shades",
+    "gxt": "G_FMM_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 2,
+    "label": "Crimson Polarized Shades",
+    "gxt": "G_FMM_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 3,
+    "label": "Black Summer Shades",
+    "gxt": "G_FMM_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 4,
+    "label": "Black Autumn Shades",
+    "gxt": "G_FMM_2_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 5,
+    "label": "White Rust Shades",
+    "gxt": "G_FMM_2_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 6,
+    "label": "White Steel Shades",
+    "gxt": "G_FMM_2_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 7,
+    "label": "Green Polarized Shades",
+    "gxt": "G_FMM_2_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 8,
+    "label": "Shell Stank Glasses",
+    "gxt": "CLO_EXM_G_2_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 9,
+    "label": "Black Stank Glasses",
+    "gxt": "CLO_EXM_G_2_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 10,
+    "label": "White Stank Glasses",
+    "gxt": "CLO_EXM_G_2_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 0,
+    "label": "Slate Janitor Frames",
+    "gxt": "G_FMM_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 1,
+    "label": "Black Janitor Frames",
+    "gxt": "G_FMM_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 2,
+    "label": "Gray Janitor Frames",
+    "gxt": "G_FMM_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 3,
+    "label": "Ash Janitor Frames",
+    "gxt": "G_FMM_3_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 4,
+    "label": "Tan Janitor Frames",
+    "gxt": "G_FMM_3_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 5,
+    "label": "Smoke Janitor Frames",
+    "gxt": "G_FMM_3_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 6,
+    "label": "Charcoal Janitor Frames",
+    "gxt": "G_FMM_3_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 7,
+    "label": "White Janitor Frames",
+    "gxt": "G_FMM_3_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 8,
+    "label": "Shell Janitor Glasses",
+    "gxt": "CLO_EXM_G_3_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 9,
+    "label": "Black Janitor Glasses",
+    "gxt": "CLO_EXM_G_3_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 10,
+    "label": "White Janitor Glasses",
+    "gxt": "CLO_EXM_G_3_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 0,
+    "label": "Enema Brown Glasses",
+    "gxt": "G_FMM_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 1,
+    "label": "Enema Gray Glasses",
+    "gxt": "G_FMM_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 2,
+    "label": "Enema Black Glasses",
+    "gxt": "G_FMM_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 3,
+    "label": "Enema Tortoiseshell Glasses",
+    "gxt": "G_FMM_4_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 4,
+    "label": "Enema Walnut Glasses",
+    "gxt": "G_FMM_4_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 5,
+    "label": "Enema Marble Glasses",
+    "gxt": "G_FMM_4_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 6,
+    "label": "Enema Smoke Glasses",
+    "gxt": "G_FMM_4_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 7,
+    "label": "Enema Smoke Shades",
+    "gxt": "G_FMM_4_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 8,
+    "label": "Shell Enema Glasses",
+    "gxt": "CLO_EXM_G_4_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 9,
+    "label": "Black Enema Glasses",
+    "gxt": "CLO_EXM_G_4_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 10,
+    "label": "White Enema Glasses",
+    "gxt": "CLO_EXM_G_4_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 0,
+    "label": "Gold Aviators",
+    "gxt": "G_FMM_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 1,
+    "label": "Steel Aviators",
+    "gxt": "G_FMM_5_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 2,
+    "label": "Silver Aviators, Brown Tint",
+    "gxt": "G_FMM_5_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 3,
+    "label": "Gray Aviators, Green Tint",
+    "gxt": "G_FMM_5_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 4,
+    "label": "Silver Aviators, Blue Tint",
+    "gxt": "G_FMM_5_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 5,
+    "label": "Tan Aviators, Dark Tint",
+    "gxt": "G_FMM_5_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 6,
+    "label": "Steel Aviators, Blue Tint",
+    "gxt": "G_FMM_5_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 7,
+    "label": "Silver Aviators, Copper Tint",
+    "gxt": "G_FMM_5_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 8,
+    "label": "Shell Aviator Glasses",
+    "gxt": "CLO_EXM_G_5_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 9,
+    "label": "Black Aviator Glasses",
+    "gxt": "CLO_EXM_G_5_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 10,
+    "label": "White Aviator Glasses",
+    "gxt": "CLO_EXM_G_5_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 0,
+    "label": "Black Casuals",
+    "gxt": "G_FMM_7_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 1,
+    "label": "Zap Casuals",
+    "gxt": "G_FMM_7_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 2,
+    "label": "Tortoiseshell Casuals",
+    "gxt": "G_FMM_7_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 3,
+    "label": "Red Casuals",
+    "gxt": "G_FMM_7_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 4,
+    "label": "White Casuals",
+    "gxt": "G_FMM_7_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 5,
+    "label": "Camo Collection Casuals",
+    "gxt": "G_FMM_7_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 6,
+    "label": "Lemon Casuals",
+    "gxt": "G_FMM_7_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 7,
+    "label": "Blood Casuals",
+    "gxt": "G_FMM_7_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 8,
+    "label": "Shell Casual Glasses",
+    "gxt": "CLO_EXM_G_7_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 9,
+    "label": "Black Casual Glasses",
+    "gxt": "CLO_EXM_G_7_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 10,
+    "label": "White Casual Glasses",
+    "gxt": "CLO_EXM_G_7_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 0,
+    "label": "Brown Eyewear",
+    "gxt": "G_FMM_8_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 1,
+    "label": "Silver Eyewear",
+    "gxt": "G_FMM_8_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 2,
+    "label": "Gray Eyewear",
+    "gxt": "G_FMM_8_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 3,
+    "label": "Smoke Cop Frames",
+    "gxt": "G_FMM_8_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 4,
+    "label": "Coffee Cop Frames",
+    "gxt": "G_FMM_8_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 5,
+    "label": "Black Cop Frames",
+    "gxt": "G_FMM_8_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 6,
+    "label": "Slate Cop Frames",
+    "gxt": "G_FMM_8_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 7,
+    "label": "Charcoal Cop Frames",
+    "gxt": "G_FMM_8_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 8,
+    "label": "Shell Cop Glasses",
+    "gxt": "CLO_EXM_G_8_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 9,
+    "label": "Black Cop Glasses",
+    "gxt": "CLO_EXM_G_8_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 10,
+    "label": "White Cop Glasses",
+    "gxt": "CLO_EXM_G_8_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 0,
+    "label": "Hawaiian Snow Black",
+    "gxt": "G_FMM_9_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 1,
+    "label": "Hawaiian Snow Gray",
+    "gxt": "G_FMM_9_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 2,
+    "label": "Hawaiian Snow White",
+    "gxt": "G_FMM_9_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 3,
+    "label": "Hawaiian Snow Ash",
+    "gxt": "G_FMM_9_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 4,
+    "label": "Hawaiian Snow Copper",
+    "gxt": "G_FMM_9_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 5,
+    "label": "Hawaiian Snow Tortoiseshell",
+    "gxt": "G_FMM_9_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 6,
+    "label": "Hawaiian Snow Marble",
+    "gxt": "G_FMM_9_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 7,
+    "label": "Hawaiian Snow Walnut",
+    "gxt": "G_FMM_9_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 8,
+    "label": "Shell HS Glasses",
+    "gxt": "CLO_EXM_G_9_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 9,
+    "label": "Black HS Glasses",
+    "gxt": "CLO_EXM_G_9_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 10,
+    "label": "White HS Glasses",
+    "gxt": "CLO_EXM_G_9_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 0,
+    "label": "Gold Bull Emic",
+    "gxt": "G_FMM_10_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 1,
+    "label": "Gray Bull Emic",
+    "gxt": "G_FMM_10_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 2,
+    "label": "Silver Bull Emic",
+    "gxt": "G_FMM_10_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 3,
+    "label": "Black Bull Emic",
+    "gxt": "G_FMM_10_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 4,
+    "label": "Brown Bull Emic",
+    "gxt": "G_FMM_10_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 5,
+    "label": "Slate Bull Emic",
+    "gxt": "G_FMM_10_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 6,
+    "label": "White Bull Emic",
+    "gxt": "G_FMM_10_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 7,
+    "label": "Purple Tint Bull Emic",
+    "gxt": "G_FMM_10_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 8,
+    "label": "Shell Bull Emic Glasses",
+    "gxt": "CLO_EXM_G_10_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 9,
+    "label": "Black Bull Emic Glasses",
+    "gxt": "CLO_EXM_G_10_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 10,
+    "label": "White Bull Emic Glasses",
+    "gxt": "CLO_EXM_G_10_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 0,
+    "label": "Orange Elvis",
+    "gxt": "G_FMM_12_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 1,
+    "label": "Gray Elvis",
+    "gxt": "G_FMM_12_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 2,
+    "label": "Slate Elvis",
+    "gxt": "G_FMM_12_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 3,
+    "label": "Black Elvis",
+    "gxt": "G_FMM_12_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 4,
+    "label": "White Elvis",
+    "gxt": "G_FMM_12_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 5,
+    "label": "Blue Tint Elvis",
+    "gxt": "G_FMM_12_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 6,
+    "label": "Pink Tint Elvis",
+    "gxt": "G_FMM_12_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 7,
+    "label": "Copper Elvis",
+    "gxt": "G_FMM_12_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 8,
+    "label": "Shell Elvis Glasses",
+    "gxt": "CLO_EXM_G_12_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 9,
+    "label": "Black Elvis Glasses",
+    "gxt": "CLO_EXM_G_12_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 10,
+    "label": "White Elvis Glasses",
+    "gxt": "CLO_EXM_G_12_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 0,
+    "label": "Broker Black Hipsters",
+    "gxt": "G_FMM_13_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 1,
+    "label": "White Polarized Hipsters",
+    "gxt": "G_FMM_13_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 2,
+    "label": "Choco Polarized Hipsters",
+    "gxt": "G_FMM_13_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 3,
+    "label": "Slate Hipsters",
+    "gxt": "G_FMM_13_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 4,
+    "label": "Charcoal Hipsters",
+    "gxt": "G_FMM_13_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 5,
+    "label": "Olive Polarized Hipsters",
+    "gxt": "G_FMM_13_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 6,
+    "label": "Gold Polarized Hipsters",
+    "gxt": "G_FMM_13_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 7,
+    "label": "Candy Polarized Hipsters",
+    "gxt": "G_FMM_13_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 8,
+    "label": "Shell Hipster Glasses",
+    "gxt": "CLO_EXM_G_13_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 9,
+    "label": "Black Hipster Glasses",
+    "gxt": "CLO_EXM_G_13_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 10,
+    "label": "White Hipster Glasses",
+    "gxt": "CLO_EXM_G_13_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 0,
+    "label": "Yellow Guns",
+    "gxt": "G_FMM_15_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 1,
+    "label": "White Guns",
+    "gxt": "G_FMM_15_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 2,
+    "label": "Gray Guns",
+    "gxt": "G_FMM_15_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 3,
+    "label": "Red Guns",
+    "gxt": "G_FMM_15_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 4,
+    "label": "Blue Guns",
+    "gxt": "G_FMM_15_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 5,
+    "label": "Hornet Guns",
+    "gxt": "G_FMM_15_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 6,
+    "label": "Orange Guns",
+    "gxt": "G_FMM_15_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 7,
+    "label": "Pink Guns",
+    "gxt": "G_FMM_15_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 8,
+    "label": "Shell Gun Glasses",
+    "gxt": "CLO_EXM_G_15_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 9,
+    "label": "Black Gun Glasses",
+    "gxt": "CLO_EXM_G_15_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 10,
+    "label": "White Gun Glasses",
+    "gxt": "CLO_EXM_G_15_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 0,
+    "label": "Broker Pink Wraparounds",
+    "gxt": "CLO_BBM_E_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 1,
+    "label": "Broker Purple Wraparounds",
+    "gxt": "CLO_BBM_E_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 2,
+    "label": "Broker Orange Wraparounds",
+    "gxt": "CLO_BBM_E_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 3,
+    "label": "Broker Red Wraparounds",
+    "gxt": "CLO_BBM_E_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 4,
+    "label": "Broker Crimson Wraparounds",
+    "gxt": "CLO_BBM_E_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 5,
+    "label": "Broker Lime Wraparounds",
+    "gxt": "CLO_BBM_E_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 6,
+    "label": "Broker Yellow Wraparounds",
+    "gxt": "CLO_BBM_E_0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 7,
+    "label": "Shell Wraparound Glasses",
+    "gxt": "CLO_EXM_G_16_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 8,
+    "label": "Black Wraparound Glasses",
+    "gxt": "CLO_EXM_G_16_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 9,
+    "label": "White Wraparound Glasses",
+    "gxt": "CLO_EXM_G_16_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 0,
+    "label": "Silver Refined",
+    "gxt": "CLO_BUSM_G0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 1,
+    "label": "Gold Refined",
+    "gxt": "CLO_BUSM_G0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 2,
+    "label": "Brown Refined",
+    "gxt": "CLO_BUSM_G0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 3,
+    "label": "Steel Refined, Warm Tint",
+    "gxt": "CLO_BUSM_G0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 4,
+    "label": "Steel Refined, Cool Tint",
+    "gxt": "CLO_BUSM_G0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 5,
+    "label": "Hornet Refined",
+    "gxt": "CLO_BUSM_G0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 6,
+    "label": "Charcoal Refined",
+    "gxt": "CLO_BUSM_G0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 7,
+    "label": "Black Refined",
+    "gxt": "CLO_BUSM_G0_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 8,
+    "label": "Shell Refined Glasses",
+    "gxt": "CLO_EXM_G_17_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 9,
+    "label": "Black Refined Glasses",
+    "gxt": "CLO_EXM_G_17_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 10,
+    "label": "White Refined Glasses",
+    "gxt": "CLO_EXM_G_17_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 0,
+    "label": "Gold Superior",
+    "gxt": "CLO_BUSM_G1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 1,
+    "label": "Steel Superior",
+    "gxt": "CLO_BUSM_G1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 2,
+    "label": "Black Superior",
+    "gxt": "CLO_BUSM_G1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 3,
+    "label": "Silver Superior",
+    "gxt": "CLO_BUSM_G1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 4,
+    "label": "Blue Superior",
+    "gxt": "CLO_BUSM_G1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 5,
+    "label": "Bronze Superior, Warm Tint",
+    "gxt": "CLO_BUSM_G1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 6,
+    "label": "White Superior, Cool Tint",
+    "gxt": "CLO_BUSM_G1_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 7,
+    "label": "Silver Superior, Hot Tint",
+    "gxt": "CLO_BUSM_G1_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 8,
+    "label": "Shell Superior Glasses",
+    "gxt": "CLO_EXM_G_18_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 9,
+    "label": "Black Superior Glasses",
+    "gxt": "CLO_EXM_G_18_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 10,
+    "label": "White Superior Glasses",
+    "gxt": "CLO_EXM_G_18_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 0,
+    "label": "Black & Gold Trends",
+    "gxt": "CLO_HP_G_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 1,
+    "label": "Black & Silver Trends",
+    "gxt": "CLO_HP_G_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 2,
+    "label": "Silver Dipped Trends",
+    "gxt": "CLO_HP_G_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 3,
+    "label": "Green Trends",
+    "gxt": "CLO_HP_G_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 4,
+    "label": "Crimson Trends",
+    "gxt": "CLO_HP_G_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 5,
+    "label": "Orange Dipped Trends",
+    "gxt": "CLO_HP_G_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 6,
+    "label": "Gray Trends",
+    "gxt": "CLO_HP_G_0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 7,
+    "label": "White & Gold Trends",
+    "gxt": "CLO_HP_G_0_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 8,
+    "label": "Shell Trend Glasses",
+    "gxt": "CLO_EXM_G_19_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 9,
+    "label": "Black Trend Glasses",
+    "gxt": "CLO_EXM_G_19_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 10,
+    "label": "White Trend Glasses",
+    "gxt": "CLO_EXM_G_19_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 0,
+    "label": "Sunset Docks",
+    "gxt": "CLO_HP_G_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 1,
+    "label": "Brown Docks",
+    "gxt": "CLO_HP_G_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 2,
+    "label": "Black Docks",
+    "gxt": "CLO_HP_G_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 3,
+    "label": "Checked Docks",
+    "gxt": "CLO_HP_G_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 4,
+    "label": "White Docks",
+    "gxt": "CLO_HP_G_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 5,
+    "label": "Red Docks",
+    "gxt": "CLO_HP_G_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 6,
+    "label": "Crimson Docks",
+    "gxt": "CLO_HP_G_1_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 7,
+    "label": "Yellow Docks",
+    "gxt": "CLO_HP_G_1_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 8,
+    "label": "Shell Dock Glasses",
+    "gxt": "CLO_EXM_G_20_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 9,
+    "label": "Black Dock Glasses",
+    "gxt": "CLO_EXM_G_20_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 10,
+    "label": "White Dock Glasses",
+    "gxt": "CLO_EXM_G_20_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 0,
+    "label": "Star Frame Shades",
+    "gxt": "CLO_INDM_G_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 0,
+    "label": "Star Spangled Shades",
+    "gxt": "CLO_INDM_G_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 8,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 9,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 0,
+    "label": "Tan Outlaw Goggles",
+    "gxt": "CLO_BIM_PE_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 1,
+    "label": "Black Outlaw Goggles",
+    "gxt": "CLO_BIM_PE_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 2,
+    "label": "Mono Outlaw Goggles",
+    "gxt": "CLO_BIM_PE_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 3,
+    "label": "Ox Blood Outlaw Goggles",
+    "gxt": "CLO_BIM_PE_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 4,
+    "label": "Blue Outlaw Goggles",
+    "gxt": "CLO_BIM_PE_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 5,
+    "label": "Beige Outlaw Goggles",
+    "gxt": "CLO_BIM_PE_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 0,
+    "label": "Tropical Urban Ski",
+    "gxt": "CLO_BIM_PE_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 1,
+    "label": "Yellow Urban Ski",
+    "gxt": "CLO_BIM_PE_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 2,
+    "label": "Green Urban Ski",
+    "gxt": "CLO_BIM_PE_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 3,
+    "label": "Dusk Urban Ski",
+    "gxt": "CLO_BIM_PE_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 4,
+    "label": "Grayscale Urban Ski",
+    "gxt": "CLO_BIM_PE_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 5,
+    "label": "Pink Urban Ski",
+    "gxt": "CLO_BIM_PE_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 6,
+    "label": "Orange Urban Ski",
+    "gxt": "CLO_BIM_PE_1_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 7,
+    "label": "Brown Urban Ski",
+    "gxt": "CLO_BIM_PE_1_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 8,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 9,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 10,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 11,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 12,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 13,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 14,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 15,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 16,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 17,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 18,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 19,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 20,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 21,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 22,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 23,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 24,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 25,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 27,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 0,
+    "label": "Dot Fade Aviators",
+    "gxt": "CLO_VWM_PEY_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 1,
+    "label": "Orange Fade Tint Aviators",
+    "gxt": "CLO_VWM_PEY_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 2,
+    "label": "Walnut Aviators",
+    "gxt": "CLO_VWM_PEY_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 3,
+    "label": "Horizon Aviators",
+    "gxt": "CLO_VWM_PEY_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 4,
+    "label": "Purple Vine Aviators",
+    "gxt": "CLO_VWM_PEY_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 5,
+    "label": "Herringbone Aviators",
+    "gxt": "CLO_VWM_PEY_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 6,
+    "label": "Gold Tint Aviators",
+    "gxt": "CLO_VWM_PEY_0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 7,
+    "label": "Magenta Tint Aviators",
+    "gxt": "CLO_VWM_PEY_0_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 8,
+    "label": "Electric Blue Tint Aviators",
+    "gxt": "CLO_VWM_PEY_0_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 9,
+    "label": "Blue Argyle Aviators",
+    "gxt": "CLO_VWM_PEY_0_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 10,
+    "label": "Black Rim Tint Aviators",
+    "gxt": "CLO_VWM_PEY_010",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 11,
+    "label": "White Rim Tint Aviators",
+    "gxt": "CLO_VWM_PEY_011",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 0,
+    "label": "Black Deep Shades",
+    "gxt": "CLO_VWM_PEY_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 1,
+    "label": "Two Tone Deep Shades",
+    "gxt": "CLO_VWM_PEY_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 2,
+    "label": "White Deep Shades",
+    "gxt": "CLO_VWM_PEY_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 3,
+    "label": "Red Deep Shades",
+    "gxt": "CLO_VWM_PEY_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 4,
+    "label": "Aqua Deep Shades",
+    "gxt": "CLO_VWM_PEY_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 5,
+    "label": "Green Deep Shades",
+    "gxt": "CLO_VWM_PEY_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 6,
+    "label": "Green Urban Deep Shades",
+    "gxt": "CLO_VWM_PEY_1_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 7,
+    "label": "Pink Urban Deep Shades",
+    "gxt": "CLO_VWM_PEY_1_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 8,
+    "label": "Digital Deep Shades",
+    "gxt": "CLO_VWM_PEY_1_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 9,
+    "label": "Splinter Deep Shades",
+    "gxt": "CLO_VWM_PEY_1_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 10,
+    "label": "Zebra Deep Shades",
+    "gxt": "CLO_VWM_PEY_110",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 11,
+    "label": "Houndstooth Deep Shades",
+    "gxt": "CLO_VWM_PEY_111",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 12,
+    "label": "Mute Deep Shades",
+    "gxt": "CLO_VWM_PEY_112",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 13,
+    "label": "Sunrise Deep Shades",
+    "gxt": "CLO_VWM_PEY_113",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 14,
+    "label": "Striped Deep Shades",
+    "gxt": "CLO_VWM_PEY_114",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 15,
+    "label": "Mono Deep Shades",
+    "gxt": "CLO_VWM_PEY_115",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 16,
+    "label": "Black Fame or Shame Shades",
+    "gxt": "CLO_VWM_PEY_116",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 17,
+    "label": "Red Fame or Shame Shades",
+    "gxt": "CLO_VWM_PEY_117",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 18,
+    "label": "Blue Fame or Shame Shades",
+    "gxt": "CLO_VWM_PEY_118",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 19,
+    "label": "White Fame or Shame Shades",
+    "gxt": "CLO_VWM_PEY_119",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 0,
+    "label": "Blue & Pink Glow Shades",
+    "gxt": "CLO_H4M_PEY_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 1,
+    "label": "Red Glow Shades",
+    "gxt": "CLO_H4M_PEY_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 2,
+    "label": "Orange Glow Shades",
+    "gxt": "CLO_H4M_PEY_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 3,
+    "label": "Yellow Glow Shades",
+    "gxt": "CLO_H4M_PEY_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 4,
+    "label": "Green Glow Shades",
+    "gxt": "CLO_H4M_PEY_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 5,
+    "label": "Blue Glow Shades",
+    "gxt": "CLO_H4M_PEY_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 6,
+    "label": "Pink Glow Shades",
+    "gxt": "CLO_H4M_PEY_0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 7,
+    "label": "Blue & Magenta Glow Shades",
+    "gxt": "CLO_H4M_PEY_0_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 8,
+    "label": "Purple & Yellow Glow Shades",
+    "gxt": "CLO_H4M_PEY_0_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 9,
+    "label": "Blue & Yellow Glow Shades",
+    "gxt": "CLO_H4M_PEY_0_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 10,
+    "label": "Pink & Yellow Glow Shades",
+    "gxt": "CLO_H4M_PEY_010",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 11,
+    "label": "Red & Yellow Glow Shades",
+    "gxt": "CLO_H4M_PEY_011",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 0,
+    "label": "Midnight Tint Oversize Shades",
+    "gxt": "CLO_H4M_PEY_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 1,
+    "label": "Sunset Tint Oversize Shades",
+    "gxt": "CLO_H4M_PEY_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 2,
+    "label": "Black Tint Oversize Shades",
+    "gxt": "CLO_H4M_PEY_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 3,
+    "label": "Blue Tint Oversize Shades",
+    "gxt": "CLO_H4M_PEY_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 4,
+    "label": "Gold Tint Oversize Shades",
+    "gxt": "CLO_H4M_PEY_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 5,
+    "label": "Green Tint Oversize Shades",
+    "gxt": "CLO_H4M_PEY_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 6,
+    "label": "Orange Tint Oversize Shades",
+    "gxt": "CLO_H4M_PEY_1_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 7,
+    "label": "Red Tint Oversize Shades",
+    "gxt": "CLO_H4M_PEY_1_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 8,
+    "label": "Pink Tint Oversize Shades",
+    "gxt": "CLO_H4M_PEY_1_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 9,
+    "label": "Yellow Tint Oversize Shades",
+    "gxt": "CLO_H4M_PEY_1_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 10,
+    "label": "Lemon Tint Oversize Shades",
+    "gxt": "CLO_H4M_PEY_110",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 11,
+    "label": "Gold Rimmed Oversize Shades",
+    "gxt": "CLO_H4M_PEY_111",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 0,
+    "label": "White Checked Round Shades",
+    "gxt": "CLO_H4M_PEY_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 1,
+    "label": "Pink Checked Round Shades",
+    "gxt": "CLO_H4M_PEY_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 2,
+    "label": "Yellow Checked Round Shades",
+    "gxt": "CLO_H4M_PEY_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 3,
+    "label": "Red Checked Round Shades",
+    "gxt": "CLO_H4M_PEY_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 4,
+    "label": "White Round Shades",
+    "gxt": "CLO_H4M_PEY_2_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 5,
+    "label": "Black Round Shades",
+    "gxt": "CLO_H4M_PEY_2_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 6,
+    "label": "Pink Tinted Round Shades",
+    "gxt": "CLO_H4M_PEY_2_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 7,
+    "label": "Blue Tinted Round Shades",
+    "gxt": "CLO_H4M_PEY_2_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 8,
+    "label": "Green Checked Round Shades",
+    "gxt": "CLO_H4M_PEY_2_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 9,
+    "label": "Blue Checked Round Shades",
+    "gxt": "CLO_H4M_PEY_2_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 10,
+    "label": "Orange Checked Round Shades",
+    "gxt": "CLO_H4M_PEY_210",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 11,
+    "label": "Green Tinted Round Shades",
+    "gxt": "CLO_H4M_PEY_211",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 0,
+    "label": "Brown Square Shades",
+    "gxt": "CLO_H4M_PEY_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 1,
+    "label": "Yellow Square Shades",
+    "gxt": "CLO_H4M_PEY_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 2,
+    "label": "Black Square Shades",
+    "gxt": "CLO_H4M_PEY_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 3,
+    "label": "Tortoiseshell Square Shades",
+    "gxt": "CLO_H4M_PEY_3_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 4,
+    "label": "Green Square Shades",
+    "gxt": "CLO_H4M_PEY_3_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 5,
+    "label": "Red Square Shades",
+    "gxt": "CLO_H4M_PEY_3_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 6,
+    "label": "Pink Tinted Square Shades",
+    "gxt": "CLO_H4M_PEY_3_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 7,
+    "label": "Blue Tinted Square Shades",
+    "gxt": "CLO_H4M_PEY_3_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 8,
+    "label": "White Square Shades",
+    "gxt": "CLO_H4M_PEY_3_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 9,
+    "label": "Pink Square Shades",
+    "gxt": "CLO_H4M_PEY_3_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 10,
+    "label": "All White Square Shades",
+    "gxt": "CLO_H4M_PEY_310",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 11,
+    "label": "Mono Square Shades",
+    "gxt": "CLO_H4M_PEY_311",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 0,
+    "label": "Black Round",
+    "gxt": "CLO_FXM_PE_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 1,
+    "label": "Silver Round",
+    "gxt": "CLO_FXM_PE_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 2,
+    "label": "Gold Round",
+    "gxt": "CLO_FXM_PE_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 3,
+    "label": "Rose Round",
+    "gxt": "CLO_FXM_PE_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 4,
+    "label": "Tortoiseshell Round",
+    "gxt": "CLO_FXM_PE_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 5,
+    "label": "Gold Framed Round",
+    "gxt": "CLO_FXM_PE_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 6,
+    "label": "Blue Framed Round",
+    "gxt": "CLO_FXM_PE_0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 7,
+    "label": "Tortoiseshell & Silver Round",
+    "gxt": "CLO_FXM_PE_0_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 8,
+    "label": "Tortoiseshell & Gold Round",
+    "gxt": "CLO_FXM_PE_0_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 9,
+    "label": "Gray Tortoiseshell Round",
+    "gxt": "CLO_FXM_PE_0_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 10,
+    "label": "Gold Swirl Round",
+    "gxt": "CLO_FXM_PE_0_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 11,
+    "label": "Gold Fade Round",
+    "gxt": "CLO_FXM_PE_0_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 0,
+    "label": "Black Square",
+    "gxt": "CLO_FXM_PE_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 1,
+    "label": "Silver Square",
+    "gxt": "CLO_FXM_PE_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 2,
+    "label": "Gold Square",
+    "gxt": "CLO_FXM_PE_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 3,
+    "label": "Rose Square",
+    "gxt": "CLO_FXM_PE_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 4,
+    "label": "Black & Red Square",
+    "gxt": "CLO_FXM_PE_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 5,
+    "label": "Black & Brown Square",
+    "gxt": "CLO_FXM_PE_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 6,
+    "label": "Black & Blue Square",
+    "gxt": "CLO_FXM_PE_1_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 7,
+    "label": "Tortoiseshell & Brown Square",
+    "gxt": "CLO_FXM_PE_1_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 8,
+    "label": "Gold & Tortoiseshell Square",
+    "gxt": "CLO_FXM_PE_1_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 9,
+    "label": "Gray Tortoiseshell Square",
+    "gxt": "CLO_FXM_PE_1_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 10,
+    "label": "Tortoiseshell Square",
+    "gxt": "CLO_FXM_PE_1_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 11,
+    "label": "Pink & Black Square",
+    "gxt": "CLO_FXM_PE_1_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 0,
+    "label": "Black Cat Eye",
+    "gxt": "CLO_FXM_PE_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 1,
+    "label": "Silver Cat Eye",
+    "gxt": "CLO_FXM_PE_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 2,
+    "label": "Gold Cat Eye",
+    "gxt": "CLO_FXM_PE_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 3,
+    "label": "Tortoiseshell Cat Eye",
+    "gxt": "CLO_FXM_PE_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 4,
+    "label": "Black & Green Cat Eye",
+    "gxt": "CLO_FXM_PE_2_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 5,
+    "label": "Dark Tortoiseshell Cat Eye",
+    "gxt": "CLO_FXM_PE_2_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 6,
+    "label": "Black & Teal Cat Eye",
+    "gxt": "CLO_FXM_PE_2_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 7,
+    "label": "Black & Red Cat Eye",
+    "gxt": "CLO_FXM_PE_2_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 8,
+    "label": "Gold & Black Cat Eye",
+    "gxt": "CLO_FXM_PE_2_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 9,
+    "label": "Navy Cat Eye",
+    "gxt": "CLO_FXM_PE_2_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 10,
+    "label": "Pink & Black Cat Eye",
+    "gxt": "CLO_FXM_PE_2_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 11,
+    "label": "Gold Tortoiseshell Cat Eye",
+    "gxt": "CLO_FXM_PE_2_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 0,
+    "label": "Black Rectangular",
+    "gxt": "CLO_FXM_PE_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 1,
+    "label": "Silver Rectangular",
+    "gxt": "CLO_FXM_PE_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 2,
+    "label": "Gold Rectangular",
+    "gxt": "CLO_FXM_PE_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 3,
+    "label": "Light Tortoiseshell Rectangular",
+    "gxt": "CLO_FXM_PE_3_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 4,
+    "label": "Claret Tortoiseshell Rectangular",
+    "gxt": "CLO_FXM_PE_3_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 5,
+    "label": "Blue Rectangular",
+    "gxt": "CLO_FXM_PE_3_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 6,
+    "label": "Gray & Red Rectangular",
+    "gxt": "CLO_FXM_PE_3_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 7,
+    "label": "Teal Fade Rectangular",
+    "gxt": "CLO_FXM_PE_3_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 8,
+    "label": "Yellow Rectangular",
+    "gxt": "CLO_FXM_PE_3_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 9,
+    "label": "Green Rectangular",
+    "gxt": "CLO_FXM_PE_3_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 10,
+    "label": "Red Fade Rectangular",
+    "gxt": "CLO_FXM_PE_3_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 11,
+    "label": "Dark Tortoiseshell Rectangular",
+    "gxt": "CLO_FXM_PE_3_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 0,
+    "label": "Black Ergonomic",
+    "gxt": "CLO_FXM_PE_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 1,
+    "label": "Silver Ergonomic",
+    "gxt": "CLO_FXM_PE_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 2,
+    "label": "Gold Ergonomic",
+    "gxt": "CLO_FXM_PE_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 3,
+    "label": "Tortoiseshell Ergonomic",
+    "gxt": "CLO_FXM_PE_4_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 4,
+    "label": "Green Ergonomic",
+    "gxt": "CLO_FXM_PE_4_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 5,
+    "label": "Dark Tortoiseshell Ergonomic",
+    "gxt": "CLO_FXM_PE_4_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 6,
+    "label": "Teal Ergonomic",
+    "gxt": "CLO_FXM_PE_4_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 7,
+    "label": "Red Ergonomic",
+    "gxt": "CLO_FXM_PE_4_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 8,
+    "label": "Gold & Black Ergonomic",
+    "gxt": "CLO_FXM_PE_4_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 9,
+    "label": "Blue Ergonomic",
+    "gxt": "CLO_FXM_PE_4_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 10,
+    "label": "Pink Ergonomic",
+    "gxt": "CLO_FXM_PE_4_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 11,
+    "label": "Tiger Ergonomic",
+    "gxt": "CLO_FXM_PE_4_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 0,
+    "label": "Black Retro Round",
+    "gxt": "CLO_FXM_PE_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 1,
+    "label": "Silver Retro Round",
+    "gxt": "CLO_FXM_PE_5_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 2,
+    "label": "Gold Retro Round",
+    "gxt": "CLO_FXM_PE_5_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 3,
+    "label": "Rose Retro Round",
+    "gxt": "CLO_FXM_PE_5_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 4,
+    "label": "Black & Pink Retro Round",
+    "gxt": "CLO_FXM_PE_5_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 5,
+    "label": "Black & Brown Retro Round",
+    "gxt": "CLO_FXM_PE_5_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 6,
+    "label": "Black & Navy Retro Round",
+    "gxt": "CLO_FXM_PE_5_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 7,
+    "label": "Tortoiseshell Rim Retro Round",
+    "gxt": "CLO_FXM_PE_5_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 8,
+    "label": "Gold & Tortoiseshell Retro Round",
+    "gxt": "CLO_FXM_PE_5_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 9,
+    "label": "Black Tortoiseshell Retro Round",
+    "gxt": "CLO_FXM_PE_5_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 10,
+    "label": "Tortoiseshell Retro Round",
+    "gxt": "CLO_FXM_PE_5_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 11,
+    "label": "Gold & Black Retro Round",
+    "gxt": "CLO_FXM_PE_5_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 8,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 9,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 10,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 11,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 12,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 13,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 14,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 15,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 16,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 17,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 18,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 19,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 0,
+    "label": "Mono Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 1,
+    "label": "Gray Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 2,
+    "label": "Ash Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 3,
+    "label": "White Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 4,
+    "label": "Red Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 5,
+    "label": "Navy Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 6,
+    "label": "Green Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 7,
+    "label": "Moss Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 8,
+    "label": "Olive Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 9,
+    "label": "Dark Tan Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 10,
+    "label": "Desert Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 11,
+    "label": "Tan Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 12,
+    "label": "Light Woodland Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_12",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 13,
+    "label": "Flecktarn Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_13",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 14,
+    "label": "Peach Camo Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_14",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 15,
+    "label": "Contrast Camo Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_15",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 16,
+    "label": "Aqua Camo Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_16",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 17,
+    "label": "Olive Digital Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_17",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 18,
+    "label": "Brown Digital Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_18",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 19,
+    "label": "Fall Tactical Goggles",
+    "gxt": "CLO_SBM_PE_1_19",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 0,
+    "label": "Black Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 1,
+    "label": "White Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 2,
+    "label": "Magenta Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 3,
+    "label": "Red Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 4,
+    "label": "Orange Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 5,
+    "label": "Mustard Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 6,
+    "label": "Lemon Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 7,
+    "label": "Blue Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_0_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 8,
+    "label": "Cyan Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_0_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 9,
+    "label": "Green Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_0_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 10,
+    "label": "Lime Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_010",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 11,
+    "label": "Lavender Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_011",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 12,
+    "label": "Purple Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_012",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 13,
+    "label": "Tortoiseshell Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_013",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 14,
+    "label": "Orange Tint Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_014",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 15,
+    "label": "Blue Tint Cat Eye Shades",
+    "gxt": "CLO_X6M_EY_015",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 43,
+    "texture": 0,
+    "label": "Red Manor Round Brow Shades",
+    "gxt": "CLO_X6M_EY_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 0,
+    "label": "Gold New Year Glasses",
+    "gxt": "CLO_X6M_EY_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 1,
+    "label": "Silver New Year Glasses",
+    "gxt": "CLO_X6M_EY_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 2,
+    "label": "Rainbow New Year Glasses",
+    "gxt": "CLO_X6M_EY_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 0,
+    "label": "Black Bigness Wraps",
+    "gxt": "CLO_X6M_EY_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 1,
+    "label": "Purple Bigness Wraps",
+    "gxt": "CLO_X6M_EY_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 2,
+    "label": "White Bigness Wraps",
+    "gxt": "CLO_X6M_EY_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 3,
+    "label": "Zebra Bigness Wraps",
+    "gxt": "CLO_X6M_EY_3_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 4,
+    "label": "Pink Zebra Bigness Wraps",
+    "gxt": "CLO_X6M_EY_3_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 5,
+    "label": "Blue DS Wraps",
+    "gxt": "CLO_X6M_EY_3_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 6,
+    "label": "Green Flames Wraps",
+    "gxt": "CLO_X6M_EY_3_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 7,
+    "label": "Orange Flames Wraps",
+    "gxt": "CLO_X6M_EY_3_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 8,
+    "label": "Pink Flames Wraps",
+    "gxt": "CLO_X6M_EY_3_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 9,
+    "label": "Purple Flames Wraps",
+    "gxt": "CLO_X6M_EY_3_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 10,
+    "label": "Red Flames Wraps",
+    "gxt": "CLO_X6M_EY_3_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 11,
+    "label": "Magenta Leopard Güffy Wraps",
+    "gxt": "CLO_X6M_EY_3_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 12,
+    "label": "Cyan Leopard Güffy Wraps",
+    "gxt": "CLO_X6M_EY_3_12",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 13,
+    "label": "Moss Leopard Güffy Wraps",
+    "gxt": "CLO_X6M_EY_3_13",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 14,
+    "label": "Blue Lightning Wraps",
+    "gxt": "CLO_X6M_EY_3_14",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 15,
+    "label": "White Lightning Wraps",
+    "gxt": "CLO_X6M_EY_3_15",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 16,
+    "label": "Green Lightning Wraps",
+    "gxt": "CLO_X6M_EY_3_16",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 17,
+    "label": "Orange Lightning Wraps",
+    "gxt": "CLO_X6M_EY_3_17",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 18,
+    "label": "Purple Lightning Wraps",
+    "gxt": "CLO_X6M_EY_3_18",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 19,
+    "label": "Pink Lightning Wraps",
+    "gxt": "CLO_X6M_EY_3_19",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 20,
+    "label": "Gray Camo Sand Castle Wraps",
+    "gxt": "CLO_X6M_EY_3_20",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 21,
+    "label": "Aqua Camo Sand Castle Wraps",
+    "gxt": "CLO_X6M_EY_3_21",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 22,
+    "label": "Gray Dazzle Sand Castle Wraps",
+    "gxt": "CLO_X6M_EY_3_22",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 23,
+    "label": "Aqua Dazzle Sand Castle Wraps",
+    "gxt": "CLO_X6M_EY_3_23",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 24,
+    "label": "Black SC Coin Wraps",
+    "gxt": "CLO_X6M_EY_3_24",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 25,
+    "label": "Blue SC Coin Wraps",
+    "gxt": "CLO_X6M_EY_3_25",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 46,
+    "texture": 0,
+    "label": "Lime SC Coin Wraps",
+    "gxt": "CLO_X6M_EY_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 46,
+    "texture": 1,
+    "label": "Pink SC Coin Wraps",
+    "gxt": "CLO_X6M_EY_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 46,
+    "texture": 2,
+    "label": "Red SC Coin Wraps",
+    "gxt": "CLO_X6M_EY_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 46,
+    "texture": 3,
+    "label": "White SC Coin Wraps",
+    "gxt": "CLO_X6M_EY_4_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 0,
+    "label": "Zebra Bigness Shades",
+    "gxt": "CLO_SCM_EY_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 1,
+    "label": "Pink Bigness Zebra Shades",
+    "gxt": "CLO_SCM_EY_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 2,
+    "label": "Green Flames Shades",
+    "gxt": "CLO_SCM_EY_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 3,
+    "label": "Orange Flames Shades",
+    "gxt": "CLO_SCM_EY_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 4,
+    "label": "Pink Flames Shades",
+    "gxt": "CLO_SCM_EY_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 5,
+    "label": "Purple Flames Shades",
+    "gxt": "CLO_SCM_EY_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 6,
+    "label": "Red Flames Shades",
+    "gxt": "CLO_SCM_EY_0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 7,
+    "label": "Black Le Chien Shades",
+    "gxt": "CLO_SCM_EY_0_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 8,
+    "label": "Teal Le Chien Shades",
+    "gxt": "CLO_SCM_EY_0_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 9,
+    "label": "Red Le Chien Shades",
+    "gxt": "CLO_SCM_EY_0_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 10,
+    "label": "White Le Chien Shades",
+    "gxt": "CLO_SCM_EY_0_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 11,
+    "label": "Blue Lightning Shades",
+    "gxt": "CLO_SCM_EY_0_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 12,
+    "label": "Gray Lightning Shades",
+    "gxt": "CLO_SCM_EY_0_12",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 13,
+    "label": "Green Lightning Shades",
+    "gxt": "CLO_SCM_EY_0_13",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 14,
+    "label": "Orange Lightning Shades",
+    "gxt": "CLO_SCM_EY_0_14",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 15,
+    "label": "Purple Lightning Shades",
+    "gxt": "CLO_SCM_EY_0_15",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 16,
+    "label": "Red Lightning Shades",
+    "gxt": "CLO_SCM_EY_0_16",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 17,
+    "label": "White Leopard Slab Shades",
+    "gxt": "CLO_SCM_EY_0_17",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 18,
+    "label": "Blue Leopard Slab Shades",
+    "gxt": "CLO_SCM_EY_0_18",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 19,
+    "label": "Lemon Leopard Slab Shades",
+    "gxt": "CLO_SCM_EY_0_19",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 20,
+    "label": "Tortoiseshell Shades",
+    "gxt": "CLO_SCM_EY_0_20",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 21,
+    "label": "Orange Marble Shades",
+    "gxt": "CLO_SCM_EY_0_21",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 22,
+    "label": "Dark Tortoiseshell Shades",
+    "gxt": "CLO_SCM_EY_0_22",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 23,
+    "label": "Camo Yeti Shades",
+    "gxt": "CLO_SCM_EY_0_23",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 24,
+    "label": "Gray Camo Yeti Shades",
+    "gxt": "CLO_SCM_EY_0_24",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 25,
+    "label": "Pink Camo Yeti Shades",
+    "gxt": "CLO_SCM_EY_0_25",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 0,
+    "label": "Black Feline Shades",
+    "gxt": "CLO_SCM_EY_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 1,
+    "label": "White Feline Shades",
+    "gxt": "CLO_SCM_EY_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 2,
+    "label": "Hot Pink Feline Shades",
+    "gxt": "CLO_SCM_EY_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 3,
+    "label": "Scarlet Feline Shades",
+    "gxt": "CLO_SCM_EY_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 4,
+    "label": "Orange Feline Shades",
+    "gxt": "CLO_SCM_EY_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 5,
+    "label": "Amber Feline Shades",
+    "gxt": "CLO_SCM_EY_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 6,
+    "label": "Lemon Feline Shades",
+    "gxt": "CLO_SCM_EY_1_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 7,
+    "label": "Blue Feline Shades",
+    "gxt": "CLO_SCM_EY_1_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 8,
+    "label": "Cyan Feline Shades",
+    "gxt": "CLO_SCM_EY_1_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 9,
+    "label": "Emerald Feline Shades",
+    "gxt": "CLO_SCM_EY_1_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 10,
+    "label": "Lime Feline Shades",
+    "gxt": "CLO_SCM_EY_1_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 11,
+    "label": "Lavender Feline Shades",
+    "gxt": "CLO_SCM_EY_1_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 12,
+    "label": "Magenta Feline Shades",
+    "gxt": "CLO_SCM_EY_1_12",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 13,
+    "label": "Tortoiseshell Feline Shades",
+    "gxt": "CLO_SCM_EY_1_13",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 14,
+    "label": "Dark Tortoiseshell Feline Shades",
+    "gxt": "CLO_SCM_EY_1_14",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 49,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 50,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 0,
+    "label": "Silver/Black Octagonal",
+    "gxt": "CLO_SCM_EY_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 1,
+    "label": "Dark Silver/Black Octagonal",
+    "gxt": "CLO_SCM_EY_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 2,
+    "label": "Gold/Black Octagonal",
+    "gxt": "CLO_SCM_EY_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 3,
+    "label": "Rose Gold/Black Octagonal",
+    "gxt": "CLO_SCM_EY_4_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 4,
+    "label": "Copper/Green Octagonal",
+    "gxt": "CLO_SCM_EY_4_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 5,
+    "label": "Gold/Orange Octagonal",
+    "gxt": "CLO_SCM_EY_4_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 6,
+    "label": "Gold/Blue Octagonal",
+    "gxt": "CLO_SCM_EY_4_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 7,
+    "label": "Gold/Green Octagonal",
+    "gxt": "CLO_SCM_EY_4_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 8,
+    "label": "Rose Gold/Pink Octagonal",
+    "gxt": "CLO_SCM_EY_4_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 52,
+    "texture": 0,
+    "label": "Junk Energy Goggles",
+    "gxt": "CLO_SCM_EY_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 53,
+    "texture": 0,
+    "label": "Pink Heart Shades",
+    "gxt": "CLO_X7M_PE_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 53,
+    "texture": 1,
+    "label": "Red Heart Shades",
+    "gxt": "CLO_X7M_PE_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 53,
+    "texture": 2,
+    "label": "Orange Heart Shades",
+    "gxt": "CLO_X7M_PE_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 53,
+    "texture": 3,
+    "label": "Yellow Heart Shades",
+    "gxt": "CLO_X7M_PE_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 53,
+    "texture": 4,
+    "label": "Green Heart Shades",
+    "gxt": "CLO_X7M_PE_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 53,
+    "texture": 5,
+    "label": "Blue Heart Shades",
+    "gxt": "CLO_X7M_PE_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 53,
+    "texture": 6,
+    "label": "Purple Heart Shades",
+    "gxt": "CLO_X7M_PE_0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 53,
+    "texture": 7,
+    "label": "Black Heart Shades",
+    "gxt": "CLO_X7M_PE_0_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 54,
+    "texture": 0,
+    "label": "Black Retro Aviator Shades",
+    "gxt": "CLO_X7M_PE_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 54,
+    "texture": 1,
+    "label": "Shell Retro Aviator Shades",
+    "gxt": "CLO_X7M_PE_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 55,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 55,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 55,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 55,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 0,
+    "label": "Gold & Black Round",
+    "gxt": "CLO_SDM_PE_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 1,
+    "label": "Brown & Gold Round",
+    "gxt": "CLO_SDM_PE_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 2,
+    "label": "Gold & Red Round",
+    "gxt": "CLO_SDM_PE_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 3,
+    "label": "Silver & Black Round",
+    "gxt": "CLO_SDM_PE_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 4,
+    "label": "Silver & Pink Round",
+    "gxt": "CLO_SDM_PE_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 5,
+    "label": "Silver & Aqua Round",
+    "gxt": "CLO_SDM_PE_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 6,
+    "label": "Dark Silver & Black Round",
+    "gxt": "CLO_SDM_PE_0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 7,
+    "label": "Black & Indigo Round",
+    "gxt": "CLO_SDM_PE_0_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 8,
+    "label": "Dark Silver & Green Round",
+    "gxt": "CLO_SDM_PE_0_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 57,
+    "texture": 0,
+    "label": "Black Shields",
+    "gxt": "CLO_SDM_PE_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 57,
+    "texture": 1,
+    "label": "Black & Amber Shields",
+    "gxt": "CLO_SDM_PE_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 57,
+    "texture": 2,
+    "label": "Black & Yellow Shields",
+    "gxt": "CLO_SDM_PE_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 57,
+    "texture": 3,
+    "label": "White & Gray Shields",
+    "gxt": "CLO_SDM_PE_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 57,
+    "texture": 4,
+    "label": "White & Amber Shields",
+    "gxt": "CLO_SDM_PE_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 57,
+    "texture": 5,
+    "label": "White & Yellow Shields",
+    "gxt": "CLO_SDM_PE_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 57,
+    "texture": 6,
+    "label": "Black Tortoiseshell Shields",
+    "gxt": "CLO_SDM_PE_1_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 57,
+    "texture": 7,
+    "label": "Amber Tortoiseshell Shields",
+    "gxt": "CLO_SDM_PE_1_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 58,
+    "texture": 0,
+    "label": "Black Sunrise Shields",
+    "gxt": "CLO_SDM_PE_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 58,
+    "texture": 1,
+    "label": "Black Twilight Shields",
+    "gxt": "CLO_SDM_PE_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 58,
+    "texture": 2,
+    "label": "White Sunrise Shields",
+    "gxt": "CLO_SDM_PE_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 58,
+    "texture": 3,
+    "label": "White Twilight Shields",
+    "gxt": "CLO_SDM_PE_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  }
+]

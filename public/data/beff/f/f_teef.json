@@ -1,0 +1,5692 @@
+[
+  {
+    "drawable": 0,
+    "texture": 0,
+    "label": "None",
+    "gxt": "T_FMF_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 0,
+    "label": "Gold Deco Earrings",
+    "gxt": "T_FMF_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 1,
+    "label": "Silver Deco Earrings",
+    "gxt": "T_FMF_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 2,
+    "label": "Pearl Deco Earrings",
+    "gxt": "T_FMF_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 3,
+    "label": "Copper Deco Earrings",
+    "gxt": "T_FMF_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 4,
+    "label": "B&W Deco Earrings",
+    "gxt": "T_FMF_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 5,
+    "label": "Blue Striped Deco Earrings",
+    "gxt": "T_FMF_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 0,
+    "label": "Gold Hoop Earrings",
+    "gxt": "T_FMF_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 1,
+    "label": "Silver Hoop Earrings",
+    "gxt": "T_FMF_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 2,
+    "label": "Pink Hoop Earrings",
+    "gxt": "T_FMF_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 3,
+    "label": "Copper Hoop Earrings",
+    "gxt": "T_FMF_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 4,
+    "label": "Purple Hoop Earrings",
+    "gxt": "T_FMF_2_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 5,
+    "label": "White Hoop Earrings",
+    "gxt": "T_FMF_2_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 0,
+    "label": "Harsh Souls Sweatband",
+    "gxt": "T_FMF_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 1,
+    "label": "Prolaps Sweatband",
+    "gxt": "T_FMF_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 2,
+    "label": "LC Sweatband",
+    "gxt": "T_FMF_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 3,
+    "label": "Aqua Striped Sweatband",
+    "gxt": "T_FMF_3_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 4,
+    "label": "Pink Check Sweatband",
+    "gxt": "T_FMF_3_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 5,
+    "label": "Squeezers Sweatband",
+    "gxt": "T_FMF_3_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 2,
+    "label": "Zebra Bangles",
+    "gxt": "T_FMF_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 3,
+    "label": "Gold Bangles",
+    "gxt": "T_FMF_4_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 4,
+    "label": "White Leather Straps",
+    "gxt": "T_FMF_5_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 5,
+    "label": "Rainbow Leather Straps",
+    "gxt": "T_FMF_5_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 0,
+    "label": "Onyx Pendant",
+    "gxt": "T_FMF_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 1,
+    "label": "Pearl Pendant",
+    "gxt": "T_FMF_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 2,
+    "label": "Jade Pendant",
+    "gxt": "T_FMF_6_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 3,
+    "label": "Carnelian Pendant",
+    "gxt": "T_FMF_6_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 4,
+    "label": "Aquamarine Pendant",
+    "gxt": "T_FMF_6_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 5,
+    "label": "Amethyst Pendant",
+    "gxt": "T_FMF_6_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 0,
+    "label": "Gold Necklace",
+    "gxt": "T_FMF_7_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 1,
+    "label": "Silver Necklace",
+    "gxt": "T_FMF_7_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 0,
+    "label": "Black Tassel Scarf",
+    "gxt": "T_FMF_9_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 0,
+    "label": "Floral Bangles",
+    "gxt": "CLO_BBF_T_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 1,
+    "label": "MyMy Psychedelic Bangles",
+    "gxt": "CLO_BBF_T_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 2,
+    "label": "Green Bangles",
+    "gxt": "CLO_BBF_T_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 3,
+    "label": "Red Bangles",
+    "gxt": "CLO_BBF_T_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 0,
+    "label": "MyMy Black Heart Necklace",
+    "gxt": "CLO_BBF_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 1,
+    "label": "MyMy Pink Heart Necklace",
+    "gxt": "CLO_BBF_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 2,
+    "label": "Rose Heart Necklace",
+    "gxt": "CLO_BBF_T_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 3,
+    "label": "All Silver Heart Necklace",
+    "gxt": "CLO_BBF_T_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 0,
+    "label": "White Beads",
+    "gxt": "CLO_VALF_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 1,
+    "label": "Silver Beads",
+    "gxt": "CLO_VALF_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 2,
+    "label": "Black Beads",
+    "gxt": "CLO_VALF_T_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 0,
+    "label": "Spotted Bow Scarf",
+    "gxt": "CLO_BUSF_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 1,
+    "label": "Floral Bow Scarf",
+    "gxt": "CLO_BUSF_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 2,
+    "label": "Pink Bow Scarf",
+    "gxt": "CLO_BUSF_T_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 3,
+    "label": "Red Bow Scarf",
+    "gxt": "CLO_BUSF_T_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 4,
+    "label": "Leopard Bow Scarf",
+    "gxt": "CLO_BUSF_T_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 5,
+    "label": "White Bow Scarf",
+    "gxt": "CLO_BUSF_T_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 0,
+    "label": "Black & White Leather Straps",
+    "gxt": "CLO_HP_F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 1,
+    "label": "Summer Leather Straps",
+    "gxt": "CLO_HP_F_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 2,
+    "label": "Candy Leather Straps",
+    "gxt": "CLO_HP_F_T_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 3,
+    "label": "Pink Check Leather Straps",
+    "gxt": "CLO_HP_F_T_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 0,
+    "label": "Red Tassel Scarf",
+    "gxt": "CLO_HP_F_T_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 1,
+    "label": "Purple Tassel Scarf",
+    "gxt": "CLO_HP_F_T_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 2,
+    "label": "Olive Tassel Scarf",
+    "gxt": "CLO_HP_F_T_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 3,
+    "label": "Pink Tassel Scarf",
+    "gxt": "CLO_HP_F_T_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 4,
+    "label": "Teal Tassel Scarf",
+    "gxt": "CLO_HP_F_T_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 0,
+    "label": "Stripy Scarf",
+    "gxt": "CLO_X2F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 1,
+    "label": "Joy Scarf",
+    "gxt": "CLO_X2F_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 2,
+    "label": "Snowflake Scarf",
+    "gxt": "CLO_X2F_T_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 3,
+    "label": "Storm Scarf",
+    "gxt": "CLO_X2F_T_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 0,
+    "label": "Stripy Scarf",
+    "gxt": "CLO_X2F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 1,
+    "label": "Joy Scarf",
+    "gxt": "CLO_X2F_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 2,
+    "label": "Snowflake Scarf",
+    "gxt": "CLO_X2F_T_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 3,
+    "label": "Storm Scarf",
+    "gxt": "CLO_X2F_T_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 0,
+    "label": "Black Loose Bow Tie",
+    "gxt": "CLO_HSTF_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 0,
+    "label": "Charcoal Loose Tie",
+    "gxt": "CLO_HSTF_T_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 1,
+    "label": "Khaki Hatch Loose Tie",
+    "gxt": "CLO_HSTF_T_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 2,
+    "label": "White Stripy Loose Tie",
+    "gxt": "CLO_HSTF_T_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 3,
+    "label": "Green Loose Tie",
+    "gxt": "CLO_HSTF_T_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 4,
+    "label": "Purple Diamond Loose Tie",
+    "gxt": "CLO_HSTF_T_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 5,
+    "label": "Fuchsia Loose Tie",
+    "gxt": "CLO_HSTF_T_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 6,
+    "label": "Gray Diamond Loose Tie",
+    "gxt": "CLO_HSTF_T_1_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 7,
+    "label": "Tan Loose Tie",
+    "gxt": "CLO_HSTF_T_1_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 8,
+    "label": "Blue Stripy Loose Tie",
+    "gxt": "CLO_HSTF_T_1_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 9,
+    "label": "Teal Loose Tie",
+    "gxt": "CLO_HSTF_T_1_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 10,
+    "label": "Orange Loose Tie",
+    "gxt": "CLO_HSTF_T_1_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 11,
+    "label": "Blue Diamond Loose Tie",
+    "gxt": "CLO_HSTF_T_1_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 12,
+    "label": "Tan Stripy Loose Tie",
+    "gxt": "CLO_HSTF_T_1_12",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 13,
+    "label": "Pink Loose Tie",
+    "gxt": "CLO_HSTF_T_1_13",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 14,
+    "label": "Green Diamond Loose Tie",
+    "gxt": "CLO_HSTF_T_1_14",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 15,
+    "label": "Blue Hatch Loose Tie",
+    "gxt": "CLO_HSTF_T_1_15",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 0,
+    "label": "White Skinny Tie",
+    "gxt": "CLO_HSTF_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 1,
+    "label": "Gray Skinny Tie",
+    "gxt": "CLO_HSTF_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 2,
+    "label": "Black Skinny Tie",
+    "gxt": "CLO_HSTF_T_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 0,
+    "label": "Charcoal Straight Tie",
+    "gxt": "CLO_HSTF_T_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 1,
+    "label": "Khaki Hatch Straight Tie",
+    "gxt": "CLO_HSTF_T_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 2,
+    "label": "White Stripy Straight Tie",
+    "gxt": "CLO_HSTF_T_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 3,
+    "label": "Green Straight Tie",
+    "gxt": "CLO_HSTF_T_3_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 4,
+    "label": "Purple Diamond Straight Tie",
+    "gxt": "CLO_HSTF_T_3_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 5,
+    "label": "Fuchsia Straight Tie",
+    "gxt": "CLO_HSTF_T_3_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 6,
+    "label": "Gray Diamond Straight Tie",
+    "gxt": "CLO_HSTF_T_3_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 7,
+    "label": "Tan Straight Tie",
+    "gxt": "CLO_HSTF_T_3_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 8,
+    "label": "Blue Stripy Straight Tie",
+    "gxt": "CLO_HSTF_T_3_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 9,
+    "label": "Teal Straight Tie",
+    "gxt": "CLO_HSTF_T_3_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 10,
+    "label": "Orange Straight Tie",
+    "gxt": "CLO_HSTF_T_3_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 11,
+    "label": "Blue Diamond Straight Tie",
+    "gxt": "CLO_HSTF_T_3_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 12,
+    "label": "Tan Stripy Straight Tie",
+    "gxt": "CLO_HSTF_T_3_12",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 13,
+    "label": "Pink Straight Tie",
+    "gxt": "CLO_HSTF_T_3_13",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 14,
+    "label": "Green Diamond Straight Tie",
+    "gxt": "CLO_HSTF_T_3_14",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 15,
+    "label": "Blue Hatch Straight Tie",
+    "gxt": "CLO_HSTF_T_3_15",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 0,
+    "label": "Black Bow Tie",
+    "gxt": "CLO_HSTF_T_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 1,
+    "label": "White Bow Tie",
+    "gxt": "CLO_HSTF_T_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 2,
+    "label": "Red Bow Tie",
+    "gxt": "CLO_HSTF_T_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 0,
+    "label": "Charcoal Loose Tie",
+    "gxt": "CLO_HSTF_T_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 1,
+    "label": "Khaki Hatch Loose Tie",
+    "gxt": "CLO_HSTF_T_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 2,
+    "label": "White Stripy Loose Tie",
+    "gxt": "CLO_HSTF_T_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 3,
+    "label": "Green Loose Tie",
+    "gxt": "CLO_HSTF_T_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 4,
+    "label": "Purple Diamond Loose Tie",
+    "gxt": "CLO_HSTF_T_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 5,
+    "label": "Fuchsia Loose Tie",
+    "gxt": "CLO_HSTF_T_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 6,
+    "label": "Gray Diamond Loose Tie",
+    "gxt": "CLO_HSTF_T_1_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 7,
+    "label": "Tan Loose Tie",
+    "gxt": "CLO_HSTF_T_1_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 8,
+    "label": "Blue Stripy Loose Tie",
+    "gxt": "CLO_HSTF_T_1_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 9,
+    "label": "Teal Loose Tie",
+    "gxt": "CLO_HSTF_T_1_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 10,
+    "label": "Orange Loose Tie",
+    "gxt": "CLO_HSTF_T_1_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 11,
+    "label": "Blue Diamond Loose Tie",
+    "gxt": "CLO_HSTF_T_1_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 12,
+    "label": "Tan Stripy Loose Tie",
+    "gxt": "CLO_HSTF_T_1_12",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 13,
+    "label": "Pink Loose Tie",
+    "gxt": "CLO_HSTF_T_1_13",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 14,
+    "label": "Green Diamond Loose Tie",
+    "gxt": "CLO_HSTF_T_1_14",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 15,
+    "label": "Blue Hatch Loose Tie",
+    "gxt": "CLO_HSTF_T_1_15",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 27,
+    "texture": 0,
+    "label": "White Skinny Tie",
+    "gxt": "CLO_HSTF_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 27,
+    "texture": 1,
+    "label": "Gray Skinny Tie",
+    "gxt": "CLO_HSTF_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 27,
+    "texture": 2,
+    "label": "Black Skinny Tie",
+    "gxt": "CLO_HSTF_T_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 0,
+    "label": "Charcoal Straight Tie",
+    "gxt": "CLO_HSTF_T_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 1,
+    "label": "Khaki Hatch Straight Tie",
+    "gxt": "CLO_HSTF_T_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 2,
+    "label": "White Stripy Straight Tie",
+    "gxt": "CLO_HSTF_T_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 4,
+    "label": "Purple Diamond Straight Tie",
+    "gxt": "CLO_HSTF_T_3_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 5,
+    "label": "Fuchsia Straight Tie",
+    "gxt": "CLO_HSTF_T_3_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 6,
+    "label": "Gray Diamond Straight Tie",
+    "gxt": "CLO_HSTF_T_3_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 7,
+    "label": "Tan Straight Tie",
+    "gxt": "CLO_HSTF_T_3_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 8,
+    "label": "Blue Stripy Straight Tie",
+    "gxt": "CLO_HSTF_T_3_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 9,
+    "label": "Teal Straight Tie",
+    "gxt": "CLO_HSTF_T_3_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 10,
+    "label": "Orange Straight Tie",
+    "gxt": "CLO_HSTF_T_3_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 11,
+    "label": "Blue Diamond Straight Tie",
+    "gxt": "CLO_HSTF_T_3_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 12,
+    "label": "Tan Stripy Straight Tie",
+    "gxt": "CLO_HSTF_T_3_12",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 13,
+    "label": "Pink Straight Tie",
+    "gxt": "CLO_HSTF_T_3_13",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 14,
+    "label": "Green Diamond Straight Tie",
+    "gxt": "CLO_HSTF_T_3_14",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 15,
+    "label": "Blue Hatch Straight Tie",
+    "gxt": "CLO_HSTF_T_3_15",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 0,
+    "label": "Gold SN Necklace",
+    "gxt": "CLO_LXF_T_10_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 1,
+    "label": "Platinum SN Necklace",
+    "gxt": "CLO_LXF_T_10_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 0,
+    "label": "Gold Skull Necklace",
+    "gxt": "CLO_LXF_T_11_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 1,
+    "label": "Platinum Skull Necklace",
+    "gxt": "CLO_LXF_T_11_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 0,
+    "label": "Platinum Balaclava Necklace",
+    "gxt": "CLO_LXF_T_12_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 0,
+    "label": "Gold Zorse Necklace",
+    "gxt": "CLO_LXF_T_14_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 1,
+    "label": "Platinum Zorse Necklace",
+    "gxt": "CLO_LXF_T_14_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 0,
+    "label": "Gold LC Necklace",
+    "gxt": "CLO_LXF_T_15_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 1,
+    "label": "Platinum LC Necklace",
+    "gxt": "CLO_LXF_T_15_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 0,
+    "label": "Gold Dix Necklace",
+    "gxt": "CLO_LXF_T_16_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 1,
+    "label": "Platinum Dix Necklace",
+    "gxt": "CLO_LXF_T_16_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 0,
+    "label": "Gold Le Chien Necklace",
+    "gxt": "CLO_LXF_T_17_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 1,
+    "label": "Platinum Le Chien Necklace",
+    "gxt": "CLO_LXF_T_17_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 0,
+    "label": "Gold SN Necklace",
+    "gxt": "CLO_LXF_T_10_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 1,
+    "label": "Platinum SN Necklace",
+    "gxt": "CLO_LXF_T_10_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 0,
+    "label": "Gold Skull Necklace",
+    "gxt": "CLO_LXF_T_11_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 1,
+    "label": "Platinum Skull Necklace",
+    "gxt": "CLO_LXF_T_11_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 0,
+    "label": "Platinum Balaclava Necklace",
+    "gxt": "CLO_LXF_T_12_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 0,
+    "label": "Gold Zorse Necklace",
+    "gxt": "CLO_LXF_T_14_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 1,
+    "label": "Platinum Zorse Necklace",
+    "gxt": "CLO_LXF_T_14_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 0,
+    "label": "Gold LC Necklace",
+    "gxt": "CLO_LXF_T_15_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 1,
+    "label": "Platinum LC Necklace",
+    "gxt": "CLO_LXF_T_15_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 0,
+    "label": "Gold Dix Necklace",
+    "gxt": "CLO_LXF_T_16_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 1,
+    "label": "Platinum Dix Necklace",
+    "gxt": "CLO_LXF_T_16_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 0,
+    "label": "Gold Le Chien Necklace",
+    "gxt": "CLO_LXF_T_17_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 1,
+    "label": "Platinum Le Chien Necklace",
+    "gxt": "CLO_LXF_T_17_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 43,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 46,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 46,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 46,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 49,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 49,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 49,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 50,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 50,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 50,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 52,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 52,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 52,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 53,
+    "texture": 0,
+    "label": "Gold Loose Link Chain",
+    "gxt": "CLO_L2F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 53,
+    "texture": 1,
+    "label": "Platinum Loose Link Chain",
+    "gxt": "CLO_L2F_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 54,
+    "texture": 0,
+    "label": "Gold Belcher Chain",
+    "gxt": "CLO_L2F_T_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 54,
+    "texture": 1,
+    "label": "Platinum Belcher Chain",
+    "gxt": "CLO_L2F_T_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 55,
+    "texture": 0,
+    "label": "Gold Pretzel Chain",
+    "gxt": "CLO_L2F_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 55,
+    "texture": 1,
+    "label": "Platinum Pretzel Chain",
+    "gxt": "CLO_L2F_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 0,
+    "label": "Gold Curb Chain",
+    "gxt": "CLO_L2F_T_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 1,
+    "label": "Platinum Curb Chain",
+    "gxt": "CLO_L2F_T_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 57,
+    "texture": 0,
+    "label": "Gold Diamond Curb Chain",
+    "gxt": "CLO_L2F_T_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 57,
+    "texture": 1,
+    "label": "Platinum Diamond Curb Chain",
+    "gxt": "CLO_L2F_T_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 58,
+    "texture": 0,
+    "label": "Gold Heavy Curb Chain",
+    "gxt": "CLO_L2F_T_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 58,
+    "texture": 1,
+    "label": "Platinum Heavy Curb Chain",
+    "gxt": "CLO_L2F_T_5_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 59,
+    "texture": 0,
+    "label": "Gold Heavy Square Chain",
+    "gxt": "CLO_L2F_T_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 59,
+    "texture": 1,
+    "label": "Platinum Heavy Square Chain",
+    "gxt": "CLO_L2F_T_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 60,
+    "texture": 0,
+    "label": "Gold Square Chain",
+    "gxt": "CLO_L2F_T_7_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 60,
+    "texture": 1,
+    "label": "Platinum Square Chain",
+    "gxt": "CLO_L2F_T_7_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 61,
+    "texture": 0,
+    "label": "Gold Popcorn Chain",
+    "gxt": "CLO_L2F_T_8_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 61,
+    "texture": 1,
+    "label": "Platinum Popcorn Chain",
+    "gxt": "CLO_L2F_T_8_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 62,
+    "texture": 0,
+    "label": "Gold Rope Chain",
+    "gxt": "CLO_L2F_T_9_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 62,
+    "texture": 1,
+    "label": "Platinum Rope Chain",
+    "gxt": "CLO_L2F_T_9_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 0,
+    "label": "Blue Plaid Woolen Scarf",
+    "gxt": "CLO_L2F_T_13_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 1,
+    "label": "Green Plaid Woolen Scarf",
+    "gxt": "CLO_L2F_T_13_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 2,
+    "label": "Tan Plaid Woolen Scarf",
+    "gxt": "CLO_L2F_T_13_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 3,
+    "label": "Gray Plaid Woolen Scarf",
+    "gxt": "CLO_L2F_T_13_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 4,
+    "label": "Black Plaid Woolen Scarf",
+    "gxt": "CLO_L2F_T_13_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 5,
+    "label": "Peach Plaid Woolen Scarf",
+    "gxt": "CLO_L2F_T_13_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 64,
+    "texture": 0,
+    "label": "Gold Loose Link Chain",
+    "gxt": "CLO_L2F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 64,
+    "texture": 1,
+    "label": "Platinum Loose Link Chain",
+    "gxt": "CLO_L2F_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 65,
+    "texture": 0,
+    "label": "Gold Belcher Chain",
+    "gxt": "CLO_L2F_T_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 65,
+    "texture": 1,
+    "label": "Platinum Belcher Chain",
+    "gxt": "CLO_L2F_T_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 66,
+    "texture": 0,
+    "label": "Gold Pretzel Chain",
+    "gxt": "CLO_L2F_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 66,
+    "texture": 1,
+    "label": "Platinum Pretzel Chain",
+    "gxt": "CLO_L2F_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 67,
+    "texture": 0,
+    "label": "Gold Curb Chain",
+    "gxt": "CLO_L2F_T_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 67,
+    "texture": 1,
+    "label": "Platinum Curb Chain",
+    "gxt": "CLO_L2F_T_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 68,
+    "texture": 0,
+    "label": "Gold Diamond Curb Chain",
+    "gxt": "CLO_L2F_T_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 68,
+    "texture": 1,
+    "label": "Platinum Diamond Curb Chain",
+    "gxt": "CLO_L2F_T_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 69,
+    "texture": 0,
+    "label": "Gold Heavy Curb Chain",
+    "gxt": "CLO_L2F_T_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 69,
+    "texture": 1,
+    "label": "Platinum Heavy Curb Chain",
+    "gxt": "CLO_L2F_T_5_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 70,
+    "texture": 0,
+    "label": "Gold Heavy Square Chain",
+    "gxt": "CLO_L2F_T_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 70,
+    "texture": 1,
+    "label": "Platinum Heavy Square Chain",
+    "gxt": "CLO_L2F_T_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 71,
+    "texture": 0,
+    "label": "Gold Square Chain",
+    "gxt": "CLO_L2F_T_7_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 71,
+    "texture": 1,
+    "label": "Platinum Square Chain",
+    "gxt": "CLO_L2F_T_7_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 72,
+    "texture": 0,
+    "label": "Gold Popcorn Chain",
+    "gxt": "CLO_L2F_T_8_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 72,
+    "texture": 1,
+    "label": "Platinum Popcorn Chain",
+    "gxt": "CLO_L2F_T_8_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 73,
+    "texture": 0,
+    "label": "Gold Rope Chain",
+    "gxt": "CLO_L2F_T_9_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 73,
+    "texture": 1,
+    "label": "Platinum Rope Chain",
+    "gxt": "CLO_L2F_T_9_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 74,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 75,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 76,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 77,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 78,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 79,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 80,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 81,
+    "texture": 0,
+    "label": "Gold Magnetics Necklace",
+    "gxt": "CLO_S1F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 81,
+    "texture": 1,
+    "label": "Platinum Magnetics Necklace",
+    "gxt": "CLO_S1F_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 82,
+    "texture": 0,
+    "label": "Gold Magnetics Necklace",
+    "gxt": "CLO_S1F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 82,
+    "texture": 1,
+    "label": "Platinum Magnetics Necklace",
+    "gxt": "CLO_S1F_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 83,
+    "texture": 0,
+    "label": "Tan Desert Scarf",
+    "gxt": "CLO_EXF_AT_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 83,
+    "texture": 1,
+    "label": "Khaki Desert Scarf",
+    "gxt": "CLO_EXF_AT_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 83,
+    "texture": 2,
+    "label": "Black Desert Scarf",
+    "gxt": "CLO_EXF_AT_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 84,
+    "texture": 0,
+    "label": "Black Bead Necklace",
+    "gxt": "CLO_EXF_AT_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 85,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 86,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 86,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 87,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 87,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 87,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 87,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 87,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 87,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 87,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 87,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 87,
+    "texture": 8,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 87,
+    "texture": 9,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 88,
+    "texture": 0,
+    "label": "Black Suspenders",
+    "gxt": "CLO_S2F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 88,
+    "texture": 1,
+    "label": "White Suspenders",
+    "gxt": "CLO_S2F_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 88,
+    "texture": 2,
+    "label": "Red Suspenders",
+    "gxt": "CLO_S2F_T_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 89,
+    "texture": 0,
+    "label": "Gold Rim Necklace",
+    "gxt": "CLO_S2F_T_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 89,
+    "texture": 1,
+    "label": "Platinum Rim Necklace",
+    "gxt": "CLO_S2F_T_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 90,
+    "texture": 0,
+    "label": "Gold Rim Necklace",
+    "gxt": "CLO_S2F_T_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 90,
+    "texture": 1,
+    "label": "Platinum Rim Necklace",
+    "gxt": "CLO_S2F_T_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 91,
+    "texture": 0,
+    "label": "Gold Alloy Necklace",
+    "gxt": "CLO_S2F_T_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 91,
+    "texture": 1,
+    "label": "Platinum Alloy Necklace",
+    "gxt": "CLO_S2F_T_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 92,
+    "texture": 0,
+    "label": "Gold Alloy Necklace",
+    "gxt": "CLO_S2F_T_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 92,
+    "texture": 1,
+    "label": "Platinum Alloy Necklace",
+    "gxt": "CLO_S2F_T_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 93,
+    "texture": 0,
+    "label": "Gold Bead Necklace",
+    "gxt": "CLO_EXF_ET_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 93,
+    "texture": 1,
+    "label": "Pearl Bead Necklace",
+    "gxt": "CLO_EXF_ET_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 94,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 94,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 95,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 96,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 97,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 98,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 99,
+    "texture": 0,
+    "label": "Epsilon Medallion",
+    "gxt": "CLO_AWF_T_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 100,
+    "texture": 0,
+    "label": "Epsilon Medallion",
+    "gxt": "CLO_AWF_T_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 101,
+    "texture": 0,
+    "label": "Epsilon Medallion",
+    "gxt": "CLO_AWF_T_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 8,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 9,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 10,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 11,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 103,
+    "texture": 0,
+    "label": "Dog With Cone Chain",
+    "gxt": "CLO_H3F_T_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 104,
+    "texture": 0,
+    "label": "Dog With Cone Chain",
+    "gxt": "CLO_H3F_T_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 105,
+    "texture": 0,
+    "label": "Gold LS Pendant",
+    "gxt": "CLO_H4F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 105,
+    "texture": 1,
+    "label": "Silver LS Pendant",
+    "gxt": "CLO_H4F_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 105,
+    "texture": 2,
+    "label": "Copper LS Pendant",
+    "gxt": "CLO_H4F_T_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 106,
+    "texture": 0,
+    "label": "Gold LS Pendant",
+    "gxt": "CLO_H4F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 106,
+    "texture": 1,
+    "label": "Silver LS Pendant",
+    "gxt": "CLO_H4F_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 106,
+    "texture": 2,
+    "label": "Copper LS Pendant",
+    "gxt": "CLO_H4F_T_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 107,
+    "texture": 0,
+    "label": "White Enamel LS Pendant",
+    "gxt": "CLO_H4F_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 107,
+    "texture": 1,
+    "label": "Silver Plate LS Pendant",
+    "gxt": "CLO_H4F_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 107,
+    "texture": 2,
+    "label": "Two-Tone LS Pendant",
+    "gxt": "CLO_H4F_T_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 108,
+    "texture": 0,
+    "label": "White Enamel LS Pendant",
+    "gxt": "CLO_H4F_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 108,
+    "texture": 1,
+    "label": "Silver Plate LS Pendant",
+    "gxt": "CLO_H4F_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 108,
+    "texture": 2,
+    "label": "Two-Tone LS Pendant",
+    "gxt": "CLO_H4F_T_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 109,
+    "texture": 0,
+    "label": "Gold Tags",
+    "gxt": "CLO_H4F_T_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 109,
+    "texture": 1,
+    "label": "Silver Tags",
+    "gxt": "CLO_H4F_T_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 109,
+    "texture": 2,
+    "label": "Bronze Tags",
+    "gxt": "CLO_H4F_T_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 110,
+    "texture": 0,
+    "label": "Gold Tags",
+    "gxt": "CLO_H4F_T_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 110,
+    "texture": 1,
+    "label": "Silver Tags",
+    "gxt": "CLO_H4F_T_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 110,
+    "texture": 2,
+    "label": "Bronze Tags",
+    "gxt": "CLO_H4F_T_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 111,
+    "texture": 0,
+    "label": "Gold L$ Pendant",
+    "gxt": "CLO_H4F_T_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 111,
+    "texture": 1,
+    "label": "Silver L$ Pendant",
+    "gxt": "CLO_H4F_T_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 111,
+    "texture": 2,
+    "label": "Two-Tone L$ Pendant",
+    "gxt": "CLO_H4F_T_6_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 112,
+    "texture": 0,
+    "label": "Gold L$ Pendant",
+    "gxt": "CLO_H4F_T_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 112,
+    "texture": 1,
+    "label": "Silver L$ Pendant",
+    "gxt": "CLO_H4F_T_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 112,
+    "texture": 2,
+    "label": "Two-Tone L$ Pendant",
+    "gxt": "CLO_H4F_T_6_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 113,
+    "texture": 0,
+    "label": "Gold Coin Pendant",
+    "gxt": "CLO_H4F_T_8_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 113,
+    "texture": 1,
+    "label": "Silver Coin Pendant",
+    "gxt": "CLO_H4F_T_8_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 113,
+    "texture": 2,
+    "label": "Bronze Coin Pendant",
+    "gxt": "CLO_H4F_T_8_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 114,
+    "texture": 0,
+    "label": "Gold Coin Pendant",
+    "gxt": "CLO_H4F_T_8_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 114,
+    "texture": 1,
+    "label": "Silver Coin Pendant",
+    "gxt": "CLO_H4F_T_8_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 114,
+    "texture": 2,
+    "label": "Bronze Coin Pendant",
+    "gxt": "CLO_H4F_T_8_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 8,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 9,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 10,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 11,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 12,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 13,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 14,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 15,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 16,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 8,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 9,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 10,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 11,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 12,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 13,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 14,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 15,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 16,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 6,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 7,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 8,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 9,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 10,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 11,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 12,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 13,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 14,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 15,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 16,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 0,
+    "label": "Blue Glow Necklace",
+    "gxt": "CLO_H4F_T_13_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 1,
+    "label": "Red Glow Necklace",
+    "gxt": "CLO_H4F_T_13_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 2,
+    "label": "Pink Glow Necklace",
+    "gxt": "CLO_H4F_T_13_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 3,
+    "label": "Yellow Glow Necklace",
+    "gxt": "CLO_H4F_T_13_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 4,
+    "label": "Orange Glow Necklace",
+    "gxt": "CLO_H4F_T_13_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 5,
+    "label": "Green Glow Necklace",
+    "gxt": "CLO_H4F_T_13_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 6,
+    "label": "Festival Glow Necklace",
+    "gxt": "CLO_H4F_T_13_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 7,
+    "label": "Carnival Glow Necklace",
+    "gxt": "CLO_H4F_T_13_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 8,
+    "label": "Tropical Glow Necklace",
+    "gxt": "CLO_H4F_T_13_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 9,
+    "label": "Hot Glow Necklace",
+    "gxt": "CLO_H4F_T_13_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 10,
+    "label": "Neon Glow Necklace",
+    "gxt": "CLO_H4F_T_13_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 11,
+    "label": "Party Glow Necklace",
+    "gxt": "CLO_H4F_T_13_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 12,
+    "label": "Sunset Glow Necklace",
+    "gxt": "CLO_H4F_T_13_12",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 13,
+    "label": "Radiant Glow Necklace",
+    "gxt": "CLO_H4F_T_13_13",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 14,
+    "label": "Sunrise Glow Necklace",
+    "gxt": "CLO_H4F_T_13_14",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 15,
+    "label": "Session Glow Necklace",
+    "gxt": "CLO_H4F_T_13_15",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 0,
+    "label": "Blue Glow Necklace",
+    "gxt": "CLO_H4F_T_13_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 1,
+    "label": "Red Glow Necklace",
+    "gxt": "CLO_H4F_T_13_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 2,
+    "label": "Pink Glow Necklace",
+    "gxt": "CLO_H4F_T_13_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 3,
+    "label": "Yellow Glow Necklace",
+    "gxt": "CLO_H4F_T_13_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 4,
+    "label": "Orange Glow Necklace",
+    "gxt": "CLO_H4F_T_13_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 5,
+    "label": "Green Glow Necklace",
+    "gxt": "CLO_H4F_T_13_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 6,
+    "label": "Festival Glow Necklace",
+    "gxt": "CLO_H4F_T_13_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 7,
+    "label": "Carnival Glow Necklace",
+    "gxt": "CLO_H4F_T_13_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 8,
+    "label": "Tropical Glow Necklace",
+    "gxt": "CLO_H4F_T_13_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 9,
+    "label": "Hot Glow Necklace",
+    "gxt": "CLO_H4F_T_13_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 10,
+    "label": "Neon Glow Necklace",
+    "gxt": "CLO_H4F_T_13_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 11,
+    "label": "Party Glow Necklace",
+    "gxt": "CLO_H4F_T_13_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 12,
+    "label": "Sunset Glow Necklace",
+    "gxt": "CLO_H4F_T_13_12",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 13,
+    "label": "Radiant Glow Necklace",
+    "gxt": "CLO_H4F_T_13_13",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 14,
+    "label": "Sunrise Glow Necklace",
+    "gxt": "CLO_H4F_T_13_14",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 15,
+    "label": "Session Glow Necklace",
+    "gxt": "CLO_H4F_T_13_15",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 120,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 121,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 122,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 123,
+    "texture": 0,
+    "label": "Le Chien Whistle Necklace",
+    "gxt": "CLO_X6F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 124,
+    "texture": 0,
+    "label": "Le Chien Whistle Necklace",
+    "gxt": "CLO_X6F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 125,
+    "texture": 0,
+    "label": "White Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 125,
+    "texture": 1,
+    "label": "Black Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 125,
+    "texture": 2,
+    "label": "Gold Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 125,
+    "texture": 3,
+    "label": "Rose Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 125,
+    "texture": 4,
+    "label": "Lilac Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 125,
+    "texture": 5,
+    "label": "Silver Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 125,
+    "texture": 6,
+    "label": "Brown Agate Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 125,
+    "texture": 7,
+    "label": "White & Turquoise Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 125,
+    "texture": 8,
+    "label": "White & Dark Blue Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 125,
+    "texture": 9,
+    "label": "White & Purple Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 126,
+    "texture": 0,
+    "label": "White Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 126,
+    "texture": 1,
+    "label": "Black Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 126,
+    "texture": 2,
+    "label": "Gold Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 126,
+    "texture": 3,
+    "label": "Rose Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 126,
+    "texture": 4,
+    "label": "Lilac Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 126,
+    "texture": 5,
+    "label": "Silver Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 126,
+    "texture": 6,
+    "label": "Brown Agate Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 126,
+    "texture": 7,
+    "label": "White & Turquoise Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 126,
+    "texture": 8,
+    "label": "White & Dark Blue Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 126,
+    "texture": 9,
+    "label": "White & Purple Pearl Necklace",
+    "gxt": "CLO_X6F_T_2_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 127,
+    "texture": 0,
+    "label": "Heartbreak Pendant",
+    "gxt": "CLO_X6F_T_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 128,
+    "texture": 0,
+    "label": "Heartbreak Pendant",
+    "gxt": "CLO_X6F_T_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 129,
+    "texture": 0,
+    "label": "Silver Mesh Link",
+    "gxt": "CLO_X6F_T_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 129,
+    "texture": 1,
+    "label": "Black Mesh Link",
+    "gxt": "CLO_X6F_T_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 129,
+    "texture": 2,
+    "label": "Gold Mesh Link",
+    "gxt": "CLO_X6F_T_6_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 129,
+    "texture": 3,
+    "label": "Rose Mesh Link",
+    "gxt": "CLO_X6F_T_6_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 129,
+    "texture": 4,
+    "label": "Copper Mesh Link",
+    "gxt": "CLO_X6F_T_6_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 130,
+    "texture": 0,
+    "label": "Silver Mesh Link",
+    "gxt": "CLO_X6F_T_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 130,
+    "texture": 1,
+    "label": "Black Mesh Link",
+    "gxt": "CLO_X6F_T_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 130,
+    "texture": 2,
+    "label": "Gold Mesh Link",
+    "gxt": "CLO_X6F_T_6_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 130,
+    "texture": 3,
+    "label": "Rose Mesh Link",
+    "gxt": "CLO_X6F_T_6_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 130,
+    "texture": 4,
+    "label": "Copper Mesh Link",
+    "gxt": "CLO_X6F_T_6_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 131,
+    "texture": 0,
+    "label": "Silver Thick Curb Chain",
+    "gxt": "CLO_X6F_T_8_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 131,
+    "texture": 1,
+    "label": "Black Thick Curb Chain",
+    "gxt": "CLO_X6F_T_8_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 131,
+    "texture": 2,
+    "label": "Gold Thick Curb Chain",
+    "gxt": "CLO_X6F_T_8_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 131,
+    "texture": 3,
+    "label": "Rose Thick Curb Chain",
+    "gxt": "CLO_X6F_T_8_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 131,
+    "texture": 4,
+    "label": "Copper Thick Curb Chain",
+    "gxt": "CLO_X6F_T_8_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 132,
+    "texture": 0,
+    "label": "Silver Thick Curb Chain",
+    "gxt": "CLO_X6F_T_8_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 132,
+    "texture": 1,
+    "label": "Black Thick Curb Chain",
+    "gxt": "CLO_X6F_T_8_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 132,
+    "texture": 2,
+    "label": "Gold Thick Curb Chain",
+    "gxt": "CLO_X6F_T_8_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 132,
+    "texture": 3,
+    "label": "Rose Thick Curb Chain",
+    "gxt": "CLO_X6F_T_8_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 132,
+    "texture": 4,
+    "label": "Copper Thick Curb Chain",
+    "gxt": "CLO_X6F_T_8_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 133,
+    "texture": 0,
+    "label": "Silver Bar Pendant",
+    "gxt": "CLO_X6F_T_10_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 133,
+    "texture": 1,
+    "label": "Black Bar Pendant",
+    "gxt": "CLO_X6F_T_10_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 133,
+    "texture": 2,
+    "label": "Gold Bar Pendant",
+    "gxt": "CLO_X6F_T_10_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 133,
+    "texture": 3,
+    "label": "Rose Bar Pendant",
+    "gxt": "CLO_X6F_T_10_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 133,
+    "texture": 4,
+    "label": "Copper Bar Pendant",
+    "gxt": "CLO_X6F_T_10_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 134,
+    "texture": 0,
+    "label": "Silver Bar Pendant",
+    "gxt": "CLO_X6F_T_10_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 134,
+    "texture": 1,
+    "label": "Black Bar Pendant",
+    "gxt": "CLO_X6F_T_10_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 134,
+    "texture": 2,
+    "label": "Gold Bar Pendant",
+    "gxt": "CLO_X6F_T_10_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 134,
+    "texture": 3,
+    "label": "Rose Bar Pendant",
+    "gxt": "CLO_X6F_T_10_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 134,
+    "texture": 4,
+    "label": "Copper Bar Pendant",
+    "gxt": "CLO_X6F_T_10_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 135,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 135,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 136,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 137,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 138,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 138,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 139,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 140,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 141,
+    "texture": 0,
+    "label": "Silver Lock Pendant",
+    "gxt": "CLO_SCF_T_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 141,
+    "texture": 1,
+    "label": "Dark Silver Lock Pendant",
+    "gxt": "CLO_SCF_T_5_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 141,
+    "texture": 2,
+    "label": "Gold Lock Pendant",
+    "gxt": "CLO_SCF_T_5_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 141,
+    "texture": 3,
+    "label": "Rose Gold Lock Pendant",
+    "gxt": "CLO_SCF_T_5_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 141,
+    "texture": 4,
+    "label": "Copper Lock Pendant",
+    "gxt": "CLO_SCF_T_5_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 142,
+    "texture": 0,
+    "label": "Silver Lock Pendant",
+    "gxt": "CLO_SCF_T_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 142,
+    "texture": 1,
+    "label": "Dark Silver Lock Pendant",
+    "gxt": "CLO_SCF_T_5_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 142,
+    "texture": 2,
+    "label": "Gold Lock Pendant",
+    "gxt": "CLO_SCF_T_5_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 142,
+    "texture": 3,
+    "label": "Rose Gold Lock Pendant",
+    "gxt": "CLO_SCF_T_5_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 142,
+    "texture": 4,
+    "label": "Copper Lock Pendant",
+    "gxt": "CLO_SCF_T_5_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 143,
+    "texture": 0,
+    "label": "Cliffford Remote",
+    "gxt": "CLO_SCF_T_7_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 144,
+    "texture": 0,
+    "label": "Cliffford Remote",
+    "gxt": "CLO_SCF_T_7_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 145,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 146,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 147,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 147,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 147,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 147,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 147,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 147,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 148,
+    "texture": 0,
+    "label": "Silver Layered Necklace",
+    "gxt": "CLO_SDF_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 148,
+    "texture": 1,
+    "label": "Black Layered Necklace",
+    "gxt": "CLO_SDF_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 148,
+    "texture": 2,
+    "label": "Gold Layered Necklace",
+    "gxt": "CLO_SDF_T_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 148,
+    "texture": 3,
+    "label": "Rose Layered Necklace",
+    "gxt": "CLO_SDF_T_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 148,
+    "texture": 4,
+    "label": "Bronze Layered Necklace",
+    "gxt": "CLO_SDF_T_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 149,
+    "texture": 0,
+    "label": "Silver Layered Necklace",
+    "gxt": "CLO_SDF_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 149,
+    "texture": 1,
+    "label": "Black Layered Necklace",
+    "gxt": "CLO_SDF_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 149,
+    "texture": 2,
+    "label": "Gold Layered Necklace",
+    "gxt": "CLO_SDF_T_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 149,
+    "texture": 3,
+    "label": "Rose Layered Necklace",
+    "gxt": "CLO_SDF_T_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 149,
+    "texture": 4,
+    "label": "Bronze Layered Necklace",
+    "gxt": "CLO_SDF_T_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 150,
+    "texture": 0,
+    "label": "Silver DS Necklace",
+    "gxt": "CLO_SDF_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 150,
+    "texture": 1,
+    "label": "Black DS Necklace",
+    "gxt": "CLO_SDF_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 150,
+    "texture": 2,
+    "label": "Gold DS Necklace",
+    "gxt": "CLO_SDF_T_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 150,
+    "texture": 3,
+    "label": "Rose DS Necklace",
+    "gxt": "CLO_SDF_T_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 150,
+    "texture": 4,
+    "label": "Bronze DS Necklace",
+    "gxt": "CLO_SDF_T_2_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 151,
+    "texture": 0,
+    "label": "Silver DS Necklace",
+    "gxt": "CLO_SDF_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 151,
+    "texture": 1,
+    "label": "Black DS Necklace",
+    "gxt": "CLO_SDF_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 151,
+    "texture": 2,
+    "label": "Gold DS Necklace",
+    "gxt": "CLO_SDF_T_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 151,
+    "texture": 3,
+    "label": "Rose DS Necklace",
+    "gxt": "CLO_SDF_T_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 151,
+    "texture": 4,
+    "label": "Bronze DS Necklace",
+    "gxt": "CLO_SDF_T_2_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 152,
+    "texture": 0,
+    "label": "Silver Moon Necklace",
+    "gxt": "CLO_SDF_T_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 152,
+    "texture": 1,
+    "label": "Black Moon Necklace",
+    "gxt": "CLO_SDF_T_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 152,
+    "texture": 2,
+    "label": "Gold Moon Necklace",
+    "gxt": "CLO_SDF_T_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 152,
+    "texture": 3,
+    "label": "Rose Moon Necklace",
+    "gxt": "CLO_SDF_T_4_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 152,
+    "texture": 4,
+    "label": "Bronze Moon Necklace",
+    "gxt": "CLO_SDF_T_4_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 153,
+    "texture": 0,
+    "label": "Silver Moon Necklace",
+    "gxt": "CLO_SDF_T_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 153,
+    "texture": 1,
+    "label": "Black Moon Necklace",
+    "gxt": "CLO_SDF_T_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 153,
+    "texture": 2,
+    "label": "Gold Moon Necklace",
+    "gxt": "CLO_SDF_T_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 153,
+    "texture": 3,
+    "label": "Rose Moon Necklace",
+    "gxt": "CLO_SDF_T_4_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 153,
+    "texture": 4,
+    "label": "Bronze Moon Necklace",
+    "gxt": "CLO_SDF_T_4_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 154,
+    "texture": 0,
+    "label": "Marble Stone Necklace",
+    "gxt": "CLO_SDF_T_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 154,
+    "texture": 1,
+    "label": "Turquoise Stone Necklace",
+    "gxt": "CLO_SDF_T_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 155,
+    "texture": 0,
+    "label": "Marble Stone Necklace",
+    "gxt": "CLO_SDF_T_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 155,
+    "texture": 1,
+    "label": "Turquoise Stone Necklace",
+    "gxt": "CLO_SDF_T_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 156,
+    "texture": 0,
+    "label": "Thick Silver Necklace",
+    "gxt": "CLO_SDF_T_8_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 156,
+    "texture": 1,
+    "label": "Thick Black Necklace",
+    "gxt": "CLO_SDF_T_8_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 156,
+    "texture": 2,
+    "label": "Thick Gold Necklace",
+    "gxt": "CLO_SDF_T_8_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 156,
+    "texture": 3,
+    "label": "Thick Rose Necklace",
+    "gxt": "CLO_SDF_T_8_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 156,
+    "texture": 4,
+    "label": "Thick Bronze Necklace",
+    "gxt": "CLO_SDF_T_8_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 157,
+    "texture": 0,
+    "label": "Thick Silver Necklace",
+    "gxt": "CLO_SDF_T_8_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 157,
+    "texture": 1,
+    "label": "Thick Black Necklace",
+    "gxt": "CLO_SDF_T_8_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 157,
+    "texture": 2,
+    "label": "Thick Gold Necklace",
+    "gxt": "CLO_SDF_T_8_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 157,
+    "texture": 3,
+    "label": "Thick Rose Necklace",
+    "gxt": "CLO_SDF_T_8_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 157,
+    "texture": 4,
+    "label": "Thick Bronze Necklace",
+    "gxt": "CLO_SDF_T_8_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 158,
+    "texture": 0,
+    "label": "Silver Gun Necklace",
+    "gxt": "CLO_SDF_T_10_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 158,
+    "texture": 1,
+    "label": "Black Gun Necklace",
+    "gxt": "CLO_SDF_T_10_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 158,
+    "texture": 2,
+    "label": "Gold Gun Necklace",
+    "gxt": "CLO_SDF_T_10_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 158,
+    "texture": 3,
+    "label": "Rose Gun Necklace",
+    "gxt": "CLO_SDF_T_10_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 158,
+    "texture": 4,
+    "label": "Bronze Gun Necklace",
+    "gxt": "CLO_SDF_T_10_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 159,
+    "texture": 0,
+    "label": "Silver Gun Necklace",
+    "gxt": "CLO_SDF_T_10_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 159,
+    "texture": 1,
+    "label": "Black Gun Necklace",
+    "gxt": "CLO_SDF_T_10_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 159,
+    "texture": 2,
+    "label": "Gold Gun Necklace",
+    "gxt": "CLO_SDF_T_10_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 159,
+    "texture": 3,
+    "label": "Rose Gun Necklace",
+    "gxt": "CLO_SDF_T_10_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 159,
+    "texture": 4,
+    "label": "Bronze Gun Necklace",
+    "gxt": "CLO_SDF_T_10_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 160,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 161,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 162,
+    "texture": 0,
+    "label": "Gold 420 Pendant",
+    "gxt": "CLO_X8F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 162,
+    "texture": 1,
+    "label": "Silver 420 Pendant",
+    "gxt": "CLO_X8F_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 162,
+    "texture": 2,
+    "label": "Rose Gold 420 Pendant",
+    "gxt": "CLO_X8F_T_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 163,
+    "texture": 0,
+    "label": "Gold 420 Pendant",
+    "gxt": "CLO_X8F_T_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 163,
+    "texture": 1,
+    "label": "Silver 420 Pendant",
+    "gxt": "CLO_X8F_T_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 163,
+    "texture": 2,
+    "label": "Rose Gold 420 Pendant",
+    "gxt": "CLO_X8F_T_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 164,
+    "texture": 0,
+    "label": "Gold Reindeer Pendant",
+    "gxt": "CLO_X8F_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 164,
+    "texture": 1,
+    "label": "Silver Reindeer Pendant",
+    "gxt": "CLO_X8F_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 165,
+    "texture": 0,
+    "label": "Gold Reindeer Pendant",
+    "gxt": "CLO_X8F_T_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 165,
+    "texture": 1,
+    "label": "Silver Reindeer Pendant",
+    "gxt": "CLO_X8F_T_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 166,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 166,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 167,
+    "texture": 0,
+    "label": "Snake Soul Pendant",
+    "gxt": "CLO_X8F_T_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 167,
+    "texture": 1,
+    "label": "Snake King Pendant",
+    "gxt": "CLO_X8F_T_5_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 168,
+    "texture": 0,
+    "label": "Snake Soul Pendant",
+    "gxt": "CLO_X8F_T_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 168,
+    "texture": 1,
+    "label": "Snake King Pendant",
+    "gxt": "CLO_X8F_T_5_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 169,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 170,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 170,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 171,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 171,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 172,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 172,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  }
+]

@@ -1,0 +1,1502 @@
+[
+  {
+    "drawable": 0,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 4,
+    "label": "Pewter Watch",
+    "gxt": "W_FMF_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 1,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 2,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 3,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 4,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 0,
+    "label": "Gold Fashion",
+    "gxt": "CLO_BUSF_W0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 1,
+    "label": "Silver Fashion",
+    "gxt": "CLO_BUSF_W0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 2,
+    "label": "Copper Fashion",
+    "gxt": "CLO_BUSF_W0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 3,
+    "label": "Black Fashion",
+    "gxt": "CLO_BUSF_W0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 0,
+    "label": "Gold CaCa Di Lusso",
+    "gxt": "CLO_LXF_LW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 1,
+    "label": "Silver CaCa Di Lusso",
+    "gxt": "CLO_LXF_LW_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 2,
+    "label": "Pink Gold CaCa Di Lusso",
+    "gxt": "CLO_LXF_LW_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 0,
+    "label": "Silver Didier Sachs Mignon",
+    "gxt": "CLO_LXF_LW_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 1,
+    "label": "Pink Gold Didier Sachs Mignon",
+    "gxt": "CLO_LXF_LW_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 2,
+    "label": "Gold Didier Sachs Mignon",
+    "gxt": "CLO_LXF_LW_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 0,
+    "label": "Gold iFruit Link",
+    "gxt": "CLO_LXF_LW_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 1,
+    "label": "Silver iFruit Link",
+    "gxt": "CLO_LXF_LW_5_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 2,
+    "label": "Pink Gold iFruit Link",
+    "gxt": "CLO_LXF_LW_5_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 0,
+    "label": "White iFruit Tech",
+    "gxt": "CLO_LXF_LW_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 1,
+    "label": "Pink iFruit Tech",
+    "gxt": "CLO_LXF_LW_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 2,
+    "label": "PRB iFruit Tech",
+    "gxt": "CLO_LXF_LW_6_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 0,
+    "label": "Gold Le Chien Marquise",
+    "gxt": "CLO_L2F_LW_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 1,
+    "label": "Silver Le Chien Marquise",
+    "gxt": "CLO_L2F_LW_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 2,
+    "label": "Pink Gold Le Chien Marquise",
+    "gxt": "CLO_L2F_LW_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 0,
+    "label": "Gray Fufu Jeunesse",
+    "gxt": "CLO_L2F_LW_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 1,
+    "label": "Black Fufu Jeunesse",
+    "gxt": "CLO_L2F_LW_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 2,
+    "label": "Blue Fufu Jeunesse",
+    "gxt": "CLO_L2F_LW_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 0,
+    "label": "Silver Anna Rex Prestige",
+    "gxt": "CLO_L2F_LW_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 1,
+    "label": "Gold Anna Rex Prestige",
+    "gxt": "CLO_L2F_LW_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 2,
+    "label": "Carbon Anna Rex Prestige",
+    "gxt": "CLO_L2F_LW_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 0,
+    "label": "Lime iFruit Snap",
+    "gxt": "CLO_L2F_LW_7_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 1,
+    "label": "White iFruit Snap",
+    "gxt": "CLO_L2F_LW_7_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 2,
+    "label": "Neon iFruit Snap",
+    "gxt": "CLO_L2F_LW_7_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 0,
+    "label": "Light Wrist Chain (L)",
+    "gxt": "CLO_BIF_PW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 0,
+    "label": "Chunky Wrist Chain (L)",
+    "gxt": "CLO_BIF_PW_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 0,
+    "label": "Square Wrist Chain (L)",
+    "gxt": "CLO_BIF_PW_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 0,
+    "label": "Skull Wrist Chain (L)",
+    "gxt": "CLO_BIF_PW_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 0,
+    "label": "Tread Wrist Chain (L)",
+    "gxt": "CLO_BIF_PW_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 0,
+    "label": "Gear Wrist Chains (L)",
+    "gxt": "CLO_BIF_PW_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 0,
+    "label": "Spiked Gauntlet (L)",
+    "gxt": "CLO_BIF_PW_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 0,
+    "label": "Black Gauntlet (L)",
+    "gxt": "CLO_BIF_PW_7_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 1,
+    "label": "Chocolate Gauntlet (L)",
+    "gxt": "CLO_BIF_PW_7_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 2,
+    "label": "Tan Gauntlet (L)",
+    "gxt": "CLO_BIF_PW_7_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 3,
+    "label": "Ox Blood Gauntlet (L)",
+    "gxt": "CLO_BIF_PW_7_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 0,
+    "label": "Gold Enduring Watch",
+    "gxt": "CLO_VWF_PW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 1,
+    "label": "Silver Enduring Watch",
+    "gxt": "CLO_VWF_PW_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 2,
+    "label": "Black Enduring Watch",
+    "gxt": "CLO_VWF_PW_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 3,
+    "label": "Deck Enduring Watch",
+    "gxt": "CLO_VWF_PW_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 4,
+    "label": "Royal Enduring Watch",
+    "gxt": "CLO_VWF_PW_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 5,
+    "label": "Roulette Enduring Watch",
+    "gxt": "CLO_VWF_PW_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 0,
+    "label": "Gold Kronos Tempo",
+    "gxt": "CLO_VWF_PW_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 1,
+    "label": "Silver Kronos Tempo",
+    "gxt": "CLO_VWF_PW_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 2,
+    "label": "Black Kronos Tempo",
+    "gxt": "CLO_VWF_PW_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 3,
+    "label": "Gold Fifty Kronos Tempo",
+    "gxt": "CLO_VWF_PW_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 4,
+    "label": "Gold Roulette Kronos Tempo",
+    "gxt": "CLO_VWF_PW_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 5,
+    "label": "Baroque Kronos Tempo",
+    "gxt": "CLO_VWF_PW_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 0,
+    "label": "Gold Kronos Pulse",
+    "gxt": "CLO_VWF_PW_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 1,
+    "label": "Silver Kronos Pulse",
+    "gxt": "CLO_VWF_PW_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 2,
+    "label": "Black Kronos Pulse",
+    "gxt": "CLO_VWF_PW_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 3,
+    "label": "Silver Fifty Kronos Pulse",
+    "gxt": "CLO_VWF_PW_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 4,
+    "label": "Silver Roulette Kronos Pulse",
+    "gxt": "CLO_VWF_PW_2_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 5,
+    "label": "Spade Kronos Pulse",
+    "gxt": "CLO_VWF_PW_2_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 6,
+    "label": "Red Fame or Shame Kronos",
+    "gxt": "CLO_VWF_PW_2_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 7,
+    "label": "Green Fame or Shame Kronos",
+    "gxt": "CLO_VWF_PW_2_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 8,
+    "label": "Blue Fame or Shame Kronos",
+    "gxt": "CLO_VWF_PW_2_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 9,
+    "label": "Black Fame or Shame Kronos",
+    "gxt": "CLO_VWF_PW_2_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 0,
+    "label": "Gold Kronos Ära",
+    "gxt": "CLO_VWF_PW_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 1,
+    "label": "Silver Kronos Ära",
+    "gxt": "CLO_VWF_PW_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 2,
+    "label": "Black Kronos Ära",
+    "gxt": "CLO_VWF_PW_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 3,
+    "label": "Gold Fifty Kronos Ära",
+    "gxt": "CLO_VWF_PW_3_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 4,
+    "label": "Tan Spade Kronos Ära",
+    "gxt": "CLO_VWF_PW_3_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 5,
+    "label": "Brown Spade Kronos Ära",
+    "gxt": "CLO_VWF_PW_3_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 0,
+    "label": "Gold Ceaseless",
+    "gxt": "CLO_VWF_PW_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 1,
+    "label": "Silver Ceaseless",
+    "gxt": "CLO_VWF_PW_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 2,
+    "label": "Black Ceaseless",
+    "gxt": "CLO_VWF_PW_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 3,
+    "label": "Spade Ceaseless",
+    "gxt": "CLO_VWF_PW_4_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 4,
+    "label": "Mixed Metals Ceaseless",
+    "gxt": "CLO_VWF_PW_4_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 5,
+    "label": "Roulette Ceaseless",
+    "gxt": "CLO_VWF_PW_4_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 0,
+    "label": "Silver Crowex Époque",
+    "gxt": "CLO_VWF_PW_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 1,
+    "label": "Gold Crowex Époque",
+    "gxt": "CLO_VWF_PW_5_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 2,
+    "label": "Black Crowex Époque",
+    "gxt": "CLO_VWF_PW_5_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 3,
+    "label": "Wheel Crowex Époque",
+    "gxt": "CLO_VWF_PW_5_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 4,
+    "label": "Suits Crowex Époque",
+    "gxt": "CLO_VWF_PW_5_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 5,
+    "label": "Roulette Crowex Époque",
+    "gxt": "CLO_VWF_PW_5_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 0,
+    "label": "Gold Kronos Quad",
+    "gxt": "CLO_VWF_PW_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 1,
+    "label": "Silver Kronos Quad",
+    "gxt": "CLO_VWF_PW_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 2,
+    "label": "Black Kronos Quad",
+    "gxt": "CLO_VWF_PW_6_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 3,
+    "label": "Roulette Kronos Quad",
+    "gxt": "CLO_VWF_PW_6_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 4,
+    "label": "Fifty Kronos Quad",
+    "gxt": "CLO_VWF_PW_6_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 5,
+    "label": "Suits Kronos Quad",
+    "gxt": "CLO_VWF_PW_6_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 0,
+    "label": "Silver Crowex Rond",
+    "gxt": "CLO_VWF_PW_7_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 1,
+    "label": "Gold Crowex Rond",
+    "gxt": "CLO_VWF_PW_7_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 2,
+    "label": "Black Crowex Rond",
+    "gxt": "CLO_VWF_PW_7_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 3,
+    "label": "Spade Crowex Rond",
+    "gxt": "CLO_VWF_PW_7_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 4,
+    "label": "Royalty Crowex Rond",
+    "gxt": "CLO_VWF_PW_7_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 5,
+    "label": "Dice Crowex Rond",
+    "gxt": "CLO_VWF_PW_7_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 27,
+    "texture": 0,
+    "label": "Silver SASS Wrist Piece",
+    "gxt": "CLO_VWF_PW_8_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 27,
+    "texture": 1,
+    "label": "Gold SASS Wrist Piece",
+    "gxt": "CLO_VWF_PW_8_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 27,
+    "texture": 2,
+    "label": "Black SASS Wrist Piece",
+    "gxt": "CLO_VWF_PW_8_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 0,
+    "label": "Silver SASS Bracelet",
+    "gxt": "CLO_VWF_PW_9_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 1,
+    "label": "Gold SASS Bracelet",
+    "gxt": "CLO_VWF_PW_9_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 2,
+    "label": "Black SASS Bracelet",
+    "gxt": "CLO_VWF_PW_9_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 0,
+    "label": "Blue Bangles (L)",
+    "gxt": "CLO_H4F_PLW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 1,
+    "label": "Red Bangles (L)",
+    "gxt": "CLO_H4F_PLW_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 2,
+    "label": "Pink Bangles (L)",
+    "gxt": "CLO_H4F_PLW_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 3,
+    "label": "Yellow Bangles (L)",
+    "gxt": "CLO_H4F_PLW_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 4,
+    "label": "Orange Bangles (L)",
+    "gxt": "CLO_H4F_PLW_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 5,
+    "label": "Green Bangles (L)",
+    "gxt": "CLO_H4F_PLW_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 6,
+    "label": "Red & Blue Bangles (L)",
+    "gxt": "CLO_H4F_PLW_0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 7,
+    "label": "Yellow & Orange Bangles (L)",
+    "gxt": "CLO_H4F_PLW_0_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 8,
+    "label": "Green & Pink Bangles (L)",
+    "gxt": "CLO_H4F_PLW_0_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 9,
+    "label": "Rainbow Bangles (L)",
+    "gxt": "CLO_H4F_PLW_0_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 10,
+    "label": "Sunset Bangles (L)",
+    "gxt": "CLO_H4F_PLW_010",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 11,
+    "label": "Tropical Bangles (L)",
+    "gxt": "CLO_H4F_PLW_011",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 0,
+    "label": "Gold Encrusted Bracelet",
+    "gxt": "CLO_SBF_LW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 1,
+    "label": "Silver Encrusted Bracelet",
+    "gxt": "CLO_SBF_LW_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 2,
+    "label": "Rose Encrusted Bracelet",
+    "gxt": "CLO_SBF_LW_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 0,
+    "label": "Gold Ursine Bracelet",
+    "gxt": "CLO_SBF_LW_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 1,
+    "label": "Silver Ursine Bracelet",
+    "gxt": "CLO_SBF_LW_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 2,
+    "label": "Rose Ursine Bracelet",
+    "gxt": "CLO_SBF_LW_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 0,
+    "label": "Gold Round Bracelet",
+    "gxt": "CLO_SBF_LW_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 1,
+    "label": "Silver Round Bracelet",
+    "gxt": "CLO_SBF_LW_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 2,
+    "label": "Rose Round Bracelet",
+    "gxt": "CLO_SBF_LW_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 0,
+    "label": "Gold Square Jewel Chain",
+    "gxt": "CLO_SBF_LW_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 1,
+    "label": "Silver Square Jewel Chain",
+    "gxt": "CLO_SBF_LW_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 2,
+    "label": "Rose Square Jewel Chain",
+    "gxt": "CLO_SBF_LW_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 0,
+    "label": "Silver Beaded Bracelet",
+    "gxt": "CLO_X6F_LW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 1,
+    "label": "Mono Beaded Bracelet",
+    "gxt": "CLO_X6F_LW_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 2,
+    "label": "Gold Beaded Bracelet",
+    "gxt": "CLO_X6F_LW_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 3,
+    "label": "Rose Beaded Bracelet",
+    "gxt": "CLO_X6F_LW_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 4,
+    "label": "Copper Beaded Bracelet",
+    "gxt": "CLO_X6F_LW_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 0,
+    "label": "Ox Blood Bracelet Ensemble",
+    "gxt": "CLO_X6F_LW_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 1,
+    "label": "Green Bracelet Ensemble",
+    "gxt": "CLO_X6F_LW_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 2,
+    "label": "Tan Bracelet Ensemble",
+    "gxt": "CLO_X6F_LW_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 3,
+    "label": "Blush Bracelet Ensemble",
+    "gxt": "CLO_X6F_LW_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 4,
+    "label": "Dark Bracelet Ensemble",
+    "gxt": "CLO_X6F_LW_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 0,
+    "label": "Thick Silver Chain Bracelet (L)",
+    "gxt": "CLO_SDF_LW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 1,
+    "label": "Thick Dark Chain Bracelet (L)",
+    "gxt": "CLO_SDF_LW_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 2,
+    "label": "Thick Gold Chain Bracelet (L)",
+    "gxt": "CLO_SDF_LW_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 3,
+    "label": "Thick Rose Chain Bracelet (L)",
+    "gxt": "CLO_SDF_LW_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 4,
+    "label": "Thick Bronze Chain Bracelet (L)",
+    "gxt": "CLO_SDF_LW_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 0,
+    "label": "Silver Bangle Cuff Bracelet (L)",
+    "gxt": "CLO_SDF_LW_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 1,
+    "label": "Dark Bangle Cuff Bracelet (L)",
+    "gxt": "CLO_SDF_LW_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 2,
+    "label": "Gold Bangle Cuff Bracelet (L)",
+    "gxt": "CLO_SDF_LW_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 3,
+    "label": "Rose Bangle Cuff Bracelet (L)",
+    "gxt": "CLO_SDF_LW_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 4,
+    "label": "Bronze Bangle Cuff Bracelet (L)",
+    "gxt": "CLO_SDF_LW_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  }
+]

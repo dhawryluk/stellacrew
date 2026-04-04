@@ -116,7 +116,6 @@ export default function BeffComponentGrid({
                     : "border-white/8 hover:border-white/25"
                 }`}
               >
-                {/* Thumbnail */}
                 <img
                   src={imgPath(gender, slot, drawable, 0)}
                   alt={`${slot} ${drawable}`}
@@ -126,10 +125,8 @@ export default function BeffComponentGrid({
                   }}
                 />
 
-                {/* Fallback bg */}
                 <div className="absolute inset-0 bg-[#181818] -z-10" />
 
-                {/* Drawable number */}
                 <div
                   className={`absolute bottom-0.5 left-1 text-[8px] font-black font-mono transition-colors ${
                     isSelected
@@ -140,19 +137,20 @@ export default function BeffComponentGrid({
                   {drawable}
                 </div>
 
-                {/* Texture count badge */}
                 {hasMultipleTex && (
                   <div className="absolute top-0.5 right-0.5 text-[7px] font-black bg-black/70 text-yellow-500/70 px-1 leading-tight">
                     ×{textures.length}
                   </div>
                 )}
 
-                {/* BEFF indicator */}
                 {firstItem?.usedIn?.length > 0 && (
                   <div className="absolute top-0.5 left-0.5 w-1.5 h-1.5 rounded-full bg-yellow-500" />
                 )}
 
-                {/* Selected overlay */}
+                {firstItem?.featured && !firstItem?.usedIn?.length && (
+                  <div className="absolute top-0.5 left-0.5 w-1.5 h-1.5 rounded-full bg-yellow-500/50" />
+                )}
+
                 {isSelected && (
                   <div className="absolute inset-0 bg-yellow-500/8 pointer-events-none" />
                 )}
@@ -164,7 +162,7 @@ export default function BeffComponentGrid({
 
       {/* Pagination */}
       {totalPages > 1 && (
-        <div className="flex items-center justify-center gap-1.5 pt-2">
+        <div className="flex items-center justify-center gap-1.5 pt-2 flex-wrap">
           <button
             onClick={() => setPage((p) => Math.max(0, p - 1))}
             disabled={page === 0}
@@ -173,27 +171,45 @@ export default function BeffComponentGrid({
             ←
           </button>
 
-          {Array.from({ length: Math.min(totalPages, 9) }).map((_, i) => {
-            const pg =
-              totalPages <= 9
-                ? i
-                : i === 8
-                  ? totalPages - 1
-                  : Math.round((i * (totalPages - 1)) / 7);
-            return (
-              <button
-                key={pg}
-                onClick={() => setPage(pg)}
-                className={`w-7 h-7 text-[10px] font-black border transition-all ${
-                  page === pg
-                    ? "bg-yellow-500 text-black border-yellow-500"
-                    : "border-white/8 text-white/30 hover:border-white/25 hover:text-white/60"
-                }`}
-              >
-                {pg + 1}
-              </button>
-            );
-          })}
+          {(() => {
+            // Sliding window: always show first, last, current ±2, with ellipsis gaps
+            const pages = new Set([0, totalPages - 1]);
+            for (
+              let i = Math.max(0, page - 2);
+              i <= Math.min(totalPages - 1, page + 2);
+              i++
+            )
+              pages.add(i);
+            const sorted = Array.from(pages).sort((a, b) => a - b);
+            const buttons = [];
+            sorted.forEach((pg, idx) => {
+              // Insert ellipsis if there is a gap
+              if (idx > 0 && pg > sorted[idx - 1] + 1) {
+                buttons.push(
+                  <span
+                    key={"ellipsis-" + pg}
+                    className="text-white/20 text-[10px] px-1"
+                  >
+                    …
+                  </span>,
+                );
+              }
+              buttons.push(
+                <button
+                  key={pg}
+                  onClick={() => setPage(pg)}
+                  className={`w-7 h-7 text-[10px] font-black border transition-all ${
+                    page === pg
+                      ? "bg-yellow-500 text-black border-yellow-500"
+                      : "border-white/8 text-white/30 hover:border-white/25 hover:text-white/60"
+                  }`}
+                >
+                  {pg + 1}
+                </button>,
+              );
+            });
+            return buttons;
+          })()}
 
           <button
             onClick={() => setPage((p) => Math.min(totalPages - 1, p + 1))}

@@ -1,0 +1,672 @@
+[
+  {
+    "drawable": 0,
+    "texture": 0,
+    "label": "Light Wrist Chain (R)",
+    "gxt": "CLO_BIM_PRW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 0,
+    "label": "Chunky Wrist Chain (R)",
+    "gxt": "CLO_BIM_PRW_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 0,
+    "label": "Square Wrist Chain (R)",
+    "gxt": "CLO_BIM_PRW_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 0,
+    "label": "Skull Wrist Chain (R)",
+    "gxt": "CLO_BIM_PRW_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 0,
+    "label": "Tread Wrist Chain (R)",
+    "gxt": "CLO_BIM_PRW_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 0,
+    "label": "Gear Wrist Chains (R)",
+    "gxt": "CLO_BIM_PRW_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 0,
+    "label": "Spiked Gauntlet (R)",
+    "gxt": "CLO_BIM_PRW_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 0,
+    "label": "Black Gauntlet (R)",
+    "gxt": "CLO_BIM_PRW_7_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 1,
+    "label": "Chocolate Gauntlet (R)",
+    "gxt": "CLO_BIM_PRW_7_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 2,
+    "label": "Tan Gauntlet (R)",
+    "gxt": "CLO_BIM_PRW_7_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 3,
+    "label": "Ox Blood Gauntlet (R)",
+    "gxt": "CLO_BIM_PRW_7_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 0,
+    "label": "Blue Bangles (R)",
+    "gxt": "CLO_H4M_PRW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 1,
+    "label": "Red Bangles (R)",
+    "gxt": "CLO_H4M_PRW_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 2,
+    "label": "Pink Bangles (R)",
+    "gxt": "CLO_H4M_PRW_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 3,
+    "label": "Yellow Bangles (R)",
+    "gxt": "CLO_H4M_PRW_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 4,
+    "label": "Orange Bangles (R)",
+    "gxt": "CLO_H4M_PRW_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 5,
+    "label": "Green Bangles (R)",
+    "gxt": "CLO_H4M_PRW_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 6,
+    "label": "Red & Blue Bangles (R)",
+    "gxt": "CLO_H4M_PRW_0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 7,
+    "label": "Yellow & Orange Bangles (R)",
+    "gxt": "CLO_H4M_PRW_0_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 8,
+    "label": "Green & Pink Bangles (R)",
+    "gxt": "CLO_H4M_PRW_0_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 9,
+    "label": "Rainbow Bangles (R)",
+    "gxt": "CLO_H4M_PRW_0_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 10,
+    "label": "Sunset Bangles (R)",
+    "gxt": "CLO_H4M_PRW_010",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 11,
+    "label": "Tropical Bangles (R)",
+    "gxt": "CLO_H4M_PRW_011",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 0,
+    "label": "Gold Meander Bracelet",
+    "gxt": "CLO_SBM_RW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 1,
+    "label": "Silver Meander Bracelet",
+    "gxt": "CLO_SBM_RW_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 2,
+    "label": "Rose Meander Bracelet",
+    "gxt": "CLO_SBM_RW_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 0,
+    "label": "White Spiked Gauntlet (R)",
+    "gxt": "CLO_E1M_RW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 0,
+    "label": "Silver Chunky Bracelet",
+    "gxt": "CLO_X6M_RW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 1,
+    "label": "Mono Chunky Bracelet",
+    "gxt": "CLO_X6M_RW_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 2,
+    "label": "Gold Chunky Bracelet",
+    "gxt": "CLO_X6M_RW_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 3,
+    "label": "Rose Chunky Bracelet",
+    "gxt": "CLO_X6M_RW_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 4,
+    "label": "Copper Chunky Bracelet",
+    "gxt": "CLO_X6M_RW_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 0,
+    "label": "Silver Chain Bracelet",
+    "gxt": "CLO_X6M_RW_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 1,
+    "label": "Mono Chain Bracelet",
+    "gxt": "CLO_X6M_RW_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 2,
+    "label": "Gold Chain Bracelet",
+    "gxt": "CLO_X6M_RW_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 3,
+    "label": "Rose Chain Bracelet",
+    "gxt": "CLO_X6M_RW_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 4,
+    "label": "Copper Chain Bracelet",
+    "gxt": "CLO_X6M_RW_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 0,
+    "label": "Black Woven Bracelet",
+    "gxt": "CLO_X6M_RW_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 1,
+    "label": "Dark Gray Woven Bracelet",
+    "gxt": "CLO_X6M_RW_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 2,
+    "label": "Light Gray Woven Bracelet",
+    "gxt": "CLO_X6M_RW_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 3,
+    "label": "White Woven Bracelet",
+    "gxt": "CLO_X6M_RW_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 4,
+    "label": "Ox Blood Woven Bracelet",
+    "gxt": "CLO_X6M_RW_2_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 5,
+    "label": "Crimson Woven Bracelet",
+    "gxt": "CLO_X6M_RW_2_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 6,
+    "label": "Green Woven Bracelet",
+    "gxt": "CLO_X6M_RW_2_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 7,
+    "label": "Red Woven Bracelet",
+    "gxt": "CLO_X6M_RW_2_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 8,
+    "label": "Orange Woven Bracelet",
+    "gxt": "CLO_X6M_RW_2_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 9,
+    "label": "Mustard Woven Bracelet",
+    "gxt": "CLO_X6M_RW_2_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 10,
+    "label": "Chestnut Woven Bracelet",
+    "gxt": "CLO_X6M_RW_210",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 11,
+    "label": "Dark Nut Woven Bracelet",
+    "gxt": "CLO_X6M_RW_211",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 12,
+    "label": "Blue Woven Bracelet",
+    "gxt": "CLO_X6M_RW_212",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 13,
+    "label": "Light Blue Woven Bracelet",
+    "gxt": "CLO_X6M_RW_213",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 0,
+    "label": "Aqua Hippy Bracelet",
+    "gxt": "CLO_SCM_RW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 1,
+    "label": "Moss Hippy Bracelet",
+    "gxt": "CLO_SCM_RW_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 2,
+    "label": "Sand Hippy Bracelet",
+    "gxt": "CLO_SCM_RW_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 3,
+    "label": "Stone Hippy Bracelet",
+    "gxt": "CLO_SCM_RW_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 4,
+    "label": "Bright Hippy Bracelet",
+    "gxt": "CLO_SCM_RW_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 5,
+    "label": "Rust Hippy Bracelet",
+    "gxt": "CLO_SCM_RW_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 0,
+    "label": "Thick Silver Chain Bracelet (R)",
+    "gxt": "CLO_SDM_RW_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 1,
+    "label": "Thick Dark Chain Bracelet (R)",
+    "gxt": "CLO_SDM_RW_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 2,
+    "label": "Thick Gold Chain Bracelet (R)",
+    "gxt": "CLO_SDM_RW_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 3,
+    "label": "Thick Rose Chain Bracelet (R)",
+    "gxt": "CLO_SDM_RW_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 4,
+    "label": "Thick Bronze Chain Bracelet (R)",
+    "gxt": "CLO_SDM_RW_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 0,
+    "label": "Silver Bangle Cuff Bracelet (R)",
+    "gxt": "CLO_SDM_RW_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 1,
+    "label": "Dark Bangle Cuff Bracelet (R)",
+    "gxt": "CLO_SDM_RW_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 2,
+    "label": "Gold Bangle Cuff Bracelet (R)",
+    "gxt": "CLO_SDM_RW_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 3,
+    "label": "Rose Bangle Cuff Bracelet (R)",
+    "gxt": "CLO_SDM_RW_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 4,
+    "label": "Bronze Bangle Cuff Bracelet (R)",
+    "gxt": "CLO_SDM_RW_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  }
+]

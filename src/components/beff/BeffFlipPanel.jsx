@@ -1,47 +1,83 @@
 import { useState, useEffect } from "react";
-import { imgPath, placeholderImg, buildComponentCall } from "./useBeff";
+import {
+  buildCall,
+  imgPath,
+  placeholderImg,
+  getFlipType,
+  BASELINE_C1S,
+  getFlipCompanion,
+} from "./useBeff";
 
 /**
  * BeffFlipPanel
  *
- * Shows when a user clicks a drawable card.
- * Displays the C1 (UPPR) + C2 (JBIB/slot) combination needed
- * to achieve the selected component look, plus the result image.
+ * c1_drives (jbib / task / p_head):
+ *   C1 = palette drawable (e.g. 190) + SAME texture as the one you want → sets the color
+ *   C2 = your piece + texture 0 ("any texture works")
+ *   Result = your piece + the texture you want (derived, no stored image needed)
  *
- * Expects the component item to have an optional `flip` field:
- * {
- *   "flip": {
- *     "c1_slot":     "uppr",
- *     "c1_drawable": 15,
- *     "c1_texture":  2,
- *     "result_img":  "/beff/results/jbib_47_0.jpg"   // optional
- *   }
- * }
- *
- * If no flip data exists, shows a "no flip data yet" state.
+ * c2_drives (all other slots):
+ *   C1 = fixed base torso (e.g. uppr 3)
+ *   C2 = your piece + the texture you want
+ *   Result = your piece in the final color
  */
-export default function BeffFlipPanel({ gender, item, onClose }) {
+export default function BeffFlipPanel({ gender, slot, item, onClose }) {
+  const flipType = getFlipType(slot);
+  const c1Drives = flipType === "c1_drives";
+  const baselines = BASELINE_C1S[slot] ?? [];
+  const companion = getFlipCompanion(slot);
+  const companionCall = companion
+    ? buildCall(companion.slot, companion.drawable, companion.texture)
+    : null;
+
+  // For c1_drives: C1 texture mirrors the selected item texture so colors match
+  const [c1BaseIdx, setC1BaseIdx] = useState(0);
+  const [c1Texture, setC1Texture] = useState(item?.texture ?? 0);
   const [copied, setCopied] = useState(null);
 
-  // Close on Escape
+  // Sync c1Texture when item changes (e.g. user opens a different drawable)
   useEffect(() => {
-    const handler = (e) => { if (e.key === "Escape") onClose(); };
-    window.addEventListener("keydown", handler);
-    return () => window.removeEventListener("keydown", handler);
+    if (c1Drives) setC1Texture(item?.texture ?? 0);
+  }, [item, c1Drives]);
+
+  useEffect(() => {
+    const h = (e) => {
+      if (e.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
   }, [onClose]);
 
   if (!item) return null;
 
-  const { slot, drawable, texture, flip, label, dlc } = item;
-  const hasFlip = !!flip;
+  const { drawable: itemDraw, texture: itemTex, flip, label, dlc } = item;
 
-  // C2 uses flip.c2_* if defined, otherwise falls back to selected item
-  const c2Slot = hasFlip && flip.c2_slot    ? flip.c2_slot    : slot;
-  const c2Draw = hasFlip && flip.c2_drawable != null ? flip.c2_drawable : drawable;
-  const c2Tex  = hasFlip && flip.c2_texture  != null ? flip.c2_texture  : texture;
+  // ── C1 ────────────────────────────────────────────────────────────────────
+  const c1Slot = c1Drives ? slot : (flip?.c1_slot ?? "uppr");
+  const c1Draw = c1Drives
+    ? (baselines[c1BaseIdx]?.drawable ?? 190) // palette drawable (e.g. 190)
+    : (flip?.c1_drawable ?? baselines[c1BaseIdx]?.drawable ?? 3);
+  // c1_drives: texture always mirrors what the user wants
+  // c2_drives: texture comes from stored flip data or 0
+  const c1TexFinal = c1Drives ? c1Texture : (flip?.c1_texture ?? 0);
 
-  const c1Call = hasFlip ? buildComponentCall(flip.c1_slot, flip.c1_drawable, flip.c1_texture) : null;
-  const c2Call = buildComponentCall(c2Slot, c2Draw, c2Tex);
+  // ── C2 ────────────────────────────────────────────────────────────────────
+  const c2Draw = flip?.c2_drawable ?? itemDraw;
+  // c1_drives: C2 is always texture 0 (any texture works — color comes from C1)
+  // c2_drives: C2 texture IS the final result color
+  const c2Tex = c1Drives ? 0 : (flip?.c2_texture ?? itemTex);
+
+  // ── Result ────────────────────────────────────────────────────────────────
+  // Always derivable — result is the piece at the texture you actually want
+  const resultDraw = c2Draw;
+  const resultTex = c1Drives ? c1Texture : c2Tex;
+  // Use stored result_img only if present, otherwise derive it
+  const resultImg =
+    flip?.result_img ?? imgPath(gender, slot, resultDraw, resultTex);
+
+  // ── Native calls ──────────────────────────────────────────────────────────
+  const c1Call = buildCall(c1Slot, c1Draw, c1TexFinal);
+  const c2Call = buildCall(slot, c2Draw, c2Tex);
 
   const copy = (id, value) => {
     navigator.clipboard?.writeText(value);
@@ -49,23 +85,17 @@ export default function BeffFlipPanel({ gender, item, onClose }) {
     setTimeout(() => setCopied(null), 1500);
   };
 
-  const copyBoth = () => {
-    if (!hasFlip) return;
-    copy("both", `${c1Call}\n${c2Call}`);
-  };
+  const totalTextures = baselines[c1BaseIdx]?.textures ?? 0;
 
   return (
     <>
-      {/* Backdrop */}
       <div
         className="fixed inset-0 bg-black/70 z-40 backdrop-blur-sm"
         onClick={onClose}
       />
 
-      {/* Panel — centered */}
       <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
         <div className="bg-[#0a0a0a] border border-white/10 overflow-hidden w-full max-w-3xl max-h-[90vh] overflow-y-auto">
-
           {/* Header */}
           <div className="flex items-center justify-between px-6 py-4 border-b border-white/8 bg-[#0d0d0d]">
             <div className="flex items-center gap-3">
@@ -74,13 +104,25 @@ export default function BeffFlipPanel({ gender, item, onClose }) {
               </span>
               <span className="text-white/20 text-[9px]">·</span>
               <span className="text-[13px] font-black text-white/80 font-mono">
-                {label || `Drawable ${drawable} / Tex ${texture}`}
+                {label || `Drawable ${itemDraw}`}
+              </span>
+              <span className="text-[11px] font-black text-yellow-500/60 font-mono">
+                tex {itemTex}
               </span>
               {dlc && (
                 <span className="text-[8px] font-bold uppercase tracking-wider px-2 py-0.5 border border-white/10 text-white/25">
                   {dlc}
                 </span>
               )}
+              <span
+                className={`text-[8px] font-black uppercase tracking-wider px-2 py-0.5 border ${
+                  c1Drives
+                    ? "border-yellow-500/30 text-yellow-500/60 bg-yellow-500/5"
+                    : "border-white/15 text-white/30"
+                }`}
+              >
+                {c1Drives ? "C1 Drives Color" : "C2 Drives Color"}
+              </span>
             </div>
             <button
               onClick={onClose}
@@ -90,142 +132,258 @@ export default function BeffFlipPanel({ gender, item, onClose }) {
             </button>
           </div>
 
-          {hasFlip ? (
-            <>
-              {/* How to get it — 3 column layout */}
-              <div className="grid grid-cols-3 divide-x divide-white/8">
+          {/* Baseline selector */}
+          {baselines.length > 0 && (
+            <div className="px-6 py-3 border-b border-white/5 bg-black/20 flex flex-wrap items-center gap-2">
+              <span className="text-[8px] uppercase tracking-[.15em] text-white/25 font-bold mr-1">
+                {c1Drives ? "C1 Palette" : "C1 Base"}
+              </span>
+              {baselines.map((b, i) => (
+                <button
+                  key={i}
+                  onClick={() => setC1BaseIdx(i)}
+                  className={`text-[9px] font-black uppercase tracking-wider px-3 py-1 border transition-all ${
+                    c1BaseIdx === i
+                      ? "border-yellow-500 text-yellow-500 bg-yellow-500/8"
+                      : "border-white/10 text-white/30 hover:border-white/25 hover:text-white/60"
+                  }`}
+                >
+                  {b.label}
+                  {b.textures && (
+                    <span className="ml-1.5 text-[7px] opacity-60">
+                      ×{b.textures}
+                    </span>
+                  )}
+                </button>
+              ))}
+              {baselines[c1BaseIdx]?.note && (
+                <span className="text-[8px] text-white/20 italic ml-1">
+                  {baselines[c1BaseIdx].note}
+                </span>
+              )}
+            </div>
+          )}
 
-                {/* C1 — what to set UPPR to */}
-                <div className="flex flex-col items-center p-5 gap-3">
-                  <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
-                    Step 1 — C1
-                  </div>
-                  <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-[160px]">
-                    <img
-                      src={imgPath(gender, flip.c1_slot, flip.c1_drawable, flip.c1_texture)}
-                      alt="C1"
-                      className="w-full h-full object-cover"
-                      onError={(e) => { e.target.src = placeholderImg(flip.c1_slot, flip.c1_drawable, flip.c1_texture); }}
-                    />
-                    <div className="absolute top-1 left-1 text-[7px] font-black bg-black/80 text-yellow-500/70 px-1.5 py-0.5 uppercase tracking-wider">
-                      {flip.c1_slot.toUpperCase()}
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-[11px] font-black font-mono text-yellow-500">
-                      {flip.c1_slot.toUpperCase()} {flip.c1_drawable} / {flip.c1_texture}
-                    </div>
-                    <div className="text-[9px] text-white/30 mt-1">Set torso to this</div>
-                  </div>
-                  <button
-                    onClick={() => copy("c1", c1Call)}
-                    className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-yellow-500/20 bg-yellow-500/5 hover:bg-yellow-500/10 text-yellow-500/60 hover:text-yellow-500 transition-all w-full text-center"
-                  >
-                    {copied === "c1" ? "✓ Copied" : "Copy Call"}
-                  </button>
-                </div>
+          {/* 3-column layout */}
+          <div
+            className={`grid divide-x divide-white/8 ${companion ? "grid-cols-4" : "grid-cols-3"}`}
+          >
+            {/* ── C1 ─────────────────────────────────────────────────────── */}
+            <div className="flex flex-col items-center p-5 gap-3">
+              <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
+                {c1Drives ? "Step 1 — C1 (Color)" : "Step 1 — C1 (Base)"}
+              </div>
 
-                {/* C2 — the selected component */}
-                <div className="flex flex-col items-center p-5 gap-3">
-                  <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
-                    Step 2 — C2
-                  </div>
-                  <div className="w-full aspect-square bg-[#111] border border-yellow-500/30 overflow-hidden relative max-w-[160px]">
-                    <img
-                      src={imgPath(gender, c2Slot, c2Draw, c2Tex)}
-                      alt="C2"
-                      className="w-full h-full object-cover"
-                      onError={(e) => { e.target.src = placeholderImg(c2Slot, c2Draw, c2Tex); }}
-                    />
-                    <div className="absolute top-1 left-1 text-[7px] font-black bg-black/80 text-yellow-500 px-1.5 py-0.5 uppercase tracking-wider">
-                      {c2Slot.toUpperCase()}
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-[11px] font-black font-mono text-yellow-500">
-                      {c2Slot.toUpperCase()} {c2Draw} / {c2Tex}
-                    </div>
-                    <div className="text-[9px] text-white/30 mt-1">Set this as C2</div>
-                  </div>
-                  <button
-                    onClick={() => copy("c2", c2Call)}
-                    className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-yellow-500/20 bg-yellow-500/5 hover:bg-yellow-500/10 text-yellow-500/60 hover:text-yellow-500 transition-all w-full text-center"
-                  >
-                    {copied === "c2" ? "✓ Copied" : "Copy Call"}
-                  </button>
-                </div>
-
-                {/* Result */}
-                <div className="flex flex-col items-center p-5 gap-3">
-                  <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
-                    Result
-                  </div>
-                  <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-[160px]">
-                    {flip.result_img ? (
-                      <img
-                        src={flip.result_img}
-                        alt="Result"
-                        className="w-full h-full object-cover"
-                        onError={(e) => { e.target.style.display = "none"; e.target.nextSibling.style.display = "flex"; }}
-                      />
-                    ) : null}
-                    <div
-                      className="absolute inset-0 items-center justify-center flex-col gap-1 bg-[#0d0d0d]"
-                      style={{ display: flip.result_img ? "none" : "flex" }}
-                    >
-                      <span className="text-yellow-500/10 text-3xl font-black italic">SC</span>
-                      <span className="text-white/15 text-[8px] uppercase tracking-widest text-center px-3">
-                        Result image<br />coming soon
-                      </span>
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-[11px] font-black text-white/50">
-                      Final look
-                    </div>
-                    <div className="text-[9px] text-white/20 mt-1">After both are applied</div>
-                  </div>
-                  <button
-                    onClick={copyBoth}
-                    className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-yellow-500/40 bg-yellow-500/8 hover:bg-yellow-500/15 text-yellow-500/80 hover:text-yellow-500 transition-all w-full text-center"
-                  >
-                    {copied === "both" ? "✓ Copied Both" : "Copy Both Calls"}
-                  </button>
+              <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-[160px]">
+                <img
+                  src={imgPath(gender, c1Slot, c1Draw, c1TexFinal)}
+                  alt="C1"
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    e.target.src = placeholderImg(c1Slot, c1Draw, c1TexFinal);
+                  }}
+                />
+                <div className="absolute top-1 left-1 text-[7px] font-black bg-black/80 text-yellow-500/70 px-1.5 py-0.5 uppercase tracking-wider">
+                  {c1Slot.toUpperCase()}
                 </div>
               </div>
 
-              {/* Component calls strip */}
-              <div className="border-t border-white/8 bg-black/30 px-6 py-3 flex flex-col gap-1.5">
-                <div className="text-[8px] uppercase tracking-[.15em] text-white/20 font-bold mb-1">Full sequence</div>
-                <div className="font-mono text-[10px] text-white/40 bg-black/40 border border-white/5 px-4 py-2">
-                  {c1Call}
+              <div className="text-center w-full">
+                <div className="text-[11px] font-black font-mono text-yellow-500">
+                  {c1Slot.toUpperCase()} {c1Draw} / {c1TexFinal}
                 </div>
-                <div className="font-mono text-[10px] text-yellow-500/50 bg-black/40 border border-yellow-500/10 px-4 py-2">
-                  {c2Call}
+                {c1Drives ? (
+                  <div className="text-[8px] text-white/30 mt-1">
+                    Texture sets the color
+                  </div>
+                ) : (
+                  <div className="text-[8px] text-white/30 mt-1">
+                    Fixed base torso
+                  </div>
+                )}
+              </div>
+
+              {/* Texture swatch strip — c1_drives only */}
+              {c1Drives && totalTextures > 1 && (
+                <div className="w-full">
+                  <div className="text-[7px] uppercase tracking-[.12em] text-white/20 font-bold mb-1.5">
+                    Pick texture (color)
+                  </div>
+                  <div className="flex flex-wrap gap-1">
+                    {Array.from({ length: totalTextures }).map((_, t) => (
+                      <button
+                        key={t}
+                        onClick={() => setC1Texture(t)}
+                        title={`Texture ${t}`}
+                        className={`w-6 h-6 overflow-hidden border transition-all ${
+                          c1Texture === t
+                            ? "border-yellow-500 ring-1 ring-yellow-500/40"
+                            : "border-white/10 hover:border-white/30"
+                        }`}
+                      >
+                        <img
+                          src={imgPath(gender, c1Slot, c1Draw, t)}
+                          alt={`tex ${t}`}
+                          className="w-full h-full object-cover"
+                          onError={(e) => {
+                            e.target.style.opacity = "0.15";
+                          }}
+                        />
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              <button
+                onClick={() => copy("c1", c1Call)}
+                className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-yellow-500/20 bg-yellow-500/5 hover:bg-yellow-500/10 text-yellow-500/60 hover:text-yellow-500 transition-all w-full text-center"
+              >
+                {copied === "c1" ? "✓ Copied" : "Copy Call"}
+              </button>
+            </div>
+
+            {/* ── C2 ─────────────────────────────────────────────────────── */}
+            <div className="flex flex-col items-center p-5 gap-3">
+              <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
+                {c1Drives ? "Step 2 — C2 (Piece)" : "Step 2 — C2 (Color)"}
+              </div>
+
+              <div className="w-full aspect-square bg-[#111] border border-yellow-500/30 overflow-hidden relative max-w-[160px]">
+                <img
+                  src={imgPath(gender, slot, c2Draw, c2Tex)}
+                  alt="C2"
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    e.target.src = placeholderImg(slot, c2Draw, c2Tex);
+                  }}
+                />
+                <div className="absolute top-1 left-1 text-[7px] font-black bg-black/80 text-yellow-500 px-1.5 py-0.5 uppercase tracking-wider">
+                  {slot.toUpperCase()}
                 </div>
               </div>
-            </>
-          ) : (
-            /* No flip data state */
-            <div className="flex flex-col items-center justify-center py-12 gap-4">
-              <div className="text-[10px] font-black uppercase tracking-[.2em] text-white/20">
-                No flip data for this component yet
+
+              <div className="text-center w-full">
+                <div className="text-[11px] font-black font-mono text-yellow-500">
+                  {slot.toUpperCase()} {c2Draw} / {c2Tex}
+                </div>
+                {c1Drives ? (
+                  <div className="text-[8px] text-white/25 mt-1 italic">
+                    Any texture works here
+                  </div>
+                ) : (
+                  <div className="text-[8px] text-white/30 mt-1">
+                    Texture = final color
+                  </div>
+                )}
               </div>
-              <div className="text-[9px] text-white/15 uppercase tracking-widest text-center max-w-xs">
-                C1 + C2 combination data hasn't been added for this drawable.
-                The component call below is still available.
-              </div>
-              <div className="font-mono text-[11px] text-yellow-500/50 bg-black/40 border border-yellow-500/10 px-5 py-3 mt-2">
-                {c2Call}
-              </div>
+
               <button
                 onClick={() => copy("c2", c2Call)}
-                className="text-[9px] font-black uppercase tracking-wider px-5 py-2 border border-yellow-500/25 bg-yellow-500/5 hover:bg-yellow-500/10 text-yellow-500/60 hover:text-yellow-500 transition-all"
+                className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-yellow-500/20 bg-yellow-500/5 hover:bg-yellow-500/10 text-yellow-500/60 hover:text-yellow-500 transition-all w-full text-center"
               >
                 {copied === "c2" ? "✓ Copied" : "Copy Call"}
               </button>
             </div>
-          )}
+
+            {/* ── Result ──────────────────────────────────────────────────── */}
+            <div className="flex flex-col items-center p-5 gap-3">
+              <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
+                Result
+              </div>
+
+              <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-[160px]">
+                <img
+                  src={resultImg}
+                  alt="Result"
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    e.target.style.display = "none";
+                    e.target.nextSibling.style.display = "flex";
+                  }}
+                />
+                <div
+                  className="absolute inset-0 items-center justify-center flex-col gap-1 bg-[#0d0d0d]"
+                  style={{ display: "none" }}
+                >
+                  <span className="text-yellow-500/10 text-3xl font-black italic">
+                    SC
+                  </span>
+                  <span className="text-white/15 text-[8px] uppercase tracking-widest text-center px-3">
+                    No image
+                  </span>
+                </div>
+              </div>
+
+              <div className="text-center w-full">
+                <div className="text-[11px] font-black font-mono text-yellow-500">
+                  {slot.toUpperCase()} {resultDraw} / {resultTex}
+                </div>
+                <div className="text-[9px] text-white/20 mt-1">
+                  Your final look
+                </div>
+              </div>
+
+              <button
+                onClick={() =>
+                  copy(
+                    "both",
+                    [c1Call, c2Call, companionCall].filter(Boolean).join("\n"),
+                  )
+                }
+                className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-yellow-500/40 bg-yellow-500/8 hover:bg-yellow-500/15 text-yellow-500/80 hover:text-yellow-500 transition-all w-full text-center"
+              >
+                {copied === "both" ? "✓ Copied Both" : "Copy Both Calls"}
+              </button>
+            </div>
+            {companion && (
+              <div className="flex flex-col items-center p-5 gap-3">
+                <div className="text-[8px] font-black uppercase tracking-[.2em] text-blue-400/50 mb-1">
+                  Flip Companion
+                </div>
+                <div className="w-full aspect-square bg-[#111] border border-blue-400/20 overflow-hidden relative max-w-[160px]">
+                  <img
+                    src={imgPath(
+                      gender,
+                      companion.slot,
+                      companion.drawable,
+                      companion.texture,
+                    )}
+                    alt={companion.label}
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      e.target.src = placeholderImg(
+                        companion.slot,
+                        companion.drawable,
+                        companion.texture,
+                      );
+                    }}
+                  />
+                  <div className="absolute top-1 left-1 text-[7px] font-black bg-black/80 text-blue-400/70 px-1.5 py-0.5 uppercase tracking-wider">
+                    {companion.slot.toUpperCase()}
+                  </div>
+                </div>
+                <div className="text-center w-full">
+                  <div className="text-[11px] font-black text-blue-400/80">
+                    {companion.label}
+                  </div>
+                  <div className="text-[9px] font-mono text-white/30 mt-0.5">
+                    {companion.slot.toUpperCase()} {companion.drawable} /{" "}
+                    {companion.texture}
+                  </div>
+                  <div className="text-[8px] text-white/20 mt-1 italic">
+                    Required to activate flip
+                  </div>
+                </div>
+                <button
+                  onClick={() => copy("companion", companionCall)}
+                  className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-blue-400/20 bg-blue-400/5 hover:bg-blue-400/10 text-blue-400/50 hover:text-blue-400 transition-all w-full text-center"
+                >
+                  {copied === "companion" ? "✓ Copied" : "Copy Call"}
+                </button>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </>

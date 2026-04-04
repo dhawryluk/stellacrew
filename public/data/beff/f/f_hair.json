@@ -1,0 +1,1950 @@
+[
+  {
+    "drawable": 0,
+    "texture": 0,
+    "label": "Close Shave",
+    "gxt": "H_FMF_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 0,
+    "label": "Short Chestnut",
+    "gxt": "H_FMF_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 1,
+    "label": "Short Blonde",
+    "gxt": "H_FMF_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 2,
+    "label": "Short Auburn",
+    "gxt": "H_FMF_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 3,
+    "label": "Short Black",
+    "gxt": "H_FMF_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 4,
+    "label": "Short Brown",
+    "gxt": "H_FMF_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 5,
+    "label": "Short Purple",
+    "gxt": "H_FMF_1_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 0,
+    "label": "Layered Bob Chestnut",
+    "gxt": "H_FMF_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 1,
+    "label": "Layered Bob Blonde",
+    "gxt": "H_FMF_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 2,
+    "label": "Layered Bob Auburn",
+    "gxt": "H_FMF_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 3,
+    "label": "Layered Bob Black",
+    "gxt": "H_FMF_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 4,
+    "label": "Layered Bob Brown",
+    "gxt": "H_FMF_2_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 5,
+    "label": "Layered Bob Green",
+    "gxt": "H_FMF_2_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 0,
+    "label": "Pigtails Chestnut",
+    "gxt": "H_FMF_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 1,
+    "label": "Pigtails Blonde",
+    "gxt": "H_FMF_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 2,
+    "label": "Pigtails Auburn",
+    "gxt": "H_FMF_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 3,
+    "label": "Pigtails Black",
+    "gxt": "H_FMF_3_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 4,
+    "label": "Pigtails Brown",
+    "gxt": "H_FMF_3_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 0,
+    "label": "Ponytail Chestnut",
+    "gxt": "H_FMF_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 1,
+    "label": "Ponytail Blonde",
+    "gxt": "H_FMF_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 2,
+    "label": "Ponytail Auburn",
+    "gxt": "H_FMF_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 3,
+    "label": "Ponytail Black",
+    "gxt": "H_FMF_4_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 4,
+    "label": "Ponytail Brown",
+    "gxt": "H_FMF_4_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 5,
+    "label": "Ponytail Blue",
+    "gxt": "H_FMF_4_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 0,
+    "label": "Braided Mohawk Chestnut",
+    "gxt": "H_FMF_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 1,
+    "label": "Braided Mohawk Blonde",
+    "gxt": "H_FMF_5_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 2,
+    "label": "Braided Mohawk Auburn",
+    "gxt": "H_FMF_5_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 3,
+    "label": "Braided Mohawk Black",
+    "gxt": "H_FMF_5_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 4,
+    "label": "Braided Mohawk Brown",
+    "gxt": "H_FMF_5_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 5,
+    "label": "Braided Mohawk Pink",
+    "gxt": "H_FMF_5_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 0,
+    "label": "Braids Chestnut",
+    "gxt": "H_FMF_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 1,
+    "label": "Braids Blonde",
+    "gxt": "H_FMF_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 2,
+    "label": "Braids Auburn",
+    "gxt": "H_FMF_6_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 3,
+    "label": "Braids Black",
+    "gxt": "H_FMF_6_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 4,
+    "label": "Braids Brown",
+    "gxt": "H_FMF_6_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 0,
+    "label": "Bob Chestnut",
+    "gxt": "H_FMF_7_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 1,
+    "label": "Bob Blonde",
+    "gxt": "H_FMF_7_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 2,
+    "label": "Bob Auburn",
+    "gxt": "H_FMF_7_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 3,
+    "label": "Bob Black",
+    "gxt": "H_FMF_7_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 4,
+    "label": "Bob Brown",
+    "gxt": "H_FMF_7_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 5,
+    "label": "Bob Purple Fade",
+    "gxt": "H_FMF_7_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 0,
+    "label": "Faux Hawk Chestnut",
+    "gxt": "H_FMF_8_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 1,
+    "label": "Faux Hawk Blonde",
+    "gxt": "H_FMF_8_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 2,
+    "label": "Faux Hawk Auburn",
+    "gxt": "H_FMF_8_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 3,
+    "label": "Faux Hawk Black",
+    "gxt": "H_FMF_8_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 4,
+    "label": "Faux Hawk Brown",
+    "gxt": "H_FMF_8_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 5,
+    "label": "Faux Hawk Pink",
+    "gxt": "H_FMF_8_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 0,
+    "label": "French Twist Chestnut",
+    "gxt": "H_FMF_9_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 1,
+    "label": "French Twist Blonde",
+    "gxt": "H_FMF_9_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 2,
+    "label": "French Twist Auburn",
+    "gxt": "H_FMF_9_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 3,
+    "label": "French Twist Black",
+    "gxt": "H_FMF_9_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 4,
+    "label": "French Twist Brown",
+    "gxt": "H_FMF_9_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 0,
+    "label": "Long Bob Chestnut",
+    "gxt": "H_FMF_10_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 1,
+    "label": "Long Bob Blonde",
+    "gxt": "H_FMF_10_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 2,
+    "label": "Long Bob Auburn",
+    "gxt": "H_FMF_10_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 3,
+    "label": "Long Bob Black",
+    "gxt": "H_FMF_10_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 4,
+    "label": "Long Bob Brown",
+    "gxt": "H_FMF_10_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 6,
+    "label": "Long Bob Purple Fade",
+    "gxt": "H_FMF_10_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 0,
+    "label": "Loose Tied Chestnut",
+    "gxt": "H_FMF_11_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 1,
+    "label": "Loose Tied Blonde",
+    "gxt": "H_FMF_11_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 2,
+    "label": "Loose Tied Auburn",
+    "gxt": "H_FMF_11_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 3,
+    "label": "Loose Tied Black",
+    "gxt": "H_FMF_11_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 4,
+    "label": "Loose Tied Brown",
+    "gxt": "H_FMF_11_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 6,
+    "label": "Loose Tied Green",
+    "gxt": "H_FMF_11_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 0,
+    "label": "Pixie Chestnut",
+    "gxt": "H_FMF_12_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 1,
+    "label": "Pixie Blonde",
+    "gxt": "H_FMF_12_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 2,
+    "label": "Pixie Auburn",
+    "gxt": "H_FMF_12_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 3,
+    "label": "Pixie Black",
+    "gxt": "H_FMF_12_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 4,
+    "label": "Pixie Brown",
+    "gxt": "H_FMF_12_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 5,
+    "label": "Pixie Blue",
+    "gxt": "H_FMF_12_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 0,
+    "label": "Shaved Bangs Chestnut",
+    "gxt": "H_FMF_13_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 1,
+    "label": "Shaved Bangs Blonde",
+    "gxt": "H_FMF_13_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 2,
+    "label": "Shaved Bangs Auburn",
+    "gxt": "H_FMF_13_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 3,
+    "label": "Shaved Bangs Black",
+    "gxt": "H_FMF_13_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 4,
+    "label": "Shaved Bangs Brown",
+    "gxt": "H_FMF_13_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 5,
+    "label": "Shaved Bangs Blue Fade",
+    "gxt": "H_FMF_13_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 0,
+    "label": "Top Knot Chestnut",
+    "gxt": "H_FMF_14_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 1,
+    "label": "Top Knot Blonde",
+    "gxt": "H_FMF_14_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 2,
+    "label": "Top Knot Auburn",
+    "gxt": "H_FMF_14_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 3,
+    "label": "Top Knot Black",
+    "gxt": "H_FMF_14_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 4,
+    "label": "Top Knot Brown",
+    "gxt": "H_FMF_14_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 0,
+    "label": "Wavy Bob Chestnut",
+    "gxt": "H_FMF_15_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 1,
+    "label": "Wavy Bob Blonde",
+    "gxt": "H_FMF_15_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 2,
+    "label": "Wavy Bob Auburn",
+    "gxt": "H_FMF_15_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 3,
+    "label": "Wavy Bob Black",
+    "gxt": "H_FMF_15_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 4,
+    "label": "Wavy Bob Brown",
+    "gxt": "H_FMF_15_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 5,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 6,
+    "label": "Wavy Bob Red Fade",
+    "gxt": "H_FMF_15_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 0,
+    "label": "Pin Up Girl Chestnut",
+    "gxt": "CLO_BBF_H_00",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 1,
+    "label": "Pin Up Girl Blonde",
+    "gxt": "CLO_BBF_H_01",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 2,
+    "label": "Pin Up Girl Auburn",
+    "gxt": "CLO_BBF_H_02",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 3,
+    "label": "Pin Up Girl Black",
+    "gxt": "CLO_BBF_H_03",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 4,
+    "label": "Pin Up Girl Brown",
+    "gxt": "CLO_BBF_H_04",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 0,
+    "label": "Messy Bun Chestnut",
+    "gxt": "CLO_BBF_H_05",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 1,
+    "label": "Messy Bun Blonde",
+    "gxt": "CLO_BBF_H_06",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 2,
+    "label": "Messy Bun Auburn",
+    "gxt": "CLO_BBF_H_07",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 3,
+    "label": "Messy Bun Black",
+    "gxt": "CLO_BBF_H_08",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 4,
+    "label": "Messy Bun Brown",
+    "gxt": "CLO_BBF_H_09",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 0,
+    "label": "Flapper Bob Chestnut",
+    "gxt": "CLO_VALF_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 1,
+    "label": "Flapper Bob Blonde",
+    "gxt": "CLO_VALF_H_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 2,
+    "label": "Flapper Bob Auburn",
+    "gxt": "CLO_VALF_H_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 3,
+    "label": "Flapper Bob Black",
+    "gxt": "CLO_VALF_H_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 4,
+    "label": "Flapper Bob Brown",
+    "gxt": "CLO_VALF_H_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 5,
+    "label": "Flapper Bob Blue",
+    "gxt": "CLO_VALF_H_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 0,
+    "label": "Tight Bun Black",
+    "gxt": "CLO_BUS_F_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 1,
+    "label": "Tight Bun Brown",
+    "gxt": "CLO_BUS_F_H_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 2,
+    "label": "Tight Bun Auburn",
+    "gxt": "CLO_BUS_F_H_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 3,
+    "label": "Tight Bun Chestnut",
+    "gxt": "CLO_BUS_F_H_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 4,
+    "label": "Tight Bun Blonde",
+    "gxt": "CLO_BUS_F_H_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 0,
+    "label": "Twisted Bob Chestnut",
+    "gxt": "CLO_BUS_F_H_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 1,
+    "label": "Twisted Bob Black",
+    "gxt": "CLO_BUS_F_H_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 2,
+    "label": "Twisted Bob Auburn",
+    "gxt": "CLO_BUS_F_H_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 3,
+    "label": "Twisted Bob Brown",
+    "gxt": "CLO_BUS_F_H_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 4,
+    "label": "Twisted Bob Blonde",
+    "gxt": "CLO_BUS_F_H_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 0,
+    "label": "Big Bangs Chestnut",
+    "gxt": "CLO_HP_F_HR_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 1,
+    "label": "Big Bangs Blonde",
+    "gxt": "CLO_HP_F_HR_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 2,
+    "label": "Big Bangs Auburn",
+    "gxt": "CLO_HP_F_HR_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 3,
+    "label": "Big Bangs Black",
+    "gxt": "CLO_HP_F_HR_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 4,
+    "label": "Big Bangs Brown",
+    "gxt": "CLO_HP_F_HR_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 0,
+    "label": "Braided Top Knot Chestnut",
+    "gxt": "CLO_HP_F_HR_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 1,
+    "label": "Braided Top Knot Blonde",
+    "gxt": "CLO_HP_F_HR_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 2,
+    "label": "Braided Top Knot Auburn",
+    "gxt": "CLO_HP_F_HR_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 3,
+    "label": "Braided Top Knot Black",
+    "gxt": "CLO_HP_F_HR_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 4,
+    "label": "Braided Top Knot Brown",
+    "gxt": "CLO_HP_F_HR_1_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 0,
+    "label": "Mullet Chestnut",
+    "gxt": "CLO_INDF_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 1,
+    "label": "Mullet Blonde",
+    "gxt": "CLO_INDF_H_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 2,
+    "label": "Mullet Auburn",
+    "gxt": "CLO_INDF_H_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 3,
+    "label": "Mullet Black",
+    "gxt": "CLO_INDF_H_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 4,
+    "label": "Mullet Brown",
+    "gxt": "CLO_INDF_H_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 0,
+    "label": "Pinched Cornrows",
+    "gxt": "CLO_S1F_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 0,
+    "label": "Leaf Cornrows",
+    "gxt": "CLO_S1F_H_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 27,
+    "texture": 0,
+    "label": "Zig Zag Cornrows",
+    "gxt": "CLO_S1F_H_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 0,
+    "label": "Pigtail Bangs",
+    "gxt": "CLO_S1F_H_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 0,
+    "label": "Wave Braids",
+    "gxt": "CLO_S2F_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 0,
+    "label": "Coil Braids",
+    "gxt": "CLO_S2F_H_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 0,
+    "label": "Rolled Quiff",
+    "gxt": "CLO_S2F_H_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 0,
+    "label": "Loose Swept Back",
+    "gxt": "CLO_BIF_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 0,
+    "label": "Undercut Swept Back",
+    "gxt": "CLO_BIF_H_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 0,
+    "label": "Undercut Swept Side",
+    "gxt": "CLO_BIF_H_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 0,
+    "label": "Spiked Mohawk",
+    "gxt": "CLO_BIF_H_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 0,
+    "label": "Bandana and Braid",
+    "gxt": "CLO_BIF_H_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 0,
+    "label": "Skinbyrd",
+    "gxt": "CLO_BIF_H_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 0,
+    "label": "Layered Mod",
+    "gxt": "CLO_BIF_H_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 0,
+    "label": "Short",
+    "gxt": "CC_F_HS_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 0,
+    "label": "Layered Bob",
+    "gxt": "CC_F_HS_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 0,
+    "label": "Pigtails",
+    "gxt": "CC_F_HS_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 0,
+    "label": "Ponytail",
+    "gxt": "CC_F_HS_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 43,
+    "texture": 0,
+    "label": "Braided Mohawk",
+    "gxt": "CC_F_HS_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 0,
+    "label": "Braids",
+    "gxt": "CC_F_HS_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 0,
+    "label": "Bob",
+    "gxt": "CC_F_HS_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 46,
+    "texture": 0,
+    "label": "Faux Hawk",
+    "gxt": "CC_F_HS_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 0,
+    "label": "French Twist",
+    "gxt": "CC_F_HS_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 0,
+    "label": "Long Bob",
+    "gxt": "CC_F_HS_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 49,
+    "texture": 0,
+    "label": "Loose Tied",
+    "gxt": "CC_F_HS_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 50,
+    "texture": 0,
+    "label": "Pixie",
+    "gxt": "CC_F_HS_12",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 0,
+    "label": "Shaved Bangs",
+    "gxt": "CC_F_HS_13",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 52,
+    "texture": 0,
+    "label": "Top Knot",
+    "gxt": "CC_F_HS_14",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 53,
+    "texture": 0,
+    "label": "Wavy Bob",
+    "gxt": "CC_F_HS_15",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 54,
+    "texture": 0,
+    "label": "Messy Bun Chestnut",
+    "gxt": "CLO_BBF_H_05",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 55,
+    "texture": 0,
+    "label": "Pin Up Girl Chestnut",
+    "gxt": "CLO_BBF_H_00",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 0,
+    "label": "Tight Bun Black",
+    "gxt": "CLO_BUS_F_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 57,
+    "texture": 0,
+    "label": "Twisted Bob Chestnut",
+    "gxt": "CLO_BUS_F_H_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 58,
+    "texture": 0,
+    "label": "Flapper Bob Chestnut",
+    "gxt": "CLO_VALF_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 59,
+    "texture": 0,
+    "label": "Big Bangs Chestnut",
+    "gxt": "CLO_HP_F_HR_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 60,
+    "texture": 0,
+    "label": "Braided Top Knot Chestnut",
+    "gxt": "CLO_HP_F_HR_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 61,
+    "texture": 0,
+    "label": "Mullet Chestnut",
+    "gxt": "CLO_INDF_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 62,
+    "texture": 0,
+    "label": "Pinched Cornrows",
+    "gxt": "CLO_S1F_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 0,
+    "label": "Leaf Cornrows",
+    "gxt": "CLO_S1F_H_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 64,
+    "texture": 0,
+    "label": "Zig Zag Cornrows",
+    "gxt": "CLO_S1F_H_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 65,
+    "texture": 0,
+    "label": "Pigtail Bangs",
+    "gxt": "CLO_S1F_H_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 66,
+    "texture": 0,
+    "label": "Wave Braids",
+    "gxt": "CLO_S2F_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 67,
+    "texture": 0,
+    "label": "Coil Braids",
+    "gxt": "CLO_S2F_H_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 68,
+    "texture": 0,
+    "label": "Rolled Quiff",
+    "gxt": "CLO_S2F_H_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 69,
+    "texture": 0,
+    "label": "Loose Swept Back",
+    "gxt": "CLO_BIF_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 70,
+    "texture": 0,
+    "label": "Undercut Swept Back",
+    "gxt": "CLO_BIF_H_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 71,
+    "texture": 0,
+    "label": "Undercut Swept Side",
+    "gxt": "CLO_BIF_H_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 72,
+    "texture": 0,
+    "label": "Spiked Mohawk",
+    "gxt": "CLO_BIF_H_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 73,
+    "texture": 0,
+    "label": "Bandana and Braid",
+    "gxt": "CLO_BIF_H_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 74,
+    "texture": 0,
+    "label": "Layered Mod",
+    "gxt": "CLO_BIF_H_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 75,
+    "texture": 0,
+    "label": "Skinbyrd",
+    "gxt": "CLO_BIF_H_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 76,
+    "texture": 0,
+    "label": "Neat Bun",
+    "gxt": "CLO_GRF_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 77,
+    "texture": 0,
+    "label": "Short Bob",
+    "gxt": "CLO_GRF_H_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 78,
+    "texture": 0,
+    "label": "Impotent Rage",
+    "gxt": "CLO_VWF_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 79,
+    "texture": 0,
+    "label": "Afro",
+    "gxt": "CLO_TRF_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 80,
+    "texture": 0,
+    "label": "Pixie Wavy",
+    "gxt": "CLO_FXF_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 81,
+    "texture": 0,
+    "label": "Short Tucked Bob",
+    "gxt": "CLO_SBF_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 82,
+    "texture": 0,
+    "label": "Shaggy Mullet",
+    "gxt": "CLO_SBF_H_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 83,
+    "texture": 0,
+    "label": "Buzzcut",
+    "gxt": "CLO_X6F_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 84,
+    "texture": 0,
+    "label": "Baby Braids",
+    "gxt": "CLO_SCF_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 85,
+    "texture": 0,
+    "label": "Knotless Braids",
+    "gxt": "CLO_X7F_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 86,
+    "texture": 0,
+    "label": "Shaggy Octopus",
+    "gxt": "CLO_X8F_H_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  }
+]

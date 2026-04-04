@@ -108,7 +108,6 @@ export default function BeffBrowser() {
 
           {/* Main content */}
           <div className="lg:col-span-10 flex flex-col gap-5">
-            {/* Detail panel */}
             {selected && (
               <BeffDetailPanel
                 gender={gender}
@@ -120,7 +119,6 @@ export default function BeffBrowser() {
               />
             )}
 
-            {/* Drawable grid */}
             <div className="bg-[#0d0d0d] border border-white/8 p-5">
               <BeffComponentGrid
                 gender={gender}
@@ -136,10 +134,11 @@ export default function BeffBrowser() {
         </div>
       </div>
 
-      {/* Flip panel modal */}
+      {/* Flip panel modal — slot is required for flip type + baseline C1 logic */}
       {flipItem && (
         <BeffFlipPanel
           gender={gender}
+          slot={slot}
           item={flipItem}
           onClose={() => setFlipItem(null)}
         />

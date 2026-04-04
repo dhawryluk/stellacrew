@@ -1,0 +1,590 @@
+[
+  {
+    "drawable": 0,
+    "texture": 0,
+    "label": "Gray Earpiece",
+    "gxt": "CLO_HST_E_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 0,
+    "label": "Red Earpiece",
+    "gxt": "CLO_HST_E_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 0,
+    "label": "LCD Earpiece",
+    "gxt": "CLO_HST_E_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 0,
+    "label": "Platinum Pendulums",
+    "gxt": "CLO_LXF_E_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 0,
+    "label": "Gold Pendulums",
+    "gxt": "CLO_LXF_E_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 0,
+    "label": "Gold Diamond Rounds",
+    "gxt": "CLO_LXF_E_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 0,
+    "label": "Gold Diamond Drops",
+    "gxt": "CLO_LXF_E_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 1,
+    "label": "Platinum Diamond Drops",
+    "gxt": "CLO_LXF_E_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 2,
+    "label": "Black Gold Diamond Drops",
+    "gxt": "CLO_LXF_E_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 0,
+    "label": "Gold Waterfalls",
+    "gxt": "CLO_LXF_E_4_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 1,
+    "label": "Platinum Waterfalls",
+    "gxt": "CLO_LXF_E_4_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 2,
+    "label": "Black Gold Waterfalls",
+    "gxt": "CLO_LXF_E_4_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 0,
+    "label": "Gold Totems",
+    "gxt": "CLO_LXF_E_5_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 1,
+    "label": "Black Gold Totems",
+    "gxt": "CLO_LXF_E_5_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 2,
+    "label": "Platinum Totems",
+    "gxt": "CLO_LXF_E_5_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 0,
+    "label": "Gold Diamond Chains",
+    "gxt": "CLO_LXF_E_6_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 1,
+    "label": "Platinum Diamond Chains",
+    "gxt": "CLO_LXF_E_6_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 2,
+    "label": "Black Gold Diamond Chains",
+    "gxt": "CLO_LXF_E_6_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 0,
+    "label": "Gold Emerald Chains",
+    "gxt": "CLO_LXF_E_7_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 1,
+    "label": "Platinum Emerald Chains",
+    "gxt": "CLO_LXF_E_7_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 2,
+    "label": "Black Gold Emerald Chains",
+    "gxt": "CLO_LXF_E_7_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 0,
+    "label": "Gold Sun Drops",
+    "gxt": "CLO_LXF_E_8_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 1,
+    "label": "Platinum Sun Drops",
+    "gxt": "CLO_LXF_E_8_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 2,
+    "label": "Black Gold Sun Drops",
+    "gxt": "CLO_LXF_E_8_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 0,
+    "label": "Platinum Diamond Studs",
+    "gxt": "CLO_LXF_E_9_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 1,
+    "label": "Gold Diamond Studs",
+    "gxt": "CLO_LXF_E_9_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 2,
+    "label": "Black Gold Diamond Studs",
+    "gxt": "CLO_LXF_E_9_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 0,
+    "label": "Assault Hoops",
+    "gxt": "CLO_S1F_E_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 0,
+    "label": "Chunky Hoops",
+    "gxt": "CLO_S1F_E_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 0,
+    "label": "Classic Hoops",
+    "gxt": "CLO_S1F_E_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 0,
+    "label": "FU Hoops",
+    "gxt": "CLO_S2F_E_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 0,
+    "label": "Screw You Hoops",
+    "gxt": "CLO_S2F_E_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 0,
+    "label": "Gold Fame or Shame Mics",
+    "gxt": "CLO_VWF_PE_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 1,
+    "label": "Silver Fame or Shame Mics",
+    "gxt": "CLO_VWF_PE_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 0,
+    "label": "Clubs Earrings",
+    "gxt": "CLO_VWF_PE_1_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 1,
+    "label": "Diamonds Earrings",
+    "gxt": "CLO_VWF_PE_1_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 2,
+    "label": "Hearts Earrings",
+    "gxt": "CLO_VWF_PE_1_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 3,
+    "label": "Spades Earrings",
+    "gxt": "CLO_VWF_PE_1_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 0,
+    "label": "White Dice Earrings",
+    "gxt": "CLO_VWF_PE_2_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 1,
+    "label": "Red Dice Earrings",
+    "gxt": "CLO_VWF_PE_2_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 2,
+    "label": "Tan Dice Earrings",
+    "gxt": "CLO_VWF_PE_2_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 3,
+    "label": "Gray Dice Earrings",
+    "gxt": "CLO_VWF_PE_2_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 0,
+    "label": "Black Chips Earrings",
+    "gxt": "CLO_VWF_PE_3_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 1,
+    "label": "Yellow Chips Earrings",
+    "gxt": "CLO_VWF_PE_3_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 2,
+    "label": "Red Chips Earrings",
+    "gxt": "CLO_VWF_PE_3_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 3,
+    "label": "Pink Chips Earrings",
+    "gxt": "CLO_VWF_PE_3_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 0,
+    "label": "White Beat Off Earphones",
+    "gxt": "CLO_SBF_E_0_0",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 1,
+    "label": "Yellow Beat Off Earphones",
+    "gxt": "CLO_SBF_E_0_1",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 2,
+    "label": "Salmon Beat Off Earphones",
+    "gxt": "CLO_SBF_E_0_2",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 3,
+    "label": "Orange Beat Off Earphones",
+    "gxt": "CLO_SBF_E_0_3",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 4,
+    "label": "Purple Beat Off Earphones",
+    "gxt": "CLO_SBF_E_0_4",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 5,
+    "label": "Pink Beat Off Earphones",
+    "gxt": "CLO_SBF_E_0_5",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 6,
+    "label": "Turquoise Beat Off Earphones",
+    "gxt": "CLO_SBF_E_0_6",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 7,
+    "label": "Blue Beat Off Earphones",
+    "gxt": "CLO_SBF_E_0_7",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 8,
+    "label": "Black Beat Off Earphones",
+    "gxt": "CLO_SBF_E_0_8",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 9,
+    "label": "Gray Beat Off Earphones",
+    "gxt": "CLO_SBF_E_0_9",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 10,
+    "label": "Teal Beat Off Earphones",
+    "gxt": "CLO_SBF_E_0_10",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 11,
+    "label": "Red Beat Off Earphones",
+    "gxt": "CLO_SBF_E_0_11",
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 0,
+    "dlc": null,
+    "nameHash": null,
+    "featured": false,
+    "flip": null
+  }
+]
