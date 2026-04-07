@@ -20,6 +20,7 @@ import CarColorEditor from "./pages/CarColorEditor";
 import BeffBrowser from "./pages/BeffBrowser";
 import BeffGuides from "./pages/BeffGuides";
 import BeffGuideDetail from "./pages/BeffGuideDetail";
+import BeffMerging from "./pages/BeffMerging";
 import Footer from "./components/Footer";
 
 function LayoutWrapper({ children }) {
@@ -61,6 +62,7 @@ export default function App() {
           <Route path="/beff/components" element={<BeffBrowser />} />
           <Route path="/beff/guides" element={<BeffGuides />} />
           <Route path="/beff/guides/:id" element={<BeffGuideDetail />} />
+          <Route path="/beff/merging" element={<BeffMerging />} />
           <Route path="/success" element={<SuccessPage />} />
           <Route path="/terms" element={<TermsPage />} />
         </Routes>

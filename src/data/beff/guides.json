@@ -1,81 +1,2929 @@
 [
   {
-    "id": "cop_belt",
+    "id": "m_sleeveless_leather",
+    "name": "Sleeveless Leather Jacket",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_sleeveless_leather.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 240,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 428,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 413,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 413,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 240-0",
+      "Save your C2 outfit with JBIB 428-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 428-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 240-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 413-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_leather_jacket",
+    "name": "Leather Jacket",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_leather_jacket.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 239,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 428,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 412,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 412,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 239-0",
+      "Save your C2 outfit with JBIB 428-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 428-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 239-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 412-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_sleeveless_red_leather",
+    "name": "Sleeveless Red Leather Jacket",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_sleeveless_red_leather.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 249,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 406,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 400,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 400,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 249-0",
+      "Save your C2 outfit with JBIB 406-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 406-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 249-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 400-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_red_leather",
+    "name": "Red Leather Jacket",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_red_leather.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 248,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 406,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 399,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 399,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 248-0",
+      "Save your C2 outfit with JBIB 406-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 406-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 248-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 399-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_brown_sleeveless",
+    "name": "Brown Sleeveless Leather",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_brown_sleeveless.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 248,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 508,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 397,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 397,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 248-0",
+      "Save your C2 outfit with JBIB 508-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 508-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 248-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 397-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_brown_leather",
+    "name": "Brown Leather Jacket",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_brown_leather.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 248,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 403,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 396,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 396,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 248-0",
+      "Save your C2 outfit with JBIB 403-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 403-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 248-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 396-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_black_sleeveless",
+    "name": "Black Sleeveless Leather",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_black_sleeveless.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 247,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 403,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 395,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 395,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 247-0",
+      "Save your C2 outfit with JBIB 403-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 403-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 247-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 395-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_black_leather",
+    "name": "Black Leather Jacket",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_black_leather.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 243,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 406,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 394,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 394,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 243-0",
+      "Save your C2 outfit with JBIB 406-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 406-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 243-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 394-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_golf_shirt_tucked",
+    "name": "Golf Shirt (Tucked)",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_golf_shirt_tucked.jpg",
+    "tags": ["magic-top", "torso2"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 251,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 387,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 383,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 383,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 251-0",
+      "Save your C2 outfit with JBIB 387-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 387-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 251-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 383-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_golf_shirt",
+    "name": "Golf Shirt",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_golf_shirt.jpg",
+    "tags": ["magic-top", "torso2"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 251,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 386,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 382,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 382,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 251-0",
+      "Save your C2 outfit with JBIB 386-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 386-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 251-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 382-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_alien_top",
+    "name": "Alien Top",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_alien_top.jpg",
+    "tags": ["magic-top", "torso2", "alien"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 251,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 337,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 333,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 333,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 251-0",
+      "Save your C2 outfit with JBIB 337-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 337-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 251-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 333-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_yung_hoodie",
+    "name": "Yung Hoodie",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_yung_hoodie.jpg",
+    "tags": ["magic-top", "torso2", "hoodie"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 231,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 354,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 330,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 330,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 231-0",
+      "Save your C2 outfit with JBIB 354-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 354-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 231-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 330-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_yung_track_jacket",
+    "name": "Yung Track Jacket",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_yung_track_jacket.jpg",
+    "tags": ["magic-top", "torso2"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 231,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 353,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 329,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 329,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 231-0",
+      "Save your C2 outfit with JBIB 353-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 353-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 231-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 329-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_noose_top",
+    "name": "NOOSE Top",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_noose_top.jpg",
+    "tags": ["magic-top", "torso2", "noose"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 231,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 344,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 320,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 320,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 231-0",
+      "Save your C2 outfit with JBIB 344-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 344-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 231-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 320-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_epsilon_top",
+    "name": "Epsilon Top",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_epsilon_top.jpg",
+    "tags": ["magic-top", "torso2", "epsilon"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 231,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 296,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 272,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 272,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 231-0",
+      "Save your C2 outfit with JBIB 296-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 296-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 231-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 272-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_teal_racing_suit",
+    "name": "Teal Racing Suit",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_teal_racing_suit.jpg",
+    "tags": ["magic-top", "torso2", "racing"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 188,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 337,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 270,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 270,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 188-0",
+      "Save your C2 outfit with JBIB 337-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 337-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 188-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 270-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_invisible_torso",
+    "name": "Invisible Torso",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_invisible_torso.jpg",
+    "tags": ["magic-top", "torso2", "invisible"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 231,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 276,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 252,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 252,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 231-0",
+      "Save your C2 outfit with JBIB 276-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 276-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 231-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 252-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_paramedic_top",
+    "name": "Paramedic Top",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_paramedic_top.jpg",
+    "tags": ["magic-top", "torso2", "paramedic"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 231,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 274,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 250,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 250,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 231-0",
+      "Save your C2 outfit with JBIB 274-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 274-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 231-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 250-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_paramedic_jacket",
+    "name": "Paramedic Jacket",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_paramedic_jacket.jpg",
+    "tags": ["magic-top", "torso2", "paramedic"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 231,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 279,
+      "texture": 19
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 249,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 249,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 231-0",
+      "Save your C2 outfit with JBIB 279-19",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 279-19), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 231-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 249-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_green_varsity",
+    "name": "Green Varsity Jacket",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_green_varsity.jpg",
+    "tags": ["magic-top", "torso2", "adversary"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 48,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 350,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 143,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 143,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 48-0",
+      "Save your C2 outfit with JBIB 350-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 350-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 48-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 143-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_green_jersey",
+    "name": "Green Jersey",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_green_jersey.jpg",
+    "tags": ["magic-top", "torso2", "adversary"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 48,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 335,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 128,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 128,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 48-0",
+      "Save your C2 outfit with JBIB 335-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 335-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 48-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 128-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "m_green_moto",
+    "name": "Green Moto Jacket",
+    "gender": "m",
+    "type": "magic_top",
+    "preview": "/beff/guides/m_green_moto.jpg",
+    "tags": ["magic-top", "torso2", "adversary"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 73,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 300,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 118,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 118,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Effortless\" from the in-game counter",
+      "Save your C1 outfit with JBIB 73-0",
+      "Save your C2 outfit with JBIB 300-0",
+      "On C1: wear The Effortless and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 300-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 73-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 118-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_black_cropped",
+    "name": "Black Cropped Top",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_black_cropped.jpg",
+    "tags": ["magic-top", "torso2"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 22,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 262,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 29,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 29,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 22-0",
+      "Save your C2 outfit with JBIB 262-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 262-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 22-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 29-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_red_sleeveless",
+    "name": "Red Leather Sleeveless",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_red_sleeveless.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 243,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 439,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 426,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 426,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 243-0",
+      "Save your C2 outfit with JBIB 439-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 439-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 243-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 426-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_red_leather",
+    "name": "Red Leather Jacket",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_red_leather.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 241,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 439,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 425,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 425,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 241-0",
+      "Save your C2 outfit with JBIB 439-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 439-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 241-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 425-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_brown_sleeveless",
+    "name": "Brown Sleeveless Leather",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_brown_sleeveless.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 239,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 439,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 423,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 423,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 239-0",
+      "Save your C2 outfit with JBIB 439-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 439-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 239-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 423-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_brown_leather",
+    "name": "Brown Leather Jacket",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_brown_leather.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 238,
+      "texture": 4
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 439,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 422,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 422,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 238-4",
+      "Save your C2 outfit with JBIB 439-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 439-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 238-4), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 422-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_black_sleeveless",
+    "name": "Black Sleeveless Leather",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_black_sleeveless.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 245,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 430,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 420,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 420,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 245-0",
+      "Save your C2 outfit with JBIB 430-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 430-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 245-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 420-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_black_leather",
+    "name": "Black Leather Jacket",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_black_leather.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 244,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 430,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 419,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 419,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 244-0",
+      "Save your C2 outfit with JBIB 430-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 430-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 244-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 419-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_white_sleeveless",
+    "name": "White Sleeveless Leather",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_white_sleeveless.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 243,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 430,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 418,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 418,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 243-0",
+      "Save your C2 outfit with JBIB 430-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 430-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 243-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 418-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_white_leather",
+    "name": "White Leather Jacket",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_white_leather.jpg",
+    "tags": ["magic-top", "torso2", "leather"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 242,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 430,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 417,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 417,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 242-0",
+      "Save your C2 outfit with JBIB 430-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 430-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 242-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 417-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_alien_top",
+    "name": "Alien Top",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_alien_top.jpg",
+    "tags": ["magic-top", "torso2", "alien"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 241,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 261,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 348,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 348,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 241-0",
+      "Save your C2 outfit with JBIB 261-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 261-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 241-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 348-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_yung_hoodie",
+    "name": "Yung Hoodie",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_yung_hoodie.jpg",
+    "tags": ["magic-top", "torso2", "hoodie"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 241,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 359,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 345,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 345,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 241-0",
+      "Save your C2 outfit with JBIB 359-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 359-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 241-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 345-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_yung_sport_jacket",
+    "name": "Yung Sport Jacket",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_yung_sport_jacket.jpg",
+    "tags": ["magic-top", "torso2"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 241,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 358,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 344,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 344,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 241-0",
+      "Save your C2 outfit with JBIB 358-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 358-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 241-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 344-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_noose_top",
+    "name": "NOOSE Top",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_noose_top.jpg",
+    "tags": ["magic-top", "torso2", "noose"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 241,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 345,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 331,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 331,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 241-0",
+      "Save your C2 outfit with JBIB 345-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 345-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 241-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 331-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_epsilon_top",
+    "name": "Epsilon Top",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_epsilon_top.jpg",
+    "tags": ["magic-top", "torso2", "epsilon"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 241,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 299,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 285,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 285,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 241-0",
+      "Save your C2 outfit with JBIB 299-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 299-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 241-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 285-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_teal_racing_suit",
+    "name": "Teal Racing Suit",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_teal_racing_suit.jpg",
+    "tags": ["magic-top", "torso2", "racing"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 241,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 296,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 282,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 282,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 241-0",
+      "Save your C2 outfit with JBIB 296-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 296-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 241-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 282-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_invisible_top",
+    "name": "Invisible Top",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_invisible_top.jpg",
+    "tags": ["magic-top", "torso2", "invisible"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 241,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 274,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 260,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 260,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 241-0",
+      "Save your C2 outfit with JBIB 274-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 274-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 241-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 260-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_paramedic_shirt",
+    "name": "Paramedic Shirt",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_paramedic_shirt.jpg",
+    "tags": ["magic-top", "torso2", "paramedic"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 241,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 272,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 258,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 258,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 241-0",
+      "Save your C2 outfit with JBIB 272-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 272-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 241-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 258-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_paramedic_jacket",
+    "name": "Paramedic Jacket",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_paramedic_jacket.jpg",
+    "tags": ["magic-top", "torso2", "paramedic"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 241,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 271,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 257,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 257,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 241-0",
+      "Save your C2 outfit with JBIB 271-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 271-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 241-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 257-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_green_varsity",
+    "name": "Green Varsity Jacket",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_green_varsity.jpg",
+    "tags": ["magic-top", "torso2", "adversary"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 41,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 354,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 140,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 140,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 41-0",
+      "Save your C2 outfit with JBIB 354-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 354-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 41-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 140-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_green_jersey",
+    "name": "Green Jersey",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_green_jersey.jpg",
+    "tags": ["magic-top", "torso2", "adversary"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 22,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 358,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 125,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 125,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 22-0",
+      "Save your C2 outfit with JBIB 358-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 358-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 22-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 125-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_green_moto",
+    "name": "Green Moto Leather",
+    "gender": "f",
+    "type": "magic_top",
+    "preview": "/beff/guides/f_green_moto.jpg",
+    "tags": ["magic-top", "torso2", "leather", "adversary"],
+    "c1": {
+      "slot": "jbib",
+      "drawable": 22,
+      "texture": 0
+    },
+    "c2": {
+      "slot": "jbib",
+      "drawable": 343,
+      "texture": 0
+    },
+    "result": {
+      "slot": "jbib",
+      "drawable": 110,
+      "texture": 0
+    },
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 110,
+        "texture": 0
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 22-0",
+      "Save your C2 outfit with JBIB 343-0",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 343-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit (JBIB 22-0), get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with JBIB 110-0. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_cop_belt_2",
     "name": "Cop Belt",
-    "gender": "m",
-    "difficulty": "easy",
-    "blacklisted": false,
-    "preview": "/beff/guides/cop_belt.jpg",
-    "tags": ["belt", "torso", "og"],
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_cop_belt_2.jpg",
+    "tags": ["torso1", "belt", "cop"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 154,
+        "texture": 0,
+        "label": "Black Leather Cut"
+      },
+      {
+        "slot": "accs",
+        "drawable": 141,
+        "texture": 0,
+        "label": "Blue Digital Rolled Tee"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
     "components": [
-      { "slot": "jbib", "drawable": 47, "texture": 0 },
-      { "slot": "uppr", "drawable": 15, "texture": 2 },
-      { "slot": "accs", "drawable": 34, "texture": 0 }
+      {
+        "slot": "jbib",
+        "drawable": 154,
+        "texture": 0,
+        "label": "Black Leather Cut"
+      },
+      {
+        "slot": "accs",
+        "drawable": 141,
+        "texture": 0,
+        "label": "Blue Digital Rolled Tee"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
     ],
     "steps": [
-      "Go to a clothing store and open the JBIB (Torso 2) menu",
-      "Navigate to drawable 47, texture 0",
-      "Open the UPPR (Torso) menu and set drawable 15, texture 2",
-      "Open the ACCS (Accessories) menu and set drawable 34, texture 0",
-      "Exit the store — the belt should now be visible"
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 154-0 and ACCS 141-0",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
     ]
   },
   {
-    "id": "og_holster",
-    "name": "OG Holster",
-    "gender": "m",
-    "difficulty": "easy",
-    "blacklisted": false,
-    "preview": "/beff/guides/og_holster.jpg",
-    "tags": ["holster", "torso"],
+    "id": "f_black_onesie_hood_up",
+    "name": "Black Onesie Hood Up",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_black_onesie_hood_up.jpg",
+    "tags": ["torso1", "onesie", "hood"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 64,
+        "texture": 0,
+        "label": "Cream Peacoat"
+      },
+      {
+        "slot": "accs",
+        "drawable": 227,
+        "texture": 0,
+        "label": "Green Festive Tee"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
     "components": [
-      { "slot": "jbib", "drawable": 47, "texture": 1 },
-      { "slot": "accs", "drawable": 12, "texture": 0 }
+      {
+        "slot": "jbib",
+        "drawable": 64,
+        "texture": 0,
+        "label": "Cream Peacoat"
+      },
+      {
+        "slot": "accs",
+        "drawable": 227,
+        "texture": 0,
+        "label": "Green Festive Tee"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
     ],
     "steps": [
-      "Open JBIB menu, navigate to drawable 47 texture 1",
-      "Open ACCS menu, navigate to drawable 12 texture 0"
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 64-0 and ACCS 227-0",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
     ]
   },
   {
-    "id": "juggernaut",
+    "id": "f_cop_belt_holster",
+    "name": "Cop Belt Holster",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_cop_belt_holster.jpg",
+    "tags": ["torso1", "belt", "holster"],
+    "stages": [
+      {
+        "label": "Stage 1",
+        "c1": [
+          {
+            "slot": "jbib",
+            "drawable": 8,
+            "texture": 0,
+            "label": "Gray Cropped Biker"
+          },
+          {
+            "slot": "accs",
+            "drawable": 138,
+            "texture": 0,
+            "label": "Blue Digital Rolled Tee"
+          }
+        ]
+      },
+      {
+        "label": "Stage 2",
+        "c1": [
+          {
+            "slot": "jbib",
+            "drawable": 149,
+            "texture": 0,
+            "label": "LC Beavers Dark"
+          }
+        ]
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 149,
+        "texture": 0,
+        "label": "LC Beavers Dark"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "This guide requires 2 stages — complete each stage before moving to the next",
+      "For each stage: save the listed C1 outfit, then complete the 2-console NetCut timing",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie) — C2 is the same for all stages",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the stage C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session and save the result before starting the next stage"
+    ]
+  },
+  {
+    "id": "f_cop_belt_5",
+    "name": "Cop Belt 5",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_cop_belt_5.jpg",
+    "tags": ["torso1", "belt", "cop"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 154,
+        "texture": 0,
+        "label": "Black Leather Cut"
+      },
+      {
+        "slot": "accs",
+        "drawable": 178,
+        "texture": 2,
+        "label": "Black Space Rangers Tee"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 154,
+        "texture": 0,
+        "label": "Black Leather Cut"
+      },
+      {
+        "slot": "accs",
+        "drawable": 178,
+        "texture": 2,
+        "label": "Black Space Rangers Tee"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 154-0 and ACCS 178-2",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_juggernaut",
     "name": "Juggernaut Suit",
     "gender": "f",
-    "difficulty": "hard",
-    "blacklisted": false,
-    "preview": "/beff/guides/juggernaut.jpg",
-    "tags": ["suit", "rare", "full-body"],
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_juggernaut.jpg",
+    "tags": ["torso1", "suit", "juggernaut", "rare"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 156,
+        "texture": 0,
+        "label": "Black Darted Vest"
+      },
+      {
+        "slot": "accs",
+        "drawable": 94,
+        "texture": 2,
+        "label": "Gray Classic"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
     "components": [
-      { "slot": "jbib", "drawable": 15, "texture": 0 },
-      { "slot": "uppr", "drawable": 8, "texture": 0 },
-      { "slot": "lowr", "drawable": 22, "texture": 0 },
-      { "slot": "feet", "drawable": 6, "texture": 0 },
-      { "slot": "accs", "drawable": 34, "texture": 0 }
+      {
+        "slot": "jbib",
+        "drawable": 156,
+        "texture": 0,
+        "label": "Black Darted Vest"
+      },
+      {
+        "slot": "accs",
+        "drawable": 94,
+        "texture": 2,
+        "label": "Gray Classic"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
     ],
     "steps": [
-      "This outfit requires a specific mission start sequence",
-      "Navigate to JBIB drawable 15 texture 0",
-      "Set UPPR to drawable 8 texture 0",
-      "Set LOWR to drawable 22 texture 0",
-      "Set FEET to drawable 6 texture 0",
-      "Set ACCS to drawable 34 texture 0"
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 156-0 and ACCS 94-2",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
     ]
   },
   {
-    "id": "blacklisted_cop_belt",
-    "name": "OG Cop Belt",
+    "id": "f_maintenance_belt",
+    "name": "Maintenance Belt",
     "gender": "f",
-    "difficulty": "hard",
-    "blacklisted": true,
-    "preview": "/beff/guides/blacklisted_cop_belt.jpg",
-    "tags": ["belt", "og", "blacklisted"],
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_maintenance_belt.jpg",
+    "tags": ["torso1", "belt", "maintenance"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 156,
+        "texture": 0,
+        "label": "Black Darted Vest"
+      },
+      {
+        "slot": "accs",
+        "drawable": 180,
+        "texture": 2,
+        "label": "Black Space Rangers Tee"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
     "components": [
-      { "slot": "jbib", "drawable": 0, "texture": 0 },
-      { "slot": "accs", "drawable": 34, "texture": 0 }
+      {
+        "slot": "jbib",
+        "drawable": 156,
+        "texture": 0,
+        "label": "Black Darted Vest"
+      },
+      {
+        "slot": "accs",
+        "drawable": 180,
+        "texture": 2,
+        "label": "Black Space Rangers Tee"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
     ],
     "steps": [
-      "Warning — this BEFF is blacklisted and may result in a ban",
-      "Not recommended for regular use"
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 156-0 and ACCS 180-2",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_modded_fur_1",
+    "name": "Modded Fur Suit",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_modded_fur_1.jpg",
+    "tags": ["torso1", "fur", "modded"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 156,
+        "texture": 0,
+        "label": "Black Darted Vest"
+      },
+      {
+        "slot": "accs",
+        "drawable": 230,
+        "texture": 0,
+        "label": "Green Festive Tucked Tee"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 156,
+        "texture": 0,
+        "label": "Black Darted Vest"
+      },
+      {
+        "slot": "accs",
+        "drawable": 230,
+        "texture": 0,
+        "label": "Green Festive Tucked Tee"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 156-0 and ACCS 230-0",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_modded_gray_fur",
+    "name": "Modded Gray Fur",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_modded_gray_fur.jpg",
+    "tags": ["torso1", "fur", "modded"],
+    "stages": [
+      {
+        "label": "Stage 1",
+        "c1": [
+          {
+            "slot": "jbib",
+            "drawable": 8,
+            "texture": 0,
+            "label": "Gray Cropped Biker"
+          },
+          {
+            "slot": "accs",
+            "drawable": 231,
+            "texture": 0,
+            "label": "Green Festive Tucked Tee"
+          }
+        ]
+      },
+      {
+        "label": "Stage 2",
+        "c1": [
+          {
+            "slot": "jbib",
+            "drawable": 242,
+            "texture": 0,
+            "label": "Stage 2 Top"
+          }
+        ]
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 242,
+        "texture": 0,
+        "label": "Stage 2 Top"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "This guide requires 2 stages — complete each stage before moving to the next",
+      "For each stage: save the listed C1 outfit, then complete the 2-console NetCut timing",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie) — C2 is the same for all stages",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the stage C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session and save the result before starting the next stage"
+    ]
+  },
+  {
+    "id": "f_paramedic_belt",
+    "name": "Paramedic Belt",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_paramedic_belt.jpg",
+    "tags": ["torso1", "belt", "paramedic"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 237,
+        "texture": 0,
+        "label": "Crowex Racing Suit"
+      },
+      {
+        "slot": "accs",
+        "drawable": 148,
+        "texture": 0,
+        "label": "Crowex Racing Suit Pads"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 237,
+        "texture": 0,
+        "label": "Crowex Racing Suit"
+      },
+      {
+        "slot": "accs",
+        "drawable": 148,
+        "texture": 0,
+        "label": "Crowex Racing Suit Pads"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 237-0 and ACCS 148-0",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_prison_guard_belt",
+    "name": "Prison Guard Belt",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_prison_guard_belt.jpg",
+    "tags": ["torso1", "belt", "prison"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 155,
+        "texture": 0,
+        "label": "Black Defender Vest"
+      },
+      {
+        "slot": "accs",
+        "drawable": 179,
+        "texture": 2,
+        "label": "Black Space Rangers Tee"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 155,
+        "texture": 0,
+        "label": "Black Defender Vest"
+      },
+      {
+        "slot": "accs",
+        "drawable": 179,
+        "texture": 2,
+        "label": "Black Space Rangers Tee"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 155-0 and ACCS 179-2",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_safety_vest_large",
+    "name": "Safety Vest Large",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_safety_vest_large.jpg",
+    "tags": ["torso1", "vest", "safety"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 208,
+        "texture": 0,
+        "label": "Top"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 208,
+        "texture": 0,
+        "label": "Top"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 208-0",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_safety_vest_small",
+    "name": "Safety Vest Small",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_safety_vest_small.jpg",
+    "tags": ["torso1", "vest", "safety"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 209,
+        "texture": 0,
+        "label": "Top"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 209,
+        "texture": 0,
+        "label": "Top"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 209-0",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_sasquatch_fur",
+    "name": "Sasquatch Fur",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_sasquatch_fur.jpg",
+    "tags": ["torso1", "fur", "sasquatch"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 156,
+        "texture": 0,
+        "label": "Black Darted Vest"
+      },
+      {
+        "slot": "accs",
+        "drawable": 224,
+        "texture": 0,
+        "label": "Green Festive Tee"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 156,
+        "texture": 0,
+        "label": "Black Darted Vest"
+      },
+      {
+        "slot": "accs",
+        "drawable": 224,
+        "texture": 0,
+        "label": "Green Festive Tee"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 156-0 and ACCS 224-0",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_teal_racing_pads",
+    "name": "Teal Racing Pads",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_teal_racing_pads.jpg",
+    "tags": ["torso1", "racing", "teal"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 155,
+        "texture": 0,
+        "label": "Black Defender Vest"
+      },
+      {
+        "slot": "accs",
+        "drawable": 163,
+        "texture": 1,
+        "label": "White Manor Zigzag T-Shirt"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 155,
+        "texture": 0,
+        "label": "Black Defender Vest"
+      },
+      {
+        "slot": "accs",
+        "drawable": 163,
+        "texture": 1,
+        "label": "White Manor Zigzag T-Shirt"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 155-0 and ACCS 163-1",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_diamond_strike_vest",
+    "name": "Diamond Strike Vest",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_diamond_strike_vest.jpg",
+    "tags": ["torso1", "vest", "casino"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 8,
+        "texture": 0,
+        "label": "Gray Cropped Biker"
+      },
+      {
+        "slot": "accs",
+        "drawable": 225,
+        "texture": 0,
+        "label": "Green Festive Tee"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 8,
+        "texture": 0,
+        "label": "Gray Cropped Biker"
+      },
+      {
+        "slot": "accs",
+        "drawable": 225,
+        "texture": 0,
+        "label": "Green Festive Tee"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 8-0 and ACCS 225-0",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
+    ]
+  },
+  {
+    "id": "f_impotent_rage_cape",
+    "name": "Impotent Rage Cape",
+    "gender": "f",
+    "type": "magic_torso1",
+    "preview": "/beff/guides/f_impotent_rage_cape.jpg",
+    "tags": ["torso1", "cape", "rare"],
+    "c1": [
+      {
+        "slot": "jbib",
+        "drawable": 8,
+        "texture": 0,
+        "label": "Gray Cropped Biker"
+      },
+      {
+        "slot": "accs",
+        "drawable": 175,
+        "texture": 0,
+        "label": "Wild Loose Tank"
+      }
+    ],
+    "c2": [
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "components": [
+      {
+        "slot": "jbib",
+        "drawable": 8,
+        "texture": 0,
+        "label": "Gray Cropped Biker"
+      },
+      {
+        "slot": "accs",
+        "drawable": 175,
+        "texture": 0,
+        "label": "Wild Loose Tank"
+      },
+      {
+        "slot": "jbib",
+        "drawable": 652,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      },
+      {
+        "slot": "accs",
+        "drawable": 266,
+        "texture": 0,
+        "label": "Valentines Onesie (L)"
+      }
+    ],
+    "steps": [
+      "Start wearing the standard outfit \"The Chica\" from the in-game counter",
+      "Save your C1 outfit with JBIB 8-0 and ACCS 175-0",
+      "Save your C2 outfit with JBIB 652-0 and ACCS 266-0 (Valentines Onesie)",
+      "On C1: wear The Chica and wait for the yellow save icon",
+      "Go to Creator — activate Next DNS, Arcai NetCut, or your router to cut C1's connection",
+      "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
+      "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
+      "Go back online — join an invite only session",
+      "You should spawn with the result. Walk to a wardrobe and save the outfit"
     ]
   }
 ]

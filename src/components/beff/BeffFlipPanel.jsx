@@ -4,7 +4,7 @@ import {
   imgPath,
   placeholderImg,
   getFlipType,
-  BASELINE_C1S,
+  getBaselines,
   getFlipCompanion,
 } from "./useBeff";
 
@@ -24,7 +24,7 @@ import {
 export default function BeffFlipPanel({ gender, slot, item, onClose }) {
   const flipType = getFlipType(slot);
   const c1Drives = flipType === "c1_drives";
-  const baselines = BASELINE_C1S[slot] ?? [];
+  const baselines = getBaselines(gender, slot);
   const companion = getFlipCompanion(slot);
   const companionCall = companion
     ? buildCall(companion.slot, companion.drawable, companion.texture)
@@ -52,26 +52,40 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
 
   const { drawable: itemDraw, texture: itemTex, flip, label, dlc } = item;
 
-  // ── C1 ────────────────────────────────────────────────────────────────────
-  const c1Slot = c1Drives ? slot : (flip?.c1_slot ?? "uppr");
-  const c1Draw = c1Drives
-    ? (baselines[c1BaseIdx]?.drawable ?? 190) // palette drawable (e.g. 190)
-    : (flip?.c1_drawable ?? baselines[c1BaseIdx]?.drawable ?? 3);
-  // c1_drives: texture always mirrors what the user wants
-  // c2_drives: texture comes from stored flip data or 0
-  const c1TexFinal = c1Drives ? c1Texture : (flip?.c1_texture ?? 0);
+  // ── C1 / C2 resolution ───────────────────────────────────────────────────
+  //
+  // c1_drives (jbib / task / p_head):
+  //   C1 = palette drawable (e.g. 190) + texture you want → sets color
+  //   C2 = your piece + texture 0 ("any texture works")
+  //   Result = your piece in C1's color
+  //
+  // c2_drives (everything else):
+  //   C1 = the item you selected + texture you want → this IS the result
+  //   C2 = the flip piece (from baselines) + same texture
+  //   Result = C1 (same as what you selected)
+  //
+  let c1Slot, c1Draw, c1TexFinal, c2Draw, c2Tex, resultDraw, resultTex;
 
-  // ── C2 ────────────────────────────────────────────────────────────────────
-  const c2Draw = flip?.c2_drawable ?? itemDraw;
-  // c1_drives: C2 is always texture 0 (any texture works — color comes from C1)
-  // c2_drives: C2 texture IS the final result color
-  const c2Tex = c1Drives ? 0 : (flip?.c2_texture ?? itemTex);
+  if (c1Drives) {
+    c1Slot = slot;
+    c1Draw = baselines[c1BaseIdx]?.drawable ?? 190;
+    c1TexFinal = c1Texture; // user picks color via texture
+    c2Draw = flip?.c2_drawable ?? itemDraw;
+    c2Tex = 0; // any texture works on C2
+    resultDraw = c2Draw;
+    resultTex = c1Texture; // result = C2 in C1's color
+  } else {
+    // C1 = the item you want, at the texture you want
+    c1Slot = slot;
+    c1Draw = itemDraw;
+    c1TexFinal = itemTex;
+    // C2 = the flip piece from baselines, same texture
+    c2Draw = flip?.c2_drawable ?? baselines[c1BaseIdx]?.drawable ?? 137;
+    c2Tex = itemTex; // same texture as C1
+    resultDraw = itemDraw;
+    resultTex = itemTex; // result = C1 exactly
+  }
 
-  // ── Result ────────────────────────────────────────────────────────────────
-  // Always derivable — result is the piece at the texture you actually want
-  const resultDraw = c2Draw;
-  const resultTex = c1Drives ? c1Texture : c2Tex;
-  // Use stored result_img only if present, otherwise derive it
   const resultImg =
     flip?.result_img ?? imgPath(gender, slot, resultDraw, resultTex);
 
@@ -94,7 +108,7 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
         onClick={onClose}
       />
 
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+      <div className="fixed inset-0 z-50 flex items-center justify-center p-4 pt-20">
         <div className="bg-[#0a0a0a] border border-white/10 overflow-hidden w-full max-w-3xl max-h-[90vh] overflow-y-auto">
           {/* Header */}
           <div className="flex items-center justify-between px-6 py-4 border-b border-white/8 bg-[#0d0d0d]">
@@ -136,7 +150,7 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
           {baselines.length > 0 && (
             <div className="px-6 py-3 border-b border-white/5 bg-black/20 flex flex-wrap items-center gap-2">
               <span className="text-[8px] uppercase tracking-[.15em] text-white/25 font-bold mr-1">
-                {c1Drives ? "C1 Palette" : "C1 Base"}
+                {c1Drives ? "C1 Palette" : "C2 Flip Piece"}
               </span>
               {baselines.map((b, i) => (
                 <button
@@ -171,7 +185,7 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
             {/* ── C1 ─────────────────────────────────────────────────────── */}
             <div className="flex flex-col items-center p-5 gap-3">
               <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
-                {c1Drives ? "Step 1 — C1 (Color)" : "Step 1 — C1 (Base)"}
+                {c1Drives ? "Step 1 — C1 (Color)" : "Step 1 — C1 (Your Item)"}
               </div>
 
               <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-[160px]">
@@ -246,7 +260,7 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
             {/* ── C2 ─────────────────────────────────────────────────────── */}
             <div className="flex flex-col items-center p-5 gap-3">
               <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
-                {c1Drives ? "Step 2 — C2 (Piece)" : "Step 2 — C2 (Color)"}
+                {c1Drives ? "Step 2 — C2 (Piece)" : "Step 2 — C2 (Flip Piece)"}
               </div>
 
               <div className="w-full aspect-square bg-[#111] border border-yellow-500/30 overflow-hidden relative max-w-[160px]">
@@ -273,7 +287,7 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                   </div>
                 ) : (
                   <div className="text-[8px] text-white/30 mt-1">
-                    Texture = final color
+                    Same texture as C1
                   </div>
                 )}
               </div>
@@ -336,10 +350,12 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                 {copied === "both" ? "✓ Copied Both" : "Copy Both Calls"}
               </button>
             </div>
+
+            {/* Companion column — inside the grid */}
             {companion && (
               <div className="flex flex-col items-center p-5 gap-3">
                 <div className="text-[8px] font-black uppercase tracking-[.2em] text-blue-400/50 mb-1">
-                  Flip Companion
+                  Also Equip
                 </div>
                 <div className="w-full aspect-square bg-[#111] border border-blue-400/20 overflow-hidden relative max-w-[160px]">
                   <img

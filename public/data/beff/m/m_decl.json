@@ -1,0 +1,1874 @@
+[
+  {
+    "drawable": 0,
+    "texture": 0,
+    "nameHash": "SP_M_DECL_0_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 0,
+    "nameHash": "SP_M_DECL_1_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 0,
+    "nameHash": "SP_M_DECL_2_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 0,
+    "nameHash": "SP_M_DECL_3_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 0,
+    "nameHash": "SP_M_DECL_4_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 0,
+    "nameHash": "SP_M_DECL_5_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 0,
+    "nameHash": "SP_M_DECL_6_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 0,
+    "nameHash": "DLC_MP_LTS_M_DECL_0_0",
+    "dlc": "mplts",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 0,
+    "nameHash": "DLC_MP_HEIST_M_DECL_0_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 1,
+    "nameHash": "DLC_MP_HEIST_M_DECL_0_1",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 2,
+    "nameHash": "DLC_MP_HEIST_M_DECL_0_2",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 3,
+    "nameHash": "DLC_MP_HEIST_M_DECL_0_3",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 0,
+    "nameHash": "DLC_MP_HEIST_M_DECL_1_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 0,
+    "nameHash": "DLC_MP_LOW_M_DECL_0_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 0,
+    "nameHash": "DLC_MP_STUNT_M_DECL_0_0",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 1,
+    "nameHash": "DLC_MP_STUNT_M_DECL_0_1",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 2,
+    "nameHash": "DLC_MP_STUNT_M_DECL_0_2",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 3,
+    "nameHash": "DLC_MP_STUNT_M_DECL_0_3",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 4,
+    "nameHash": "DLC_MP_STUNT_M_DECL_0_4",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 5,
+    "nameHash": "DLC_MP_STUNT_M_DECL_0_5",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 0,
+    "nameHash": "DLC_MP_STUNT_M_DECL_1_0",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 1,
+    "nameHash": "DLC_MP_STUNT_M_DECL_1_1",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 2,
+    "nameHash": "DLC_MP_STUNT_M_DECL_1_2",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 3,
+    "nameHash": "DLC_MP_STUNT_M_DECL_1_3",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 4,
+    "nameHash": "DLC_MP_STUNT_M_DECL_1_4",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 5,
+    "nameHash": "DLC_MP_STUNT_M_DECL_1_5",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 6,
+    "nameHash": "DLC_MP_STUNT_M_DECL_1_6",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 7,
+    "nameHash": "DLC_MP_STUNT_M_DECL_1_7",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 0,
+    "nameHash": "DLC_MP_STUNT_M_DECL_2_0",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 0,
+    "nameHash": "DLC_MP_STUNT_M_DECL_3_0",
+    "dlc": "patchday25ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_0_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 1,
+    "nameHash": "DLC_MP_BIKER_M_DECL_0_1",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 2,
+    "nameHash": "DLC_MP_BIKER_M_DECL_0_2",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 3,
+    "nameHash": "DLC_MP_BIKER_M_DECL_0_3",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 4,
+    "nameHash": "DLC_MP_BIKER_M_DECL_0_4",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 5,
+    "nameHash": "DLC_MP_BIKER_M_DECL_0_5",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 6,
+    "nameHash": "DLC_MP_BIKER_M_DECL_0_6",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 7,
+    "nameHash": "DLC_MP_BIKER_M_DECL_0_7",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 8,
+    "nameHash": "DLC_MP_BIKER_M_DECL_0_8",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_1_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_2_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_3_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_4_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_5_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_6_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_7_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_8_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_9_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_10_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_11_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 27,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_12_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_13_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_14_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_15_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_16_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_17_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_18_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_19_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 0,
+    "nameHash": "DLC_MP_BIKER_M_DECL_20_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 0,
+    "nameHash": "DLC_MP_IE_M_DECL_0_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 0,
+    "nameHash": "DLC_MP_IE_M_DECL_1_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 0,
+    "nameHash": "DLC_MP_IE_M_DECL_2_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 0,
+    "nameHash": "DLC_MP_GR_M_DECL_0_0",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 0,
+    "nameHash": "DLC_MP_GR_M_DECL_1_0",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 0,
+    "nameHash": "DLC_MP_GR_M_DECL_2_0",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 0,
+    "nameHash": "DLC_MP_GR_M_DECL_3_0",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 43,
+    "texture": 0,
+    "nameHash": "DLC_MP_GR_M_DECL_4_0",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 0,
+    "nameHash": "DLC_MP_GR_M_DECL_5_0",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 1,
+    "nameHash": "DLC_MP_GR_M_DECL_5_1",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 2,
+    "nameHash": "DLC_MP_GR_M_DECL_5_2",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 3,
+    "nameHash": "DLC_MP_GR_M_DECL_5_3",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 4,
+    "nameHash": "DLC_MP_GR_M_DECL_5_4",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 5,
+    "nameHash": "DLC_MP_GR_M_DECL_5_5",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 6,
+    "nameHash": "DLC_MP_GR_M_DECL_5_6",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 7,
+    "nameHash": "DLC_MP_GR_M_DECL_5_7",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 8,
+    "nameHash": "DLC_MP_GR_M_DECL_5_8",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 9,
+    "nameHash": "DLC_MP_GR_M_DECL_5_9",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 10,
+    "nameHash": "DLC_MP_GR_M_DECL_5_10",
+    "dlc": "patchday17ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 0,
+    "nameHash": "DLC_MP_AR_M_DECL_0_0",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 1,
+    "nameHash": "DLC_MP_AR_M_DECL_0_1",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 2,
+    "nameHash": "DLC_MP_AR_M_DECL_0_2",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 3,
+    "nameHash": "DLC_MP_AR_M_DECL_0_3",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 4,
+    "nameHash": "DLC_MP_AR_M_DECL_0_4",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 5,
+    "nameHash": "DLC_MP_AR_M_DECL_0_5",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 6,
+    "nameHash": "DLC_MP_AR_M_DECL_0_6",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 7,
+    "nameHash": "DLC_MP_AR_M_DECL_0_7",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 8,
+    "nameHash": "DLC_MP_AR_M_DECL_0_8",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 9,
+    "nameHash": "DLC_MP_AR_M_DECL_0_9",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 10,
+    "nameHash": "DLC_MP_AR_M_DECL_0_10",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 11,
+    "nameHash": "DLC_MP_AR_M_DECL_0_11",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 12,
+    "nameHash": "DLC_MP_AR_M_DECL_0_12",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 13,
+    "nameHash": "DLC_MP_AR_M_DECL_0_13",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 46,
+    "texture": 0,
+    "nameHash": "DLC_MP_AR_M_DECL_1_0",
+    "dlc": "mpairraces",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 0,
+    "nameHash": "DLC_MP_SMUG_M_DECL_0_0",
+    "dlc": "patchday22ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 0,
+    "nameHash": "DLC_MP_SMUG_M_DECL_1_0",
+    "dlc": "patchday22ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 49,
+    "texture": 0,
+    "nameHash": "DLC_MP_X17_M_DECL_0_0",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 50,
+    "texture": 0,
+    "nameHash": "DLC_MP_X17_M_DECL_1_0",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 0,
+    "nameHash": "DLC_MP_X17_M_DECL_2_0",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 52,
+    "texture": 0,
+    "nameHash": "DLC_MP_X17_M_DECL_3_0",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 53,
+    "texture": 0,
+    "nameHash": "DLC_MP_X17_M_DECL_4_0",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 54,
+    "texture": 0,
+    "nameHash": "DLC_MP_X17_M_DECL_5_0",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 55,
+    "texture": 0,
+    "nameHash": "DLC_MP_X17_M_DECL_6_0",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 56,
+    "texture": 0,
+    "nameHash": "DLC_MP_X17_M_DECL_7_0",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 57,
+    "texture": 0,
+    "nameHash": "DLC_MP_X17_M_DECL_8_0",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 58,
+    "texture": 0,
+    "nameHash": "DLC_MP_X17_M_DECL_9_0",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 58,
+    "texture": 1,
+    "nameHash": "DLC_MP_X17_M_DECL_9_1",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 59,
+    "texture": 0,
+    "nameHash": "DLC_MP_X17_M_DECL_10_0",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 60,
+    "texture": 0,
+    "nameHash": "DLC_MP_X17_M_DECL_11_0",
+    "dlc": "patchday24ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 61,
+    "texture": 0,
+    "nameHash": "DLC_MP_ARENA_M_DECL_0_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 62,
+    "texture": 0,
+    "nameHash": "DLC_MP_VWD_M_DECL_0_0",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 0,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_0",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 1,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_1",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 2,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_2",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 3,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_3",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 4,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_4",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 5,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_5",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 6,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_6",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 7,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_7",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 8,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_8",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 9,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_9",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 10,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_10",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 11,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_11",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 12,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_12",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 13,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_13",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 14,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_14",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 15,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_15",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 16,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_16",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 17,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_17",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 18,
+    "nameHash": "DLC_MP_VWD_M_DECL_1_18",
+    "dlc": "patchday26ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 64,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_0_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 65,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_1_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 66,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_2_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 66,
+    "texture": 1,
+    "nameHash": "DLC_MP_H3_M_DECL_2_1",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 66,
+    "texture": 2,
+    "nameHash": "DLC_MP_H3_M_DECL_2_2",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 66,
+    "texture": 3,
+    "nameHash": "DLC_MP_H3_M_DECL_2_3",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 66,
+    "texture": 4,
+    "nameHash": "DLC_MP_H3_M_DECL_2_4",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 66,
+    "texture": 5,
+    "nameHash": "DLC_MP_H3_M_DECL_2_5",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 66,
+    "texture": 6,
+    "nameHash": "DLC_MP_H3_M_DECL_2_6",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 67,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_3_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 67,
+    "texture": 1,
+    "nameHash": "DLC_MP_H3_M_DECL_3_1",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 67,
+    "texture": 2,
+    "nameHash": "DLC_MP_H3_M_DECL_3_2",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 67,
+    "texture": 3,
+    "nameHash": "DLC_MP_H3_M_DECL_3_3",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 67,
+    "texture": 4,
+    "nameHash": "DLC_MP_H3_M_DECL_3_4",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 67,
+    "texture": 5,
+    "nameHash": "DLC_MP_H3_M_DECL_3_5",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 67,
+    "texture": 6,
+    "nameHash": "DLC_MP_H3_M_DECL_3_6",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 68,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_4_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 69,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_5_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 70,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_6_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 70,
+    "texture": 1,
+    "nameHash": "DLC_MP_H3_M_DECL_6_1",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 71,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_7_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 72,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_8_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 73,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_9_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 74,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_10_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 75,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_11_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 76,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_12_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 77,
+    "texture": 0,
+    "nameHash": "DLC_MP_H3_M_DECL_13_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 78,
+    "texture": 0,
+    "nameHash": "DLC_MP_SUM_M_DECL_0_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 79,
+    "texture": 0,
+    "nameHash": "DLC_MP_H4_M_DECL_0_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 80,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_0_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 81,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_1_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 82,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_2_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 83,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_3_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 84,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_4_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 85,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_5_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 86,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_6_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 87,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_7_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 88,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_8_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 89,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_9_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 90,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_10_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 91,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_11_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 92,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_12_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 93,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_13_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 94,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_14_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 95,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_15_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 96,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_16_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 97,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_17_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 98,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_18_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 99,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_19_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 100,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_20_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 101,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_21_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 102,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_22_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 103,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_23_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 104,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_24_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 105,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_25_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 106,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_26_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 106,
+    "texture": 1,
+    "nameHash": "DLC_MP_TUNER_M_DECL_26_1",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 107,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_27_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 107,
+    "texture": 1,
+    "nameHash": "DLC_MP_TUNER_M_DECL_27_1",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 108,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_28_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 109,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_29_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 110,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_30_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 110,
+    "texture": 1,
+    "nameHash": "DLC_MP_TUNER_M_DECL_30_1",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 111,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_31_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 111,
+    "texture": 1,
+    "nameHash": "DLC_MP_TUNER_M_DECL_31_1",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 112,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_32_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 112,
+    "texture": 1,
+    "nameHash": "DLC_MP_TUNER_M_DECL_32_1",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 113,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_33_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 113,
+    "texture": 1,
+    "nameHash": "DLC_MP_TUNER_M_DECL_33_1",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 114,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_34_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 114,
+    "texture": 1,
+    "nameHash": "DLC_MP_TUNER_M_DECL_34_1",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_35_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 1,
+    "nameHash": "DLC_MP_TUNER_M_DECL_35_1",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 2,
+    "nameHash": "DLC_MP_TUNER_M_DECL_35_2",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 115,
+    "texture": 3,
+    "nameHash": "DLC_MP_TUNER_M_DECL_35_3",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 116,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_36_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 117,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_37_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 118,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_38_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 119,
+    "texture": 0,
+    "nameHash": "DLC_MP_TUNER_M_DECL_39_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 120,
+    "texture": 0,
+    "nameHash": "DLC_MP_FIXER_M_DECL_0_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 121,
+    "texture": 0,
+    "nameHash": "DLC_MP_FIXER_M_DECL_1_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 122,
+    "texture": 0,
+    "nameHash": "DLC_MP_FIXER_M_DECL_2_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 123,
+    "texture": 0,
+    "nameHash": "DLC_MP_FIXER_M_DECL_3_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 124,
+    "texture": 0,
+    "nameHash": "DLC_MP_FIXER_M_DECL_4_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 125,
+    "texture": 0,
+    "nameHash": "DLC_MP_FIXER_M_DECL_5_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 126,
+    "texture": 0,
+    "nameHash": "DLC_MP_FIXER_M_DECL_6_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 127,
+    "texture": 0,
+    "nameHash": "DLC_MP_FIXER_M_DECL_7_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 128,
+    "texture": 0,
+    "nameHash": "DLC_MP_FIXER_M_DECL_8_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 129,
+    "texture": 0,
+    "nameHash": "DLC_MP_FIXER_M_DECL_9_0",
+    "dlc": "patchday27ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 130,
+    "texture": 0,
+    "nameHash": "DLC_MP_SUM2_M_DECL_0_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 131,
+    "texture": 0,
+    "nameHash": "DLC_MP_SUM2_M_DECL_1_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 132,
+    "texture": 0,
+    "nameHash": "DLC_MP_SUM2_M_DECL_2_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 133,
+    "texture": 0,
+    "nameHash": "DLC_MP_SUM2_M_DECL_3_0",
+    "dlc": "patchday28ng",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 134,
+    "texture": 0,
+    "nameHash": "DLC_MP_X22_M_DECL_0_0",
+    "dlc": "mpchristmas3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 135,
+    "texture": 0,
+    "nameHash": "DLC_MP_X22_M_DECL_1_0",
+    "dlc": "mpchristmas3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 136,
+    "texture": 0,
+    "nameHash": "DLC_MP_X22_M_DECL_2_0",
+    "dlc": "mpchristmas3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 137,
+    "texture": 0,
+    "nameHash": "DLC_MP_X22_M_DECL_3_0",
+    "dlc": "mpchristmas3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 138,
+    "texture": 0,
+    "nameHash": "DLC_MP_X22_M_DECL_4_0",
+    "dlc": "mpchristmas3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 139,
+    "texture": 0,
+    "nameHash": "DLC_MP_X22_M_DECL_5_0",
+    "dlc": "mpchristmas3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 140,
+    "texture": 0,
+    "nameHash": "DLC_MP_X22_M_DECL_6_0",
+    "dlc": "mpchristmas3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 141,
+    "texture": 0,
+    "nameHash": "DLC_MP_X22_M_DECL_7_0",
+    "dlc": "mpchristmas3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 142,
+    "texture": 0,
+    "nameHash": "DLC_MP_X22_M_DECL_8_0",
+    "dlc": "mpchristmas3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 143,
+    "texture": 0,
+    "nameHash": "DLC_MP_X22_M_DECL_9_0",
+    "dlc": "mpchristmas3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 144,
+    "texture": 0,
+    "nameHash": "DLC_MP_X22_M_DECL_10_0",
+    "dlc": "mpchristmas3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 145,
+    "texture": 0,
+    "nameHash": "DLC_MP_X22_M_DECL_11_0",
+    "dlc": "mpchristmas3",
+    "featured": false,
+    "flip": null
+  }
+]

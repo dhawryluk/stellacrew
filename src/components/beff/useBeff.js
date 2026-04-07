@@ -19,7 +19,7 @@ export const SLOT_ENUM = {
 // ─── Unified slot list (components + props) ───────────────────────────────────
 export const SLOTS = [
   { id: "jbib", label: "JBIB", desc: "Tops (Torso 2)", folderNum: 11 },
-  { id: "uppr", label: "UPPR", desc: "Torsos (Gloves)", folderNum: 3 },
+  { id: "uppr", label: "UPPR", desc: "Gloves", folderNum: 3 },
   { id: "accs", label: "ACCS", desc: "Undershirts (Torso 1)", folderNum: 8 },
   { id: "lowr", label: "LOWR", desc: "Legs", folderNum: 4 },
   { id: "feet", label: "FEET", desc: "Shoes", folderNum: 6 },
@@ -27,12 +27,12 @@ export const SLOTS = [
   { id: "hand", label: "HAND", desc: "Bags / Parachute", folderNum: 5 },
   { id: "task", label: "TASK", desc: "Body Armor", folderNum: 9 },
   { id: "berd", label: "BERD", desc: "Masks", folderNum: 1 },
-  { id: "head", label: "HEAD", desc: "Heads", folderNum: 0 },
-  { id: "hair", label: "HAIR", desc: "Hair", folderNum: 2 },
+  // { id: "head",  label: "HEAD",    desc: "Heads",                 folderNum: 0  },
+  // { id: "hair",  label: "HAIR",    desc: "Hair",                  folderNum: 2  },
   { id: "decl", label: "DECL", desc: "Decals", folderNum: 10 },
   {
     id: "p_head",
-    label: "Hats",
+    label: "P_HEAD",
     desc: "Hats",
     folderNum: 12,
     isProp: true,
@@ -40,7 +40,7 @@ export const SLOTS = [
   },
   {
     id: "p_eyes",
-    label: "Glasses",
+    label: "P_EYES",
     desc: "Glasses",
     folderNum: 13,
     isProp: true,
@@ -48,7 +48,7 @@ export const SLOTS = [
   },
   {
     id: "p_ears",
-    label: "Ears",
+    label: "P_EARS",
     desc: "Ears",
     folderNum: 14,
     isProp: true,
@@ -56,7 +56,7 @@ export const SLOTS = [
   },
   {
     id: "p_lwrist",
-    label: "Watches",
+    label: "P_LWRIST",
     desc: "Watches",
     folderNum: 18,
     isProp: true,
@@ -64,7 +64,7 @@ export const SLOTS = [
   },
   {
     id: "p_rwrist",
-    label: "Bracelets",
+    label: "P_RWRIST",
     desc: "Bracelets",
     folderNum: 19,
     isProp: true,
@@ -82,17 +82,15 @@ export const GENDERS = [
 ];
 
 // ─── Flip type ────────────────────────────────────────────────────────────────
-//
 // "c1_drives" — JBIB / TASK / p_head
-//   C1 = the drawable+texture you CHOOSE — its texture is the color/pattern.
-//   C2 = the piece being flipped — use texture 0 (any texture works here).
-//   Result = C2 wearing C1's color.
+//   C1 = palette drawable + texture you choose → sets color
+//   C2 = the piece being flipped, texture 0 ("any texture works")
+//   Result = C2 wearing C1's color
 //
 // "c2_drives" — all other slots
-//   C1 = a fixed base drawable (e.g. uppr 3) — this doesn't change.
-//   C2 = the piece you want — its TEXTURE is the final result color.
-//   Result = the finished look.
-//
+//   C1 = the item you want + texture you want (this IS the result)
+//   C2 = the flip piece + same texture
+//   Result = C1
 export const FLIP_TYPE = {
   jbib: "c1_drives",
   task: "c1_drives",
@@ -104,102 +102,179 @@ export function getFlipType(slot) {
 }
 
 // ─── Flip companion ───────────────────────────────────────────────────────────
+// Secondary item that must be equipped alongside C1+C2 to activate the flip.
 //
-// The secondary item that must be equipped alongside C1+C2 to achieve the flip.
-// drawable/texture values are placeholders — update with confirmed in-game IDs.
-//
-// Classic Parachute → feet, uppr (belt/torso 1), teef (accessories)
-// Israel Parachute  → jbib (torso 2), lowr, task, decl
-// Glasses           → p_head (hats need glasses equipped)
-// Gloves            → hand (bags need gloves equipped)
-//
+// Classic Parachute → feet, accs (torso 1), teef, berd
+// Israel Parachute  → jbib (torso 2), lowr, task, decl, uppr
+// Glasses           → p_head
+// Gloves (uppr)     → hand
 export const FLIP_COMPANION = {
-  // ── hand slot companions ───────────────────────────────────────────────────
-  jbib: { slot: "hand", drawable: 21, texture: 19, label: "Israel Parachute" },
-  lowr: { slot: "hand", drawable: 21, texture: 19, label: "Israel Parachute" },
-  task: { slot: "hand", drawable: 21, texture: 19, label: "Israel Parachute" },
-  decl: { slot: "hand", drawable: 21, texture: 19, label: "Israel Parachute" },
-  feet: { slot: "hand", drawable: 68, texture: 0, label: "Classic Parachute" },
-  uppr: { slot: "hand", drawable: 68, texture: 0, label: "Classic Parachute" },
-  teef: { slot: "hand", drawable: 68, texture: 0, label: "Classic Parachute" },
-  // ── prop companions ────────────────────────────────────────────────────────
-  p_head: { slot: "p_eyes", drawable: 0, texture: 0, label: "Glasses" },
-  // ── teef companion ─────────────────────────────────────────────────────────
-  hand: { slot: "teef", drawable: 0, texture: 0, label: "Gloves" },
+  jbib: { slot: "hand", drawable: 22, texture: 19, label: "Israel Parachute" },
+  lowr: { slot: "hand", drawable: 22, texture: 19, label: "Israel Parachute" },
+  task: { slot: "hand", drawable: 22, texture: 19, label: "Israel Parachute" },
+  decl: { slot: "hand", drawable: 22, texture: 19, label: "Israel Parachute" },
+  uppr: { slot: "hand", drawable: 22, texture: 19, label: "Israel Parachute" },
+  feet: { slot: "hand", drawable: 48, texture: 0, label: "Classic Parachute" },
+  accs: { slot: "hand", drawable: 48, texture: 0, label: "Classic Parachute" },
+  teef: { slot: "hand", drawable: 48, texture: 0, label: "Classic Parachute" },
+  berd: { slot: "hand", drawable: 48, texture: 0, label: "Classic Parachute" },
+  p_head: { slot: "p_eyes", drawable: 2, texture: 0, label: "Glasses" },
+  hand: { slot: "uppr", drawable: 29, texture: 0, label: "Gloves" },
 };
 
-/** Returns the companion item required for flipping a given slot, or null. */
 export function getFlipCompanion(slot) {
   return FLIP_COMPANION[slot] ?? null;
 }
 
 // ─── Baseline C1 options ──────────────────────────────────────────────────────
-//
-// Pre-curated starting points shown in the flip panel.
-//
-// c1_drives slots → JBIB/TASK/HAT drawables with many texture variations.
-// c2_drives slots → common UPPR (torso) base values used as C1.
-//
+// Keyed by gender then slot.
+// c1_drives → palette drawables with many texture variations
+// c2_drives → confirmed flip piece drawables (C2 gets same texture as C1)
 export const BASELINE_C1S = {
-  // ── c1_drives ─────────────────────────────────────────────────────────────
-  jbib: [
-    {
-      drawable: 190,
-      textures: 26,
-      label: "Basic Tee",
-      note: "26 colors — best all-rounder",
-    },
-    {
-      drawable: 14,
-      textures: 14,
-      label: "Crew Neck Sweater",
-      note: "14 colors",
-    },
-    { drawable: 33, textures: 16, label: "Zip-Up Hoodie", note: "16 colors" },
-  ],
-  task: [
-    { drawable: 0, textures: 1, label: "No Armor" },
-    { drawable: 6, textures: 12, label: "Light Armor", note: "12 colors" },
-    { drawable: 14, textures: 12, label: "Heavy Armor", note: "12 colors" },
-  ],
-  p_head: [
-    { drawable: 1, textures: 26, label: "Baseball Cap", note: "26 colors" },
-    { drawable: 10, textures: 14, label: "Beanie", note: "14 colors" },
-    { drawable: 45, textures: 16, label: "Snapback", note: "16 colors" },
-  ],
+  m: {
+    // c1_drives
+    jbib: [
+      {
+        drawable: 190,
+        textures: 26,
+        label: "Designer Sweater",
+        note: "26 colors — best all-rounder",
+      },
+      { drawable: 208, textures: 24, label: "Camo T-Shirt", note: "24 colors" },
+      {
+        drawable: 191,
+        textures: 26,
+        label: "Puffer Jacket",
+        note: "26 colors",
+      },
+    ],
+    task: [
+      { drawable: 1, textures: 5, label: "Task Armor", note: "5 colors" },
+      { drawable: 16, textures: 3, label: "CEO Armor", note: "3 colors" },
+      { drawable: 23, textures: 10, label: "Crew Armor", note: "10 colors" },
+    ],
+    p_head: [
+      { drawable: 55, textures: 26, label: "Snapback", note: "26 colors" },
+      { drawable: 89, textures: 10, label: "Dome", note: "10 colors" },
+      { drawable: 45, textures: 16, label: "Snapback", note: "16 colors" },
+    ],
+    // c2_drives
+    uppr: [
+      { drawable: 137, label: "UPPR 137", note: "Tactical Gloves" },
+      { drawable: 136, label: "UPPR 136", note: "Armored Gloves" },
+    ],
+    accs: [
+      { drawable: 172, label: "ACCS 172", note: "Strapz Vest" },
+      { drawable: 170, label: "ACCS 170", note: "Plate Carrier" },
+    ],
+    lowr: [
+      { drawable: 86, label: "LOWR 86", note: "Cargo Pants" },
+      { drawable: 141, label: "LOWR 141", note: "Strait Chinos" },
+    ],
+    feet: [
+      { drawable: 59, label: "FEET 59", note: "Cross Trainers" },
+      { drawable: 72, label: "FEET 72", note: "Trail Boots" },
+    ],
+    berd: [
+      { drawable: 49, label: "BERD 49", note: "Paper Bag" },
+      { drawable: 104, label: "BERD 104", note: "Tactical Mask" },
+    ],
+    teef: [
+      { drawable: 30, label: "TEEF 30", note: "Scarf" },
+      { drawable: 29, label: "TEEF 29", note: "Skinny Tie" },
+    ],
+    hand: [
+      { drawable: 21, label: "HAND 21", note: "Parachute" },
+      { drawable: 82, label: "HAND 82", note: "Duffel Bag" },
+    ],
+    decl: [
+      { drawable: 11, label: "DECL 11", note: "Racing Logo" },
+      { drawable: 12, label: "DECL 12", note: "Biker Logo" },
+      { drawable: 63, label: "DECL 63", note: "Arcade Logo" },
+    ],
+    p_eyes: [{ drawable: 137, label: "P_EYES 137", note: "placeholder" }],
+    p_ears: [{ drawable: 137, label: "P_EARS 137", note: "placeholder" }],
+    p_lwrist: [{ drawable: 137, label: "P_LWRIST 137", note: "placeholder" }],
+    p_rwrist: [{ drawable: 137, label: "P_RWRIST 137", note: "placeholder" }],
+  },
 
-  // ── c2_drives — common UPPR bases ─────────────────────────────────────────
-  uppr: [
-    { drawable: 3, label: "UPPR 3", note: "works with most tops" },
-    { drawable: 5, label: "UPPR 5", note: "open jacket base" },
-    { drawable: 9, label: "UPPR 9", note: "tucked shirt base" },
-    { drawable: 14, label: "UPPR 14", note: "t-shirt base" },
-  ],
-  accs: [
-    { drawable: 32, label: "ACCS 32", note: "standard undershirt" },
-    { drawable: 33, label: "ACCS 33", note: "alternative base" },
-    { drawable: 119, label: "ACCS 119", note: "hoodie undershirt" },
-  ],
-  lowr: [
-    { drawable: 3, label: "UPPR 3", note: "standard" },
-    { drawable: 9, label: "UPPR 9", note: "tucked" },
-  ],
-  feet: [
-    { drawable: 3, label: "UPPR 3", note: "standard" },
-    { drawable: 9, label: "UPPR 9", note: "tucked" },
-  ],
-  berd: [{ drawable: 3, label: "UPPR 3", note: "standard base" }],
-  teef: [{ drawable: 3, label: "UPPR 3", note: "standard base" }],
-  hand: [{ drawable: 3, label: "UPPR 3", note: "standard base" }],
-  decl: [{ drawable: 14, label: "UPPR 14", note: "t-shirt base for decals" }],
-  p_eyes: [{ drawable: 3, label: "UPPR 3", note: "standard base" }],
-  p_ears: [{ drawable: 3, label: "UPPR 3", note: "standard base" }],
-  p_lwrist: [{ drawable: 3, label: "UPPR 3", note: "standard base" }],
-  p_rwrist: [{ drawable: 3, label: "UPPR 3", note: "standard base" }],
+  f: {
+    // c1_drives
+    jbib: [
+      {
+        drawable: 192,
+        textures: 26,
+        label: "Designer Sweater",
+        note: "26 colors — best all-rounder",
+      },
+      { drawable: 212, textures: 24, label: "Camo T-Shirt", note: "24 colors" },
+      {
+        drawable: 193,
+        textures: 26,
+        label: "Puffer Jacket",
+        note: "26 colors",
+      },
+    ],
+    task: [
+      { drawable: 1, textures: 5, label: "Task Armor", note: "5 colors" },
+      { drawable: 18, textures: 3, label: "CEO Armor", note: "3 colors" },
+      { drawable: 24, textures: 10, label: "Crew Armor", note: "10 colors" },
+    ],
+    p_head: [
+      { drawable: 55, textures: 26, label: "Snapback", note: "26 colors" },
+      { drawable: 88, textures: 10, label: "Dome", note: "10 colors" },
+      { drawable: 102, textures: 20, label: "Cap", note: "20 colors" },
+    ],
+    // c2_drives
+    uppr: [
+      { drawable: 187, label: "UPPR 187", note: "Tactical Gloves" },
+      { drawable: 171, label: "UPPR 171", note: "Armored Gloves" },
+    ],
+    accs: [
+      { drawable: 209, label: "ACCS 209", note: "Strapz Vest" },
+      { drawable: 161, label: "ACCS 161", note: "Plate Carrier" },
+    ],
+    lowr: [
+      { drawable: 89, label: "LOWR 89", note: "Cargo Pants" },
+      { drawable: 148, label: "LOWR 148", note: "Strait Chinos" },
+      { drawable: 133, label: "LOWR 133", note: "Slacks" },
+    ],
+    feet: [
+      { drawable: 62, label: "FEET 62", note: "Cross Trainers" },
+      { drawable: 75, label: "FEET 75", note: "Trail Boots" },
+      { drawable: 7, label: "FEET 7", note: "Combat Boots" },
+    ],
+    berd: [
+      { drawable: 49, label: "BERD 49", note: "Paper Bag" },
+      { drawable: 104, label: "BERD 104", note: "Tactical Mask" },
+    ],
+    teef: [
+      { drawable: 13, label: "TEEF 13", note: "Bow Scarf" },
+      { drawable: 22, label: "TEEF 22", note: "Strait Tie" },
+    ],
+    hand: [
+      { drawable: 21, label: "HAND 21", note: "Parachute" },
+      { drawable: 82, label: "HAND 82", note: "Duffel Bag" },
+    ],
+    decl: [
+      { drawable: 10, label: "DECL 10", note: "Racing Logo" },
+      { drawable: 11, label: "DECL 11", note: "Biker Logo" },
+      { drawable: 72, label: "DECL 72", note: "Arcade Logo" },
+    ],
+    p_eyes: [{ drawable: 137, label: "P_EYES 137", note: "placeholder" }],
+    p_ears: [{ drawable: 137, label: "P_EARS 137", note: "placeholder" }],
+    p_lwrist: [{ drawable: 137, label: "P_LWRIST 137", note: "placeholder" }],
+    p_rwrist: [{ drawable: 137, label: "P_RWRIST 137", note: "placeholder" }],
+  },
 };
 
+/** Returns baselines for a given gender + slot. */
+export function getBaselines(gender, slot) {
+  return BASELINE_C1S[gender]?.[slot] ?? [];
+}
+
 // ─── Image paths ──────────────────────────────────────────────────────────────
-// Both components and props use {folderNum}_{drawable}_{texture}.jpg
+// Both components and props: {folderNum}_{drawable}_{texture}.jpg
 // e.g. public/beff/m/accs/8_0_0.jpg  |  public/beff/m/p_head/12_0_0.jpg
 export function imgPath(gender, slot, drawable, texture) {
   const { folderNum } = SLOT_MAP[slot] ?? {};

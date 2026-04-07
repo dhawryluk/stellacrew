@@ -1,0 +1,370 @@
+[
+  {
+    "drawable": 0,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_0_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_1_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_2_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_3_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_4_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_5_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_6_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_7_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_8_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_9_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_10_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_11_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_12_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_13_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_14_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_15_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_16_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_17_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_18_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_19_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_20_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_21_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_22_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_23_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_24_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_25_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_26_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 27,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_27_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_28_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_29_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_30_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_31_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_32_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_33_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_34_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_35_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_36_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_37_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_38_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_39_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_40_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_41_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_42_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 43,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_43_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_44_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 0,
+    "nameHash": "SP_F_HEAD_45_0",
+    "dlc": "basegame",
+    "featured": false,
+    "flip": null
+  }
+]
