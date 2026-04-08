@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { groupByDrawable, imgPath, placeholderImg } from "./useBeff";
 
-const PER_PAGE = 30;
+const PER_PAGE = 24;
 
 export default function BeffComponentGrid({
   gender,
@@ -90,7 +90,7 @@ export default function BeffComponentGrid({
 
       {/* Grid */}
       {loading ? (
-        <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-8 xl:grid-cols-10 gap-2">
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-6 gap-3">
           {Array.from({ length: PER_PAGE }).map((_, i) => (
             <div
               key={i}
@@ -99,7 +99,7 @@ export default function BeffComponentGrid({
           ))}
         </div>
       ) : (
-        <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-8 xl:grid-cols-10 gap-2">
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-6 gap-3">
           {pageKeys.map((drawable) => {
             const textures = drawableMap.get(drawable) || [];
             const firstItem = textures[0];

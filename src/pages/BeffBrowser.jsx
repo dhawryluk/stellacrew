@@ -4,6 +4,7 @@ import { useBeffSlot, SLOTS, GENDERS } from "../components/beff/useBeff";
 import BeffComponentGrid from "../components/beff/BeffComponentGrid";
 import BeffDetailPanel from "../components/beff/BeffDetailPanel";
 import BeffFlipPanel from "../components/beff/BeffFlipPanel";
+import { Link } from "react-router-dom";
 
 export default function BeffBrowser() {
   const [gender, setGender] = useState("m");
@@ -43,31 +44,31 @@ export default function BeffBrowser() {
         path="/beff/components"
       />
 
-      <div className="max-w-7xl mx-auto px-4 md:px-8 pt-24 pb-20">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 pt-20 pb-20">
         {/* Page header */}
-        <header className="mb-8 border-b border-white/5 pb-6">
+        <header className="mb-6 border-b border-white/5 pb-5">
           <div className="flex items-center gap-3 mb-2">
             <div className="w-1.5 h-1.5 rounded-full bg-yellow-500/40 shadow-[0_0_6px_rgba(234,179,8,0.4)]" />
             <span className="text-[8px] font-bold uppercase tracking-[.5em] text-yellow-500/50">
               Operative Tools — BEFF
             </span>
           </div>
-          <h1 className="text-4xl font-black uppercase italic tracking-tighter">
+          <h1 className="text-3xl md:text-4xl font-black uppercase italic tracking-tighter">
             Component <span className="text-yellow-500">Browser</span>
           </h1>
           <p className="text-white/25 text-[10px] uppercase tracking-widest mt-2">
-            Browse drawables and textures by slot. Click any card to view
-            textures and flip instructions.
+            Browse drawables and textures by slot. Tap any card to view textures
+            and flip instructions.
           </p>
         </header>
 
         {/* Gender toggle */}
-        <div className="flex gap-2 mb-6">
+        <div className="flex gap-2 mb-5">
           {GENDERS.map((g) => (
             <button
               key={g.id}
               onClick={() => handleGenderChange(g.id)}
-              className={`px-6 py-2.5 text-[10px] font-black uppercase tracking-[.2em] border transition-all ${
+              className={`px-5 py-2.5 text-[10px] font-black uppercase tracking-[.2em] border transition-all ${
                 gender === g.id
                   ? "bg-yellow-500 text-black border-yellow-500"
                   : "bg-transparent text-white/35 border-white/10 hover:border-white/25 hover:text-white/60"
@@ -76,15 +77,42 @@ export default function BeffBrowser() {
               {g.label}
             </button>
           ))}
+          <Link
+            to="/beff/guides"
+            className="bg-accent ml-auto px-5 py-2.5 text-[10px] font-black uppercase tracking-[.2em] border border-accent text-black hover:border-white/25 hover:text-white/60 transition-all"
+          >
+            BEFF Guides
+          </Link>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-          {/* Slot sidebar */}
-          <div className="lg:col-span-2">
+        {/* ── Slot bar — horizontal scroll on mobile, sidebar on desktop ── */}
+        <div className="lg:hidden mb-4">
+          <div className="overflow-x-auto pb-2 -mx-4 px-4">
+            <div className="flex gap-2 min-w-max">
+              {SLOTS.map((s) => (
+                <button
+                  key={s.id}
+                  onClick={() => handleSlotChange(s.id)}
+                  className={`flex-shrink-0 px-3 py-2 text-[9px] font-black uppercase tracking-wider border transition-all ${
+                    slot === s.id
+                      ? "border-yellow-500/60 bg-yellow-500/5 text-yellow-500"
+                      : "border-white/8 bg-transparent text-white/35"
+                  }`}
+                >
+                  {s.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
+          {/* Slot sidebar — desktop only */}
+          <div className="hidden lg:block lg:col-span-2">
             <div className="text-[8px] font-bold uppercase tracking-[.2em] text-white/25 mb-3">
               Slot
             </div>
-            <div className="flex flex-row flex-wrap lg:flex-col gap-1.5">
+            <div className="flex flex-col gap-1.5">
               {SLOTS.map((s) => (
                 <button
                   key={s.id}
@@ -98,7 +126,7 @@ export default function BeffBrowser() {
                   <div className="text-[10px] font-black uppercase tracking-[.1em]">
                     {s.label}
                   </div>
-                  <div className="text-[8px] text-white/20 mt-0.5 hidden lg:block">
+                  <div className="text-[8px] text-white/20 mt-0.5">
                     {s.desc}
                   </div>
                 </button>
@@ -107,19 +135,22 @@ export default function BeffBrowser() {
           </div>
 
           {/* Main content */}
-          <div className="lg:col-span-10 flex flex-col gap-5">
+          <div className="lg:col-span-10 flex flex-col gap-4 min-w-0">
+            {/* Detail panel — full width, no overflow clipping */}
             {selected && (
-              <BeffDetailPanel
-                gender={gender}
-                slot={slot}
-                drawable={selected.drawable}
-                textures={selected.textures}
-                onClose={() => setSelected(null)}
-                onFlip={handleFlip}
-              />
+              <div className="w-full overflow-x-auto">
+                <BeffDetailPanel
+                  gender={gender}
+                  slot={slot}
+                  drawable={selected.drawable}
+                  textures={selected.textures}
+                  onClose={() => setSelected(null)}
+                  onFlip={handleFlip}
+                />
+              </div>
             )}
 
-            <div className="bg-[#0d0d0d] border border-white/8 p-5">
+            <div className="bg-[#0d0d0d] border border-white/8 p-4 md:p-5">
               <BeffComponentGrid
                 gender={gender}
                 slot={slot}
@@ -134,7 +165,7 @@ export default function BeffBrowser() {
         </div>
       </div>
 
-      {/* Flip panel modal — slot is required for flip type + baseline C1 logic */}
+      {/* Flip panel modal */}
       {flipItem && (
         <BeffFlipPanel
           gender={gender}

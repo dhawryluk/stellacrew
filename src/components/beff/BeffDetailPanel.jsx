@@ -38,14 +38,14 @@ export default function BeffDetailPanel({
   return (
     <div className="border border-white/8 bg-[#0d0d0d] overflow-hidden">
       {/* Header */}
-      <div className="flex items-center justify-between px-5 py-3 border-b border-white/5 bg-[#0a0a0a]">
-        <div className="flex items-center gap-3">
+      <div className="flex items-center justify-between px-4 py-3 border-b border-white/5 bg-[#0a0a0a] gap-3 min-w-0">
+        <div className="flex items-center gap-2 min-w-0 overflow-hidden">
           <span className="text-[9px] font-black uppercase tracking-[.15em] text-yellow-500">
             {slot.toUpperCase()}
           </span>
           <span className="text-white/20 text-[9px]">·</span>
-          <span className="text-[11px] font-black text-white/70 font-mono">
-            Drawable {drawable}
+          <span className="text-[11px] font-black text-white/70 font-mono truncate">
+            Draw {drawable}
           </span>
           <span className="text-[9px] text-white/25">
             {textures.length} texture{textures.length !== 1 ? "s" : ""}
@@ -80,16 +80,16 @@ export default function BeffDetailPanel({
         </div>
         <button
           onClick={onClose}
-          className="text-[10px] font-black text-white/30 hover:text-white/70 uppercase tracking-widest transition-colors"
+          className="flex-shrink-0 text-[10px] font-black text-white/30 hover:text-white/70 uppercase tracking-widest transition-colors px-2 py-1 border border-white/8 hover:border-white/20"
         >
-          ✕ Close
+          ✕
         </button>
       </div>
 
       {/* Body: texture strip | big image | info */}
       <div className="flex">
         {/* Texture strip */}
-        <div className="w-16 flex-shrink-0 border-r border-white/5 flex flex-col overflow-y-auto max-h-[520px]">
+        <div className="w-14 md:w-16 flex-shrink-0 border-r border-white/5 flex flex-col overflow-y-auto max-h-[400px] md:max-h-[520px]">
           <div className="px-2 pt-2 pb-1 text-[7px] uppercase tracking-[.12em] text-white/25 font-bold sticky top-0 bg-[#0d0d0d]">
             Tex
           </div>
@@ -162,7 +162,7 @@ export default function BeffDetailPanel({
         </div>
 
         {/* Info — right column */}
-        <div className="w-60 flex-shrink-0 border-l border-white/5 flex flex-col divide-y divide-white/5">
+        <div className="w-44 md:w-60 flex-shrink-0 border-l border-white/5 flex flex-col divide-y divide-white/5">
           {/* Stat boxes */}
           {[
             {
@@ -193,7 +193,7 @@ export default function BeffDetailPanel({
               </span>
               <div className="flex items-center gap-2">
                 <span
-                  className={`text-[16px] font-black text-yellow-500 ${mono ? "font-mono" : ""}`}
+                  className={`text-[13px] md:text-[16px] font-black text-yellow-500 ${mono ? "font-mono" : ""}`}
                 >
                   {value}
                 </span>

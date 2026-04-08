@@ -77,7 +77,7 @@ export default function BeffGuides() {
               className="text-[9px] font-black uppercase tracking-[.2em] text-white/30 hover:text-yellow-500 transition-colors border border-white/10 hover:border-yellow-500/30 px-4 py-2"
             >
               ← Component Browser
-            </Link>
+            </Link> 
           </div>
         </header>
 

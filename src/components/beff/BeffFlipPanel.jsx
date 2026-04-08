@@ -188,7 +188,7 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                 {c1Drives ? "Step 1 — C1 (Color)" : "Step 1 — C1 (Your Item)"}
               </div>
 
-              <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-[160px]">
+              <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-40">
                 <img
                   src={imgPath(gender, c1Slot, c1Draw, c1TexFinal)}
                   alt="C1"
@@ -218,7 +218,7 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
               </div>
 
               {/* Texture swatch strip — c1_drives only */}
-              {c1Drives && totalTextures > 1 && (
+              {/* {c1Drives && totalTextures > 1 && (
                 <div className="w-full">
                   <div className="text-[7px] uppercase tracking-[.12em] text-white/20 font-bold mb-1.5">
                     Pick texture (color)
@@ -247,14 +247,14 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                     ))}
                   </div>
                 </div>
-              )}
+              )} */}
 
-              <button
+              {/* <button
                 onClick={() => copy("c1", c1Call)}
                 className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-yellow-500/20 bg-yellow-500/5 hover:bg-yellow-500/10 text-yellow-500/60 hover:text-yellow-500 transition-all w-full text-center"
               >
                 {copied === "c1" ? "✓ Copied" : "Copy Call"}
-              </button>
+              </button> */}
             </div>
 
             {/* ── C2 ─────────────────────────────────────────────────────── */}
@@ -292,12 +292,12 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                 )}
               </div>
 
-              <button
+              {/* <button
                 onClick={() => copy("c2", c2Call)}
                 className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-yellow-500/20 bg-yellow-500/5 hover:bg-yellow-500/10 text-yellow-500/60 hover:text-yellow-500 transition-all w-full text-center"
               >
                 {copied === "c2" ? "✓ Copied" : "Copy Call"}
-              </button>
+              </button> */}
             </div>
 
             {/* ── Result ──────────────────────────────────────────────────── */}
@@ -338,7 +338,7 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                 </div>
               </div>
 
-              <button
+              {/* <button
                 onClick={() =>
                   copy(
                     "both",
@@ -348,7 +348,7 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                 className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-yellow-500/40 bg-yellow-500/8 hover:bg-yellow-500/15 text-yellow-500/80 hover:text-yellow-500 transition-all w-full text-center"
               >
                 {copied === "both" ? "✓ Copied Both" : "Copy Both Calls"}
-              </button>
+              </button> */}
             </div>
 
             {/* Companion column — inside the grid */}
@@ -391,12 +391,12 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                     Required to activate flip
                   </div>
                 </div>
-                <button
+                {/* <button
                   onClick={() => copy("companion", companionCall)}
                   className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-blue-400/20 bg-blue-400/5 hover:bg-blue-400/10 text-blue-400/50 hover:text-blue-400 transition-all w-full text-center"
                 >
                   {copied === "companion" ? "✓ Copied" : "Copy Call"}
-                </button>
+                </button> */}
               </div>
             )}
           </div>
