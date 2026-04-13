@@ -2,10 +2,6 @@
  * beffMergeData.js
  *
  * Curated merge combinations per gender and slot.
- * Each combo shows what goes on C1 and C2 to achieve a merge.
- *
- * Merge principle: apply a texture number that doesn't exist in the target
- * item's set → creates an invisible/merge component.
  *
  * bag: which parachute activates this slot
  *   "classic"  → hand drawable 48 tex 0
@@ -24,12 +20,7 @@ export const MERGE_DATA = {
       combos: [
         {
           label: "No Gloves Merge",
-          c1: {
-            slot: "uppr",
-            drawable: 15,
-            texture: 0,
-            label: "No Gloves",
-          },
+          c1: { slot: "uppr", drawable: 15, texture: 0, label: "No Gloves" },
           c2: {
             slot: "uppr",
             drawable: 137,
@@ -177,12 +168,31 @@ export const MERGE_DATA = {
             texture: 11,
             label: "Royal Check Suit Vest",
           },
-          c2: {
-            slot: "jbib",
-            drawable: 40,
-            texture: 0,
-            label: "Red Vest",
-          },
+          c2: { slot: "jbib", drawable: 40, texture: 0, label: "Red Vest" },
+        },
+      ],
+    },
+    {
+      id: "armor",
+      label: "Armor",
+      slot: "task",
+      bag: "israel",
+      note: "Equip Heavy Armor from the interaction menu (Inventory → Show Armor) on C1. No armor on C2. Merge armor over the torso 2 you want, then merge both together with the rest of your outfit. Note: once armor is merged on it is no longer possible to change the pants.",
+      combos: [
+        {
+          label: "Heavy Armor Merge",
+          c1: { slot: "task", drawable: 6, texture: 2, label: "Heavy Armor" },
+          c2: null,
+        },
+        {
+          label: "CEO Armor Merge",
+          c1: { slot: "task", drawable: 16, texture: 2, label: "Heavy Armor" },
+          c2: null,
+        },
+        {
+          label: "SWAT Armor Merge",
+          c1: { slot: "task", drawable: 15, texture: 2, label: "Heavy Armor" },
+          c2: null,
         },
       ],
     },
@@ -400,6 +410,20 @@ export const MERGE_DATA = {
             texture: 0,
             label: "Camo T-Shirt",
           },
+        },
+      ],
+    },
+    {
+      id: "armor",
+      label: "Armor",
+      slot: "task",
+      bag: "israel",
+      note: "Equip Heavy Armor from the interaction menu (Inventory → Show Armor) on C1. No armor on C2. Merge armor over the torso 2 you want, then merge both together with the rest of your outfit. Note: once armor is merged on it is no longer possible to change the pants.",
+      combos: [
+        {
+          label: "Heavy Armor Merge",
+          c1: { slot: "task", drawable: 0, texture: 0, label: "Heavy Armor" },
+          c2: null,
         },
       ],
     },

@@ -66,12 +66,12 @@ export default function BeffComponentGrid({
           value={search}
           onChange={(e) => handleSearch(e.target.value)}
           placeholder="Jump to drawable #..."
-          className="flex-1 bg-[#111] border border-white/8 px-4 py-2.5 text-[12px] text-white placeholder-white/20 outline-none focus:border-yellow-500/30 transition-colors rounded-none"
+          className="flex-1 bg-panel border border-border-subtle px-4 py-2.5 text-[12px] text-text-main placeholder-white/20 outline-none focus:border-accent/30 transition-colors rounded-none"
         />
         <select
           value={dlcFilter}
           onChange={(e) => handleDlc(e.target.value)}
-          className="bg-[#111] border border-white/8 px-3 py-2.5 text-[11px] text-white/50 outline-none focus:border-yellow-500/30 rounded-none"
+          className="bg-panel border border-border-subtle px-3 py-2.5 text-[11px] text-white/50 outline-none focus:border-accent/30 rounded-none"
         >
           {dlcOptions.map((d) => (
             <option key={d} value={d}>
@@ -94,7 +94,7 @@ export default function BeffComponentGrid({
           {Array.from({ length: PER_PAGE }).map((_, i) => (
             <div
               key={i}
-              className="aspect-square bg-[#111] animate-pulse rounded-none"
+              className="aspect-square bg-panel animate-pulse rounded-none"
             />
           ))}
         </div>
@@ -112,8 +112,8 @@ export default function BeffComponentGrid({
                 onClick={() => onSelectDrawable(drawable, textures)}
                 className={`relative group aspect-square border overflow-hidden transition-all ${
                   isSelected
-                    ? "border-yellow-500 ring-1 ring-yellow-500/50"
-                    : "border-white/8 hover:border-white/25"
+                    ? "border-accent ring-1 ring-accent/50"
+                    : "border-border-subtle hover:border-white/25"
                 }`}
               >
                 <img
@@ -125,12 +125,12 @@ export default function BeffComponentGrid({
                   }}
                 />
 
-                <div className="absolute inset-0 bg-[#181818] -z-10" />
+                <div className="absolute inset-0 bg-panel -z-10" />
 
                 <div
                   className={`absolute bottom-0.5 left-1 text-[8px] font-black font-mono transition-colors ${
                     isSelected
-                      ? "text-yellow-500"
+                      ? "text-accent"
                       : "text-white/30 group-hover:text-white/60"
                   }`}
                 >
@@ -138,21 +138,21 @@ export default function BeffComponentGrid({
                 </div>
 
                 {hasMultipleTex && (
-                  <div className="absolute top-0.5 right-0.5 text-[7px] font-black bg-black/70 text-yellow-500/70 px-1 leading-tight">
+                  <div className="absolute top-0.5 right-0.5 text-[7px] font-black bg-black/60 text-accent/70 px-1 leading-tight">
                     ×{textures.length}
                   </div>
                 )}
 
                 {firstItem?.usedIn?.length > 0 && (
-                  <div className="absolute top-0.5 left-0.5 w-1.5 h-1.5 rounded-full bg-yellow-500" />
+                  <div className="absolute top-0.5 left-0.5 w-1.5 h-1.5 rounded-full bg-accent" />
                 )}
 
                 {firstItem?.featured && !firstItem?.usedIn?.length && (
-                  <div className="absolute top-0.5 left-0.5 w-1.5 h-1.5 rounded-full bg-yellow-500/50" />
+                  <div className="absolute top-0.5 left-0.5 w-1.5 h-1.5 rounded-full bg-accent/50" />
                 )}
 
                 {isSelected && (
-                  <div className="absolute inset-0 bg-yellow-500/8 pointer-events-none" />
+                  <div className="absolute inset-0 bg-accent/8 pointer-events-none" />
                 )}
               </button>
             );
@@ -166,7 +166,7 @@ export default function BeffComponentGrid({
           <button
             onClick={() => setPage((p) => Math.max(0, p - 1))}
             disabled={page === 0}
-            className="px-3 py-1.5 border border-white/8 text-[10px] text-white/30 disabled:opacity-20 hover:border-white/25 hover:text-white/60 transition-all"
+            className="px-3 py-1.5 border border-border-subtle text-[10px] text-white/30 disabled:opacity-20 hover:border-white/25 hover:text-white/60 transition-all"
           >
             ←
           </button>
@@ -200,8 +200,8 @@ export default function BeffComponentGrid({
                   onClick={() => setPage(pg)}
                   className={`w-7 h-7 text-[10px] font-black border transition-all ${
                     page === pg
-                      ? "bg-yellow-500 text-black border-yellow-500"
-                      : "border-white/8 text-white/30 hover:border-white/25 hover:text-white/60"
+                      ? "bg-accent text-black border-accent"
+                      : "border-border-subtle text-white/30 hover:border-white/25 hover:text-white/60"
                   }`}
                 >
                   {pg + 1}
@@ -214,7 +214,7 @@ export default function BeffComponentGrid({
           <button
             onClick={() => setPage((p) => Math.min(totalPages - 1, p + 1))}
             disabled={page === totalPages - 1}
-            className="px-3 py-1.5 border border-white/8 text-[10px] text-white/30 disabled:opacity-20 hover:border-white/25 hover:text-white/60 transition-all"
+            className="px-3 py-1.5 border border-border-subtle text-[10px] text-white/30 disabled:opacity-20 hover:border-white/25 hover:text-white/60 transition-all"
           >
             →
           </button>
