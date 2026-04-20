@@ -1833,7 +1833,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 152,
+      "texture": 0
+    }
   },
   {
     "id": "f_black_onesie_hood_up",
@@ -1906,7 +1911,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 238,
+      "texture": 0
+    }
   },
   {
     "id": "f_cop_belt_holster",
@@ -1989,7 +1999,12 @@
       "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
       "On C1: go into a new invite only lobby from Creator, change to the stage C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session and save the result before starting the next stage"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 160,
+      "texture": 0
+    }
   },
   {
     "id": "f_cop_belt_5",
@@ -2062,7 +2077,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 189,
+      "texture": 0
+    }
   },
   {
     "id": "f_juggernaut",
@@ -2135,7 +2155,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 105,
+      "texture": 2
+    }
   },
   {
     "id": "f_maintenance_belt",
@@ -2208,7 +2233,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 191,
+      "texture": 0
+    }
   },
   {
     "id": "f_modded_fur_1",
@@ -2281,7 +2311,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 252,
+      "texture": 0
+    }
   },
   {
     "id": "f_modded_gray_fur",
@@ -2364,7 +2399,12 @@
       "On C2: join an invite only session, equip the C2 outfit (JBIB 652-0 + ACCS 266-0), wait for the yellow save, then return to story mode",
       "On C1: go into a new invite only lobby from Creator, change to the stage C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session and save the result before starting the next stage"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 253,
+      "texture": 0
+    }
   },
   {
     "id": "f_paramedic_belt",
@@ -2437,7 +2477,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 159,
+      "texture": 0
+    }
   },
   {
     "id": "f_prison_guard_belt",
@@ -2510,7 +2555,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 190,
+      "texture": 0
+    }
   },
   {
     "id": "f_safety_vest_large",
@@ -2571,7 +2621,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 219,
+      "texture": 0
+    }
   },
   {
     "id": "f_safety_vest_small",
@@ -2632,7 +2687,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 220,
+      "texture": 0
+    }
   },
   {
     "id": "f_sasquatch_fur",
@@ -2705,7 +2765,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 235,
+      "texture": 0
+    }
   },
   {
     "id": "f_teal_racing_pads",
@@ -2778,7 +2843,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 174,
+      "texture": 0
+    }
   },
   {
     "id": "f_diamond_strike_vest",
@@ -2851,7 +2921,12 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 236,
+      "texture": 0
+    }
   },
   {
     "id": "f_impotent_rage_cape",
@@ -2924,6 +2999,11 @@
       "On C1: go into a new invite only lobby from Creator, change to the C1 outfit, get a save, then return to story mode",
       "Go back online — join an invite only session",
       "You should spawn with the result. Walk to a wardrobe and save the outfit"
-    ]
+    ],
+    "result": {
+      "slot": "accs",
+      "drawable": 186,
+      "texture": 0
+    }
   }
 ]

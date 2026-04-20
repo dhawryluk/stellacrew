@@ -22,7 +22,7 @@ const C2_INFO = {
   f: { label: "Black Stealth Shirt", note: "Clothing store → Service Shirts." },
 };
 
-// ── Shared component card (no copy button) ───────────────────────────────────
+// ── Shared component card ─────────────────────────────────────────────────────
 function CompCard({ gender, comp, accentBorder = false, header, subLabel }) {
   return (
     <div
@@ -68,7 +68,7 @@ function CompCard({ gender, comp, accentBorder = false, header, subLabel }) {
 }
 
 // ── Sidebar preview image ─────────────────────────────────────────────────────
-function SidebarImage({ src, label, sublabel }) {
+function SidebarImage({ src, label, sublabel, fallbackSrc }) {
   return (
     <div className="relative aspect-square bg-panel border border-border-subtle overflow-hidden">
       <img
@@ -76,8 +76,12 @@ function SidebarImage({ src, label, sublabel }) {
         alt={label}
         className="w-full h-full object-cover"
         onError={(e) => {
-          e.target.style.display = "none";
-          e.target.nextSibling.style.display = "flex";
+          if (fallbackSrc && e.target.src !== fallbackSrc) {
+            e.target.src = fallbackSrc;
+          } else {
+            e.target.style.display = "none";
+            e.target.nextSibling.style.display = "flex";
+          }
         }}
       />
       <div
@@ -103,6 +107,77 @@ function SidebarImage({ src, label, sublabel }) {
           )}
         </div>
       )}
+    </div>
+  );
+}
+
+// ── Torso1 stage block: C1 on top, C2 below ───────────────────────────────────
+function Torso1Stage({ gender, stageLabel, c1Items, c2Items, c2Note }) {
+  return (
+    <div className="border border-border-subtle bg-panel overflow-hidden">
+      {/* Stage header */}
+      <div className="px-4 py-2.5 bg-bg border-b border-border-subtle/60">
+        <span className="text-[9px] font-black uppercase tracking-[.2em] text-white/50">
+          {stageLabel}
+        </span>
+      </div>
+
+      <div className="p-4 flex flex-col gap-4">
+        {/* C1 */}
+        <div>
+          <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-2">
+            C1 Outfit
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            {(c1Items ?? []).map((comp, i) => (
+              <CompCard
+                key={i}
+                gender={gender}
+                comp={comp}
+                header={comp.slot.toUpperCase()}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* Divider with arrow */}
+        <div className="flex items-center gap-3">
+          <div className="flex-1 h-px bg-border-subtle" />
+          <span className="text-white/20 text-sm">↓</span>
+          <div className="flex-1 h-px bg-border-subtle" />
+        </div>
+
+        {/* C2 */}
+        <div>
+          <div className="flex items-center gap-3 mb-2">
+            <div className="text-[8px] font-black uppercase tracking-[.2em] text-accent/50">
+              C2 Outfit
+            </div>
+          </div>
+          {c2Note ? (
+            <div className="border border-accent/20 bg-accent/5 px-4 py-4 flex flex-col gap-1">
+              <div className="text-[10px] font-black uppercase tracking-wider text-accent/70">
+                C2 Outfit
+              </div>
+              <div className="text-[9px] text-white/40 uppercase tracking-wider">
+                Result from Stage 1
+              </div>
+            </div>
+          ) : (
+            <div className="grid grid-cols-2 gap-3">
+              {(c2Items ?? []).map((comp, i) => (
+                <CompCard
+                  key={i}
+                  gender={gender}
+                  comp={comp}
+                  header={comp.slot.toUpperCase()}
+                  accentBorder
+                />
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
     </div>
   );
 }
@@ -135,15 +210,6 @@ export default function BeffGuideDetail() {
   const isTorso1 = guide.type === "magic_torso1";
   const stdOutfit = STANDARD_OUTFIT[guide.gender];
   const c2Info = C2_INFO[guide.gender];
-
-  // Torso1 result = first jbib in c1 (or last stage c1 for multi-stage)
-  const torso1ResultComp = isTorso1
-    ? guide.stages
-      ? (guide.stages[guide.stages.length - 1].c1.find(
-          (c) => c.slot === "jbib",
-        ) ?? guide.stages[guide.stages.length - 1].c1[0])
-      : (guide.c1.find((c) => c.slot === "jbib") ?? guide.c1[0])
-    : null;
 
   return (
     <div className="min-h-screen bg-bg text-text-main font-sans">
@@ -183,16 +249,33 @@ export default function BeffGuideDetail() {
                 sublabel={`JBIB ${guide.result.drawable} / ${guide.result.texture}`}
               />
             )}
-            {isTorso1 && torso1ResultComp && (
+            {isTorso1 && (
               <SidebarImage
-                src={imgPath(
-                  guide.gender,
-                  torso1ResultComp.slot,
-                  torso1ResultComp.drawable,
-                  torso1ResultComp.texture,
-                )}
+                src={
+                  guide.result
+                    ? imgPath(
+                        guide.gender,
+                        guide.result.slot,
+                        guide.result.drawable,
+                        guide.result.texture,
+                      )
+                    : guide.preview
+                }
+                fallbackSrc={
+                  guide.result
+                    ? placeholderImg(
+                        guide.result.slot,
+                        guide.result.drawable,
+                        guide.result.texture,
+                      )
+                    : undefined
+                }
                 label="Result"
-                sublabel={`${torso1ResultComp.slot.toUpperCase()} ${torso1ResultComp.drawable} / ${torso1ResultComp.texture}`}
+                sublabel={
+                  guide.result
+                    ? `${guide.result.slot.toUpperCase()} ${guide.result.drawable} / ${guide.result.texture}`
+                    : undefined
+                }
               />
             )}
             {!isMagic && !isTorso1 && (
@@ -347,61 +430,35 @@ export default function BeffGuideDetail() {
                   </div>
                 </div>
 
-                {/* C2 — always Valentines Onesie */}
-                <div>
-                  <div className="text-[9px] uppercase tracking-[.2em] text-white/30 font-bold mb-3">
-                    C2 Outfit — Same for All Stages
-                  </div>
-                  <div className="grid grid-cols-2 gap-3">
-                    {guide.c2.map((comp, i) => (
-                      <CompCard
-                        key={i}
-                        gender={guide.gender}
-                        comp={comp}
-                        header={comp.slot.toUpperCase()}
-                        accentBorder
-                      />
-                    ))}
-                  </div>
-                </div>
-
-                {/* C1 — stages or single */}
+                {/* Multi-stage */}
                 {guide.stages ? (
                   <div className="flex flex-col gap-5">
-                    {guide.stages.map((stage, si) => (
-                      <div key={si}>
-                        <div className="text-[9px] uppercase tracking-[.2em] text-white/30 font-bold mb-3">
-                          {stage.label} — C1 Outfit
-                        </div>
-                        <div className="grid grid-cols-2 gap-3">
-                          {stage.c1.map((comp, ci) => (
-                            <CompCard
-                              key={ci}
-                              gender={guide.gender}
-                              comp={comp}
-                              header={comp.slot.toUpperCase()}
-                            />
-                          ))}
-                        </div>
-                      </div>
-                    ))}
+                    {guide.stages.map((stage, si) => {
+                      const prevStageResult =
+                        si > 0 ? guide.stages[si - 1].result : null;
+                      const c2Items = si === 0 ? guide.c2 : prevStageResult;
+                      const c2Note = si > 0 ? "Result from Stage 1" : undefined;
+                      const c2Missing = si > 0 && !prevStageResult;
+                      return (
+                        <Torso1Stage
+                          key={si}
+                          gender={guide.gender}
+                          stageLabel={stage.label}
+                          c1Items={stage.c1}
+                          c2Items={si === 0 ? guide.c2 : []}
+                          c2Note={si > 0 ? "Result from Stage 1" : undefined}
+                        />
+                      );
+                    })}
                   </div>
                 ) : (
-                  <div>
-                    <div className="text-[9px] uppercase tracking-[.2em] text-white/30 font-bold mb-3">
-                      C1 Outfit
-                    </div>
-                    <div className="grid grid-cols-2 gap-3">
-                      {guide.c1.map((comp, i) => (
-                        <CompCard
-                          key={i}
-                          gender={guide.gender}
-                          comp={comp}
-                          header={comp.slot.toUpperCase()}
-                        />
-                      ))}
-                    </div>
-                  </div>
+                  /* Single stage */
+                  <Torso1Stage
+                    gender={guide.gender}
+                    stageLabel="Outfit Setup"
+                    c1Items={guide.c1}
+                    c2Items={guide.c2}
+                  />
                 )}
               </>
             )}

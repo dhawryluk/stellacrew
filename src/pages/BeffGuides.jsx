@@ -135,7 +135,6 @@ export default function BeffGuides() {
                 ["all", "All"],
                 ["magic_top", "T2 Tops"],
                 ["magic_torso1", "T1 Torso"],
-                ["merge", "Merge"],
               ].map(([v, l]) => (
                 <button
                   key={v}
@@ -208,9 +207,9 @@ function GuideCard({ guide }) {
       className="group block border border-border-subtle bg-panel hover:border-accent/30 transition-all duration-200 overflow-hidden"
     >
       {/* Preview */}
-      <div className="relative bg-panel overflow-hidden">
+      <div className="relative bg-panel">
         {isMagic ? (
-          <div className="flex max-h-72">
+          <div className="flex">
             <div className="flex-1 relative overflow-hidden">
               <img
                 src={imgPath(
@@ -220,7 +219,7 @@ function GuideCard({ guide }) {
                   guide.result.texture,
                 )}
                 alt="Result"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-300"
                 onError={(e) => {
                   e.target.src = placeholderImg(
                     guide.result.slot,
@@ -235,30 +234,34 @@ function GuideCard({ guide }) {
             </div>
           </div>
         ) : isTorso1 ? (
-          /* Torso1 — show first jbib component image as preview */
-          <div className="flex max-h-72 overflow-hidden">
-            {(() => {
-              const firstComp = guide.stages
-                ? (guide.stages[0].c1.find((c) => c.slot === "jbib") ??
-                  guide.stages[0].c1[0])
-                : (guide.c1.find((c) => c.slot === "jbib") ?? guide.c1[0]);
-              return (
-                <img
-                  src={imgPath(
-                    guide.gender,
-                    firstComp.slot,
-                    firstComp.drawable,
-                    firstComp.texture,
-                  )}
-                  alt={guide.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  onError={(e) => {
-                    e.target.style.display = "none";
-                    e.target.nextSibling.style.display = "flex";
-                  }}
-                />
-              );
-            })()}
+          /* Torso1 — show result accs image, placeholder on error */
+          <div className="relative overflow-hidden">
+            <img
+              src={
+                guide.result
+                  ? imgPath(
+                      guide.gender,
+                      guide.result.slot,
+                      guide.result.drawable,
+                      guide.result.texture,
+                    )
+                  : guide.preview
+              }
+              alt={guide.name}
+              className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-300"
+              onError={(e) => {
+                if (guide.result) {
+                  e.target.src = placeholderImg(
+                    guide.result.slot,
+                    guide.result.drawable,
+                    guide.result.texture,
+                  );
+                } else {
+                  e.target.style.display = "none";
+                  e.target.nextSibling.style.display = "flex";
+                }
+              }}
+            />
             <div
               className="absolute inset-0 items-center justify-center flex-col gap-1 bg-panel"
               style={{ display: "none" }}
@@ -271,16 +274,16 @@ function GuideCard({ guide }) {
               </span>
             </div>
             <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-[7px] font-black text-pink-300/60 uppercase tracking-wider text-center py-0.5">
-              C1 Preview
+              Result
             </div>
           </div>
         ) : (
           /* Merge — single preview image */
-          <div className="aspect-video">
+          <div className="relative overflow-hidden">
             <img
               src={guide.preview}
               alt={guide.name}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-300"
               onError={(e) => {
                 e.target.style.display = "none";
                 e.target.nextSibling.style.display = "flex";
@@ -417,14 +420,6 @@ function GuideCard({ guide }) {
 
 // ─── Merging content ──────────────────────────────────────────────────────────
 function MergingContent({ gender, sections }) {
-  const [copiedKey, setCopiedKey] = useState(null);
-
-  const copy = (key, value) => {
-    navigator.clipboard?.writeText(value);
-    setCopiedKey(key);
-    setTimeout(() => setCopiedKey(null), 1500);
-  };
-
   return (
     <div className="flex flex-col gap-10">
       {/* How merging works */}
@@ -442,8 +437,6 @@ function MergingContent({ gender, sections }) {
         </p>
         <div className="flex flex-wrap gap-4">
           {Object.entries(BAG_INFO).map(([key, bag]) => {
-            const call = buildCall(bag.slot, bag.drawable, bag.texture);
-            const copyKey = "bag_ref_" + key;
             return (
               <div
                 key={key}
@@ -453,7 +446,7 @@ function MergingContent({ gender, sections }) {
                   <img
                     src={imgPath(gender, bag.slot, bag.drawable, bag.texture)}
                     alt={bag.label}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                     onError={(e) => {
                       e.target.src = placeholderImg(
                         bag.slot,
@@ -471,12 +464,6 @@ function MergingContent({ gender, sections }) {
                     HAND {bag.drawable} / {bag.texture}
                   </div>
                 </div>
-                <button
-                  onClick={() => copy(copyKey, call)}
-                  className="ml-2 text-[7px] font-black uppercase tracking-wider px-2 py-1 border border-white/15 hover:border-white/30 text-white/30 hover:text-white/60 transition-all"
-                >
-                  {copiedKey === copyKey ? "✓" : "Copy"}
-                </button>
               </div>
             );
           })}
@@ -517,27 +504,10 @@ function MergingContent({ gender, sections }) {
             </p>
           )}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {section.combos.map((combo, ci) => {
               const bagInfo =
                 BAG_INFO[section.bag === "both" ? "classic" : section.bag];
-              const bagCall = buildCall(
-                bagInfo.slot,
-                bagInfo.drawable,
-                bagInfo.texture,
-              );
-              const c1Call = combo.c1
-                ? buildCall(combo.c1.slot, combo.c1.drawable, combo.c1.texture)
-                : null;
-              const c2Call = combo.c2
-                ? buildCall(combo.c2.slot, combo.c2.drawable, combo.c2.texture)
-                : null;
-              const allCalls = [c1Call, c2Call, bagCall]
-                .filter(Boolean)
-                .join("\n");
-              const copyKey = `combo_${section.id}_${ci}`;
-              const c1Key = `c1_${section.id}_${ci}`;
-              const c2Key = `c2_${section.id}_${ci}`;
 
               return (
                 <div
@@ -545,28 +515,22 @@ function MergingContent({ gender, sections }) {
                   className="border border-border-subtle bg-panel overflow-hidden hover:border-white/15 transition-all"
                 >
                   {/* Combo header */}
-                  <div className="flex items-center justify-between px-4 py-2.5 border-b border-border-subtle/60 bg-bg">
+                  <div className="px-4 py-2.5 border-b border-border-subtle/60 bg-bg">
                     <span className="text-[9px] font-black uppercase tracking-[.15em] text-white/50">
                       {combo.label}
                     </span>
-                    <button
-                      onClick={() => copy(copyKey, allCalls)}
-                      className="text-[7px] font-black uppercase tracking-wider px-2 py-1 border border-accent/25 bg-accent/5 hover:bg-accent/10 text-accent/60 hover:text-accent transition-all"
-                    >
-                      {copiedKey === copyKey ? "✓ Copied" : "Copy All"}
-                    </button>
                   </div>
 
                   {/* C1 + C2 */}
                   <div className="flex divide-x divide-border-subtle">
                     {/* C1 */}
-                    <div className="flex-1 flex flex-col items-center p-4 gap-2">
+                    <div className="flex-1 flex flex-col items-center p-3 gap-2">
                       <div className="text-[7px] font-black uppercase tracking-[.2em] text-white/25">
                         C1
                       </div>
                       {combo.c1 ? (
                         <>
-                          <div className="w-full aspect-square bg-bg border border-border-subtle overflow-hidden relative max-w-[120px]">
+                          <div className="w-full bg-bg border border-border-subtle overflow-hidden relative">
                             <img
                               src={imgPath(
                                 gender,
@@ -575,7 +539,7 @@ function MergingContent({ gender, sections }) {
                                 combo.c1.texture,
                               )}
                               alt={combo.c1.label}
-                              className="w-full h-full object-cover"
+                              className="w-full h-auto object-contain"
                               onError={(e) => {
                                 e.target.src = placeholderImg(
                                   combo.c1.slot,
@@ -596,15 +560,9 @@ function MergingContent({ gender, sections }) {
                               {combo.c1.drawable} / {combo.c1.texture}
                             </div>
                           </div>
-                          <button
-                            onClick={() => copy(c1Key, c1Call)}
-                            className="text-[7px] font-black uppercase tracking-wider px-2 py-1 border border-border-subtle text-white/25 hover:border-white/25 hover:text-white/50 transition-all w-full text-center"
-                          >
-                            {copiedKey === c1Key ? "✓" : "Copy"}
-                          </button>
                         </>
                       ) : (
-                        <div className="w-full aspect-square bg-bg border border-dashed border-border-subtle max-w-[120px] flex items-center justify-center flex-col gap-1 p-2">
+                        <div className="w-full bg-bg border border-dashed border-border-subtle flex items-center justify-center flex-col gap-1 p-8">
                           <span className="text-[8px] text-white/15 uppercase tracking-widest text-center leading-relaxed">
                             {section.slot === "task"
                               ? "No Armor"
@@ -619,13 +577,13 @@ function MergingContent({ gender, sections }) {
                     </div>
 
                     {/* C2 */}
-                    <div className="flex-1 flex flex-col items-center p-4 gap-2">
+                    <div className="flex-1 flex flex-col items-center p-3 gap-2">
                       <div className="text-[7px] font-black uppercase tracking-[.2em] text-accent/50">
                         C2
                       </div>
                       {combo.c2 ? (
                         <>
-                          <div className="w-full aspect-square bg-bg border border-accent/20 overflow-hidden relative max-w-[120px]">
+                          <div className="w-full bg-bg border border-accent/20 overflow-hidden relative">
                             <img
                               src={imgPath(
                                 gender,
@@ -634,7 +592,7 @@ function MergingContent({ gender, sections }) {
                                 combo.c2.texture,
                               )}
                               alt={combo.c2.label}
-                              className="w-full h-full object-cover"
+                              className="w-full h-auto object-contain"
                               onError={(e) => {
                                 e.target.src = placeholderImg(
                                   combo.c2.slot,
@@ -655,15 +613,9 @@ function MergingContent({ gender, sections }) {
                               {combo.c2.drawable} / {combo.c2.texture}
                             </div>
                           </div>
-                          <button
-                            onClick={() => copy(c2Key, c2Call)}
-                            className="text-[7px] font-black uppercase tracking-wider px-2 py-1 border border-accent/20 bg-accent/5 hover:bg-accent/10 text-accent/50 hover:text-accent transition-all w-full text-center"
-                          >
-                            {copiedKey === c2Key ? "✓" : "Copy"}
-                          </button>
                         </>
                       ) : (
-                        <div className="w-full aspect-square bg-bg border border-dashed border-border-subtle max-w-[120px] flex items-center justify-center flex-col gap-1 p-2">
+                        <div className="w-full bg-bg border border-dashed border-border-subtle flex items-center justify-center flex-col gap-1 p-8">
                           <span className="text-[8px] text-white/15 uppercase tracking-widest text-center leading-relaxed">
                             {section.slot === "task"
                               ? "No Armor"
@@ -688,7 +640,7 @@ function MergingContent({ gender, sections }) {
                             bagInfo.texture,
                           )}
                           alt={bagInfo.label}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
                           onError={(e) => {
                             e.target.src = placeholderImg(
                               bagInfo.slot,
@@ -707,16 +659,6 @@ function MergingContent({ gender, sections }) {
                         HAND {bagInfo.drawable} / {bagInfo.texture}
                       </span>
                     </div>
-                    <button
-                      onClick={() =>
-                        copy("bag_" + section.id + "_" + ci, bagCall)
-                      }
-                      className="text-[7px] font-black uppercase tracking-wider px-2 py-0.5 border border-border-subtle text-white/20 hover:border-white/25 hover:text-white/40 transition-all"
-                    >
-                      {copiedKey === "bag_" + section.id + "_" + ci
-                        ? "✓"
-                        : "Copy Bag"}
-                    </button>
                   </div>
                 </div>
               );
