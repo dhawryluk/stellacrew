@@ -26,7 +26,9 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
   }, [item, c1Drives]);
 
   useEffect(() => {
-    const h = (e) => { if (e.key === "Escape") onClose(); };
+    const h = (e) => {
+      if (e.key === "Escape") onClose();
+    };
     window.addEventListener("keydown", h);
     return () => window.removeEventListener("keydown", h);
   }, [onClose]);
@@ -50,24 +52,25 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
   let c1Slot, c1Draw, c1TexFinal, c2Draw, c2Tex, resultDraw, resultTex;
 
   if (c1Drives) {
-    c1Slot     = slot;
-    c1Draw     = baselines[c1BaseIdx]?.drawable ?? 190;
+    c1Slot = slot;
+    c1Draw = baselines[c1BaseIdx]?.drawable ?? 190;
     c1TexFinal = c1Texture;
-    c2Draw     = flip?.c2_drawable ?? itemDraw;
-    c2Tex      = 0;
+    c2Draw = flip?.c2_drawable ?? itemDraw;
+    c2Tex = 0;
     resultDraw = c2Draw;
-    resultTex  = c1Texture;
+    resultTex = c1Texture;
   } else {
-    c1Slot     = slot;
-    c1Draw     = itemDraw;
+    c1Slot = slot;
+    c1Draw = itemDraw;
     c1TexFinal = 0;
-    c2Draw     = flip?.c2_drawable ?? baselines[c1BaseIdx]?.drawable ?? 137;
-    c2Tex      = itemTex;
+    c2Draw = flip?.c2_drawable ?? baselines[c1BaseIdx]?.drawable ?? 137;
+    c2Tex = itemTex;
     resultDraw = itemDraw;
-    resultTex  = itemTex;
+    resultTex = itemTex;
   }
 
-  const resultImg = flip?.result_img ?? imgPath(gender, slot, resultDraw, resultTex);
+  const resultImg =
+    flip?.result_img ?? imgPath(gender, slot, resultDraw, resultTex);
 
   const c1Call = buildCall(c1Slot, c1Draw, c1TexFinal);
   const c2Call = buildCall(slot, c2Draw, c2Tex);
@@ -82,11 +85,13 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
 
   return (
     <>
-      <div className="fixed inset-0 bg-black/60 z-40 backdrop-blur-sm" onClick={onClose} />
+      <div
+        className="fixed inset-0 bg-black/60 z-40 backdrop-blur-sm"
+        onClick={onClose}
+      />
 
       <div className="fixed inset-0 z-50 flex items-center justify-center p-4 pt-20">
         <div className="bg-bg border border-border-subtle overflow-hidden w-full max-w-3xl max-h-[90vh] overflow-y-auto">
-
           {/* Header */}
           <div className="flex items-center justify-between px-6 py-4 border-b border-border-subtle bg-panel">
             <div className="flex items-center gap-3">
@@ -105,11 +110,13 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                   {dlc}
                 </span>
               )}
-              <span className={`text-[8px] font-black uppercase tracking-wider px-2 py-0.5 border ${
-                c1Drives
-                  ? "border-accent/30 text-accent/60 bg-accent/5"
-                  : "border-border-subtle text-white/30"
-              }`}>
+              <span
+                className={`text-[8px] font-black uppercase tracking-wider px-2 py-0.5 border ${
+                  c1Drives
+                    ? "border-accent/30 text-accent/60 bg-accent/5"
+                    : "border-border-subtle text-white/30"
+                }`}
+              >
                 {c1Drives ? "C1 Drives Color" : "C2 Drives Color"}
               </span>
             </div>
@@ -138,7 +145,11 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                   }`}
                 >
                   {b.label}
-                  {b.textures && <span className="ml-1.5 text-[7px] opacity-60">×{b.textures}</span>}
+                  {b.textures && (
+                    <span className="ml-1.5 text-[7px] opacity-60">
+                      ×{b.textures}
+                    </span>
+                  )}
                 </button>
               ))}
               {baselines[c1BaseIdx]?.note && (
@@ -150,8 +161,9 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
           )}
 
           {/* Grid */}
-          <div className={`grid divide-x divide-border-subtle ${companion ? "grid-cols-4" : "grid-cols-3"}`}>
-
+          <div
+            className={`grid divide-x divide-border-subtle ${companion ? "grid-cols-4" : "grid-cols-3"}`}
+          >
             {/* C1 */}
             <div className="flex flex-col items-center p-5 gap-3">
               <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
@@ -162,7 +174,9 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                   src={imgPath(gender, c1Slot, c1Draw, c1TexFinal)}
                   alt="C1"
                   className="w-full h-full object-cover"
-                  onError={(e) => { e.target.src = placeholderImg(c1Slot, c1Draw, c1TexFinal); }}
+                  onError={(e) => {
+                    e.target.src = placeholderImg(c1Slot, c1Draw, c1TexFinal);
+                  }}
                 />
                 <div className="absolute top-1 left-1 text-[7px] font-black bg-black/70 text-accent/70 px-1.5 py-0.5 uppercase tracking-wider">
                   {c1Slot.toUpperCase()}
@@ -173,48 +187,15 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                   {c1Slot.toUpperCase()} {c1Draw} / {c1TexFinal}
                 </div>
                 {c1Drives ? (
-                  <div className="text-[8px] text-white/30 mt-1">Texture sets the color</div>
+                  <div className="text-[8px] text-white/30 mt-1">
+                    Texture sets the color
+                  </div>
                 ) : (
-                  <div className="text-[8px] text-white/30 mt-1">Any texture works</div>
+                  <div className="text-[8px] text-white/30 mt-1">
+                    Any texture works
+                  </div>
                 )}
               </div>
-
-              {/* c1_drives texture swatch picker */}
-              {c1Drives && totalTextures > 1 && (
-                <div className="w-full">
-                  <div className="text-[7px] uppercase tracking-[.12em] text-white/20 font-bold mb-1.5">
-                    Pick texture (color)
-                  </div>
-                  <div className="flex flex-wrap gap-1">
-                    {Array.from({ length: totalTextures }).map((_, t) => (
-                      <button
-                        key={t}
-                        onClick={() => setC1Texture(t)}
-                        title={`Texture ${t}`}
-                        className={`w-6 h-6 overflow-hidden border transition-all ${
-                          c1Texture === t
-                            ? "border-accent ring-1 ring-accent/40"
-                            : "border-border-subtle hover:border-white/30"
-                        }`}
-                      >
-                        <img
-                          src={imgPath(gender, c1Slot, c1Draw, t)}
-                          alt={`tex ${t}`}
-                          className="w-full h-full object-cover"
-                          onError={(e) => { e.target.style.opacity = "0.15"; }}
-                        />
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              <button
-                onClick={() => copy("c1", c1Call)}
-                className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-accent/20 bg-accent/5 hover:bg-accent/10 text-accent/60 hover:text-accent transition-all w-full text-center"
-              >
-                {copied === "c1" ? "✓ Copied" : "Copy Call"}
-              </button>
             </div>
 
             {/* C2 */}
@@ -227,7 +208,9 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                   src={imgPath(gender, slot, c2Draw, c2Tex)}
                   alt="C2"
                   className="w-full h-full object-cover"
-                  onError={(e) => { e.target.src = placeholderImg(slot, c2Draw, c2Tex); }}
+                  onError={(e) => {
+                    e.target.src = placeholderImg(slot, c2Draw, c2Tex);
+                  }}
                 />
                 <div className="absolute top-1 left-1 text-[7px] font-black bg-black/70 text-accent px-1.5 py-0.5 uppercase tracking-wider">
                   {slot.toUpperCase()}
@@ -238,17 +221,15 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                   {slot.toUpperCase()} {c2Draw} / {c2Tex}
                 </div>
                 {c1Drives ? (
-                  <div className="text-[8px] text-white/25 mt-1 italic">Any texture works here</div>
+                  <div className="text-[8px] text-white/25 mt-1 italic">
+                    Any texture works here
+                  </div>
                 ) : (
-                  <div className="text-[8px] text-white/30 mt-1">Same texture as C1</div>
+                  <div className="text-[8px] text-white/30 mt-1">
+                    Same texture as C1
+                  </div>
                 )}
               </div>
-              <button
-                onClick={() => copy("c2", c2Call)}
-                className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-accent/20 bg-accent/5 hover:bg-accent/10 text-accent/60 hover:text-accent transition-all w-full text-center"
-              >
-                {copied === "c2" ? "✓ Copied" : "Copy Call"}
-              </button>
             </div>
 
             {/* Result */}
@@ -266,23 +247,26 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                     e.target.nextSibling.style.display = "flex";
                   }}
                 />
-                <div className="absolute inset-0 items-center justify-center flex-col gap-1 bg-panel" style={{ display: "none" }}>
-                  <span className="text-accent/10 text-3xl font-black italic">SC</span>
-                  <span className="text-white/15 text-[8px] uppercase tracking-widest text-center px-3">No image</span>
+                <div
+                  className="absolute inset-0 items-center justify-center flex-col gap-1 bg-panel"
+                  style={{ display: "none" }}
+                >
+                  <span className="text-accent/10 text-3xl font-black italic">
+                    SC
+                  </span>
+                  <span className="text-white/15 text-[8px] uppercase tracking-widest text-center px-3">
+                    No image
+                  </span>
                 </div>
               </div>
               <div className="text-center w-full">
                 <div className="text-[11px] font-black font-mono text-accent">
                   {slot.toUpperCase()} {resultDraw} / {resultTex}
                 </div>
-                <div className="text-[9px] text-white/20 mt-1">Your final look</div>
+                <div className="text-[9px] text-white/20 mt-1">
+                  Your final look
+                </div>
               </div>
-              <button
-                onClick={() => copy("both", [c1Call, c2Call, companionCall].filter(Boolean).join("\n"))}
-                className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-accent/40 bg-accent/8 hover:bg-accent/15 text-accent/80 hover:text-accent transition-all w-full text-center"
-              >
-                {copied === "both" ? "✓ Copied Both" : "Copy Both Calls"}
-              </button>
             </div>
 
             {/* Companion */}
@@ -293,28 +277,38 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                 </div>
                 <div className="w-full aspect-square bg-panel border border-blue-400/20 overflow-hidden relative max-w-40">
                   <img
-                    src={imgPath(gender, companion.slot, companion.drawable, companion.texture)}
+                    src={imgPath(
+                      gender,
+                      companion.slot,
+                      companion.drawable,
+                      companion.texture,
+                    )}
                     alt={companion.label}
                     className="w-full h-full object-cover"
-                    onError={(e) => { e.target.src = placeholderImg(companion.slot, companion.drawable, companion.texture); }}
+                    onError={(e) => {
+                      e.target.src = placeholderImg(
+                        companion.slot,
+                        companion.drawable,
+                        companion.texture,
+                      );
+                    }}
                   />
                   <div className="absolute top-1 left-1 text-[7px] font-black bg-black/70 text-blue-400/70 px-1.5 py-0.5 uppercase tracking-wider">
                     {companion.slot.toUpperCase()}
                   </div>
                 </div>
                 <div className="text-center w-full">
-                  <div className="text-[11px] font-black text-blue-400/80">{companion.label}</div>
-                  <div className="text-[9px] font-mono text-white/30 mt-0.5">
-                    {companion.slot.toUpperCase()} {companion.drawable} / {companion.texture}
+                  <div className="text-[11px] font-black text-blue-400/80">
+                    {companion.label}
                   </div>
-                  <div className="text-[8px] text-white/20 mt-1 italic">Required to activate flip</div>
+                  <div className="text-[9px] font-mono text-white/30 mt-0.5">
+                    {companion.slot.toUpperCase()} {companion.drawable} /{" "}
+                    {companion.texture}
+                  </div>
+                  <div className="text-[8px] text-white/20 mt-1 italic">
+                    Required to activate flip
+                  </div>
                 </div>
-                <button
-                  onClick={() => copy("companion", companionCall)}
-                  className="text-[8px] font-black uppercase tracking-wider px-3 py-1.5 border border-blue-400/20 bg-blue-400/5 hover:bg-blue-400/10 text-blue-400/50 hover:text-blue-400 transition-all w-full text-center"
-                >
-                  {copied === "companion" ? "✓ Copied" : "Copy Call"}
-                </button>
               </div>
             )}
           </div>

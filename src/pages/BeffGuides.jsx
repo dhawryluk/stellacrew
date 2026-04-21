@@ -442,7 +442,7 @@ function MergingContent({ gender, sections }) {
                 key={key}
                 className={`flex items-center gap-3 border px-4 py-2.5 ${BAG_COLORS[key]}`}
               >
-                <div className="w-10 h-10 flex-shrink-0 bg-bg border border-border-subtle overflow-hidden">
+                <div className="w-10 h-10 shrink-0 bg-bg border border-border-subtle overflow-hidden">
                   <img
                     src={imgPath(gender, bag.slot, bag.drawable, bag.texture)}
                     alt={bag.label}
@@ -572,7 +572,7 @@ function MergingContent({ gender, sections }) {
                       )}
                     </div>
 
-                    <div className="flex items-center justify-center w-8 text-white/15 text-lg flex-shrink-0">
+                    <div className="flex items-center justify-center w-8 text-white/15 text-lg shrink-0">
                       +
                     </div>
 
@@ -631,7 +631,7 @@ function MergingContent({ gender, sections }) {
                     className={`flex items-center justify-between px-4 py-2 border-t border-border-subtle/60 ${section.bag === "israel" ? "bg-accent/3" : "bg-blue-400/3"}`}
                   >
                     <div className="flex items-center gap-2">
-                      <div className="w-6 h-6 flex-shrink-0 bg-bg border border-border-subtle overflow-hidden">
+                      <div className="w-6 h-6 shrink-0 bg-bg border border-border-subtle overflow-hidden">
                         <img
                           src={imgPath(
                             gender,

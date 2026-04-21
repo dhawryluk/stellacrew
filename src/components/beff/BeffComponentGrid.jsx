@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { groupByDrawable, imgPath, placeholderImg } from "./useBeff";
 
-const PER_PAGE = 24;
+const PER_PAGE = 20;
 
 export default function BeffComponentGrid({
   gender,
@@ -90,7 +90,7 @@ export default function BeffComponentGrid({
 
       {/* Grid */}
       {loading ? (
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-6 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-4 gap-3">
           {Array.from({ length: PER_PAGE }).map((_, i) => (
             <div
               key={i}
@@ -99,7 +99,7 @@ export default function BeffComponentGrid({
           ))}
         </div>
       ) : (
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-6 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-4 gap-3">
           {pageKeys.map((drawable) => {
             const textures = drawableMap.get(drawable) || [];
             const firstItem = textures[0];
@@ -110,7 +110,7 @@ export default function BeffComponentGrid({
               <button
                 key={drawable}
                 onClick={() => onSelectDrawable(drawable, textures)}
-                className={`relative group aspect-square border overflow-hidden transition-all ${
+                className={`relative group border overflow-hidden transition-all ${
                   isSelected
                     ? "border-accent ring-1 ring-accent/50"
                     : "border-border-subtle hover:border-white/25"
@@ -119,7 +119,7 @@ export default function BeffComponentGrid({
                 <img
                   src={imgPath(gender, slot, drawable, 0)}
                   alt={`${slot} ${drawable}`}
-                  className="w-full h-full object-cover"
+                  className="w-full h-auto block"
                   onError={(e) => {
                     e.target.src = placeholderImg(slot, drawable, 0);
                   }}

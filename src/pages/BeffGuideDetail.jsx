@@ -112,10 +112,15 @@ function SidebarImage({ src, label, sublabel, fallbackSrc }) {
 }
 
 // ── Torso1 stage block: C1 on top, C2 below ───────────────────────────────────
-function Torso1Stage({ gender, stageLabel, c1Items, c2Items, c2Note }) {
+function Torso1Stage({
+  gender,
+  stageLabel,
+  c1Items,
+  c2Items,
+  isSubsequentStage,
+}) {
   return (
     <div className="border border-border-subtle bg-panel overflow-hidden">
-      {/* Stage header */}
       <div className="px-4 py-2.5 bg-bg border-b border-border-subtle/60">
         <span className="text-[9px] font-black uppercase tracking-[.2em] text-white/50">
           {stageLabel}
@@ -138,6 +143,11 @@ function Torso1Stage({ gender, stageLabel, c1Items, c2Items, c2Note }) {
               />
             ))}
           </div>
+          {isSubsequentStage && (
+            <div className="text-[8px] text-accent/40 uppercase tracking-wider mt-1">
+              ★ This is the result from the previous stage, Use as your new C1
+            </div>
+          )}
         </div>
 
         {/* Divider with arrow */}
@@ -154,28 +164,17 @@ function Torso1Stage({ gender, stageLabel, c1Items, c2Items, c2Note }) {
               C2 Outfit
             </div>
           </div>
-          {c2Note ? (
-            <div className="border border-accent/20 bg-accent/5 px-4 py-4 flex flex-col gap-1">
-              <div className="text-[10px] font-black uppercase tracking-wider text-accent/70">
-                C2 Outfit
-              </div>
-              <div className="text-[9px] text-white/40 uppercase tracking-wider">
-                Result from Stage 1
-              </div>
-            </div>
-          ) : (
-            <div className="grid grid-cols-2 gap-3">
-              {(c2Items ?? []).map((comp, i) => (
-                <CompCard
-                  key={i}
-                  gender={gender}
-                  comp={comp}
-                  header={comp.slot.toUpperCase()}
-                  accentBorder
-                />
-              ))}
-            </div>
-          )}
+          <div className="grid grid-cols-2 gap-3">
+            {(c2Items ?? []).map((comp, i) => (
+              <CompCard
+                key={i}
+                gender={gender}
+                comp={comp}
+                header={comp.slot.toUpperCase()}
+                accentBorder
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
@@ -222,15 +221,23 @@ export default function BeffGuideDetail() {
 
       <div className="max-w-5xl mx-auto px-4 md:px-8 pt-24 pb-20">
         {/* Breadcrumb */}
-        <div className="flex items-center gap-2 mb-8 text-[9px] uppercase tracking-widest">
+        <div className="flex items-center justify-between mb-8">
+          <div className="flex items-center gap-2 text-[9px] uppercase tracking-widest">
+            <Link
+              to="/beff/guides"
+              className="text-white/25 hover:text-accent transition-colors font-bold"
+            >
+              BEFF Guides
+            </Link>
+            <span className="text-white/15">›</span>
+            <span className="text-accent/60 font-bold">{guide.name}</span>
+          </div>
           <Link
             to="/beff/guides"
-            className="text-white/25 hover:text-accent transition-colors font-bold"
+            className="text-[10px] font-black uppercase tracking-[.2em] text-white/25 hover:text-accent border border-border-subtle hover:border-accent/30 px-4 py-2 transition-all"
           >
-            BEFF Guides
+            ← Back to Guides
           </Link>
-          <span className="text-white/15">›</span>
-          <span className="text-accent/60 font-bold">{guide.name}</span>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
@@ -433,23 +440,16 @@ export default function BeffGuideDetail() {
                 {/* Multi-stage */}
                 {guide.stages ? (
                   <div className="flex flex-col gap-5">
-                    {guide.stages.map((stage, si) => {
-                      const prevStageResult =
-                        si > 0 ? guide.stages[si - 1].result : null;
-                      const c2Items = si === 0 ? guide.c2 : prevStageResult;
-                      const c2Note = si > 0 ? "Result from Stage 1" : undefined;
-                      const c2Missing = si > 0 && !prevStageResult;
-                      return (
-                        <Torso1Stage
-                          key={si}
-                          gender={guide.gender}
-                          stageLabel={stage.label}
-                          c1Items={stage.c1}
-                          c2Items={si === 0 ? guide.c2 : []}
-                          c2Note={si > 0 ? "Result from Stage 1" : undefined}
-                        />
-                      );
-                    })}
+                    {guide.stages.map((stage, si) => (
+                      <Torso1Stage
+                        key={si}
+                        gender={guide.gender}
+                        stageLabel={stage.label}
+                        c1Items={stage.c1}
+                        c2Items={guide.c2}
+                        isSubsequentStage={si > 0}
+                      />
+                    ))}
                   </div>
                 ) : (
                   /* Single stage */
@@ -475,7 +475,7 @@ export default function BeffGuideDetail() {
                       key={i}
                       className="flex items-center gap-3 px-4 py-3 border-b border-border-subtle/60 last:border-b-0"
                     >
-                      <div className="w-12 h-12 flex-shrink-0 bg-panel border border-border-subtle overflow-hidden">
+                      <div className="w-12 h-12 shrink-0 bg-panel border border-border-subtle overflow-hidden">
                         <img
                           src={imgPath(
                             guide.gender,
@@ -496,7 +496,7 @@ export default function BeffGuideDetail() {
                       </div>
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 mb-1">
-                          <span className="text-[10px] font-black uppercase tracking-[.1em] text-accent">
+                          <span className="text-[10px] font-black uppercase tracking-widest text-accent">
                             {comp.slot.toUpperCase()}
                           </span>
                           <span className="text-white/20 text-[9px]">·</span>
@@ -512,7 +512,7 @@ export default function BeffGuideDetail() {
                       </div>
                       <Link
                         to={`/beff/components?slot=${comp.slot}&drawable=${comp.drawable}`}
-                        className="text-[8px] font-black uppercase tracking-wider px-2 py-1 border border-border-subtle text-white/25 hover:border-white/30 hover:text-white/50 transition-all flex-shrink-0"
+                        className="text-[8px] font-black uppercase tracking-wider px-2 py-1 border border-border-subtle text-white/25 hover:border-white/30 hover:text-white/50 transition-all shrink-0"
                       >
                         View
                       </Link>
@@ -533,7 +533,7 @@ export default function BeffGuideDetail() {
                     key={i}
                     className="flex gap-4 items-start px-4 py-3 border border-border-subtle/60 bg-panel"
                   >
-                    <div className="w-5 h-5 flex-shrink-0 border border-accent/30 flex items-center justify-center text-[9px] font-black text-accent/60 mt-0.5">
+                    <div className="w-5 h-5 shrink-0 border border-accent/30 flex items-center justify-center text-[9px] font-black text-accent/60 mt-0.5">
                       {i + 1}
                     </div>
                     <p className="text-[12px] text-white/60 leading-relaxed">

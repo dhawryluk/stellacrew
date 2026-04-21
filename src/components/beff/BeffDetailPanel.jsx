@@ -81,7 +81,7 @@ export default function BeffDetailPanel({
         </div>
         <button
           onClick={onClose}
-          className="flex-shrink-0 text-[10px] font-black text-white/30 hover:text-white/70 uppercase tracking-widest transition-colors px-2 py-1 border border-border-subtle hover:border-white/20"
+          className="shrink-0 text-[10px] font-black text-white/30 hover:text-white/70 uppercase tracking-widest transition-colors px-2 py-1 border border-border-subtle hover:border-white/20"
         >
           ✕
         </button>
@@ -90,7 +90,7 @@ export default function BeffDetailPanel({
       {/* Body: texture strip | big image | info */}
       <div className="flex">
         {/* Texture strip */}
-        <div className="w-14 md:w-16 flex-shrink-0 border-r border-border-subtle/60 flex flex-col overflow-y-auto max-h-[400px] md:max-h-[520px]">
+        <div className="w-14 md:w-16 shrink-0 border-r border-border-subtle/60 flex flex-col overflow-y-auto max-h-100 md:max-h-130">
           <div className="px-2 pt-2 pb-1 text-[7px] uppercase tracking-[.12em] text-white/25 font-bold sticky top-0 bg-panel">
             Tex
           </div>
@@ -98,7 +98,7 @@ export default function BeffDetailPanel({
             <button
               key={t}
               onClick={() => setActiveTex(t)}
-              className={`relative flex-shrink-0 w-full aspect-square border-b border-border-subtle/60 overflow-hidden transition-all ${
+              className={`relative shrink-0 w-full aspect-square border-b border-border-subtle/60 overflow-hidden transition-all ${
                 activeTex === t
                   ? "ring-1 ring-inset ring-accent/70"
                   : "opacity-40 hover:opacity-75"
@@ -127,11 +127,11 @@ export default function BeffDetailPanel({
         </div>
 
         {/* Big center image */}
-        <div className="flex-1 relative bg-bg min-h-[320px] flex items-center justify-center overflow-hidden">
+        <div className="flex-1 relative bg-bg min-h-80 flex items-center justify-center overflow-hidden">
           <img
             src={imgPath(gender, slot, drawable, activeTex)}
             alt={`${slot} ${drawable}_${activeTex}`}
-            className="w-full h-full object-contain max-h-[520px]"
+            className="w-full h-full object-contain max-h-130"
             onError={(e) => {
               e.target.style.display = "none";
               e.target.nextSibling.style.display = "flex";
@@ -155,7 +155,7 @@ export default function BeffDetailPanel({
               tex {activeTex}
             </span>
             {currentItem?.label && (
-              <span className="text-[9px] font-black text-accent/50 bg-black/50 px-2 py-1 max-w-[200px] truncate">
+              <span className="text-[9px] font-black text-accent/50 bg-black/50 px-2 py-1 max-w-50 truncate">
                 {currentItem.label}
               </span>
             )}
@@ -163,7 +163,7 @@ export default function BeffDetailPanel({
         </div>
 
         {/* Info — right column */}
-        <div className="w-44 md:w-60 flex-shrink-0 border-l border-border-subtle/60 flex flex-col divide-y divide-border-subtle/60">
+        <div className="w-44 md:w-60 shrink-0 border-l border-border-subtle/60 flex flex-col divide-y divide-border-subtle/60">
           {/* Stat boxes */}
           {[
             {
@@ -254,7 +254,7 @@ export default function BeffDetailPanel({
                 Also Equip
               </span>
               <div className="flex items-center gap-2.5">
-                <div className="w-10 h-10 flex-shrink-0 bg-panel border border-border-subtle overflow-hidden">
+                <div className="w-10 h-10 shrink-0 bg-panel border border-border-subtle overflow-hidden">
                   <img
                     src={imgPath(
                       gender,

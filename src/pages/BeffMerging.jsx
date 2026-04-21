@@ -93,7 +93,7 @@ export default function BeffMerging() {
                   key={key}
                   className={`flex items-center gap-3 border px-4 py-2.5 ${BAG_COLORS[key]}`}
                 >
-                  <div className="w-10 h-10 flex-shrink-0 bg-[#111] border border-white/8 overflow-hidden">
+                  <div className="w-10 h-10 shrink-0 bg-[#111] border border-white/8 overflow-hidden">
                     <img
                       src={imgPath(gender, bag.slot, bag.drawable, bag.texture)}
                       alt={bag.label}

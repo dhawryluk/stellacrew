@@ -50,7 +50,7 @@ export const MERGE_DATA = {
       label: "Accessories",
       slot: "teef",
       bag: "classic",
-      note: "Nothing required on C1. Place the C2 accessory on your right outfit to merge.",
+      note: "Apply C1 accessory on the left, C2 accessory on the right..  Note: some accessories can only be applied to certain tops, key point here is that your C2 accessory must be a higher available texture than your C1 accessory to merge.",
       combos: [
         {
           label: "Chain Merge",
@@ -128,7 +128,7 @@ export const MERGE_DATA = {
       label: "Torso 2 (JBIB)",
       slot: "jbib",
       bag: "israel",
-      note: "Apply Navy Quilted Jacket (Smart Jackets #14) on C2. Use Green T-Shirt, Orange V-Neck or Harsh Souls V-Neck on C1 if green is unavailable.",
+      note: "Use any of the combos below to merge your C2 outfit's torso 2 onto your C1 outfit. Key point here is that your C2 torso 2 must be a higher available texture than your C1 torso 2 to merge.",
       combos: [
         {
           label: "Standard Torso 2 Merge",
@@ -255,7 +255,7 @@ export const MERGE_DATA = {
       label: "Shoes",
       slot: "feet",
       bag: "classic",
-      note: "Use the C1 + C2 combo appropriate to the leg style you want. Any combo below can be mixed.",
+      note: "Use the C1 + C2 combo appropriate to the leg style you want. Any combo below can be mixed.  Note: some shoes can only be applied to certain leg styles, key point here is that your C2 shoes must be a higher available texture than your C1 shoes to merge.",
       combos: [
         {
           label: "Cross Trainer Merge",
@@ -331,7 +331,7 @@ export const MERGE_DATA = {
       label: "Accessories",
       slot: "teef",
       bag: "classic",
-      note: "Nothing required on C1. Place the C2 accessory on your right outfit to merge.",
+      note: "Apply C1 accessory on the left, C2 accessory on the right..  Note: some accessories can only be applied to certain tops, key point here is that your C2 accessory must be a higher available texture than your C1 accessory to merge.",
       combos: [
         {
           label: "Floral Bangles Merge",
@@ -419,7 +419,7 @@ export const MERGE_DATA = {
       label: "Torso 2 (JBIB)",
       slot: "jbib",
       bag: "israel",
-      note: "Apply the quilted jacket on C2. Use the designer sweater or puffer jacket on C1.",
+      note: "Use any of the combos below to merge your C2 outfit's torso 2 onto your C1 outfit. Key point here is that your C2 torso 2 must be a higher available texture than your C1 torso 2 to merge.",
       combos: [
         {
           label: "Designer Sweater Merge",
@@ -501,7 +501,7 @@ export const MERGE_DATA = {
       label: "Shoes",
       slot: "feet",
       bag: "classic",
-      note: "Use the C1 + C2 combo appropriate to your leg style.",
+      note: "Use the C1 + C2 combo appropriate to your leg style.  Any combo below can be mixed.  Note: some shoes can only be applied to certain leg styles, key point here is that your C2 shoes must be a higher available texture than your C1 shoes to merge.",
       combos: [
         {
           label: "Cross Trainer Merge",
