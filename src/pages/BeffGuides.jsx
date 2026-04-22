@@ -190,6 +190,27 @@ export default function BeffGuides() {
             sections={mergeSections}
           />
         )}
+
+        {/* ── DONATE ─────────────────────────────────────────────────────── */}
+        <div className="mt-16 border border-border-subtle bg-panel px-6 py-5 flex items-center justify-between">
+          <div>
+            <div className="text-[9px] font-black uppercase tracking-[.2em] text-accent/60 mb-1">
+              Support the Project
+            </div>
+            <p className="text-[11px] text-white/30 max-w-lg">
+              Maintaining the BEFF database and guides takes serious time. If
+              you find this useful, consider buying us a coffee.
+            </p>
+          </div>
+          <a
+            href="https://ko-fi.com/stellacrew"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0 ml-6 text-[10px] font-black uppercase tracking-[.2em] text-accent/70 hover:text-accent border border-accent/30 hover:border-accent/60 hover:bg-accent/5 px-5 py-3 transition-all"
+          >
+            Buy us a Coffee
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -234,7 +255,6 @@ function GuideCard({ guide }) {
             </div>
           </div>
         ) : isTorso1 ? (
-          /* Torso1 — show result accs image, placeholder on error */
           <div className="relative overflow-hidden">
             <img
               src={
@@ -278,7 +298,6 @@ function GuideCard({ guide }) {
             </div>
           </div>
         ) : (
-          /* Merge — single preview image */
           <div className="relative overflow-hidden">
             <img
               src={guide.preview}
@@ -436,37 +455,35 @@ function MergingContent({ gender, sections }) {
           side, then equip the right parachute to trigger it.
         </p>
         <div className="flex flex-wrap gap-4">
-          {Object.entries(BAG_INFO).map(([key, bag]) => {
-            return (
-              <div
-                key={key}
-                className={`flex items-center gap-3 border px-4 py-2.5 ${BAG_COLORS[key]}`}
-              >
-                <div className="w-10 h-10 shrink-0 bg-bg border border-border-subtle overflow-hidden">
-                  <img
-                    src={imgPath(gender, bag.slot, bag.drawable, bag.texture)}
-                    alt={bag.label}
-                    className="w-full h-full object-contain"
-                    onError={(e) => {
-                      e.target.src = placeholderImg(
-                        bag.slot,
-                        bag.drawable,
-                        bag.texture,
-                      );
-                    }}
-                  />
+          {Object.entries(BAG_INFO).map(([key, bag]) => (
+            <div
+              key={key}
+              className={`flex items-center gap-3 border px-4 py-2.5 ${BAG_COLORS[key]}`}
+            >
+              <div className="w-10 h-10 shrink-0 bg-bg border border-border-subtle overflow-hidden">
+                <img
+                  src={imgPath(gender, bag.slot, bag.drawable, bag.texture)}
+                  alt={bag.label}
+                  className="w-full h-full object-contain"
+                  onError={(e) => {
+                    e.target.src = placeholderImg(
+                      bag.slot,
+                      bag.drawable,
+                      bag.texture,
+                    );
+                  }}
+                />
+              </div>
+              <div>
+                <div className="text-[10px] font-black uppercase tracking-wider">
+                  {bag.label}
                 </div>
-                <div>
-                  <div className="text-[10px] font-black uppercase tracking-wider">
-                    {bag.label}
-                  </div>
-                  <div className="text-[8px] font-mono text-white/30 mt-0.5">
-                    HAND {bag.drawable} / {bag.texture}
-                  </div>
+                <div className="text-[8px] font-mono text-white/30 mt-0.5">
+                  HAND {bag.drawable} / {bag.texture}
                 </div>
               </div>
-            );
-          })}
+            </div>
+          ))}
         </div>
       </div>
 
@@ -508,20 +525,17 @@ function MergingContent({ gender, sections }) {
             {section.combos.map((combo, ci) => {
               const bagInfo =
                 BAG_INFO[section.bag === "both" ? "classic" : section.bag];
-
               return (
                 <div
                   key={ci}
                   className="border border-border-subtle bg-panel overflow-hidden hover:border-white/15 transition-all"
                 >
-                  {/* Combo header */}
                   <div className="px-4 py-2.5 border-b border-border-subtle/60 bg-bg">
                     <span className="text-[9px] font-black uppercase tracking-[.15em] text-white/50">
                       {combo.label}
                     </span>
                   </div>
 
-                  {/* C1 + C2 */}
                   <div className="flex divide-x divide-border-subtle">
                     {/* C1 */}
                     <div className="flex-1 flex flex-col items-center p-3 gap-2">
@@ -626,7 +640,6 @@ function MergingContent({ gender, sections }) {
                     </div>
                   </div>
 
-                  {/* Bag footer */}
                   <div
                     className={`flex items-center justify-between px-4 py-2 border-t border-border-subtle/60 ${section.bag === "israel" ? "bg-accent/3" : "bg-blue-400/3"}`}
                   >
