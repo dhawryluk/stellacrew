@@ -132,10 +132,10 @@ export default function BeffBrowser() {
                   }`}
                 >
                   <div className="text-[10px] font-black uppercase tracking-widest">
-                    {s.label}
+                    {s.desc}
                   </div>
                   <div className="text-[8px] text-white/20 mt-0.5">
-                    {s.desc}
+                    {s.label}
                   </div>
                 </button>
               ))}
