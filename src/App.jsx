@@ -41,9 +41,9 @@ function LayoutWrapper({ children }) {
 const HomePage = () => (
   <>
     <Header />
+    <BrandStats />
     <FeaturedVideos />
     <PhilosophyStatement />
-    <BrandStats />
     <DiscordInvite />
   </>
 );

@@ -8,6 +8,7 @@ import JobDatabase from "../components/JobDatabase";
 import GarageManifest from "../components/GarageManifest";
 import ExternalAssets from "../components/ExternalAssets";
 import SEO from "../components/SEO";
+import Donation from "../components/Donation";
 
 export default function ResourcesPage() {
   const [activePlatform, setActivePlatform] = useState("PlayStation");
@@ -59,6 +60,7 @@ export default function ResourcesPage() {
           filteredCategories={filteredCategories}
         />
       </div>
+      <Donation />
     </div>
   );
 }

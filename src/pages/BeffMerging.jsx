@@ -242,7 +242,7 @@ export default function BeffMerging() {
                           </div>
                           {combo.c1 ? (
                             <>
-                              <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-[120px]">
+                              <div className="w-full aspect-square bg-[#111] border border-white/8 overflow-hidden relative max-w-30">
                                 <img
                                   src={imgPath(
                                     gender,
@@ -280,7 +280,7 @@ export default function BeffMerging() {
                               </button>
                             </>
                           ) : (
-                            <div className="w-full aspect-square bg-[#0a0a0a] border border-dashed border-white/10 max-w-[120px] flex items-center justify-center">
+                            <div className="w-full aspect-square bg-[#0a0a0a] border border-dashed border-white/10 max-w-30 flex items-center justify-center">
                               <span className="text-[8px] text-white/15 uppercase tracking-widest text-center px-2">
                                 Not Required
                               </span>
@@ -289,7 +289,7 @@ export default function BeffMerging() {
                         </div>
 
                         {/* Arrow */}
-                        <div className="flex items-center justify-center w-8 text-white/15 text-lg flex-shrink-0">
+                        <div className="flex items-center justify-center w-8 text-white/15 text-lg shrink-0">
                           +
                         </div>
 
