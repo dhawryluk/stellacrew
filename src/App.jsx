@@ -21,6 +21,7 @@ import BeffBrowser from "./pages/BeffBrowser";
 import BeffGuides from "./pages/BeffGuides";
 import BeffGuideDetail from "./pages/BeffGuideDetail";
 import BeffMerging from "./pages/BeffMerging";
+import MerchStrip from "./components/MerchStrip";
 import Footer from "./components/Footer";
 
 function LayoutWrapper({ children }) {
@@ -43,6 +44,7 @@ const HomePage = () => (
     <Header />
     <BrandStats />
     <FeaturedVideos />
+    <MerchStrip />
     <PhilosophyStatement />
     <DiscordInvite />
   </>
