@@ -4,6 +4,7 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
+import { useEffect } from "react";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import FeaturedVideos from "./components/FeaturedVideos";
@@ -28,6 +29,10 @@ function LayoutWrapper({ children }) {
   const location = useLocation();
   const isStreamOverlay = location.pathname === "/stream-overlay";
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
     <div
       className={`min-h-screen ${isStreamOverlay ? "bg-transparent" : "bg-bg"}`}
@@ -42,10 +47,10 @@ function LayoutWrapper({ children }) {
 const HomePage = () => (
   <>
     <Header />
+    <PhilosophyStatement />
     <BrandStats />
     <FeaturedVideos />
     <MerchStrip />
-    <PhilosophyStatement />
     <DiscordInvite />
   </>
 );

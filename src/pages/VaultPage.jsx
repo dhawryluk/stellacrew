@@ -21,14 +21,6 @@ export default function VaultPage() {
       ? services
       : services.filter((s) => s.category === activeTab);
 
-  const handlePurchase = (link) => {
-    if (link === "#" || !link) {
-      alert("INQUIRY REQUIRED: Contact StellaCrew Command on Discord.");
-      return;
-    }
-    window.location.href = link;
-  };
-
   return (
     <div className="min-h-screen bg-bg pt-32 pb-20 px-6 font-sans selection:bg-accent selection:text-bg">
       <SEO
@@ -156,16 +148,9 @@ export default function VaultPage() {
                       <div className="space-y-4">
                         <button
                           onClick={() => setSelectedItem(item)}
-                          className="w-full border border-white/10 text-text-main/30 py-4 text-[9px] font-black uppercase tracking-[0.5em] transition-all hover:bg-white/2 hover:text-text-main"
-                        >
-                          Manifest_Details
-                        </button>
-                        <button
-                          onClick={() => handlePurchase(item.stripeLink)}
                           className="w-full bg-accent text-bg py-5 text-[11px] font-black uppercase tracking-[0.4em] transition-all hover:bg-text-main shadow-2xl relative overflow-hidden group/btn"
                         >
-                          <span className="relative z-10">Acquire_Access</span>
-                          <div className="absolute inset-0 bg-white opacity-0 group-hover/btn:opacity-20 transition-opacity"></div>
+                          Manifest_Details
                         </button>
                       </div>
                     </div>
