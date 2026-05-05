@@ -203,7 +203,7 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
               <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
                 {c1Drives ? "Step 2 — C2 (Piece)" : "Step 2 — C2 (Flip Piece)"}
               </div>
-              <div className="w-full aspect-square bg-panel border border-accent/30 overflow-hidden relative max-w-[160px]">
+              <div className="w-full aspect-square bg-panel border border-accent/30 overflow-hidden relative max-w-40">
                 <img
                   src={imgPath(gender, slot, c2Draw, c2Tex)}
                   alt="C2"

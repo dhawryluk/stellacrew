@@ -134,11 +134,11 @@ export default function BeffBrowser() {
                       : "border-border-subtle bg-transparent text-white/35 hover:border-white/20 hover:text-white/60"
                   }`}
                 >
-                  <div className="text-[10px] font-black uppercase tracking-[.1em]">
-                    {s.label}
+                  <div className="text-[10px] font-black uppercase tracking-widest">
+                    {s.desc}
                   </div>
                   <div className="text-[8px] text-white/20 mt-0.5">
-                    {s.desc}
+                    {s.label}
                   </div>
                 </button>
               ))}
