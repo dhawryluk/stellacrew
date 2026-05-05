@@ -82,7 +82,7 @@ export const GENDERS = [
 ];
 
 // ─── Flip type ────────────────────────────────────────────────────────────────
-// "c1_drives" — JBIB / TASK / p_head
+// "c1_drives" — JBIB / TASK / DECL / p_head
 //   C1 = palette drawable + texture you choose → sets color
 //   C2 = the piece being flipped, texture 0 ("any texture works")
 //   Result = C2 wearing C1's color
@@ -95,6 +95,7 @@ export const FLIP_TYPE = {
   jbib: "c1_drives",
   task: "c1_drives",
   p_head: "c1_drives",
+  decl: "c1_drives",
 };
 
 export function getFlipType(slot) {
@@ -188,9 +189,9 @@ export const BASELINE_C1S = {
       { drawable: 82, label: "HAND 82", note: "Duffel Bag" },
     ],
     decl: [
-      { drawable: 11, label: "DECL 11", note: "Racing Logo" },
-      { drawable: 12, label: "DECL 12", note: "Biker Logo" },
-      { drawable: 63, label: "DECL 63", note: "Arcade Logo" },
+      { drawable: 11, textures: 6, label: "DECL 11", note: "Racing Logo" },
+      { drawable: 12, textures: 8, label: "DECL 12", note: "Biker Logo" },
+      { drawable: 63, textures: 19, label: "DECL 63", note: "Arcade Logo" },
     ],
     p_eyes: [{ drawable: 137, label: "P_EYES 137", note: "placeholder" }],
     p_ears: [{ drawable: 137, label: "P_EARS 137", note: "placeholder" }],
@@ -257,9 +258,9 @@ export const BASELINE_C1S = {
       { drawable: 82, label: "HAND 82", note: "Duffel Bag" },
     ],
     decl: [
-      { drawable: 10, label: "DECL 10", note: "Racing Logo" },
-      { drawable: 11, label: "DECL 11", note: "Biker Logo" },
-      { drawable: 72, label: "DECL 72", note: "Arcade Logo" },
+      { drawable: 10, textures: 5, label: "DECL 10", note: "Racing Logo" },
+      { drawable: 11, textures: 8, label: "DECL 11", note: "Biker Logo" },
+      { drawable: 72, textures: 19, label: "DECL 72", note: "Arcade Logo" },
     ],
     p_eyes: [{ drawable: 137, label: "P_EYES 137", note: "placeholder" }],
     p_ears: [{ drawable: 137, label: "P_EARS 137", note: "placeholder" }],

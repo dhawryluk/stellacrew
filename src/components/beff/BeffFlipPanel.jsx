@@ -226,7 +226,7 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                   </div>
                 ) : (
                   <div className="text-[8px] text-white/30 mt-1">
-                    Same texture as C1
+                    Texture sets the color
                   </div>
                 )}
               </div>

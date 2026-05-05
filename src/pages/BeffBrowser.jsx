@@ -21,6 +21,7 @@ export default function BeffBrowser() {
       prev?.drawable === drawable ? null : { drawable, textures },
     );
     setFlipItem(null);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const handleFlip = (item) => setFlipItem(item);
@@ -32,6 +33,7 @@ export default function BeffBrowser() {
     setSelected(null);
     setFlipItem(null);
     setSwapItem(null);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const handleGenderChange = (g) => {
@@ -39,6 +41,7 @@ export default function BeffBrowser() {
     setSelected(null);
     setFlipItem(null);
     setSwapItem(null);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -131,11 +134,11 @@ export default function BeffBrowser() {
                       : "border-border-subtle bg-transparent text-white/35 hover:border-white/20 hover:text-white/60"
                   }`}
                 >
-                  <div className="text-[10px] font-black uppercase tracking-widest">
-                    {s.desc}
+                  <div className="text-[10px] font-black uppercase tracking-[.1em]">
+                    {s.label}
                   </div>
                   <div className="text-[8px] text-white/20 mt-0.5">
-                    {s.label}
+                    {s.desc}
                   </div>
                 </button>
               ))}
@@ -161,6 +164,7 @@ export default function BeffBrowser() {
 
             <div className="bg-panel border border-border-subtle p-4 md:p-5">
               <BeffComponentGrid
+                key={`${gender}-${slot}`}
                 gender={gender}
                 slot={slot}
                 items={items}
