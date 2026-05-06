@@ -1,0 +1,902 @@
+[
+  {
+    "drawable": 0,
+    "texture": 0,
+    "label": "Close Shave",
+    "gxt": "CLO_BBM_H_00",
+    "dlc": "Male_freemode_beach",
+    "nameHash": "DLC_MP_BEACH_M_HAIR00",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 1,
+    "label": "Close Shave",
+    "gxt": "CLO_BBM_H_01",
+    "dlc": "Male_freemode_beach",
+    "nameHash": "DLC_MP_BEACH_M_HAIR01",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 2,
+    "label": "Close Shave",
+    "gxt": "CLO_BBM_H_02",
+    "dlc": "Male_freemode_beach",
+    "nameHash": "DLC_MP_BEACH_M_HAIR02",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 3,
+    "label": "Close Shave",
+    "gxt": "CLO_BBM_H_03",
+    "dlc": "Male_freemode_beach",
+    "nameHash": "DLC_MP_BEACH_M_HAIR03",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 4,
+    "label": "Close Shave",
+    "gxt": "CLO_BBM_H_04",
+    "dlc": "Male_freemode_beach",
+    "nameHash": "DLC_MP_BEACH_M_HAIR04",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 0,
+    "label": "Buzzcut Dark Brown",
+    "gxt": "CLO_BBM_H_05",
+    "dlc": "Male_freemode_beach",
+    "nameHash": "DLC_MP_BEACH_M_HAIR05",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 1,
+    "label": "Buzzcut Light Brown",
+    "gxt": "CLO_BBM_H_06",
+    "dlc": "Male_freemode_beach",
+    "nameHash": "DLC_MP_BEACH_M_HAIR06",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 2,
+    "label": "Buzzcut Auburn",
+    "gxt": "CLO_BBM_H_07",
+    "dlc": "Male_freemode_beach",
+    "nameHash": "DLC_MP_BEACH_M_HAIR07",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 3,
+    "label": "Buzzcut Blond",
+    "gxt": "CLO_BBM_H_08",
+    "dlc": "Male_freemode_beach",
+    "nameHash": "DLC_MP_BEACH_M_HAIR08",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 4,
+    "label": "Buzzcut Black",
+    "gxt": "CLO_BBM_H_09",
+    "dlc": "Male_freemode_beach",
+    "nameHash": "DLC_MP_BEACH_M_HAIR09",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 0,
+    "label": "Faux Hawk Dark Brown",
+    "gxt": "CLO_BIM_H_0_0",
+    "dlc": "mp_m_bikerdlc_01",
+    "nameHash": "DLC_MP_BIKER_M_HAIR_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 0,
+    "label": "Hipster Shaved Dark Brown",
+    "gxt": "CLO_BIM_H_1_0",
+    "dlc": "mp_m_bikerdlc_01",
+    "nameHash": "DLC_MP_BIKER_M_HAIR_1_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 0,
+    "label": "Side Parting Spiked Dark Brown",
+    "gxt": "CLO_BIM_H_2_0",
+    "dlc": "mp_m_bikerdlc_01",
+    "nameHash": "DLC_MP_BIKER_M_HAIR_2_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 0,
+    "label": "Shorter Cut Dark Brown",
+    "gxt": "CLO_BIM_H_3_0",
+    "dlc": "mp_m_bikerdlc_01",
+    "nameHash": "DLC_MP_BIKER_M_HAIR_3_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 0,
+    "label": "Biker Dark Brown",
+    "gxt": "CLO_BIM_H_4_0",
+    "dlc": "mp_m_bikerdlc_01",
+    "nameHash": "DLC_MP_BIKER_M_HAIR_4_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 0,
+    "label": "Ponytail Dark Brown",
+    "gxt": "CLO_BIM_H_5_0",
+    "dlc": "mp_m_bikerdlc_01",
+    "nameHash": "DLC_MP_BIKER_M_HAIR_5_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 0,
+    "label": "Cornrows Dark Brown",
+    "gxt": "CLO_BUS_H_0_0",
+    "dlc": "Male_freemode_business",
+    "nameHash": "DLC_MP_BUSI_M_HAIR0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 1,
+    "label": "Cornrows Light Brown",
+    "gxt": "CLO_BUS_H_0_1",
+    "dlc": "Male_freemode_business",
+    "nameHash": "DLC_MP_BUSI_M_HAIR0_1",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 2,
+    "label": "Cornrows Auburn",
+    "gxt": "CLO_BUS_H_0_2",
+    "dlc": "Male_freemode_business",
+    "nameHash": "DLC_MP_BUSI_M_HAIR0_2",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 3,
+    "label": "Cornrows Blond",
+    "gxt": "CLO_BUS_H_0_3",
+    "dlc": "Male_freemode_business",
+    "nameHash": "DLC_MP_BUSI_M_HAIR0_3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 4,
+    "label": "Cornrows Black",
+    "gxt": "CLO_BUS_H_0_4",
+    "dlc": "Male_freemode_business",
+    "nameHash": "DLC_MP_BUSI_M_HAIR0_4",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 0,
+    "label": "Slicked Dark Brown",
+    "gxt": "CLO_BUS_H_1_0",
+    "dlc": "Male_freemode_business",
+    "nameHash": "DLC_MP_BUSI_M_HAIR1_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 1,
+    "label": "Slicked Light Brown",
+    "gxt": "CLO_BUS_H_1_1",
+    "dlc": "Male_freemode_business",
+    "nameHash": "DLC_MP_BUSI_M_HAIR1_1",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 2,
+    "label": "Slicked Auburn",
+    "gxt": "CLO_BUS_H_1_2",
+    "dlc": "Male_freemode_business",
+    "nameHash": "DLC_MP_BUSI_M_HAIR1_2",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 3,
+    "label": "Slicked Blond",
+    "gxt": "CLO_BUS_H_1_3",
+    "dlc": "Male_freemode_business",
+    "nameHash": "DLC_MP_BUSI_M_HAIR1_3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 4,
+    "label": "Slicked Black",
+    "gxt": "CLO_BUS_H_1_4",
+    "dlc": "Male_freemode_business",
+    "nameHash": "DLC_MP_BUSI_M_HAIR1_4",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 10,
+    "texture": 0,
+    "label": "Short Brushed Dark Brown",
+    "gxt": "CC_M_HS_1",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 11,
+    "texture": 0,
+    "label": "Spikey Dark Brown",
+    "gxt": "CC_M_HS_2",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_1_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 12,
+    "texture": 0,
+    "label": "Caesar Dark Brown",
+    "gxt": "CC_M_HS_3",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_2_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 13,
+    "texture": 0,
+    "label": "Chopped Dark Brown",
+    "gxt": "CC_M_HS_4",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_3_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 0,
+    "label": "Dreads Dark Brown",
+    "gxt": "CC_M_HS_5",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_4_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 0,
+    "label": "Long Hair Dark Brown",
+    "gxt": "CC_M_HS_6",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_5_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 16,
+    "texture": 0,
+    "label": "Shaggy Curls Dark Brown",
+    "gxt": "CC_M_HS_7",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_6_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 17,
+    "texture": 0,
+    "label": "Surfer Dude Dark Brown",
+    "gxt": "CC_M_HS_8",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_7_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 18,
+    "texture": 0,
+    "label": "Short Side Part Dark Brown",
+    "gxt": "CC_M_HS_9",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_8_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 19,
+    "texture": 0,
+    "label": "High Slicked Sides Dark Brown",
+    "gxt": "CC_M_HS_10",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_9_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 20,
+    "texture": 0,
+    "label": "Long Slicked Dark Brown",
+    "gxt": "CC_M_HS_11",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_10_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 21,
+    "texture": 0,
+    "label": "Hipster Youth Dark Brown",
+    "gxt": "CC_M_HS_12",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_11_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 22,
+    "texture": 0,
+    "label": "Mullet Dark Brown",
+    "gxt": "CC_M_HS_13",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_12_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 23,
+    "texture": 0,
+    "label": "",
+    "gxt": "CC_M_HS_14",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_13_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 24,
+    "texture": 0,
+    "label": "Classic Cornrows",
+    "gxt": "CC_M_HS_15",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_14_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 25,
+    "texture": 0,
+    "label": "Palm Cornrows",
+    "gxt": "CLO_BBM_H_00",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_15_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 26,
+    "texture": 0,
+    "label": "Lightning Cornrows",
+    "gxt": "CLO_BBM_H_05",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_16_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 27,
+    "texture": 0,
+    "label": "Whipped Cornrows",
+    "gxt": "CLO_BUS_H_0_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_17_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 28,
+    "texture": 0,
+    "label": "Zig Zag Cornrows",
+    "gxt": "CLO_BUS_H_1_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_18_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 29,
+    "texture": 0,
+    "label": "Snail Cornrows",
+    "gxt": "CLO_HP_HR_0_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_19_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 30,
+    "texture": 0,
+    "label": "Hightop",
+    "gxt": "CLO_HP_HR_1_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_20_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 31,
+    "texture": 0,
+    "label": "Loose Swept Back",
+    "gxt": "CLO_IND_H_0_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_21_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 32,
+    "texture": 0,
+    "label": "Undercut Swept Back",
+    "gxt": "CLO_S1M_H_0_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_22_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 33,
+    "texture": 0,
+    "label": "Undercut Swept Side",
+    "gxt": "CLO_S1M_H_1_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_23_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 34,
+    "texture": 0,
+    "label": "Spiked Mohawk",
+    "gxt": "CLO_S1M_H_2_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_24_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 35,
+    "texture": 0,
+    "label": "Mod",
+    "gxt": "CLO_S1M_H_3_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_25_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 36,
+    "texture": 0,
+    "label": "Layered Mod",
+    "gxt": "CLO_S2M_H_0_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_26_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 37,
+    "texture": 0,
+    "label": "Buzzcut",
+    "gxt": "CLO_S2M_H_1_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_27_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 38,
+    "texture": 0,
+    "label": "Faux Hawk",
+    "gxt": "CLO_S2M_H_2_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_28_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 39,
+    "texture": 0,
+    "label": "Hipster",
+    "gxt": "CLO_BIM_H_0_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_29_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 40,
+    "texture": 0,
+    "label": "Side Parting",
+    "gxt": "CLO_BIM_H_1_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_30_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 41,
+    "texture": 0,
+    "label": "Shorter Cut",
+    "gxt": "CLO_BIM_H_2_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_31_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 42,
+    "texture": 0,
+    "label": "Biker",
+    "gxt": "CLO_BIM_H_3_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_32_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 43,
+    "texture": 0,
+    "label": "Ponytail",
+    "gxt": "CLO_BIM_H_4_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_33_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 44,
+    "texture": 0,
+    "label": "Cornrows",
+    "gxt": "CLO_BIM_H_5_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_34_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 45,
+    "texture": 0,
+    "label": "Slicked",
+    "gxt": "CLO_GRM_H_0_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_35_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 46,
+    "texture": 0,
+    "label": "Short Brushed",
+    "gxt": "CLO_GRM_H_1_0",
+    "dlc": "mp_m_gunrunning_hair_01",
+    "nameHash": "DLC_MP_GR_M_HAIR_36_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 47,
+    "texture": 0,
+    "label": "Spikey",
+    "gxt": "",
+    "dlc": "Male_heist",
+    "nameHash": "DLC_MP_HEIST_M_HAIR_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 0,
+    "label": "Caesar",
+    "gxt": "CLO_HP_HR_0_0",
+    "dlc": "Male_freemode_hipster",
+    "nameHash": "DLC_MP_HIPS_M_HAIR0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 1,
+    "label": "Caesar",
+    "gxt": "CLO_HP_HR_0_1",
+    "dlc": "Male_freemode_hipster",
+    "nameHash": "DLC_MP_HIPS_M_HAIR0_1",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 2,
+    "label": "Caesar",
+    "gxt": "CLO_HP_HR_0_2",
+    "dlc": "Male_freemode_hipster",
+    "nameHash": "DLC_MP_HIPS_M_HAIR0_2",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 3,
+    "label": "Caesar",
+    "gxt": "CLO_HP_HR_0_3",
+    "dlc": "Male_freemode_hipster",
+    "nameHash": "DLC_MP_HIPS_M_HAIR0_3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 48,
+    "texture": 4,
+    "label": "Caesar",
+    "gxt": "CLO_HP_HR_0_4",
+    "dlc": "Male_freemode_hipster",
+    "nameHash": "DLC_MP_HIPS_M_HAIR0_4",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 49,
+    "texture": 0,
+    "label": "Chopped",
+    "gxt": "CLO_HP_HR_1_0",
+    "dlc": "Male_freemode_hipster",
+    "nameHash": "DLC_MP_HIPS_M_HAIR1_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 49,
+    "texture": 1,
+    "label": "Chopped",
+    "gxt": "CLO_HP_HR_1_1",
+    "dlc": "Male_freemode_hipster",
+    "nameHash": "DLC_MP_HIPS_M_HAIR1_1",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 49,
+    "texture": 2,
+    "label": "Chopped",
+    "gxt": "CLO_HP_HR_1_2",
+    "dlc": "Male_freemode_hipster",
+    "nameHash": "DLC_MP_HIPS_M_HAIR1_2",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 49,
+    "texture": 3,
+    "label": "Chopped",
+    "gxt": "CLO_HP_HR_1_3",
+    "dlc": "Male_freemode_hipster",
+    "nameHash": "DLC_MP_HIPS_M_HAIR1_3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 49,
+    "texture": 4,
+    "label": "Chopped",
+    "gxt": "CLO_HP_HR_1_4",
+    "dlc": "Male_freemode_hipster",
+    "nameHash": "DLC_MP_HIPS_M_HAIR1_4",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 50,
+    "texture": 0,
+    "label": "Dreads",
+    "gxt": "CLO_IND_H_0_0",
+    "dlc": "Male_freemode_independence",
+    "nameHash": "DLC_MP_IND_M_HAIR0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 50,
+    "texture": 1,
+    "label": "Dreads",
+    "gxt": "CLO_IND_H_0_1",
+    "dlc": "Male_freemode_independence",
+    "nameHash": "DLC_MP_IND_M_HAIR0_1",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 50,
+    "texture": 2,
+    "label": "Dreads",
+    "gxt": "CLO_IND_H_0_2",
+    "dlc": "Male_freemode_independence",
+    "nameHash": "DLC_MP_IND_M_HAIR0_2",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 50,
+    "texture": 3,
+    "label": "Dreads",
+    "gxt": "CLO_IND_H_0_3",
+    "dlc": "Male_freemode_independence",
+    "nameHash": "DLC_MP_IND_M_HAIR0_3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 50,
+    "texture": 4,
+    "label": "Dreads",
+    "gxt": "CLO_IND_H_0_4",
+    "dlc": "Male_freemode_independence",
+    "nameHash": "DLC_MP_IND_M_HAIR0_4",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 51,
+    "texture": 0,
+    "label": "Long Hair",
+    "gxt": "CLO_S2M_H_0_0",
+    "dlc": "mp_m_lowrider_02",
+    "nameHash": "DLC_MP_LOW2_M_HAIR0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 54,
+    "texture": 0,
+    "label": "Short Side Part Dark Brown",
+    "gxt": "CLO_S1M_H_0_0",
+    "dlc": "mp_m_lowrider_01",
+    "nameHash": "DLC_MP_LOW_M_HAIR0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 58,
+    "texture": 0,
+    "label": "Mullet Dark Brown",
+    "gxt": "CLO_SCM_H_0_0",
+    "dlc": "mp_m_2023_01",
+    "nameHash": "DLC_MP_SUM23_M_HAIR_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 59,
+    "texture": 0,
+    "label": "Classic Cornrows",
+    "gxt": "CLO_SCM_H_1_0",
+    "dlc": "mp_m_2023_01",
+    "nameHash": "DLC_MP_SUM23_M_HAIR_1_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 60,
+    "texture": 0,
+    "label": "Palm Cornrows",
+    "gxt": "CLO_X7M_H_0_0",
+    "dlc": "mp_m_2023_02",
+    "nameHash": "DLC_MP_X23_M_HAIR_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 61,
+    "texture": 0,
+    "label": "Lightning Cornrows",
+    "gxt": "CLO_X8M_H_0_0",
+    "dlc": "mp_m_2024_02",
+    "nameHash": "DLC_MP_X24_M_HAIR_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 62,
+    "texture": 0,
+    "label": "Whipped Cornrows",
+    "gxt": "CLO_FXM_H_0_0",
+    "dlc": "mp_m_security",
+    "nameHash": "DLC_MP_FIXER_M_HAIR_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 63,
+    "texture": 0,
+    "label": "Zig Zag Cornrows",
+    "gxt": "CLO_SBM_H_0_0",
+    "dlc": "mp_m_sum2",
+    "nameHash": "DLC_MP_SUM2_M_HAIR_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 64,
+    "texture": 0,
+    "label": "Snail Cornrows",
+    "gxt": "CLO_SBM_H_1_0",
+    "dlc": "mp_m_sum2",
+    "nameHash": "DLC_MP_SUM2_M_HAIR_1_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 65,
+    "texture": 0,
+    "label": "Hightop",
+    "gxt": "CLO_TRM_H_0_0",
+    "dlc": "mp_m_tuner",
+    "nameHash": "DLC_MP_TUNER_M_HAIR_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 66,
+    "texture": 0,
+    "label": "Loose Swept Back",
+    "gxt": "CLO_VWM_H_0_0",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_HAIR_0_0",
+    "featured": false,
+    "flip": null
+  }
+]

@@ -2,1768 +2,580 @@
   {
     "drawable": 0,
     "texture": 0,
-    "nameHash": "SP_M_TASK_0_0",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 1,
-    "texture": 0,
-    "nameHash": "SP_M_TASK_1_0",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 1,
-    "texture": 1,
-    "nameHash": "SP_M_TASK_1_1",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 1,
-    "texture": 2,
-    "nameHash": "SP_M_TASK_1_2",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 1,
-    "texture": 3,
-    "nameHash": "SP_M_TASK_1_3",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 1,
-    "texture": 4,
-    "nameHash": "SP_M_TASK_1_4",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 2,
-    "texture": 0,
-    "nameHash": "SP_M_TASK_2_0",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 2,
-    "texture": 1,
-    "nameHash": "SP_M_TASK_2_1",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 2,
-    "texture": 2,
-    "nameHash": "SP_M_TASK_2_2",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 2,
-    "texture": 3,
-    "nameHash": "SP_M_TASK_2_3",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 2,
-    "texture": 4,
-    "nameHash": "SP_M_TASK_2_4",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 3,
-    "texture": 0,
-    "nameHash": "SP_M_TASK_3_0",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 3,
-    "texture": 1,
-    "nameHash": "SP_M_TASK_3_1",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 3,
-    "texture": 2,
-    "nameHash": "SP_M_TASK_3_2",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 3,
-    "texture": 3,
-    "nameHash": "SP_M_TASK_3_3",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 3,
-    "texture": 4,
-    "nameHash": "SP_M_TASK_3_4",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 4,
-    "texture": 0,
-    "nameHash": "SP_M_TASK_4_0",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 4,
-    "texture": 1,
-    "nameHash": "SP_M_TASK_4_1",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 4,
-    "texture": 2,
-    "nameHash": "SP_M_TASK_4_2",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 4,
-    "texture": 3,
-    "nameHash": "SP_M_TASK_4_3",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 4,
-    "texture": 4,
-    "nameHash": "SP_M_TASK_4_4",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 5,
-    "texture": 0,
-    "nameHash": "SP_M_TASK_5_0",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 5,
-    "texture": 1,
-    "nameHash": "SP_M_TASK_5_1",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 5,
-    "texture": 2,
-    "nameHash": "SP_M_TASK_5_2",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 5,
-    "texture": 3,
-    "nameHash": "SP_M_TASK_5_3",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 5,
-    "texture": 4,
-    "nameHash": "SP_M_TASK_5_4",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 6,
-    "texture": 0,
-    "nameHash": "SP_M_TASK_6_0",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 6,
-    "texture": 1,
-    "nameHash": "SP_M_TASK_6_1",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 6,
-    "texture": 2,
-    "nameHash": "SP_M_TASK_6_2",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 6,
-    "texture": 3,
-    "nameHash": "SP_M_TASK_6_3",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 6,
-    "texture": 4,
-    "nameHash": "SP_M_TASK_6_4",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 7,
-    "texture": 0,
-    "nameHash": "SP_M_TASK_7_0",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 7,
-    "texture": 1,
-    "nameHash": "SP_M_TASK_7_1",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 7,
-    "texture": 2,
-    "nameHash": "SP_M_TASK_7_2",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 7,
-    "texture": 3,
-    "nameHash": "SP_M_TASK_7_3",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 7,
-    "texture": 4,
-    "nameHash": "SP_M_TASK_7_4",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 8,
-    "texture": 0,
-    "nameHash": "SP_M_TASK_8_0",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 8,
-    "texture": 1,
-    "nameHash": "SP_M_TASK_8_1",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 8,
-    "texture": 2,
-    "nameHash": "SP_M_TASK_8_2",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 8,
-    "texture": 3,
-    "nameHash": "SP_M_TASK_8_3",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 8,
-    "texture": 4,
-    "nameHash": "SP_M_TASK_8_4",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 9,
-    "texture": 0,
-    "nameHash": "SP_M_TASK_9_0",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 9,
-    "texture": 1,
-    "nameHash": "SP_M_TASK_9_1",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 9,
-    "texture": 2,
-    "nameHash": "SP_M_TASK_9_2",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 9,
-    "texture": 3,
-    "nameHash": "SP_M_TASK_9_3",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 9,
-    "texture": 4,
-    "nameHash": "SP_M_TASK_9_4",
-    "dlc": "basegame",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 10,
-    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_freemode_business2",
     "nameHash": "DLC_MP_BUSI2_M_TASK0_0",
-    "dlc": "mpbusiness2",
     "featured": false,
     "flip": null
   },
   {
-    "drawable": 10,
+    "drawable": 0,
     "texture": 1,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_freemode_business2",
     "nameHash": "DLC_MP_BUSI2_M_TASK0_1",
-    "dlc": "mpbusiness2",
     "featured": false,
     "flip": null
   },
   {
-    "drawable": 10,
+    "drawable": 0,
     "texture": 2,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_freemode_business2",
     "nameHash": "DLC_MP_BUSI2_M_TASK0_2",
-    "dlc": "mpbusiness2",
     "featured": false,
     "flip": null
   },
   {
-    "drawable": 10,
+    "drawable": 0,
     "texture": 3,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_freemode_business2",
     "nameHash": "DLC_MP_BUSI2_M_TASK0_3",
-    "dlc": "mpbusiness2",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 0,
+    "texture": 4,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_freemode_business2",
+    "nameHash": "DLC_MP_BUSI2_M_TASK0_4",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_heist",
+    "nameHash": "DLC_MP_HEIST_M_SPECIAL2_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 1,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_heist",
+    "nameHash": "DLC_MP_HEIST_M_SPECIAL2_0_1",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 2,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_heist",
+    "nameHash": "DLC_MP_HEIST_M_SPECIAL2_0_2",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 3,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_heist",
+    "nameHash": "DLC_MP_HEIST_M_SPECIAL2_0_3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 1,
+    "texture": 4,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_heist",
+    "nameHash": "DLC_MP_HEIST_M_SPECIAL2_0_4",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 2,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_luxe_01",
+    "nameHash": "DLC_MP_LUXE_M_SPECIAL2_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_2023_01",
+    "nameHash": "DLC_MP_SUM23_M_SPECIAL2_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 1,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_2023_01",
+    "nameHash": "DLC_MP_SUM23_M_SPECIAL2_0_1",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 3,
+    "texture": 2,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_2023_01",
+    "nameHash": "DLC_MP_SUM23_M_SPECIAL2_0_2",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 4,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_2023_02",
+    "nameHash": "DLC_MP_X23_M_SPECIAL2_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 5,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_2023_02",
+    "nameHash": "DLC_MP_X23_M_SPECIAL2_1_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 6,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_2023_02",
+    "nameHash": "DLC_MP_X23_M_SPECIAL2_2_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 7,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_2023_02",
+    "nameHash": "DLC_MP_X23_M_SPECIAL2_3_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 8,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_2025_02",
+    "nameHash": "DLC_MP_X25_M_SPECIAL2_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 9,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_2025_02",
+    "nameHash": "DLC_MP_X25_M_SPECIAL2_1_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 10,
-    "texture": 4,
-    "nameHash": "DLC_MP_BUSI2_M_TASK0_4",
-    "dlc": "mpbusiness2",
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_2025_02",
+    "nameHash": "DLC_MP_X25_M_SPECIAL2_2_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 11,
     "texture": 0,
-    "nameHash": "DLC_MP_LTS_M_TASK_0_0",
-    "dlc": "mplts",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 11,
-    "texture": 1,
-    "nameHash": "DLC_MP_LTS_M_TASK_0_1",
-    "dlc": "mplts",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 11,
-    "texture": 2,
-    "nameHash": "DLC_MP_LTS_M_TASK_0_2",
-    "dlc": "mplts",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 11,
-    "texture": 3,
-    "nameHash": "DLC_MP_LTS_M_TASK_0_3",
-    "dlc": "mplts",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 11,
-    "texture": 4,
-    "nameHash": "DLC_MP_LTS_M_TASK_0_4",
-    "dlc": "mplts",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_Heist3",
+    "nameHash": "DLC_MP_H3_M_SPECIAL2_0_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 12,
     "texture": 0,
-    "nameHash": "DLC_MP_HEIST_M_SPECIAL2_0_0",
-    "dlc": "patchday27ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 12,
-    "texture": 1,
-    "nameHash": "DLC_MP_HEIST_M_SPECIAL2_0_1",
-    "dlc": "patchday27ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 12,
-    "texture": 2,
-    "nameHash": "DLC_MP_HEIST_M_SPECIAL2_0_2",
-    "dlc": "patchday27ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 12,
-    "texture": 3,
-    "nameHash": "DLC_MP_HEIST_M_SPECIAL2_0_3",
-    "dlc": "patchday27ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 12,
-    "texture": 4,
-    "nameHash": "DLC_MP_HEIST_M_SPECIAL2_0_4",
-    "dlc": "patchday27ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_Heist3",
+    "nameHash": "DLC_MP_H3_M_SPECIAL2_1_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 13,
     "texture": 0,
-    "nameHash": "DLC_MP_LUXE_M_SPECIAL2_0_0",
-    "dlc": "patchday27ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_Heist3",
+    "nameHash": "DLC_MP_H3_M_SPECIAL2_2_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 14,
     "texture": 0,
-    "nameHash": "DLC_MP_APA_M_SPECIAL2_0_0",
-    "dlc": "patchday26ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_freemode_mpLTS",
+    "nameHash": "DLC_MP_LTS_M_TASK_0_0",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 1,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_freemode_mpLTS",
+    "nameHash": "DLC_MP_LTS_M_TASK_0_1",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 2,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_freemode_mpLTS",
+    "nameHash": "DLC_MP_LTS_M_TASK_0_2",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 3,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_freemode_mpLTS",
+    "nameHash": "DLC_MP_LTS_M_TASK_0_3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 14,
+    "texture": 4,
+    "label": "",
+    "gxt": "",
+    "dlc": "Male_freemode_mpLTS",
+    "nameHash": "DLC_MP_LTS_M_TASK_0_4",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 15,
     "texture": 0,
-    "nameHash": "DLC_MP_APA_M_SPECIAL2_1_0",
-    "dlc": "patchday26ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_security",
+    "nameHash": "DLC_MP_FIXER_M_SPECIAL2_0_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 15,
     "texture": 1,
-    "nameHash": "DLC_MP_APA_M_SPECIAL2_1_1",
-    "dlc": "patchday26ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_security",
+    "nameHash": "DLC_MP_FIXER_M_SPECIAL2_0_1",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 15,
     "texture": 2,
-    "nameHash": "DLC_MP_APA_M_SPECIAL2_1_2",
-    "dlc": "patchday26ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_security",
+    "nameHash": "DLC_MP_FIXER_M_SPECIAL2_0_2",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 3,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_security",
+    "nameHash": "DLC_MP_FIXER_M_SPECIAL2_0_3",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 15,
+    "texture": 4,
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_security",
+    "nameHash": "DLC_MP_FIXER_M_SPECIAL2_0_4",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 16,
     "texture": 0,
-    "nameHash": "DLC_MP_APA_M_SPECIAL2_2_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 16,
-    "texture": 1,
-    "nameHash": "DLC_MP_APA_M_SPECIAL2_2_1",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 16,
-    "texture": 2,
-    "nameHash": "DLC_MP_APA_M_SPECIAL2_2_2",
-    "dlc": "patchday26ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_0_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 17,
     "texture": 0,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_0_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 17,
-    "texture": 1,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_0_1",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 17,
-    "texture": 2,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_0_2",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 17,
-    "texture": 3,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_0_3",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 17,
-    "texture": 4,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_0_4",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 17,
-    "texture": 5,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_0_5",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 17,
-    "texture": 6,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_0_6",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 17,
-    "texture": 7,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_0_7",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 17,
-    "texture": 8,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_0_8",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 17,
-    "texture": 9,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_0_9",
-    "dlc": "patchday28ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_1_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 18,
     "texture": 0,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_1_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 18,
-    "texture": 1,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_1_1",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 18,
-    "texture": 2,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_1_2",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 18,
-    "texture": 3,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_1_3",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 18,
-    "texture": 4,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_1_4",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 18,
-    "texture": 5,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_1_5",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 18,
-    "texture": 6,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_1_6",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 18,
-    "texture": 7,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_1_7",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 18,
-    "texture": 8,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_1_8",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 18,
-    "texture": 9,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_1_9",
-    "dlc": "patchday28ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_2_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 19,
     "texture": 0,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_2_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 19,
-    "texture": 1,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_2_1",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 19,
-    "texture": 2,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_2_2",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 19,
-    "texture": 3,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_2_3",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 19,
-    "texture": 4,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_2_4",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 19,
-    "texture": 5,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_2_5",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 19,
-    "texture": 6,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_2_6",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 19,
-    "texture": 7,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_2_7",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 19,
-    "texture": 8,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_2_8",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 19,
-    "texture": 9,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_2_9",
-    "dlc": "patchday28ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_3_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 20,
     "texture": 0,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_3_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 20,
-    "texture": 1,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_3_1",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 20,
-    "texture": 2,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_3_2",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 20,
-    "texture": 3,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_3_3",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 20,
-    "texture": 4,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_3_4",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 20,
-    "texture": 5,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_3_5",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 20,
-    "texture": 6,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_3_6",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 20,
-    "texture": 7,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_3_7",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 20,
-    "texture": 8,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_3_8",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 20,
-    "texture": 9,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_3_9",
-    "dlc": "patchday28ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_4_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 21,
     "texture": 0,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_4_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 21,
-    "texture": 1,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_4_1",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 21,
-    "texture": 2,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_4_2",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 21,
-    "texture": 3,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_4_3",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 21,
-    "texture": 4,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_4_4",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 21,
-    "texture": 5,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_4_5",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 21,
-    "texture": 6,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_4_6",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 21,
-    "texture": 7,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_4_7",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 21,
-    "texture": 8,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_4_8",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 21,
-    "texture": 9,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_4_9",
-    "dlc": "patchday28ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_5_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 22,
     "texture": 0,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_5_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 22,
-    "texture": 1,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_5_1",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 22,
-    "texture": 2,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_5_2",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 22,
-    "texture": 3,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_5_3",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 22,
-    "texture": 4,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_5_4",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 22,
-    "texture": 5,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_5_5",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 22,
-    "texture": 6,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_5_6",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 22,
-    "texture": 7,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_5_7",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 22,
-    "texture": 8,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_5_8",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 22,
-    "texture": 9,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_5_9",
-    "dlc": "patchday28ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_6_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 23,
     "texture": 0,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_6_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 23,
-    "texture": 1,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_6_1",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 23,
-    "texture": 2,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_6_2",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 23,
-    "texture": 3,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_6_3",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 23,
-    "texture": 4,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_6_4",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 23,
-    "texture": 5,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_6_5",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 23,
-    "texture": 6,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_6_6",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 23,
-    "texture": 7,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_6_7",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 23,
-    "texture": 8,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_6_8",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 23,
-    "texture": 9,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_6_9",
-    "dlc": "patchday28ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_7_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 24,
     "texture": 0,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_7_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 24,
-    "texture": 1,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_7_1",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 24,
-    "texture": 2,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_7_2",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 24,
-    "texture": 3,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_7_3",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 24,
-    "texture": 4,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_7_4",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 24,
-    "texture": 5,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_7_5",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 24,
-    "texture": 6,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_7_6",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 24,
-    "texture": 7,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_7_7",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 24,
-    "texture": 8,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_7_8",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 24,
-    "texture": 9,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_7_9",
-    "dlc": "patchday28ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_8_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 25,
     "texture": 0,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_8_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 25,
-    "texture": 1,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_8_1",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 25,
-    "texture": 2,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_8_2",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 25,
-    "texture": 3,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_8_3",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 25,
-    "texture": 4,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_8_4",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 25,
-    "texture": 5,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_8_5",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 25,
-    "texture": 6,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_8_6",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 25,
-    "texture": 7,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_8_7",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 25,
-    "texture": 8,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_8_8",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 25,
-    "texture": 9,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_8_9",
-    "dlc": "patchday28ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_9_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 26,
     "texture": 0,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_9_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 26,
-    "texture": 1,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_9_1",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 26,
-    "texture": 2,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_9_2",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 26,
-    "texture": 3,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_9_3",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 26,
-    "texture": 4,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_9_4",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 26,
-    "texture": 5,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_9_5",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 26,
-    "texture": 6,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_9_6",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 26,
-    "texture": 7,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_9_7",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 26,
-    "texture": 8,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_9_8",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 26,
-    "texture": 9,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_9_9",
-    "dlc": "patchday28ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_10_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 27,
     "texture": 0,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_10_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 27,
-    "texture": 1,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_10_1",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 27,
-    "texture": 2,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_10_2",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 27,
-    "texture": 3,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_10_3",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 27,
-    "texture": 4,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_10_4",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 27,
-    "texture": 5,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_10_5",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 27,
-    "texture": 6,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_10_6",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 27,
-    "texture": 7,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_10_7",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 27,
-    "texture": 8,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_10_8",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 27,
-    "texture": 9,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_10_9",
-    "dlc": "patchday28ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_11_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 28,
     "texture": 0,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_11_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 28,
-    "texture": 1,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_11_1",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 28,
-    "texture": 2,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_11_2",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 28,
-    "texture": 3,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_11_3",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 28,
-    "texture": 4,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_11_4",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 28,
-    "texture": 5,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_11_5",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 28,
-    "texture": 6,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_11_6",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 28,
-    "texture": 7,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_11_7",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 28,
-    "texture": 8,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_11_8",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 28,
-    "texture": 9,
-    "nameHash": "DLC_MP_JAN_M_SPECIAL2_11_9",
-    "dlc": "patchday28ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_12_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 29,
     "texture": 0,
-    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_0_0",
-    "dlc": "patchday22ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_13_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 30,
     "texture": 0,
-    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_1_0",
-    "dlc": "patchday22ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_vinewood",
+    "nameHash": "DLC_MP_VWD_M_SPECIAL2_14_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 31,
     "texture": 0,
-    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_2_0",
-    "dlc": "patchday22ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_smuggler_01",
+    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_0_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 32,
     "texture": 0,
-    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_3_0",
-    "dlc": "patchday22ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_smuggler_01",
+    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_1_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 33,
     "texture": 0,
-    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_4_0",
-    "dlc": "patchday22ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_smuggler_01",
+    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_2_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 34,
     "texture": 0,
-    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_5_0",
-    "dlc": "patchday22ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_smuggler_01",
+    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_3_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 35,
     "texture": 0,
-    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_6_0",
-    "dlc": "patchday22ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_smuggler_01",
+    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_4_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 36,
     "texture": 0,
-    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_7_0",
-    "dlc": "patchday22ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_smuggler_01",
+    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_5_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 37,
     "texture": 0,
-    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_8_0",
-    "dlc": "patchday22ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_smuggler_01",
+    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_6_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 38,
     "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_0_0",
-    "dlc": "patchday26ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_smuggler_01",
+    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_7_0",
     "featured": false,
     "flip": null
   },
   {
     "drawable": 39,
     "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_1_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 40,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_2_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 41,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_3_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 42,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_4_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 43,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_5_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 44,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_6_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 45,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_7_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 46,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_8_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 47,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_9_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 48,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_10_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 49,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_11_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 50,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_12_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 51,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_13_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 52,
-    "texture": 0,
-    "nameHash": "DLC_MP_VWD_M_SPECIAL2_14_0",
-    "dlc": "patchday26ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 53,
-    "texture": 0,
-    "nameHash": "DLC_MP_H3_M_SPECIAL2_0_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 54,
-    "texture": 0,
-    "nameHash": "DLC_MP_H3_M_SPECIAL2_1_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 55,
-    "texture": 0,
-    "nameHash": "DLC_MP_H3_M_SPECIAL2_2_0",
-    "dlc": "patchday28ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 56,
-    "texture": 0,
-    "nameHash": "DLC_MP_FIXER_M_SPECIAL2_0_0",
-    "dlc": "patchday27ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 56,
-    "texture": 1,
-    "nameHash": "DLC_MP_FIXER_M_SPECIAL2_0_1",
-    "dlc": "patchday27ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 56,
-    "texture": 2,
-    "nameHash": "DLC_MP_FIXER_M_SPECIAL2_0_2",
-    "dlc": "patchday27ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 56,
-    "texture": 3,
-    "nameHash": "DLC_MP_FIXER_M_SPECIAL2_0_3",
-    "dlc": "patchday27ng",
-    "featured": false,
-    "flip": null
-  },
-  {
-    "drawable": 56,
-    "texture": 4,
-    "nameHash": "DLC_MP_FIXER_M_SPECIAL2_0_4",
-    "dlc": "patchday27ng",
+    "label": "",
+    "gxt": "",
+    "dlc": "mp_m_smuggler_01",
+    "nameHash": "DLC_MP_SMUG_M_SPECIAL2_8_0",
     "featured": false,
     "flip": null
   }
