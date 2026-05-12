@@ -162,7 +162,7 @@
   {
     "drawable": 5,
     "texture": 0,
-    "label": "Off-White Cropped Tank",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_christmas2017",
     "nameHash": "DLC_MP_X17_F_TEETH_2_0",
@@ -202,7 +202,7 @@
   {
     "drawable": 8,
     "texture": 0,
-    "label": "Gray Cropped Biker",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_executive_01",
     "nameHash": "DLC_MP_EXEC_F_TEETH_1_0",
@@ -212,7 +212,7 @@
   {
     "drawable": 8,
     "texture": 1,
-    "label": "Gray Cropped Biker",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_executive_01",
     "nameHash": "DLC_MP_EXEC_F_TEETH_1_1",
@@ -632,7 +632,7 @@
   {
     "drawable": 16,
     "texture": 0,
-    "label": "Yeti Barfs Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_0",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_0",
@@ -642,7 +642,7 @@
   {
     "drawable": 16,
     "texture": 1,
-    "label": "Pink Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_1",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_1",
@@ -652,7 +652,7 @@
   {
     "drawable": 16,
     "texture": 2,
-    "label": "Baby Blue Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_2",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_2",
@@ -662,7 +662,7 @@
   {
     "drawable": 16,
     "texture": 3,
-    "label": "Trey Baker Pink Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_3",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_3",
@@ -672,7 +672,7 @@
   {
     "drawable": 16,
     "texture": 4,
-    "label": "Trey Baker Lime Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_4",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_4",
@@ -682,7 +682,7 @@
   {
     "drawable": 16,
     "texture": 5,
-    "label": "Red Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_5",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_5",
@@ -692,7 +692,7 @@
   {
     "drawable": 16,
     "texture": 6,
-    "label": "Navy Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_6",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_6",
@@ -702,7 +702,7 @@
   {
     "drawable": 16,
     "texture": 7,
-    "label": "Yeti Barfs Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_7",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_7",
@@ -712,7 +712,7 @@
   {
     "drawable": 16,
     "texture": 8,
-    "label": "Yeti Barfs Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_8",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_8",
@@ -722,7 +722,7 @@
   {
     "drawable": 16,
     "texture": 9,
-    "label": "Yeti Barfs Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_9",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_9",
@@ -732,7 +732,7 @@
   {
     "drawable": 16,
     "texture": 10,
-    "label": "Yeti Barfs Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_10",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_10",
@@ -742,7 +742,7 @@
   {
     "drawable": 16,
     "texture": 11,
-    "label": "Yeti Barfs Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_11",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_11",
@@ -752,7 +752,7 @@
   {
     "drawable": 16,
     "texture": 12,
-    "label": "Yeti Barfs Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_12",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_12",
@@ -762,7 +762,7 @@
   {
     "drawable": 16,
     "texture": 13,
-    "label": "Yeti Barfs Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_13",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_13",
@@ -772,7 +772,7 @@
   {
     "drawable": 16,
     "texture": 14,
-    "label": "Yeti Barfs Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_14",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_14",
@@ -782,7 +782,7 @@
   {
     "drawable": 16,
     "texture": 15,
-    "label": "Yeti Barfs Tank",
+    "label": "",
     "gxt": "CLO_HSTF_T_1_15",
     "dlc": "Female_heist",
     "nameHash": "DLC_MP_HEIST_F_TEETH_7_15",
@@ -1142,7 +1142,7 @@
   {
     "drawable": 24,
     "texture": 0,
-    "label": "White Blouse",
+    "label": "",
     "gxt": "CLO_S2F_T_3_0",
     "dlc": "mp_f_lowrider_02",
     "nameHash": "DLC_MP_LOW2_F_TEETH_3_0",
@@ -1152,7 +1152,7 @@
   {
     "drawable": 24,
     "texture": 1,
-    "label": "Black Blouse",
+    "label": "",
     "gxt": "CLO_S2F_T_3_1",
     "dlc": "mp_f_lowrider_02",
     "nameHash": "DLC_MP_LOW2_F_TEETH_3_1",
@@ -1162,7 +1162,7 @@
   {
     "drawable": 25,
     "texture": 0,
-    "label": "Neon Camisole",
+    "label": "",
     "gxt": "CLO_S2F_T_3_0",
     "dlc": "mp_f_lowrider_02",
     "nameHash": "DLC_MP_LOW2_F_TEETH_4_0",
@@ -1172,7 +1172,7 @@
   {
     "drawable": 25,
     "texture": 1,
-    "label": "Red Spotted Camisole",
+    "label": "",
     "gxt": "CLO_S2F_T_3_1",
     "dlc": "mp_f_lowrider_02",
     "nameHash": "DLC_MP_LOW2_F_TEETH_4_1",
@@ -1582,7 +1582,7 @@
   {
     "drawable": 44,
     "texture": 0,
-    "label": "Black SN T-Shirt",
+    "label": "",
     "gxt": "CLO_L2F_T_5_0",
     "dlc": "mp_f_luxe_02",
     "nameHash": "DLC_MP_LUXE2_F_TEETH_16_0",
@@ -1592,7 +1592,7 @@
   {
     "drawable": 44,
     "texture": 1,
-    "label": "Black SN T-Shirt",
+    "label": "",
     "gxt": "CLO_L2F_T_5_1",
     "dlc": "mp_f_luxe_02",
     "nameHash": "DLC_MP_LUXE2_F_TEETH_16_1",
@@ -1602,7 +1602,7 @@
   {
     "drawable": 45,
     "texture": 0,
-    "label": "Pegasus T-Shirt",
+    "label": "",
     "gxt": "CLO_L2F_T_6_0",
     "dlc": "mp_f_luxe_02",
     "nameHash": "DLC_MP_LUXE2_F_TEETH_17_0",
@@ -1612,7 +1612,7 @@
   {
     "drawable": 45,
     "texture": 1,
-    "label": "Andromeda T-Shirt",
+    "label": "",
     "gxt": "CLO_L2F_T_6_1",
     "dlc": "mp_f_luxe_02",
     "nameHash": "DLC_MP_LUXE2_F_TEETH_17_1",
@@ -1622,7 +1622,7 @@
   {
     "drawable": 46,
     "texture": 0,
-    "label": "Pegasus T-Shirt",
+    "label": "",
     "gxt": "CLO_L2F_T_7_0",
     "dlc": "mp_f_luxe_02",
     "nameHash": "DLC_MP_LUXE2_F_TEETH_18_0",
@@ -1632,7 +1632,7 @@
   {
     "drawable": 46,
     "texture": 1,
-    "label": "Andromeda T-Shirt",
+    "label": "",
     "gxt": "CLO_L2F_T_7_1",
     "dlc": "mp_f_luxe_02",
     "nameHash": "DLC_MP_LUXE2_F_TEETH_18_1",
@@ -1682,7 +1682,7 @@
   {
     "drawable": 49,
     "texture": 0,
-    "label": "Gold Shiny Top",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_02",
     "nameHash": "DLC_MP_LUXE2_F_TEETH_21_0",
@@ -1692,7 +1692,7 @@
   {
     "drawable": 50,
     "texture": 0,
-    "label": "Pegasus T-Shirt",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_02",
     "nameHash": "DLC_MP_LUXE2_F_TEETH_22_0",
@@ -1702,7 +1702,7 @@
   {
     "drawable": 51,
     "texture": 0,
-    "label": "Black SN T-Shirt",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_02",
     "nameHash": "DLC_MP_LUXE2_F_TEETH_23_0",
@@ -1712,7 +1712,7 @@
   {
     "drawable": 52,
     "texture": 0,
-    "label": "Black SN T-Shirt",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_02",
     "nameHash": "DLC_MP_LUXE2_F_TEETH_24_0",
@@ -2072,7 +2072,7 @@
   {
     "drawable": 74,
     "texture": 0,
-    "label": "White Rolled Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_01",
     "nameHash": "DLC_MP_LUXE_F_TEETH_18_0",
@@ -2082,7 +2082,7 @@
   {
     "drawable": 74,
     "texture": 1,
-    "label": "Black Rolled Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_01",
     "nameHash": "DLC_MP_LUXE_F_TEETH_18_1",
@@ -2092,7 +2092,7 @@
   {
     "drawable": 74,
     "texture": 2,
-    "label": "Gray Rolled Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_01",
     "nameHash": "DLC_MP_LUXE_F_TEETH_18_2",
@@ -2102,7 +2102,7 @@
   {
     "drawable": 75,
     "texture": 0,
-    "label": "Blue Sweater Shirt",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_01",
     "nameHash": "DLC_MP_LUXE_F_TEETH_19_0",
@@ -2112,7 +2112,7 @@
   {
     "drawable": 75,
     "texture": 1,
-    "label": "Black Sweater Shirt",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_01",
     "nameHash": "DLC_MP_LUXE_F_TEETH_19_1",
@@ -2122,7 +2122,7 @@
   {
     "drawable": 75,
     "texture": 2,
-    "label": "Check Sweater Shirt",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_01",
     "nameHash": "DLC_MP_LUXE_F_TEETH_19_2",
@@ -2132,7 +2132,7 @@
   {
     "drawable": 76,
     "texture": 0,
-    "label": "Gray Turtleneck",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_01",
     "nameHash": "DLC_MP_LUXE_F_TEETH_20_0",
@@ -2142,7 +2142,7 @@
   {
     "drawable": 76,
     "texture": 1,
-    "label": "Red Turtleneck",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_01",
     "nameHash": "DLC_MP_LUXE_F_TEETH_20_1",
@@ -2152,7 +2152,7 @@
   {
     "drawable": 76,
     "texture": 2,
-    "label": "Brown Turtleneck",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_01",
     "nameHash": "DLC_MP_LUXE_F_TEETH_20_2",
@@ -2162,7 +2162,7 @@
   {
     "drawable": 77,
     "texture": 0,
-    "label": "Gray Turtleneck",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_01",
     "nameHash": "DLC_MP_LUXE_F_TEETH_21_0",
@@ -2172,7 +2172,7 @@
   {
     "drawable": 77,
     "texture": 1,
-    "label": "Red Turtleneck",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_01",
     "nameHash": "DLC_MP_LUXE_F_TEETH_21_1",
@@ -2182,7 +2182,7 @@
   {
     "drawable": 77,
     "texture": 2,
-    "label": "Brown Turtleneck",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_luxe_01",
     "nameHash": "DLC_MP_LUXE_F_TEETH_21_2",
@@ -2362,7 +2362,7 @@
   {
     "drawable": 86,
     "texture": 0,
-    "label": "Black SN T-Shirt",
+    "label": "",
     "gxt": "CLO_SCF_T_5_0",
     "dlc": "mp_f_2023_01",
     "nameHash": "DLC_MP_SUM23_F_TEETH_6_0",
@@ -2372,7 +2372,7 @@
   {
     "drawable": 86,
     "texture": 1,
-    "label": "Black SN T-Shirt",
+    "label": "",
     "gxt": "CLO_SCF_T_5_1",
     "dlc": "mp_f_2023_01",
     "nameHash": "DLC_MP_SUM23_F_TEETH_6_1",
@@ -2382,7 +2382,7 @@
   {
     "drawable": 86,
     "texture": 2,
-    "label": "Pegasus T-Shirt",
+    "label": "",
     "gxt": "CLO_SCF_T_5_2",
     "dlc": "mp_f_2023_01",
     "nameHash": "DLC_MP_SUM23_F_TEETH_6_2",
@@ -2392,7 +2392,7 @@
   {
     "drawable": 86,
     "texture": 3,
-    "label": "Andromeda T-Shirt",
+    "label": "",
     "gxt": "CLO_SCF_T_5_3",
     "dlc": "mp_f_2023_01",
     "nameHash": "DLC_MP_SUM23_F_TEETH_6_3",
@@ -2402,7 +2402,7 @@
   {
     "drawable": 86,
     "texture": 4,
-    "label": "Medusa Art T-Shirt",
+    "label": "",
     "gxt": "CLO_SCF_T_5_4",
     "dlc": "mp_f_2023_01",
     "nameHash": "DLC_MP_SUM23_F_TEETH_6_4",
@@ -2412,7 +2412,7 @@
   {
     "drawable": 87,
     "texture": 0,
-    "label": "Khaki T-Shirt",
+    "label": "",
     "gxt": "CLO_SCF_T_7_0",
     "dlc": "mp_f_2023_01",
     "nameHash": "DLC_MP_SUM23_F_TEETH_7_0",
@@ -2612,7 +2612,7 @@
   {
     "drawable": 94,
     "texture": 0,
-    "label": "White Classic",
+    "label": "",
     "gxt": "CLO_SDF_T_2_0",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_2_0",
@@ -2622,7 +2622,7 @@
   {
     "drawable": 94,
     "texture": 1,
-    "label": "Black Classic",
+    "label": "",
     "gxt": "CLO_SDF_T_2_1",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_2_1",
@@ -2632,7 +2632,7 @@
   {
     "drawable": 94,
     "texture": 2,
-    "label": "Gray Classic",
+    "label": "",
     "gxt": "CLO_SDF_T_2_2",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_2_2",
@@ -2642,7 +2642,7 @@
   {
     "drawable": 94,
     "texture": 3,
-    "label": "White Classic",
+    "label": "",
     "gxt": "CLO_SDF_T_2_3",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_2_3",
@@ -2652,7 +2652,7 @@
   {
     "drawable": 94,
     "texture": 4,
-    "label": "White Classic",
+    "label": "",
     "gxt": "CLO_SDF_T_2_4",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_2_4",
@@ -2662,7 +2662,7 @@
   {
     "drawable": 95,
     "texture": 0,
-    "label": "White Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_2_0",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_3_0",
@@ -2672,7 +2672,7 @@
   {
     "drawable": 95,
     "texture": 1,
-    "label": "Black Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_2_1",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_3_1",
@@ -2682,7 +2682,7 @@
   {
     "drawable": 95,
     "texture": 2,
-    "label": "Gray Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_2_2",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_3_2",
@@ -2692,7 +2692,7 @@
   {
     "drawable": 95,
     "texture": 3,
-    "label": "White Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_2_3",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_3_3",
@@ -2702,7 +2702,7 @@
   {
     "drawable": 95,
     "texture": 4,
-    "label": "White Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_2_4",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_3_4",
@@ -2712,7 +2712,7 @@
   {
     "drawable": 96,
     "texture": 0,
-    "label": "White Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_4_0",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_4_0",
@@ -2722,7 +2722,7 @@
   {
     "drawable": 96,
     "texture": 1,
-    "label": "Black Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_4_1",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_4_1",
@@ -2732,7 +2732,7 @@
   {
     "drawable": 96,
     "texture": 2,
-    "label": "Gray Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_4_2",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_4_2",
@@ -2742,7 +2742,7 @@
   {
     "drawable": 96,
     "texture": 3,
-    "label": "White Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_4_3",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_4_3",
@@ -2752,7 +2752,7 @@
   {
     "drawable": 96,
     "texture": 4,
-    "label": "White Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_4_4",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_4_4",
@@ -2762,7 +2762,7 @@
   {
     "drawable": 97,
     "texture": 0,
-    "label": "White Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_4_0",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_5_0",
@@ -2772,7 +2772,7 @@
   {
     "drawable": 97,
     "texture": 1,
-    "label": "Black Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_4_1",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_5_1",
@@ -2782,7 +2782,7 @@
   {
     "drawable": 97,
     "texture": 2,
-    "label": "Gray Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_4_2",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_5_2",
@@ -2792,7 +2792,7 @@
   {
     "drawable": 97,
     "texture": 3,
-    "label": "White Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_4_3",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_5_3",
@@ -2802,7 +2802,7 @@
   {
     "drawable": 97,
     "texture": 4,
-    "label": "White Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_4_4",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_5_4",
@@ -2812,7 +2812,7 @@
   {
     "drawable": 98,
     "texture": 0,
-    "label": "White Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_6_0",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_6_0",
@@ -2822,7 +2822,7 @@
   {
     "drawable": 98,
     "texture": 1,
-    "label": "Black Rolled Tee",
+    "label": "",
     "gxt": "CLO_SDF_T_6_1",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_6_1",
@@ -2952,7 +2952,7 @@
   {
     "drawable": 102,
     "texture": 0,
-    "label": "Cream with White Shirt",
+    "label": "",
     "gxt": "CLO_SDF_T_10_0",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_10_0",
@@ -2962,7 +2962,7 @@
   {
     "drawable": 102,
     "texture": 1,
-    "label": "Cream with Black Shirt",
+    "label": "",
     "gxt": "CLO_SDF_T_10_1",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_10_1",
@@ -2972,7 +2972,7 @@
   {
     "drawable": 102,
     "texture": 2,
-    "label": "Cream with Navy Shirt",
+    "label": "",
     "gxt": "CLO_SDF_T_10_2",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_10_2",
@@ -2982,7 +2982,7 @@
   {
     "drawable": 102,
     "texture": 3,
-    "label": "Cream with Red Shirt",
+    "label": "",
     "gxt": "CLO_SDF_T_10_3",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_10_3",
@@ -2992,7 +2992,7 @@
   {
     "drawable": 102,
     "texture": 4,
-    "label": "Red with White Shirt",
+    "label": "",
     "gxt": "CLO_SDF_T_10_4",
     "dlc": "mp_f_2024_01",
     "nameHash": "DLC_MP_SUM24_F_TEETH_10_4",
@@ -3262,7 +3262,7 @@
   {
     "drawable": 115,
     "texture": 0,
-    "label": "Camo Bigness Rolled Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_2025_02",
     "nameHash": "DLC_MP_X25_F_TEETH_0_0",
@@ -3272,7 +3272,7 @@
   {
     "drawable": 115,
     "texture": 1,
-    "label": "Zebra Rolled Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_2025_02",
     "nameHash": "DLC_MP_X25_F_TEETH_0_1",
@@ -3282,7 +3282,7 @@
   {
     "drawable": 116,
     "texture": 0,
-    "label": "Camo Bigness Rolled Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_2025_02",
     "nameHash": "DLC_MP_X25_F_TEETH_1_0",
@@ -3292,7 +3292,7 @@
   {
     "drawable": 116,
     "texture": 1,
-    "label": "Zebra Rolled Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_2025_02",
     "nameHash": "DLC_MP_X25_F_TEETH_1_1",
@@ -3302,7 +3302,7 @@
   {
     "drawable": 117,
     "texture": 0,
-    "label": "Camo Bigness Rolled Tee",
+    "label": "",
     "gxt": "CLO_AWF_T_0",
     "dlc": "mp_f_christmas2018",
     "nameHash": "DLC_MP_ARENA_F_TEETH_0_0",
@@ -3332,7 +3332,7 @@
   {
     "drawable": 120,
     "texture": 0,
-    "label": "Blue Digital T-Shirt",
+    "label": "",
     "gxt": "CLO_X6F_T_0_0",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_TEETH_0_0",
@@ -3342,7 +3342,7 @@
   {
     "drawable": 121,
     "texture": 0,
-    "label": "Blue Digital T-Shirt",
+    "label": "",
     "gxt": "CLO_X6F_T_0_0",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_TEETH_1_0",
@@ -3352,7 +3352,7 @@
   {
     "drawable": 122,
     "texture": 0,
-    "label": "Blue Digital T-Shirt",
+    "label": "",
     "gxt": "CLO_X6F_T_2_0",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_TEETH_2_0",
@@ -3362,7 +3362,7 @@
   {
     "drawable": 122,
     "texture": 1,
-    "label": "Brown Digital T-Shirt",
+    "label": "",
     "gxt": "CLO_X6F_T_2_1",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_TEETH_2_1",
@@ -3372,7 +3372,7 @@
   {
     "drawable": 122,
     "texture": 2,
-    "label": "Green Digital T-Shirt",
+    "label": "",
     "gxt": "CLO_X6F_T_2_2",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_TEETH_2_2",
@@ -3382,7 +3382,7 @@
   {
     "drawable": 122,
     "texture": 3,
-    "label": "Gray Digital T-Shirt",
+    "label": "",
     "gxt": "CLO_X6F_T_2_3",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_TEETH_2_3",
@@ -3392,7 +3392,7 @@
   {
     "drawable": 122,
     "texture": 4,
-    "label": "Peach Digital T-Shirt",
+    "label": "",
     "gxt": "CLO_X6F_T_2_4",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_TEETH_2_4",
@@ -3402,7 +3402,7 @@
   {
     "drawable": 122,
     "texture": 5,
-    "label": "Fall T-Shirt",
+    "label": "",
     "gxt": "CLO_X6F_T_2_5",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_TEETH_2_5",
@@ -3412,7 +3412,7 @@
   {
     "drawable": 122,
     "texture": 6,
-    "label": "Dark Woodland T-Shirt",
+    "label": "",
     "gxt": "CLO_X6F_T_2_6",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_TEETH_2_6",
@@ -3422,7 +3422,7 @@
   {
     "drawable": 122,
     "texture": 7,
-    "label": "Crosshatch T-Shirt",
+    "label": "",
     "gxt": "CLO_X6F_T_2_7",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_TEETH_2_7",
@@ -3432,7 +3432,7 @@
   {
     "drawable": 122,
     "texture": 8,
-    "label": "Moss Digital T-Shirt",
+    "label": "",
     "gxt": "CLO_X6F_T_2_8",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_TEETH_2_8",
@@ -3442,7 +3442,7 @@
   {
     "drawable": 122,
     "texture": 9,
-    "label": "Gray Woodland T-Shirt",
+    "label": "",
     "gxt": "CLO_X6F_T_2_9",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_TEETH_2_9",
@@ -4022,7 +4022,7 @@
   {
     "drawable": 135,
     "texture": 0,
-    "label": "Blue Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H3F_T_1_0",
     "dlc": "mp_f_Heist3",
     "nameHash": "DLC_MP_H3_F_TEETH_2_0",
@@ -4032,7 +4032,7 @@
   {
     "drawable": 136,
     "texture": 0,
-    "label": "Blue Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_0_0",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_0_0",
@@ -4042,7 +4042,7 @@
   {
     "drawable": 136,
     "texture": 1,
-    "label": "Brown Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_0_1",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_0_1",
@@ -4052,7 +4052,7 @@
   {
     "drawable": 136,
     "texture": 2,
-    "label": "Green Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_0_2",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_0_2",
@@ -4062,7 +4062,7 @@
   {
     "drawable": 137,
     "texture": 0,
-    "label": "Blue Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_0_0",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_1_0",
@@ -4072,7 +4072,7 @@
   {
     "drawable": 137,
     "texture": 1,
-    "label": "Brown Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_0_1",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_1_1",
@@ -4082,7 +4082,7 @@
   {
     "drawable": 137,
     "texture": 2,
-    "label": "Green Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_0_2",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_1_2",
@@ -4092,7 +4092,7 @@
   {
     "drawable": 138,
     "texture": 0,
-    "label": "Blue Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_2_0",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_2_0",
@@ -4102,7 +4102,7 @@
   {
     "drawable": 138,
     "texture": 1,
-    "label": "Brown Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_2_1",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_2_1",
@@ -4112,7 +4112,7 @@
   {
     "drawable": 138,
     "texture": 2,
-    "label": "Green Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_2_2",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_2_2",
@@ -4122,7 +4122,7 @@
   {
     "drawable": 139,
     "texture": 0,
-    "label": "Blue Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_2_0",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_3_0",
@@ -4132,7 +4132,7 @@
   {
     "drawable": 139,
     "texture": 1,
-    "label": "Brown Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_2_1",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_3_1",
@@ -4142,7 +4142,7 @@
   {
     "drawable": 139,
     "texture": 2,
-    "label": "Green Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_2_2",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_3_2",
@@ -4152,7 +4152,7 @@
   {
     "drawable": 140,
     "texture": 0,
-    "label": "Blue Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_4_0",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_4_0",
@@ -4162,7 +4162,7 @@
   {
     "drawable": 140,
     "texture": 1,
-    "label": "Brown Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_4_1",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_4_1",
@@ -4172,7 +4172,7 @@
   {
     "drawable": 140,
     "texture": 2,
-    "label": "Green Digital Rolled Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_4_2",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_4_2",
@@ -4302,7 +4302,7 @@
   {
     "drawable": 145,
     "texture": 0,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_8_0",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_9_0",
@@ -4312,7 +4312,7 @@
   {
     "drawable": 145,
     "texture": 1,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_8_1",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_9_1",
@@ -4322,7 +4322,7 @@
   {
     "drawable": 145,
     "texture": 2,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "CLO_H4F_T_8_2",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_9_2",
@@ -4332,7 +4332,7 @@
   {
     "drawable": 146,
     "texture": 0,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_0",
@@ -4342,7 +4342,7 @@
   {
     "drawable": 146,
     "texture": 1,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_1",
@@ -4352,7 +4352,7 @@
   {
     "drawable": 146,
     "texture": 2,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_2",
@@ -4362,7 +4362,7 @@
   {
     "drawable": 146,
     "texture": 3,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_3",
@@ -4372,7 +4372,7 @@
   {
     "drawable": 146,
     "texture": 4,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_4",
@@ -4382,7 +4382,7 @@
   {
     "drawable": 146,
     "texture": 5,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_5",
@@ -4392,7 +4392,7 @@
   {
     "drawable": 146,
     "texture": 6,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_6",
@@ -4402,7 +4402,7 @@
   {
     "drawable": 146,
     "texture": 7,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_7",
@@ -4412,7 +4412,7 @@
   {
     "drawable": 146,
     "texture": 8,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_8",
@@ -4422,7 +4422,7 @@
   {
     "drawable": 146,
     "texture": 9,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_9",
@@ -4432,7 +4432,7 @@
   {
     "drawable": 146,
     "texture": 10,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_10",
@@ -4442,7 +4442,7 @@
   {
     "drawable": 146,
     "texture": 11,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_11",
@@ -4452,7 +4452,7 @@
   {
     "drawable": 146,
     "texture": 12,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_12",
@@ -4462,7 +4462,7 @@
   {
     "drawable": 146,
     "texture": 13,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_13",
@@ -4472,7 +4472,7 @@
   {
     "drawable": 146,
     "texture": 14,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_14",
@@ -4482,7 +4482,7 @@
   {
     "drawable": 146,
     "texture": 15,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_15",
@@ -4492,7 +4492,7 @@
   {
     "drawable": 146,
     "texture": 16,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_10_16",
@@ -4502,7 +4502,7 @@
   {
     "drawable": 147,
     "texture": 0,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_0",
@@ -4512,7 +4512,7 @@
   {
     "drawable": 147,
     "texture": 1,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_1",
@@ -4522,7 +4522,7 @@
   {
     "drawable": 147,
     "texture": 2,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_2",
@@ -4532,7 +4532,7 @@
   {
     "drawable": 147,
     "texture": 3,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_3",
@@ -4542,7 +4542,7 @@
   {
     "drawable": 147,
     "texture": 4,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_4",
@@ -4552,7 +4552,7 @@
   {
     "drawable": 147,
     "texture": 5,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_5",
@@ -4562,7 +4562,7 @@
   {
     "drawable": 147,
     "texture": 6,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_6",
@@ -4572,7 +4572,7 @@
   {
     "drawable": 147,
     "texture": 7,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_7",
@@ -4582,7 +4582,7 @@
   {
     "drawable": 147,
     "texture": 8,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_8",
@@ -4592,7 +4592,7 @@
   {
     "drawable": 147,
     "texture": 9,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_9",
@@ -4602,7 +4602,7 @@
   {
     "drawable": 147,
     "texture": 10,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_10",
@@ -4612,7 +4612,7 @@
   {
     "drawable": 147,
     "texture": 11,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_11",
@@ -4622,7 +4622,7 @@
   {
     "drawable": 147,
     "texture": 12,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_12",
@@ -4632,7 +4632,7 @@
   {
     "drawable": 147,
     "texture": 13,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_13",
@@ -4642,7 +4642,7 @@
   {
     "drawable": 147,
     "texture": 14,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_14",
@@ -4652,7 +4652,7 @@
   {
     "drawable": 147,
     "texture": 15,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_15",
@@ -4662,7 +4662,7 @@
   {
     "drawable": 147,
     "texture": 16,
-    "label": "Knuckleduster Pocket Tee",
+    "label": "",
     "gxt": "",
     "dlc": "mp_f_heist4",
     "nameHash": "DLC_MP_H4_F_TEETH_11_16",
