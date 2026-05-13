@@ -96,6 +96,7 @@ export const FLIP_TYPE = {
   task: "c1_drives",
   p_head: "c1_drives",
   decl: "c1_drives",
+  p_eyes: "c1_drives",
 };
 
 export function getFlipType(slot) {
@@ -120,6 +121,7 @@ export const FLIP_COMPANION = {
   teef: { slot: "hand", drawable: 48, texture: 0, label: "Classic Parachute" },
   berd: { slot: "hand", drawable: 48, texture: 0, label: "Classic Parachute" },
   p_head: { slot: "p_eyes", drawable: 2, texture: 0, label: "Glasses" },
+  p_eyes: { slot: "p_head", drawable: 55, texture: 0, label: "Hat" },
   hand: { slot: "uppr", drawable: 29, texture: 0, label: "Gloves" },
 };
 
@@ -159,6 +161,8 @@ export const BASELINE_C1S = {
       { drawable: 89, textures: 10, label: "Dome", note: "10 colors" },
       { drawable: 45, textures: 16, label: "Snapback", note: "16 colors" },
     ],
+    p_eyes: [{ drawable: 45, label: "P_EYES 45", note: "26 colors" }],
+
     // c2_drives
     uppr: [
       { drawable: 137, label: "UPPR 137", note: "Tactical Gloves" },
@@ -193,7 +197,6 @@ export const BASELINE_C1S = {
       { drawable: 12, textures: 8, label: "DECL 12", note: "Biker Logo" },
       { drawable: 63, textures: 19, label: "DECL 63", note: "Arcade Logo" },
     ],
-    p_eyes: [{ drawable: 137, label: "P_EYES 137", note: "placeholder" }],
     p_ears: [{ drawable: 137, label: "P_EARS 137", note: "placeholder" }],
     p_lwrist: [{ drawable: 137, label: "P_LWRIST 137", note: "placeholder" }],
     p_rwrist: [{ drawable: 137, label: "P_RWRIST 137", note: "placeholder" }],
@@ -226,6 +229,8 @@ export const BASELINE_C1S = {
       { drawable: 88, textures: 10, label: "Dome", note: "10 colors" },
       { drawable: 102, textures: 20, label: "Cap", note: "20 colors" },
     ],
+    p_eyes: [{ drawable: 45, label: "P_EYES 45", note: "26 colors" }],
+
     // c2_drives
     uppr: [
       { drawable: 187, label: "UPPR 187", note: "Tactical Gloves" },
@@ -262,7 +267,6 @@ export const BASELINE_C1S = {
       { drawable: 11, textures: 8, label: "DECL 11", note: "Biker Logo" },
       { drawable: 72, textures: 19, label: "DECL 72", note: "Arcade Logo" },
     ],
-    p_eyes: [{ drawable: 137, label: "P_EYES 137", note: "placeholder" }],
     p_ears: [{ drawable: 137, label: "P_EARS 137", note: "placeholder" }],
     p_lwrist: [{ drawable: 137, label: "P_LWRIST 137", note: "placeholder" }],
     p_rwrist: [{ drawable: 137, label: "P_RWRIST 137", note: "placeholder" }],

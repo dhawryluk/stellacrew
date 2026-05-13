@@ -227,7 +227,7 @@ export default function BeffDetailPanel({
                 }
                 className="w-full text-[9px] font-black uppercase tracking-wider py-2.5 border border-accent/40 bg-accent/8 hover:bg-accent/15 text-accent transition-all"
               >
-                How to get this →
+                How to BEFF this →
               </button>
             </div>
           )}

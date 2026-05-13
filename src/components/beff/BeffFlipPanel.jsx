@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
+import { createPortal } from "react-dom";
 import {
   buildCall,
   imgPath,
@@ -8,23 +9,8 @@ import {
   getFlipCompanion,
 } from "./useBeff";
 
-export default function BeffFlipPanel({ gender, slot, item, onClose }) {
-  const flipType = getFlipType(slot);
-  const c1Drives = flipType === "c1_drives";
-  const baselines = getBaselines(gender, slot);
-  const companion = getFlipCompanion(slot);
-  const companionCall = companion
-    ? buildCall(companion.slot, companion.drawable, companion.texture)
-    : null;
-
-  const [c1BaseIdx, setC1BaseIdx] = useState(0);
-  const [c1Texture, setC1Texture] = useState(item?.texture ?? 0);
-  const [copied, setCopied] = useState(null);
-
-  useEffect(() => {
-    if (c1Drives) setC1Texture(item?.texture ?? 0);
-  }, [item, c1Drives]);
-
+// ── Lightbox ──────────────────────────────────────────────────────────────────
+function Lightbox({ src, alt, meta, onClose }) {
   useEffect(() => {
     const h = (e) => {
       if (e.key === "Escape") onClose();
@@ -33,22 +19,119 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
     return () => window.removeEventListener("keydown", h);
   }, [onClose]);
 
+  return createPortal(
+    <div
+      className="fixed inset-0 z-[999] flex flex-col items-center justify-center bg-black/90 backdrop-blur-md cursor-zoom-out"
+      onClick={onClose}
+    >
+      {/* Image */}
+      <div
+        className="max-w-[80vw] max-h-[75vh] flex items-center justify-center"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <img
+          src={src}
+          alt={alt}
+          className="max-w-full max-h-[75vh] object-contain border border-white/10 shadow-2xl"
+        />
+      </div>
+
+      {/* Meta */}
+      {meta && (
+        <div className="mt-5 flex flex-col items-center gap-1 pointer-events-none">
+          <div className="text-[11px] font-black font-mono text-accent tracking-wider">
+            {meta.slot} {meta.drawable} / {meta.texture}
+          </div>
+          {meta.label && (
+            <div className="text-[13px] font-black text-white/70">
+              {meta.label}
+            </div>
+          )}
+          {meta.caption && (
+            <div className="text-[9px] uppercase tracking-[.2em] text-white/30 font-bold">
+              {meta.caption}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Dismiss hint */}
+      <div className="absolute bottom-6 text-[8px] uppercase tracking-[.2em] text-white/20 font-bold">
+        click anywhere or esc to close
+      </div>
+    </div>,
+    document.body,
+  );
+}
+
+// ── ZoomableImage ─────────────────────────────────────────────────────────────
+function ZoomableImage({
+  src,
+  alt,
+  badge,
+  badgeColor = "text-accent/70",
+  onError,
+  lightboxMeta,
+  onZoom,
+}) {
+  return (
+    <div
+      className="w-full aspect-square bg-panel border border-border-subtle overflow-hidden relative max-w-40 cursor-zoom-in group"
+      onClick={() => onZoom({ src, alt, meta: lightboxMeta })}
+    >
+      <img
+        src={src}
+        alt={alt}
+        className="w-full h-full object-cover transition-transform duration-200 group-hover:scale-105"
+        onError={onError}
+      />
+      {badge && (
+        <div
+          className={`absolute top-1 left-1 text-[7px] font-black bg-black/70 px-1.5 py-0.5 uppercase tracking-wider ${badgeColor}`}
+        >
+          {badge}
+        </div>
+      )}
+      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-150 flex items-center justify-center">
+        <span className="text-white/0 group-hover:text-white/70 text-xl transition-all duration-150 drop-shadow-lg">
+          ⊕
+        </span>
+      </div>
+    </div>
+  );
+}
+
+// ── Main Panel ────────────────────────────────────────────────────────────────
+export default function BeffFlipPanel({ gender, slot, item, onClose }) {
+  const flipType = getFlipType(slot);
+  const c1Drives = flipType === "c1_drives";
+  const baselines = getBaselines(gender, slot);
+  const companion = getFlipCompanion(slot);
+
+  const [c1BaseIdx, setC1BaseIdx] = useState(0);
+  const [c1Texture, setC1Texture] = useState(item?.texture ?? 0);
+  const [copied, setCopied] = useState(null);
+  const [lightbox, setLightbox] = useState(null);
+
+  useEffect(() => {
+    if (c1Drives) setC1Texture(item?.texture ?? 0);
+  }, [item, c1Drives]);
+
+  // Escape only closes the panel if the lightbox isn't open
+  useEffect(() => {
+    const h = (e) => {
+      if (e.key === "Escape" && !lightbox) onClose();
+    };
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
+  }, [onClose, lightbox]);
+
+  const closeLightbox = useCallback(() => setLightbox(null), []);
+
   if (!item) return null;
 
   const { drawable: itemDraw, texture: itemTex, flip, label, dlc } = item;
 
-  // ── C1 / C2 resolution ───────────────────────────────────────────────────
-  //
-  // c1_drives (jbib / task / p_head):
-  //   C1 = palette drawable + texture you pick → sets color
-  //   C2 = your piece + texture 0 ("any texture works")
-  //   Result = your piece in C1's color
-  //
-  // c2_drives (everything else):
-  //   C1 = your item at tex 0 (fixed)
-  //   C2 = flip piece at the texture you selected from the grid (itemTex)
-  //   Result = your item at that texture
-  //
   let c1Slot, c1Draw, c1TexFinal, c2Draw, c2Tex, resultDraw, resultTex;
 
   if (c1Drives) {
@@ -72,19 +155,23 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
   const resultImg =
     flip?.result_img ?? imgPath(gender, slot, resultDraw, resultTex);
 
-  const c1Call = buildCall(c1Slot, c1Draw, c1TexFinal);
-  const c2Call = buildCall(slot, c2Draw, c2Tex);
-
   const copy = (id, value) => {
     navigator.clipboard?.writeText(value);
     setCopied(id);
     setTimeout(() => setCopied(null), 1500);
   };
 
-  const totalTextures = baselines[c1BaseIdx]?.textures ?? 0;
-
   return (
     <>
+      {lightbox && (
+        <Lightbox
+          src={lightbox.src}
+          alt={lightbox.alt}
+          meta={lightbox.meta}
+          onClose={closeLightbox}
+        />
+      )}
+
       <div
         className="fixed inset-0 bg-black/60 z-40 backdrop-blur-sm"
         onClick={onClose}
@@ -169,32 +256,31 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
               <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
                 {c1Drives ? "Step 1 — C1 (Color)" : "Step 1 — C1 (Your Item)"}
               </div>
-              <div className="w-full aspect-square bg-panel border border-border-subtle overflow-hidden relative max-w-40">
-                <img
-                  src={imgPath(gender, c1Slot, c1Draw, c1TexFinal)}
-                  alt="C1"
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.target.src = placeholderImg(c1Slot, c1Draw, c1TexFinal);
-                  }}
-                />
-                <div className="absolute top-1 left-1 text-[7px] font-black bg-black/70 text-accent/70 px-1.5 py-0.5 uppercase tracking-wider">
-                  {c1Slot.toUpperCase()}
-                </div>
-              </div>
+              <ZoomableImage
+                src={imgPath(gender, c1Slot, c1Draw, c1TexFinal)}
+                alt="C1"
+                badge={c1Slot.toUpperCase()}
+                badgeColor="text-accent/70"
+                onError={(e) => {
+                  e.target.src = placeholderImg(c1Slot, c1Draw, c1TexFinal);
+                }}
+                lightboxMeta={{
+                  slot: c1Slot.toUpperCase(),
+                  drawable: c1Draw,
+                  texture: c1TexFinal,
+                  caption: c1Drives
+                    ? "Step 1 — Color Source"
+                    : "Step 1 — Your Item",
+                }}
+                onZoom={setLightbox}
+              />
               <div className="text-center w-full">
                 <div className="text-[11px] font-black font-mono text-accent">
                   {c1Slot.toUpperCase()} {c1Draw} / {c1TexFinal}
                 </div>
-                {c1Drives ? (
-                  <div className="text-[8px] text-white/30 mt-1">
-                    Texture sets the color
-                  </div>
-                ) : (
-                  <div className="text-[8px] text-white/30 mt-1">
-                    Any texture works
-                  </div>
-                )}
+                <div className="text-[8px] text-white/30 mt-1">
+                  {c1Drives ? "Texture sets the color" : "Any texture works"}
+                </div>
               </div>
             </div>
 
@@ -203,32 +289,31 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
               <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
                 {c1Drives ? "Step 2 — C2 (Piece)" : "Step 2 — C2 (Flip Piece)"}
               </div>
-              <div className="w-full aspect-square bg-panel border border-accent/30 overflow-hidden relative max-w-40">
-                <img
-                  src={imgPath(gender, slot, c2Draw, c2Tex)}
-                  alt="C2"
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.target.src = placeholderImg(slot, c2Draw, c2Tex);
-                  }}
-                />
-                <div className="absolute top-1 left-1 text-[7px] font-black bg-black/70 text-accent px-1.5 py-0.5 uppercase tracking-wider">
-                  {slot.toUpperCase()}
-                </div>
-              </div>
+              <ZoomableImage
+                src={imgPath(gender, slot, c2Draw, c2Tex)}
+                alt="C2"
+                badge={slot.toUpperCase()}
+                badgeColor="text-accent"
+                onError={(e) => {
+                  e.target.src = placeholderImg(slot, c2Draw, c2Tex);
+                }}
+                lightboxMeta={{
+                  slot: slot.toUpperCase(),
+                  drawable: c2Draw,
+                  texture: c2Tex,
+                  caption: c1Drives ? "Step 2 — Piece" : "Step 2 — Flip Piece",
+                }}
+                onZoom={setLightbox}
+              />
               <div className="text-center w-full">
                 <div className="text-[11px] font-black font-mono text-accent">
                   {slot.toUpperCase()} {c2Draw} / {c2Tex}
                 </div>
-                {c1Drives ? (
-                  <div className="text-[8px] text-white/25 mt-1 italic">
-                    Any texture works here
-                  </div>
-                ) : (
-                  <div className="text-[8px] text-white/30 mt-1">
-                    Texture sets the color
-                  </div>
-                )}
+                <div className="text-[8px] text-white/30 mt-1">
+                  {c1Drives
+                    ? "Any texture works here"
+                    : "Texture sets the color"}
+                </div>
               </div>
             </div>
 
@@ -237,28 +322,23 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
               <div className="text-[8px] font-black uppercase tracking-[.2em] text-white/30 mb-1">
                 Result
               </div>
-              <div className="w-full aspect-square bg-panel border border-border-subtle overflow-hidden relative max-w-40">
-                <img
-                  src={resultImg}
-                  alt="Result"
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.target.style.display = "none";
-                    e.target.nextSibling.style.display = "flex";
-                  }}
-                />
-                <div
-                  className="absolute inset-0 items-center justify-center flex-col gap-1 bg-panel"
-                  style={{ display: "none" }}
-                >
-                  <span className="text-accent/10 text-3xl font-black italic">
-                    SC
-                  </span>
-                  <span className="text-white/15 text-[8px] uppercase tracking-widest text-center px-3">
-                    No image
-                  </span>
-                </div>
-              </div>
+              <ZoomableImage
+                src={resultImg}
+                alt="Result"
+                badge={null}
+                onError={(e) => {
+                  e.target.style.display = "none";
+                  e.target.nextSibling.style.display = "flex";
+                }}
+                lightboxMeta={{
+                  slot: slot.toUpperCase(),
+                  drawable: resultDraw,
+                  texture: resultTex,
+                  label: label || undefined,
+                  caption: "Your Final Look",
+                }}
+                onZoom={setLightbox}
+              />
               <div className="text-center w-full">
                 <div className="text-[11px] font-black font-mono text-accent">
                   {slot.toUpperCase()} {resultDraw} / {resultTex}
@@ -275,28 +355,32 @@ export default function BeffFlipPanel({ gender, slot, item, onClose }) {
                 <div className="text-[8px] font-black uppercase tracking-[.2em] text-blue-400/50 mb-1">
                   Also Equip
                 </div>
-                <div className="w-full aspect-square bg-panel border border-blue-400/20 overflow-hidden relative max-w-40">
-                  <img
-                    src={imgPath(
-                      gender,
+                <ZoomableImage
+                  src={imgPath(
+                    gender,
+                    companion.slot,
+                    companion.drawable,
+                    companion.texture,
+                  )}
+                  alt={companion.label}
+                  badge={companion.slot.toUpperCase()}
+                  badgeColor="text-blue-400/70"
+                  onError={(e) => {
+                    e.target.src = placeholderImg(
                       companion.slot,
                       companion.drawable,
                       companion.texture,
-                    )}
-                    alt={companion.label}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      e.target.src = placeholderImg(
-                        companion.slot,
-                        companion.drawable,
-                        companion.texture,
-                      );
-                    }}
-                  />
-                  <div className="absolute top-1 left-1 text-[7px] font-black bg-black/70 text-blue-400/70 px-1.5 py-0.5 uppercase tracking-wider">
-                    {companion.slot.toUpperCase()}
-                  </div>
-                </div>
+                    );
+                  }}
+                  lightboxMeta={{
+                    slot: companion.slot.toUpperCase(),
+                    drawable: companion.drawable,
+                    texture: companion.texture,
+                    label: companion.label,
+                    caption: "Required to Activate Flip",
+                  }}
+                  onZoom={setLightbox}
+                />
                 <div className="text-center w-full">
                   <div className="text-[11px] font-black text-blue-400/80">
                     {companion.label}
