@@ -53,7 +53,7 @@ export default function BeffBrowser() {
         path="/beff/components"
       />
 
-      <div className="max-w-7xl mx-auto px-4 md:px-6 pt-20 pb-20">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 pt-16 sm:pt-20 pb-20">
         {/* Page header */}
         <header className="mb-6 border-b border-border-subtle/60 pb-5">
           <div className="flex items-center gap-3 mb-2">
@@ -62,15 +62,15 @@ export default function BeffBrowser() {
               Operative Tools — BEFF
             </span>
           </div>
-          <div className="flex items-end justify-between gap-4">
-            <h1 className="text-3xl md:text-4xl font-black uppercase italic tracking-tighter">
+          <div className="flex items-end justify-between gap-3">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-black uppercase italic tracking-tighter">
               Component <span className="text-accent">Browser</span>
             </h1>
             <Link
               to="/beff/guides"
-              className="shrink-0 text-[9px] font-black uppercase tracking-[.2em] text-white/30 hover:text-accent transition-colors border border-border-subtle hover:border-accent/30 px-4 py-2"
+              className="shrink-0 text-[9px] font-black uppercase tracking-[.2em] text-white/30 hover:text-accent transition-colors border border-border-subtle hover:border-accent/30 px-3 sm:px-4 py-2"
             >
-              Guides & Merging →
+              <span className="hidden sm:inline">Guides & Merging </span>→
             </Link>
           </div>
           <p className="text-white/25 text-[10px] uppercase tracking-widest mt-2">
@@ -79,13 +79,13 @@ export default function BeffBrowser() {
           </p>
         </header>
 
-        {/* Gender toggle */}
-        <div className="flex gap-2 mb-5">
+        {/* Gender + slot controls row */}
+        <div className="flex items-center gap-2 mb-4 sm:mb-5">
           {GENDERS.map((g) => (
             <button
               key={g.id}
               onClick={() => handleGenderChange(g.id)}
-              className={`px-5 py-2.5 text-[10px] font-black uppercase tracking-[.2em] border transition-all ${
+              className={`px-4 sm:px-5 py-2 sm:py-2.5 text-[10px] font-black uppercase tracking-[.2em] border transition-all ${
                 gender === g.id
                   ? "bg-accent text-black border-accent"
                   : "bg-transparent text-white/35 border-border-subtle hover:border-white/25 hover:text-white/60"
@@ -96,7 +96,7 @@ export default function BeffBrowser() {
           ))}
         </div>
 
-        {/* ── Slot bar — horizontal scroll on mobile, sidebar on desktop ── */}
+        {/* Slot bar — horizontal scroll on mobile, sidebar on desktop */}
         <div className="lg:hidden mb-4">
           <div className="overflow-x-auto pb-2 -mx-4 px-4">
             <div className="flex gap-2 min-w-max">
@@ -104,13 +104,17 @@ export default function BeffBrowser() {
                 <button
                   key={s.id}
                   onClick={() => handleSlotChange(s.id)}
-                  className={`shrink-0 px-3 py-2 text-[9px] font-black uppercase tracking-wider border transition-all ${
+                  className={`shrink-0 px-3 py-2 text-left border transition-all ${
                     slot === s.id
                       ? "border-accent/60 bg-accent/5 text-accent"
                       : "border-border-subtle bg-transparent text-white/35"
                   }`}
                 >
-                  {s.label}
+                  {/* Mobile: show desc as primary, label as sub */}
+                  <div className="text-[9px] font-black uppercase tracking-wider">
+                    {s.desc}
+                  </div>
+                  <div className="text-[7px] opacity-50 mt-0.5">{s.label}</div>
                 </button>
               ))}
             </div>
@@ -147,7 +151,6 @@ export default function BeffBrowser() {
 
           {/* Main content */}
           <div className="lg:col-span-10 flex flex-col gap-4 min-w-0">
-            {/* Detail panel — full width, no overflow clipping */}
             {selected && (
               <div className="w-full overflow-x-auto">
                 <BeffDetailPanel
