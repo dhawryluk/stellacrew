@@ -192,7 +192,7 @@ export default function BeffDetailPanel({
               tex {activeTex}
             </span>
             {currentItem?.label && (
-              <span className="text-[9px] font-black text-accent/50 bg-black/50 px-2 py-1 max-w-[160px] truncate">
+              <span className="text-[9px] font-black text-accent/50 bg-black/50 px-2 py-1 max-w-40 truncate">
                 {currentItem.label}
               </span>
             )}

@@ -19,7 +19,7 @@ function Lightbox({ src, alt, meta, onClose }) {
 
   return createPortal(
     <div
-      className="fixed inset-0 z-[999] flex flex-col items-center justify-center bg-black/90 backdrop-blur-md cursor-zoom-out"
+      className="fixed inset-0 z-999 flex flex-col items-center justify-center bg-black/90 backdrop-blur-md cursor-zoom-out"
       onClick={onClose}
     >
       <div

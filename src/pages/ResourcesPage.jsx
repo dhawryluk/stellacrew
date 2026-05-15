@@ -9,6 +9,7 @@ import GarageManifest from "../components/GarageManifest";
 import ExternalAssets from "../components/ExternalAssets";
 import SEO from "../components/SEO";
 import Donation from "../components/Donation";
+import BeffHero from "../components/Beffhero";
 
 export default function ResourcesPage() {
   const [activePlatform, setActivePlatform] = useState("PlayStation");
@@ -44,7 +45,8 @@ export default function ResourcesPage() {
         path="/resources"
       />
       <div className="max-w-6xl mx-auto">
-        <ResourceHero />
+        {/* <ResourceHero /> */}
+        <BeffHero />
         <TacticalUtilities categories={resourceCategories} />
         <SystemStatus />
         <GarageManifest />
