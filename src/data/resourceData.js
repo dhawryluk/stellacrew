@@ -19,11 +19,11 @@ export const resourceCategories = [
     label: "Intelligence Database",
     resources: [
       {
-        name: "BEFF ID Masterlist",
+        name: "BEFF Component Index",
         desc: "Complete database of component IDs for Outfits",
         link: "/beff/components",
         type: "DATABASE",
-        comingSoon: true,
+        comingSoon: false,
       },
     ],
   },
