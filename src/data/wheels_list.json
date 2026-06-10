@@ -1,6 +1,6 @@
 {
   "bennys_originals": [
-    { "id": 0, "category": "Benny's Original", "name": "Stock", "img": "/no-stock.png" },
+    { "id": 0, "category": "Benny's Original", "name": "Stock", "img": "/og/stockWheels.png" },
     {
       "id": 1,
       "category": "Benny's Original",
@@ -191,7 +191,7 @@
     }
   ],
   "bespoke": [
-    { "id": 0, "category": "Bespoke", "name": "Stock", "img": "/no-stock.png" },
+    { "id": 0, "category": "Bespoke", "name": "Stock", "img": "/og/stockWheels.png" },
     {
       "id": 1,
       "category": "Bespoke",
