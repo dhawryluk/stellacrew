@@ -14822,7 +14822,7 @@
   {
     "drawable": 150,
     "texture": 22,
-    "label": "Blue Güffy Beach",
+    "label": "Blue G\u00fcffy Beach",
     "gxt": "CLO_X6F_L_1_22",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_LEGS_1_22",
@@ -14832,7 +14832,7 @@
   {
     "drawable": 150,
     "texture": 23,
-    "label": "Pink Güffy Beach",
+    "label": "Pink G\u00fcffy Beach",
     "gxt": "CLO_X6F_L_1_23",
     "dlc": "mp_f_christmas3",
     "nameHash": "DLC_MP_X22_F_LEGS_1_23",
@@ -18732,7 +18732,7 @@
   {
     "drawable": 231,
     "texture": 6,
-    "label": "Hot Pink Tie-Dye Güffy Shorts",
+    "label": "Hot Pink Tie-Dye G\u00fcffy Shorts",
     "gxt": "",
     "dlc": "unknown",
     "nameHash": "",
@@ -18742,7 +18742,7 @@
   {
     "drawable": 231,
     "texture": 7,
-    "label": "Emerald Tie-Dye Güffy Shorts",
+    "label": "Emerald Tie-Dye G\u00fcffy Shorts",
     "gxt": "",
     "dlc": "unknown",
     "nameHash": "",
@@ -19054,6 +19054,186 @@
     "texture": 0,
     "label": "",
     "gxt": "",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 246,
+    "texture": 0,
+    "label": "Sprunk Cuffed Sweats",
+    "gxt": "CLO_SFF_L_0_0",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 246,
+    "texture": 1,
+    "label": "eCola Cuffed Sweats",
+    "gxt": "CLO_SFF_L_0_1",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 246,
+    "texture": 2,
+    "label": "Junk Cuffed Sweats",
+    "gxt": "CLO_SFF_L_0_2",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 246,
+    "texture": 3,
+    "label": "WCC Cuffed Sweats",
+    "gxt": "CLO_SFF_L_0_3",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 246,
+    "texture": 4,
+    "label": "Camo Ammu-Nation Cuffed Sweats",
+    "gxt": "CLO_SFF_L_0_4",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 246,
+    "texture": 5,
+    "label": "Retro Fruit Cuffed Sweats",
+    "gxt": "CLO_SFF_L_0_5",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 246,
+    "texture": 6,
+    "label": "Impotent Rage Cuffed Sweats",
+    "gxt": "CLO_SFF_L_0_6",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 246,
+    "texture": 7,
+    "label": "Yeti x LS Customs Cuffed Sweats",
+    "gxt": "CLO_SFF_L_0_7",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 246,
+    "texture": 8,
+    "label": "Rebel Radio Cuffed Sweats",
+    "gxt": "CLO_SFF_L_0_8",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 246,
+    "texture": 9,
+    "label": "Princess Racing Cuffed Sweats",
+    "gxt": "CLO_SFF_L_0_9",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 247,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 248,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 249,
+    "texture": 0,
+    "label": "Ride or Die Jeans",
+    "gxt": "CLO_SFF_L_3_0",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 249,
+    "texture": 1,
+    "label": "Bigness Patchwork Jeans",
+    "gxt": "CLO_SFF_L_3_1",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 250,
+    "texture": 0,
+    "label": "Blagueurs Star Cuffed Sweats",
+    "gxt": "CLO_SFF_L_4_0",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 250,
+    "texture": 1,
+    "label": "Blue Fade G\u00fcffy Cuffed Sweats",
+    "gxt": "CLO_SFF_L_4_1",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 250,
+    "texture": 2,
+    "label": "Blue Camo Yeti Cuffed Sweats",
+    "gxt": "CLO_SFF_L_4_2",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 250,
+    "texture": 3,
+    "label": "Trickster Skull Cuffed Sweats",
+    "gxt": "CLO_SFF_L_4_3",
     "dlc": "unknown",
     "nameHash": "",
     "featured": false,

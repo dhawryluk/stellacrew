@@ -11622,7 +11622,7 @@
   {
     "drawable": 109,
     "texture": 10,
-    "label": "Floral Güffy Pool Sliders",
+    "label": "Floral G\u00fcffy Pool Sliders",
     "gxt": "",
     "dlc": "unknown",
     "nameHash": "",
@@ -11632,7 +11632,7 @@
   {
     "drawable": 109,
     "texture": 11,
-    "label": "Green Güffy Pool Sliders",
+    "label": "Green G\u00fcffy Pool Sliders",
     "gxt": "",
     "dlc": "unknown",
     "nameHash": "",
@@ -11642,7 +11642,7 @@
   {
     "drawable": 109,
     "texture": 12,
-    "label": "White Güffy Pool Sliders",
+    "label": "White G\u00fcffy Pool Sliders",
     "gxt": "",
     "dlc": "unknown",
     "nameHash": "",
@@ -12882,7 +12882,7 @@
   {
     "drawable": 117,
     "texture": 2,
-    "label": "Magenta Leopard Güffy Canvas",
+    "label": "Magenta Leopard G\u00fcffy Canvas",
     "gxt": "CLO_SBM_F_2_2",
     "dlc": "mp_m_sum2",
     "nameHash": "DLC_MP_SUM2_M_FEET_2_2",
@@ -12892,7 +12892,7 @@
   {
     "drawable": 117,
     "texture": 3,
-    "label": "Cyan Leopard Güffy Canvas",
+    "label": "Cyan Leopard G\u00fcffy Canvas",
     "gxt": "CLO_SBM_F_2_3",
     "dlc": "mp_m_sum2",
     "nameHash": "DLC_MP_SUM2_M_FEET_2_3",
@@ -12902,7 +12902,7 @@
   {
     "drawable": 117,
     "texture": 4,
-    "label": "Moss Leopard Güffy Canvas",
+    "label": "Moss Leopard G\u00fcffy Canvas",
     "gxt": "CLO_SBM_F_2_4",
     "dlc": "mp_m_sum2",
     "nameHash": "DLC_MP_SUM2_M_FEET_2_4",
@@ -15422,7 +15422,7 @@
   {
     "drawable": 152,
     "texture": 0,
-    "label": "Cyan Güffy Hi Top Sneakers",
+    "label": "Cyan G\u00fcffy Hi Top Sneakers",
     "gxt": "",
     "dlc": "unknown",
     "nameHash": "",
@@ -15432,7 +15432,7 @@
   {
     "drawable": 152,
     "texture": 1,
-    "label": "Magenta Güffy Hi Top Sneakers",
+    "label": "Magenta G\u00fcffy Hi Top Sneakers",
     "gxt": "",
     "dlc": "unknown",
     "nameHash": "",
@@ -15572,7 +15572,7 @@
   {
     "drawable": 160,
     "texture": 0,
-    "label": "Cyan Güffy Hi Top Sneakers",
+    "label": "Cyan G\u00fcffy Hi Top Sneakers",
     "gxt": "",
     "dlc": "unknown",
     "nameHash": "",
@@ -15582,7 +15582,7 @@
   {
     "drawable": 160,
     "texture": 1,
-    "label": "Magenta Güffy Hi Top Sneakers",
+    "label": "Magenta G\u00fcffy Hi Top Sneakers",
     "gxt": "",
     "dlc": "unknown",
     "nameHash": "",
@@ -15771,6 +15771,26 @@
   },
   {
     "drawable": 163,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 164,
+    "texture": 0,
+    "label": "",
+    "gxt": "",
+    "dlc": "unknown",
+    "nameHash": "",
+    "featured": false,
+    "flip": null
+  },
+  {
+    "drawable": 165,
     "texture": 0,
     "label": "",
     "gxt": "",
