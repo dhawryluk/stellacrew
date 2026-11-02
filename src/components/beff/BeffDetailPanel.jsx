@@ -100,6 +100,8 @@ export default function BeffDetailPanel({
             }`}
           >
             <img
+              loading="lazy"
+              decoding="async"
               src={imgPath(gender, slot, drawable, t)}
               alt={`tex ${t}`}
               className="w-full h-full object-cover"
@@ -140,6 +142,8 @@ export default function BeffDetailPanel({
               }`}
             >
               <img
+                loading="lazy"
+                decoding="async"
                 src={imgPath(gender, slot, drawable, t)}
                 alt={`tex ${t}`}
                 className="w-full h-full object-cover"
@@ -166,6 +170,8 @@ export default function BeffDetailPanel({
           w-full min-h-56 max-h-72
           md:flex-1 md:min-h-80 md:max-h-none">
           <img
+            loading="lazy"
+            decoding="async"
             src={imgPath(gender, slot, drawable, activeTex)}
             alt={`${slot} ${drawable}_${activeTex}`}
             className="w-full h-full object-contain max-h-72 md:max-h-130"
@@ -271,6 +277,8 @@ export default function BeffDetailPanel({
               <div className="flex items-center gap-2.5">
                 <div className="w-10 h-10 shrink-0 bg-panel border border-border-subtle overflow-hidden">
                   <img
+                    loading="lazy"
+                    decoding="async"
                     src={imgPath(gender, companion.slot, companion.drawable, companion.texture)}
                     alt={companion.label}
                     className="w-full h-full object-cover"

@@ -117,6 +117,8 @@ export default function BeffComponentGrid({
                 }`}
               >
                 <img
+                  loading="lazy"
+                  decoding="async"
                   src={imgPath(gender, slot, drawable, 0)}
                   alt={`${slot} ${drawable}`}
                   className="w-full h-auto block"

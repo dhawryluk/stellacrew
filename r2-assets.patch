@@ -1,0 +1,230 @@
+diff --git a/.gitignore b/.gitignore
+index 7101d8e..4d66cfc 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -25,3 +25,7 @@ dist-ssr
+ *.sln
+ *.sw?
+ 
++
++# Heavy assets live in Cloudflare R2 (see VITE_ASSET_BASE)
++public/beff
++public/models
+diff --git a/src/components/Editor/CarPreview.jsx b/src/components/Editor/CarPreview.jsx
+index f461282..fc7735f 100644
+--- a/src/components/Editor/CarPreview.jsx
++++ b/src/components/Editor/CarPreview.jsx
+@@ -7,6 +7,7 @@ import { Scene } from "./CarModel.jsx";
+ import VehicleTabRow from "./VehicleTabRow.jsx";
+ import WheelHud from "./WheelHud.jsx";
+ import PaintHud from "./PaintHud.jsx";
++import { assetUrl } from "../beff/useBeff";
+ 
+ // ─── MAIN EXPORT ──────────────────────────────────────────────────────────────
+ export default function CarPreview({
+@@ -29,7 +30,7 @@ export default function CarPreview({
+   const enrichedConfig = useMemo(
+     () => ({
+       ...config,
+-      _modelPath: activeVehicle.model,
++      _modelPath: assetUrl(activeVehicle.model),
+       crew: { ...config.crew, active: crewVisible, target: crewTarget },
+     }),
+     [config, crewVisible, crewTarget, activeVehicle],
+diff --git a/src/components/beff/BeffComponentGrid.jsx b/src/components/beff/BeffComponentGrid.jsx
+index 4da76b4..069a2c3 100644
+--- a/src/components/beff/BeffComponentGrid.jsx
++++ b/src/components/beff/BeffComponentGrid.jsx
+@@ -117,6 +117,8 @@ export default function BeffComponentGrid({
+                 }`}
+               >
+                 <img
++                  loading="lazy"
++                  decoding="async"
+                   src={imgPath(gender, slot, drawable, 0)}
+                   alt={`${slot} ${drawable}`}
+                   className="w-full h-auto block"
+diff --git a/src/components/beff/BeffDetailPanel.jsx b/src/components/beff/BeffDetailPanel.jsx
+index 8f2714d..f6b5cdb 100644
+--- a/src/components/beff/BeffDetailPanel.jsx
++++ b/src/components/beff/BeffDetailPanel.jsx
+@@ -100,6 +100,8 @@ export default function BeffDetailPanel({
+             }`}
+           >
+             <img
++              loading="lazy"
++              decoding="async"
+               src={imgPath(gender, slot, drawable, t)}
+               alt={`tex ${t}`}
+               className="w-full h-full object-cover"
+@@ -140,6 +142,8 @@ export default function BeffDetailPanel({
+               }`}
+             >
+               <img
++                loading="lazy"
++                decoding="async"
+                 src={imgPath(gender, slot, drawable, t)}
+                 alt={`tex ${t}`}
+                 className="w-full h-full object-cover"
+@@ -166,6 +170,8 @@ export default function BeffDetailPanel({
+           w-full min-h-56 max-h-72
+           md:flex-1 md:min-h-80 md:max-h-none">
+           <img
++            loading="lazy"
++            decoding="async"
+             src={imgPath(gender, slot, drawable, activeTex)}
+             alt={`${slot} ${drawable}_${activeTex}`}
+             className="w-full h-full object-contain max-h-72 md:max-h-130"
+@@ -271,6 +277,8 @@ export default function BeffDetailPanel({
+               <div className="flex items-center gap-2.5">
+                 <div className="w-10 h-10 shrink-0 bg-panel border border-border-subtle overflow-hidden">
+                   <img
++                    loading="lazy"
++                    decoding="async"
+                     src={imgPath(gender, companion.slot, companion.drawable, companion.texture)}
+                     alt={companion.label}
+                     className="w-full h-full object-cover"
+diff --git a/src/components/beff/BeffFlipPanel.jsx b/src/components/beff/BeffFlipPanel.jsx
+index 3aa0c8b..6efdd84 100644
+--- a/src/components/beff/BeffFlipPanel.jsx
++++ b/src/components/beff/BeffFlipPanel.jsx
+@@ -27,6 +27,8 @@ function Lightbox({ src, alt, meta, onClose }) {
+         onClick={(e) => e.stopPropagation()}
+       >
+         <img
++          loading="lazy"
++          decoding="async"
+           src={src}
+           alt={alt}
+           className="max-w-full max-h-[75vh] object-contain border border-white/10 shadow-2xl"
+@@ -65,6 +67,8 @@ function ZoomableImage({ src, alt, badge, badgeColor = "text-accent/70", onError
+       onClick={() => onZoom({ src, alt, meta: lightboxMeta })}
+     >
+       <img
++        loading="lazy"
++        decoding="async"
+         src={src}
+         alt={alt}
+         className="w-full h-full object-cover transition-transform duration-200 group-hover:scale-105"
+diff --git a/src/components/beff/BeffGenderSwapPanel.jsx b/src/components/beff/BeffGenderSwapPanel.jsx
+index c204d1b..f6d73f0 100644
+--- a/src/components/beff/BeffGenderSwapPanel.jsx
++++ b/src/components/beff/BeffGenderSwapPanel.jsx
+@@ -136,6 +136,8 @@ export default function BeffGenderSwapPanel({
+                     {sourceItem ? (
+                       <div className="aspect-square bg-panel border border-border-subtle overflow-hidden relative">
+                         <img
++                          loading="lazy"
++                          decoding="async"
+                           src={imgPath(gender, slot, drawable, activeTex)}
+                           alt={`${sourceLabel} ${slot} ${drawable} ${activeTex}`}
+                           className="w-full h-full object-cover"
+@@ -180,6 +182,8 @@ export default function BeffGenderSwapPanel({
+                     {oppositeItem ? (
+                       <div className="aspect-square bg-panel border border-accent/20 overflow-hidden relative">
+                         <img
++                          loading="lazy"
++                          decoding="async"
+                           src={imgPath(
+                             oppositeGender,
+                             slot,
+@@ -241,6 +245,8 @@ export default function BeffGenderSwapPanel({
+                           }`}
+                         >
+                           <img
++                            loading="lazy"
++                            decoding="async"
+                             src={imgPath(
+                               oppositeGender,
+                               slot,
+diff --git a/src/components/beff/useBeff.js b/src/components/beff/useBeff.js
+index 998b74b..3408aa6 100644
+--- a/src/components/beff/useBeff.js
++++ b/src/components/beff/useBeff.js
+@@ -281,9 +281,18 @@ export function getBaselines(gender, slot) {
+ // ─── Image paths ──────────────────────────────────────────────────────────────
+ // Both components and props: {folderNum}_{drawable}_{texture}.jpg
+ // e.g. public/beff/m/accs/8_0_0.jpg  |  public/beff/m/p_head/12_0_0.jpg
++// Heavy static assets (BEFF thumbnails, 3D models) are served from Cloudflare R2.
++// Set VITE_ASSET_BASE (e.g. https://assets.example.com) in the host's env vars.
++// When unset (local dev), everything falls back to same-origin /public paths.
++export const ASSET_BASE = (import.meta.env.VITE_ASSET_BASE ?? "").replace(/\/$/, "");
++
++export function assetUrl(path) {
++  return `${ASSET_BASE}${path}`;
++}
++
+ export function imgPath(gender, slot, drawable, texture) {
+   const { folderNum } = SLOT_MAP[slot] ?? {};
+-  return `/beff/${gender}/${slot}/${folderNum}_${drawable}_${texture}.jpg`;
++  return assetUrl(`/beff/${gender}/${slot}/${folderNum}_${drawable}_${texture}.jpg`);
+ }
+ 
+ export function placeholderImg(slot, drawable, texture) {
+diff --git a/src/pages/BeffGuides.jsx b/src/pages/BeffGuides.jsx
+index 01ebde6..4c556e8 100644
+--- a/src/pages/BeffGuides.jsx
++++ b/src/pages/BeffGuides.jsx
+@@ -212,6 +212,8 @@ function GuideCard({ guide }) {
+           <div className="flex">
+             <div className="flex-1 relative overflow-hidden">
+               <img
++                loading="lazy"
++                decoding="async"
+                 src={imgPath(
+                   guide.gender,
+                   guide.result.slot,
+@@ -236,6 +238,8 @@ function GuideCard({ guide }) {
+         ) : isTorso1 ? (
+           <div className="relative overflow-hidden">
+             <img
++              loading="lazy"
++              decoding="async"
+               src={
+                 guide.result
+                   ? imgPath(
+@@ -279,6 +283,8 @@ function GuideCard({ guide }) {
+         ) : (
+           <div className="relative overflow-hidden">
+             <img
++              loading="lazy"
++              decoding="async"
+               src={guide.preview}
+               alt={guide.name}
+               className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-300"
+@@ -441,6 +447,8 @@ function MergingContent({ gender, sections }) {
+             >
+               <div className="w-10 h-10 shrink-0 bg-bg border border-border-subtle overflow-hidden">
+                 <img
++                  loading="lazy"
++                  decoding="async"
+                   src={imgPath(gender, bag.slot, bag.drawable, bag.texture)}
+                   alt={bag.label}
+                   className="w-full h-full object-contain"
+@@ -525,6 +533,8 @@ function MergingContent({ gender, sections }) {
+                         <>
+                           <div className="w-full bg-bg border border-border-subtle overflow-hidden relative">
+                             <img
++                              loading="lazy"
++                              decoding="async"
+                               src={imgPath(
+                                 gender,
+                                 combo.c1.slot,
+@@ -578,6 +588,8 @@ function MergingContent({ gender, sections }) {
+                         <>
+                           <div className="w-full bg-bg border border-accent/20 overflow-hidden relative">
+                             <img
++                              loading="lazy"
++                              decoding="async"
+                               src={imgPath(
+                                 gender,
+                                 combo.c2.slot,
+@@ -625,6 +637,8 @@ function MergingContent({ gender, sections }) {
+                     <div className="flex items-center gap-2">
+                       <div className="w-6 h-6 shrink-0 bg-bg border border-border-subtle overflow-hidden">
+                         <img
++                          loading="lazy"
++                          decoding="async"
+                           src={imgPath(
+                             gender,
+                             bagInfo.slot,

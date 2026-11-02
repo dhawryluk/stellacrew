@@ -27,6 +27,8 @@ function Lightbox({ src, alt, meta, onClose }) {
         onClick={(e) => e.stopPropagation()}
       >
         <img
+          loading="lazy"
+          decoding="async"
           src={src}
           alt={alt}
           className="max-w-full max-h-[75vh] object-contain border border-white/10 shadow-2xl"
@@ -65,6 +67,8 @@ function ZoomableImage({ src, alt, badge, badgeColor = "text-accent/70", onError
       onClick={() => onZoom({ src, alt, meta: lightboxMeta })}
     >
       <img
+        loading="lazy"
+        decoding="async"
         src={src}
         alt={alt}
         className="w-full h-full object-cover transition-transform duration-200 group-hover:scale-105"

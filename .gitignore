@@ -25,3 +25,7 @@ dist-ssr
 *.sln
 *.sw?
 
+
+# Heavy assets live in Cloudflare R2 (see VITE_ASSET_BASE)
+public/beff
+public/models

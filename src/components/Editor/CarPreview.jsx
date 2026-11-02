@@ -7,6 +7,7 @@ import { Scene } from "./CarModel.jsx";
 import VehicleTabRow from "./VehicleTabRow.jsx";
 import WheelHud from "./WheelHud.jsx";
 import PaintHud from "./PaintHud.jsx";
+import { assetUrl } from "../beff/useBeff";
 
 // ─── MAIN EXPORT ──────────────────────────────────────────────────────────────
 export default function CarPreview({
@@ -29,7 +30,7 @@ export default function CarPreview({
   const enrichedConfig = useMemo(
     () => ({
       ...config,
-      _modelPath: activeVehicle.model,
+      _modelPath: assetUrl(activeVehicle.model),
       crew: { ...config.crew, active: crewVisible, target: crewTarget },
     }),
     [config, crewVisible, crewTarget, activeVehicle],

@@ -136,6 +136,8 @@ export default function BeffGenderSwapPanel({
                     {sourceItem ? (
                       <div className="aspect-square bg-panel border border-border-subtle overflow-hidden relative">
                         <img
+                          loading="lazy"
+                          decoding="async"
                           src={imgPath(gender, slot, drawable, activeTex)}
                           alt={`${sourceLabel} ${slot} ${drawable} ${activeTex}`}
                           className="w-full h-full object-cover"
@@ -180,6 +182,8 @@ export default function BeffGenderSwapPanel({
                     {oppositeItem ? (
                       <div className="aspect-square bg-panel border border-accent/20 overflow-hidden relative">
                         <img
+                          loading="lazy"
+                          decoding="async"
                           src={imgPath(
                             oppositeGender,
                             slot,
@@ -241,6 +245,8 @@ export default function BeffGenderSwapPanel({
                           }`}
                         >
                           <img
+                            loading="lazy"
+                            decoding="async"
                             src={imgPath(
                               oppositeGender,
                               slot,

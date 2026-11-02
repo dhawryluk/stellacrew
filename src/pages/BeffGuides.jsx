@@ -212,6 +212,8 @@ function GuideCard({ guide }) {
           <div className="flex">
             <div className="flex-1 relative overflow-hidden">
               <img
+                loading="lazy"
+                decoding="async"
                 src={imgPath(
                   guide.gender,
                   guide.result.slot,
@@ -236,6 +238,8 @@ function GuideCard({ guide }) {
         ) : isTorso1 ? (
           <div className="relative overflow-hidden">
             <img
+              loading="lazy"
+              decoding="async"
               src={
                 guide.result
                   ? imgPath(
@@ -279,6 +283,8 @@ function GuideCard({ guide }) {
         ) : (
           <div className="relative overflow-hidden">
             <img
+              loading="lazy"
+              decoding="async"
               src={guide.preview}
               alt={guide.name}
               className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-300"
@@ -441,6 +447,8 @@ function MergingContent({ gender, sections }) {
             >
               <div className="w-10 h-10 shrink-0 bg-bg border border-border-subtle overflow-hidden">
                 <img
+                  loading="lazy"
+                  decoding="async"
                   src={imgPath(gender, bag.slot, bag.drawable, bag.texture)}
                   alt={bag.label}
                   className="w-full h-full object-contain"
@@ -525,6 +533,8 @@ function MergingContent({ gender, sections }) {
                         <>
                           <div className="w-full bg-bg border border-border-subtle overflow-hidden relative">
                             <img
+                              loading="lazy"
+                              decoding="async"
                               src={imgPath(
                                 gender,
                                 combo.c1.slot,
@@ -578,6 +588,8 @@ function MergingContent({ gender, sections }) {
                         <>
                           <div className="w-full bg-bg border border-accent/20 overflow-hidden relative">
                             <img
+                              loading="lazy"
+                              decoding="async"
                               src={imgPath(
                                 gender,
                                 combo.c2.slot,
@@ -625,6 +637,8 @@ function MergingContent({ gender, sections }) {
                     <div className="flex items-center gap-2">
                       <div className="w-6 h-6 shrink-0 bg-bg border border-border-subtle overflow-hidden">
                         <img
+                          loading="lazy"
+                          decoding="async"
                           src={imgPath(
                             gender,
                             bagInfo.slot,

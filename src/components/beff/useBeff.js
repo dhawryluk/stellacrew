@@ -281,9 +281,18 @@ export function getBaselines(gender, slot) {
 // ─── Image paths ──────────────────────────────────────────────────────────────
 // Both components and props: {folderNum}_{drawable}_{texture}.jpg
 // e.g. public/beff/m/accs/8_0_0.jpg  |  public/beff/m/p_head/12_0_0.jpg
+// Heavy static assets (BEFF thumbnails, 3D models) are served from Cloudflare R2.
+// Set VITE_ASSET_BASE (e.g. https://assets.example.com) in the host's env vars.
+// When unset (local dev), everything falls back to same-origin /public paths.
+export const ASSET_BASE = (import.meta.env.VITE_ASSET_BASE ?? "").replace(/\/$/, "");
+
+export function assetUrl(path) {
+  return `${ASSET_BASE}${path}`;
+}
+
 export function imgPath(gender, slot, drawable, texture) {
   const { folderNum } = SLOT_MAP[slot] ?? {};
-  return `/beff/${gender}/${slot}/${folderNum}_${drawable}_${texture}.jpg`;
+  return assetUrl(`/beff/${gender}/${slot}/${folderNum}_${drawable}_${texture}.jpg`);
 }
 
 export function placeholderImg(slot, drawable, texture) {
