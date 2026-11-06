@@ -11,6 +11,18 @@
   --color-locked: rgba(212, 175, 55, 0.1);
   --color-border-subtle: #2a2a2e;
 
+    /* Gold extras */
+  --color-accent-dark: #8a6d1f;
+  --color-accent-glow: rgba(212, 175, 55, 0.45);
+
+  /* Surface extras */
+  --color-panel-light: #25252b;
+
+  /* Vice City / GTA VI */
+  --color-vice-pink: #ff2d95;
+  --color-vice-cyan: #22d3ee;
+  --color-vice-pink-glow: rgba(255, 45, 149, 0.4);
+
   /* Global Scrollbar Colors (Gold) */
   --color-scroll-track: var(--color-bg);
   --color-scroll-thumb: var(--color-accent);

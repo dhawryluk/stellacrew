@@ -9,6 +9,8 @@ import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import FeaturedVideos from "./components/FeaturedVideos";
 import PhilosophyStatement from "./components/PhilosophyStatement";
+import GameSubMenu from "./components/GameSubMenu";
+import Gta6 from "./pages/Gta6";
 import BrandStats from "./components/BrandStats";
 import DiscordInvite from "./components/DiscordInvite";
 import ResourcesPage from "./pages/ResourcesPage";
@@ -47,6 +49,7 @@ function LayoutWrapper({ children }) {
 const HomePage = () => (
   <>
     <Header />
+    <GameSubMenu />
     <PhilosophyStatement />
     <BrandStats />
     <FeaturedVideos />
@@ -65,6 +68,7 @@ export default function App() {
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/stream-overlay" element={<StreamStartingSoon />} />
           <Route path="/resources" element={<ResourcesPage />} />
+          <Route path="/gta6" element={<Gta6 />} />
           <Route path="/car-builder" element={<CarColorEditor />} />
           <Route path="/beff/components" element={<BeffBrowser />} />
           <Route path="/beff/guides" element={<BeffGuides />} />
