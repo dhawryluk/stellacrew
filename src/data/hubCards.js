@@ -7,7 +7,7 @@ export const hubCards = [
     logo: gta5Logo,
     alt: "GTA V",
     title: "OPERATIVE TOOLS",
-    subtitle: "GUIDES - BEFF - MODS",
+    subtitle: "BEFF - CAR BUILDER - UTILITIES",
     frame:
       "linear-gradient(135deg, var(--color-accent-hover), var(--color-accent-dark) 50%, var(--color-accent-hover))",
     glow: "var(--color-accent-glow)",
