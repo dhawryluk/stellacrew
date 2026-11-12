@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import SEO from "../components/SEO";
 import Countdown from "../components/Countdown";
 import gta6Logo from "../assets/gta6-logo.png";
 
@@ -162,23 +163,15 @@ function RegionTimes() {
 export default function Gta6() {
   const live = useIsLive();
 
-  // Page title and description (social share image tags belong in index.html)
-  useEffect(() => {
-    document.title = "GTA 6 Launch Hub: Countdown, Pre-load Times & Prep | StellaCrew";
-    let meta = document.querySelector('meta[name="description"]');
-    if (!meta) {
-      meta = document.createElement("meta");
-      meta.setAttribute("name", "description");
-      document.head.appendChild(meta);
-    }
-    meta.setAttribute(
-      "content",
-      "GTA 6 launches Nov 19, 2026. Live countdown, unlock times by region, pre-load size and times, and launch prep from StellaCrew."
-    );
-  }, []);
-
   return (
     <div className="relative overflow-hidden">
+      <SEO
+        title="GTA 6 Launch Hub"
+        description="GTA 6 launches Nov 19, 2026. Live countdown, unlock times by region, pre-load size and times, and launch prep from Stella Crew."
+        image="/images/share-image-v2.jpg"
+        path="/gta6"
+      />
+
       {/* background glow */}
       <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-vice-pink/15 via-transparent to-vice-cyan/10" />
 

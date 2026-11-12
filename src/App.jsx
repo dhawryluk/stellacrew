@@ -24,8 +24,10 @@ import BeffBrowser from "./pages/BeffBrowser";
 import BeffGuides from "./pages/BeffGuides";
 import BeffGuideDetail from "./pages/BeffGuideDetail";
 import BeffMerging from "./pages/BeffMerging";
+import NotFound from "./pages/NotFound";
 import MerchStrip from "./components/MerchStrip";
 import Footer from "./components/Footer";
+import SEO from "./components/SEO";
 
 function LayoutWrapper({ children }) {
   const location = useLocation();
@@ -48,6 +50,11 @@ function LayoutWrapper({ children }) {
 
 const HomePage = () => (
   <>
+    <SEO
+      title="Architects of Excellence"
+      description="Stella Crew: GTA crew resources, car builder, BEFF reference and GTA 6 launch hub."
+      path="/"
+    />
     <Header />
     <GameSubMenu />
     <PhilosophyStatement />
@@ -76,6 +83,7 @@ export default function App() {
           <Route path="/beff/merging" element={<BeffMerging />} />
           <Route path="/success" element={<SuccessPage />} />
           <Route path="/terms" element={<TermsPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </LayoutWrapper>
     </Router>
