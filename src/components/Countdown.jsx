@@ -15,14 +15,16 @@ export default function Countdown({ target }) {
   const [t, setT] = useState(() => getTimeLeft(target));
 
   useEffect(() => {
-    const id = setInterval(() => setT(getTimeLeft(target)), 1000);
+    const updateCountdown = () => setT(getTimeLeft(target));
+    updateCountdown();
+    const id = setInterval(updateCountdown, 1000);
     return () => clearInterval(id);
   }, [target]);
 
   if (t.done) {
     return (
       <p className="text-3xl sm:text-5xl font-extrabold tracking-widest text-vice-cyan">
-        OUT NOW
+        NOW AVAILABLE
       </p>
     );
   }
