@@ -24,6 +24,7 @@ import BeffBrowser from "./pages/BeffBrowser";
 import BeffGuides from "./pages/BeffGuides";
 import BeffGuideDetail from "./pages/BeffGuideDetail";
 import BeffMerging from "./pages/BeffMerging";
+import Gta6Checklist from "./pages/Gta6Checklist";
 import NotFound from "./pages/NotFound";
 import MerchStrip from "./components/MerchStrip";
 import Footer from "./components/Footer";
@@ -76,6 +77,7 @@ export default function App() {
           <Route path="/stream-overlay" element={<StreamStartingSoon />} />
           <Route path="/resources" element={<ResourcesPage />} />
           <Route path="/gta6" element={<Gta6 />} />
+          <Route path="/gta6/checklist" element={<Gta6Checklist />} />
           <Route path="/car-builder" element={<CarColorEditor />} />
           <Route path="/beff/components" element={<BeffBrowser />} />
           <Route path="/beff/guides" element={<BeffGuides />} />

@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://stellacrewgaming.com/</loc></url>
   <url><loc>https://stellacrewgaming.com/gta6</loc></url>
+  <url><loc>https://stellacrewgaming.com/gta6/checklist</loc></url>
   <url><loc>https://stellacrewgaming.com/car-builder</loc></url>
   <url><loc>https://stellacrewgaming.com/beff/components</loc></url>
   <url><loc>https://stellacrewgaming.com/beff/guides</loc></url>
   <url><loc>https://stellacrewgaming.com/beff/merging</loc></url>
   <url><loc>https://stellacrewgaming.com/gallery</loc></url>
   <url><loc>https://stellacrewgaming.com/resources</loc></url>
+  <!-- Add one line per real guide, for example:
+  <url><loc>https://stellacrewgaming.com/beff/guides/YOUR-GUIDE-ID</loc></url>
+  -->
 </urlset>
